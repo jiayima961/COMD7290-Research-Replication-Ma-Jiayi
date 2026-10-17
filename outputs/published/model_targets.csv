@@ -1,0 +1,16 @@
+﻿model_id,outcome,contrast,reference,b,se,odds_ratio,p_reported,source_locator,provenance
+M1,tone,mixed,consensus,0.4,0.19,1.49,<.05,Article Table3,manual transcription from published paper;not reproduced
+M1,tone,majoritarian,consensus,-0.62,0.22,0.54,<.01,Article Table3,manual transcription from published paper;not reproduced
+M1,tone,contested,stable,0.52,0.16,1.69,<.01,Article Table3,manual transcription from published paper;not reproduced
+M1,tone,website,blog,-1.78,0.21,0.17,<.001,Article Table3,manual transcription from published paper;not reproduced
+M1,tone,newspaper,blog,-1.27,0.18,0.28,<.001,Article Table3,manual transcription from published paper;not reproduced
+M2,outrage,mixed,consensus,0.81,0.49,2.24,not significant at .05,Article Table4,manual transcription from published paper;not reproduced
+M2,outrage,majoritarian,consensus,-0.39,0.49,0.68,not significant at .05,Article Table4,manual transcription from published paper;not reproduced
+M2,outrage,contested,stable,-0.13,0.3,0.88,not significant at .05,Article Table4,manual transcription from published paper;not reproduced
+M2,outrage,website,blog,-1.47,0.39,0.23,<.001,Article Table4,manual transcription from published paper;not reproduced
+M2,outrage,newspaper,blog,-1.08,0.37,0.34,<.01,Article Table4,manual transcription from published paper;not reproduced
+M3,recognition,mixed,consensus,-0.06,0.35,0.94,not significant at .05,Article Table4,manual transcription from published paper;not reproduced
+M3,recognition,majoritarian,consensus,-0.55,0.34,0.58,not significant at .05,Article Table4,manual transcription from published paper;not reproduced
+M3,recognition,contested,stable,0.79,0.25,2.2,<.01,Article Table4,manual transcription from published paper;not reproduced
+M3,recognition,website,blog,0.69,0.32,1.99,<.05,Article Table4,manual transcription from published paper;not reproduced
+M3,recognition,newspaper,blog,1.19,0.32,3.28,<.001,Article Table4,manual transcription from published paper;not reproduced

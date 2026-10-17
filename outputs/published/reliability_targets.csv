@@ -1,0 +1,7 @@
+﻿outcome,statistic,published_value,n,source_locator,provenance
+tone,percent_agreement_as_proportion,0.94,1700,https://medcon-doc.github.io/documentation/content-analysis/reliabilities/,published independent-rating reliability;not reproduced
+tone,Krippendorff_alpha,0.74,1700,https://medcon-doc.github.io/documentation/content-analysis/reliabilities/,published independent-rating reliability;not reproduced
+recognition,percent_agreement_as_proportion,0.97,3863,https://medcon-doc.github.io/documentation/content-analysis/reliabilities/,published independent-rating reliability;not reproduced
+recognition,Krippendorff_alpha,0.71,3863,https://medcon-doc.github.io/documentation/content-analysis/reliabilities/,published independent-rating reliability;not reproduced
+outrage,percent_agreement_as_proportion,0.98,3863,https://medcon-doc.github.io/documentation/content-analysis/reliabilities/,published independent-rating reliability;not reproduced
+outrage,Krippendorff_alpha,0.79,3863,https://medcon-doc.github.io/documentation/content-analysis/reliabilities/,published independent-rating reliability;not reproduced
