@@ -34,3 +34,7 @@ Default initial limits: no paid services or dependency installation; no statisti
 ## Project language
 
 All project-authored documentation, reports, templates, skill instructions, comments, run records, diagram labels, and file/folder names must be English. Conversation with the user may be in Chinese. Preserve original third-party source files, source identifiers, numerical values, and dataset labels; do not translate or overwrite original research inputs. Label AI drafts and pending student work accurately. The user explicitly requested correction of the initial Chinese drafts on 2026-10-17.
+
+## Project identity
+
+The project title and local folder are `COMD7290-Research Replication-Ma Jiayi`. The URL-safe GitHub repository name is `COMD7290-Research-Replication-Ma-Jiayi`, under jiayima961. Use the canonical repository URL https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi in current documentation and Git remotes. Preserve historical commits and original research input contents.

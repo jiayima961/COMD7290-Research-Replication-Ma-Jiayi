@@ -25,7 +25,7 @@ Draft files and empty output locations do not mean the corresponding work is com
 
 2. RECOMMENDED REPOSITORY STRUCTURE
 
-COMD7290-Content-Analysis-Replication/
+COMD7290-Research Replication-Ma Jiayi/
 |-- README.md                   Project entry, navigation, and rerun instructions
 |-- AGENTS.md                   Approved scope, sources, permissions, and work rules
 |-- STATUS.md                   Progress, decisions, unresolved issues, next task

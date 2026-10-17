@@ -1,4 +1,4 @@
-# COMD7290 · Content Analysis Replication
+# COMD7290-Research Replication-Ma Jiayi
 
 An individual statistics course project reproducing the content-analysis study by Löb, Rinke, Weinmann, and Wessler.
 
@@ -43,7 +43,9 @@ This checks repository structure, CSV fields, and registered local-source checks
 
 ## Access and submission status
 
-- Private repository: https://github.com/jiayima961/COMD7290-Content-Analysis-Replication
+- Project and local folder: `COMD7290-Research Replication-Ma Jiayi`
+- GitHub repository name: `COMD7290-Research-Replication-Ma-Jiayi`
+- Private repository: https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi
 - Instructor account: `fffchaobu`, checked against the assignment. **Do not send an invitation yet**, as requested by the user on 2026-10-17.
 - Student name and identifier: to be supplied by the student; do not infer them from the login email.
 - Final report, assessed tag, and release: not yet created. Initialization is not the final submission.

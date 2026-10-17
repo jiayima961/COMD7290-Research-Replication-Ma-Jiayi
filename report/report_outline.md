@@ -4,7 +4,7 @@
 
 - Student name and identifier: to be supplied by the student.
 - Selected article: Löb et al. (2024), https://doi.org/10.1177/19401612221084206
-- Full repository URL: https://github.com/jiayima961/COMD7290-Content-Analysis-Replication
+- Full repository URL: https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi
 - Invitation to fffchaobu: postponed at the user's request.
 - Final release/tag and full commit identifier: pending.
 

@@ -29,3 +29,7 @@ For each decision, record the proposed specification, source-based check, studen
 3. Estimation and random-effect handling in probabilities/AMEs, checked against sources and model settings.
 
 No student approval of the analytical specification has been recorded. Article selection does not substitute for that approval.
+
+## D006 · 2026-10-17 · Project naming
+
+The user requested `COMD7290-Research Replication-Ma Jiayi` for the local folder and GitHub repository. Preserve the exact spaced local name and use the URL-safe GitHub name `COMD7290-Research-Replication-Ma-Jiayi`. Update current project references, the outer workflow guide, and origin. Retain original inputs and Git history. This administrative rename does not approve statistical fitting or alter the study scope.

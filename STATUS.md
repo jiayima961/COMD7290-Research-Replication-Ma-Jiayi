@@ -8,7 +8,7 @@ Updated: 2026-10-17. Stage: initialization; Checkpoint A is not complete.
 - The assignment and selected paper were read; initial theory, measurement, model notes, and published comparison targets were drafted.
 - The directory structure, three project skills, and required record templates were created.
 - Local copies of the assignment and article were registered without altering their originals.
-- The private repository was verified: https://github.com/jiayima961/COMD7290-Content-Analysis-Replication
+- The private repository was verified: https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi
 - Repository material checks and official static validation of all three skill files passed. These checks are not evidence of substantive skill invocation.
 - Four relevant codebooks, the author Stata package, two independent-coder rating workbooks, and the reliability script were downloaded; originals and checksums are retained locally.
 - The initial upload contained 48 files, verified against local Git blob checksums. The repository remained private.
@@ -33,3 +33,10 @@ Updated: 2026-10-17. Stage: initialization; Checkpoint A is not complete.
 ## Next authorized research task
 
 Complete the feasibility inventory and statistical environment review. The coverage record is docs/analysis_inventory.csv.
+
+## Project identity
+
+- Project/local folder: `COMD7290-Research Replication-Ma Jiayi`.
+- GitHub repository: `COMD7290-Research-Replication-Ma-Jiayi`.
+- Canonical URL: https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi
+- The administrative rename and reference updates are separate from the pending research tasks.
