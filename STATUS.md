@@ -1,33 +1,35 @@
-# 当前进度
+# Project status
 
-更新：2026-10-17；阶段：初始化，未完成检查点A。
+Updated: 2026-10-17. Stage: initialization; Checkpoint A is not complete.
 
-## 已完成
+## Completed
 
-- 用户已选择 Option 3 内容分析论文。
-- 已阅读课程要求和所选论文；整理初步理论、变量、模型与原文比较数值。
-- 建立项目目录、三个项目技能及所需记录模板。
-- 论文与作业本地副本纳入来源记录，未改变原文件。
-- 已核实远程私有仓库：https://github.com/jiayima961/COMD7290-Content-Analysis-Replication。
-- 仓库材料检查通过；三个技能的官方静态格式校验通过，尚未计作研究任务调用。
-- 已下载四份相关codebook、作者Stata复现包、两份独立评分XLSX及信度脚本；校验值已登记，原件仅在本地。
-- 首次上传的48个文件已逐项比较Git blob校验值，与本地暂存版本完全一致；远程仍为私有。
+- The user selected the Option 3 content-analysis article.
+- The assignment and selected paper were read; initial theory, measurement, model notes, and published comparison targets were drafted.
+- The directory structure, three project skills, and required record templates were created.
+- Local copies of the assignment and article were registered without altering their originals.
+- The private repository was verified: https://github.com/jiayima961/COMD7290-Content-Analysis-Replication
+- Repository material checks and official static validation of all three skill files passed. These checks are not evidence of substantive skill invocation.
+- Four relevant codebooks, the author Stata package, two independent-coder rating workbooks, and the reliability script were downloaded; originals and checksums are retained locally.
+- The initial upload contained 48 files, verified against local Git blob checksums. The repository remained private.
+- On the user's correction, all 35 repository-authored files containing Chinese and the separate local workflow guide were translated into English. The workflow filenames and links were updated; see records/language_audit.md.
 
-## 待完成
+## Remaining work
 
-- 继续核对材料完整性、再分发许可和统计环境；下载完成不等于已执行分析。
-- 学生先写自己的理论图与解释，再对照本项目AI初稿修订；阅读至少两项基础理论或方法来源。
-- 核对数据变量标签、缺失值、ID、样本筛选、完整代码和补充分析；审阅并批准精确模型方案。
-- 确认框架发现三个技能并逐个实际调用、检查输出；完成新会话交接。
-- 后续才进入数据整理、试跑、完整模型、独立核验、敏感性分析和报告。
+- Complete the inventory, redistribution-rights review, and statistical environment checks. Downloaded materials are not executed analyses.
+- The student must create an initial theory map and explanation, review the AI draft against sources, and read at least two foundational theoretical or methodological works.
+- Verify data value labels, missing codes, identifiers, sample construction, full author syntax, and supplementary analyses; review and approve the exact specification.
+- Confirm discovery and explicit invocation of all three skills, inspect their research outputs, and demonstrate a successful fresh-session handoff.
+- Then complete preprocessing, diagnostic runs, full fits, independent verification, sensitivity analysis, and the report.
 
-## 当前决定
+## Current decisions
 
-- 老师暂不邀请。作业原文与早期工作流程TXT中的账号均为fffchaobu，已逐字符核对。
-- 原始PDF及未核实再分发权限的作者材料保留本地，不自动上传。
-- 本仓库没有复现结果；published目录只保存论文/官方信度页的抄录目标。
-- 模型方案处于草稿，未把学生对选题的确认误记为对统计设定的批准。
+- Do not invite the instructor yet. The assignment and earlier workflow guide both identify the account as fffchaobu.
+- Keep original PDFs and author materials local until redistribution terms have been checked.
+- There are no reproduced research results. Published/ contains transcribed targets from the article and official reliability page.
+- The specification remains a draft. Selecting the article did not approve its detailed statistical settings.
+- All project-authored documents, templates, skills, labels, and filenames must be English. Preserve original research inputs and exact source identifiers.
 
-## 下一项工作
+## Next authorized research task
 
-开展材料可行性清点与统计环境核查。完整复现覆盖清单见 docs/analysis_inventory.csv。
+Complete the feasibility inventory and statistical environment review. The coverage record is docs/analysis_inventory.csv.

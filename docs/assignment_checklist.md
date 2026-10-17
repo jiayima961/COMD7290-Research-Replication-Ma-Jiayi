@@ -1,23 +1,23 @@
-# 作业要求与当前状态
+# Assignment requirements and current status
 
-依据：用户提供的COMD7290_assignment.pdf；页码是该作业文档的印刷页码。
+Source: the user-supplied COMD7290_assignment.pdf. Page references below refer to its printed pages.
 
-| 要求 | 本项目位置 | 当前状态 |
+| Requirement | Project location | Current status |
 |---|---|---|
-| 覆盖全文及相关补充分析（1、8—9页） | analysis_inventory.csv | 初始清单，补充包待核实 |
-| 理论推导、至少两项基础来源（2页） | theory.md | AI初稿；学生版本与基础阅读待完成 |
-| 假设—证据矩阵全部字段（3页） | hypothesis_matrix.csv | 预填结构，精确设定和执行证据待补 |
-| 变量字典、模型与自制模型图（3—5页） | variable_dictionary.csv、design_and_models.md、model_diagram.mmd | 草稿 |
-| 持久上下文、四种职能与交接（5—6页） | AGENTS.md、records/ | 文件已建；新会话示范待做 |
-| 三个技能，发现、调用、测试证据（6—7页） | .agents/skills/、records/agent_records.md | 技能已写；实际工作流证据待做 |
-| 真实执行、完整日志和干净重跑（7—10页） | analysis/、records/run_logs/ | 未执行 |
-| 负向测试、重要描述量和复杂模型量独立核验（10页） | tests/、outputs/review_report.md | 未执行 |
-| 至少三项重要AI决定审查（11页） | records/decisions.md | 审查位置已建；不得把空模板计数 |
-| 内容分析原始评分信度、有序模型及检查、多层logit、概率和AME（11—12页） | analysis_inventory.csv | 待取数据与估计 |
-| 单独的敏感性分析和一页后续设计（13页） | analysis/、follow_up.md | 未完成 |
-| A/B/C/D检查点（13—14页） | records/checkpoints.md | 均未完成 |
-| 私有仓库教师访问（14—15页） | records/access_status.md | 用户明确暂缓邀请fffchaobu |
-| 固定tag、具名Release、完整commit和同一报告（15页） | report/submission_checklist.md | 最终阶段办理 |
-| 1000—1200 words个人报告、APA7、本人答辩（15—16页） | report/ | 提纲与清单已建 |
+| Cover the complete article and relevant supplementary analyses (pp. 1, 8–9) | analysis_inventory.csv | Initial inventory; supplementary coverage needs verification |
+| Reconstruct theory and read at least two foundational sources (p. 2) | theory.md | AI draft; student reconstruction and foundational reading pending |
+| Complete every hypothesis-to-evidence matrix field (p. 3) | hypothesis_matrix.csv | Structure populated; exact specifications and execution evidence pending |
+| Measurement dictionary, models, and original model diagram (pp. 3–5) | variable_dictionary.csv, design_and_models.md, model_diagram.mmd | Drafts |
+| Persistent context, four functions, and handoffs (pp. 5–6) | AGENTS.md, records/ | Files created; fresh-session demonstration pending |
+| Three skills with discovery, invocation, and validation evidence (pp. 6–7) | .agents/skills/, records/agent_records.md | Written and statically validated; research-use evidence pending |
+| Actual execution, full logs, and clean rerun (pp. 7–10) | analysis/, records/run_logs/ | Not executed |
+| Negative test and independent descriptive/advanced-model checks (p. 10) | tests/, outputs/review_report.md | Not executed |
+| Audit at least three consequential AI decisions (p. 11) | records/decisions.md | Record structure created; empty templates do not count |
+| Independent-rating reliability, ordinal model/checks, multilevel logit, probabilities, and AMEs (pp. 11–12) | analysis_inventory.csv | Inputs downloaded; matching, specification, and estimation pending |
+| Separate sensitivity analysis and one-page follow-up design (p. 13) | analysis/, follow_up.md | Incomplete |
+| Dated checkpoints A/B/C/D (pp. 13–14) | records/checkpoints.md | None complete |
+| Instructor access to the research repository (pp. 14–15) | records/access_status.md | User explicitly postponed invitation to fffchaobu |
+| Fixed tag, named release, full commit ID, and identical report (p. 15) | report/submission_checklist.md | Final-stage tasks |
+| Individual 1,000–1,200-word APA 7 report and personal oral defence (pp. 15–16) | report/ | Outline and checklist created |
 
-截止时间、课程占比、最终文件格式等以Moodle为准，尚未填入未经核实的日期。
+Confirm the deadline, grade weighting, and final submission format on Moodle. No unverified deadline has been entered.

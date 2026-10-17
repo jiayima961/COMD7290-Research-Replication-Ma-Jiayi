@@ -1,1 +1,3 @@
-本目录是人工从论文/官方信度页整理的比较目标，不是本项目重新计算结果。数值来源见CSV的source_locator；统计量尺度、参考组与小数精度需保留。清单目前不是全部论文与补充分析的完整数值转录。
+# Published comparison targets
+
+These are manually transcribed targets from the paper and official reliability page, not locally recomputed results. CSV source_locator fields identify their origins. Preserve scales, reference groups, and reporting precision. This initial collection does not yet transcribe every result in the article and supplementary materials.

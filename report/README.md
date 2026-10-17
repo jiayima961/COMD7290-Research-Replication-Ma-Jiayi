@@ -1,7 +1,7 @@
-# 个人报告
+# Individual report
 
-当前只有提纲和提交清单，没有最终报告。
+Only an outline and submission checklist exist; the final report is not yet written.
 
-正文1000—1200 words；访问信息块、参考文献、表和图不计入。APA7：Times New Roman 12磅、黑字、一英寸页边距、正文双倍行距、首行缩进0.5英寸、页码和悬挂缩进参考文献。表格少量横线、不用竖线；完整可见DOI/网址。最终文件格式及截止时间以Moodle为准。
+The body must contain 1,000–1,200 words, excluding the access block, references, tables, and figures. Use APA 7: 12-point Times New Roman, black text, one-inch margins, double-spaced prose, 0.5-inch first-line indents, page numbers, and hanging-indented references. Tables use minimal horizontal rules and no vertical gridlines. Display complete DOI and web addresses. Confirm the final file format and deadline on Moodle.
 
-最终版必须与GitHub Release附件、Moodle提交完全相同，命名所评估tag及完整commit。姓名和学号由本人提供，不从邮箱推断。
+The final report must be identical to the GitHub Release attachment and Moodle submission and identify the assessed tag and full commit. The student supplies their name and identifier; do not infer these from an email address. Write the report and its access information in English.

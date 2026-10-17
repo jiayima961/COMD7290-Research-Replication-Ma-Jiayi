@@ -1,1 +1,3 @@
-后续模型假设、收敛、积分稳定性、拟合比较和其他适用检查的实际输出。当前未运行。
+# Model diagnostics
+
+Save actual assumption checks, convergence evidence, integration-stability checks, model comparisons, and other applicable diagnostics here. No research diagnostics have been run yet.

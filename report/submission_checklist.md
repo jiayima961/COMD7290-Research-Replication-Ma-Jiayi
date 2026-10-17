@@ -1,13 +1,13 @@
-# 最终提交清单：当前全部待完成
+# Final submission checklist: items remain pending
 
-- 完整覆盖论文与相关补充分析；无法核验的条目仍可见。
-- 至少两项基础来源真正阅读，自己的理论解释和模型图完成。
-- 三个技能发现、调用和输出验证，四种职能、新会话交接有证据。
-- 全模型、诊断、负向测试、独立描述量/复杂模型量核验、至少三项AI决定审查。
-- 一项单列敏感性分析、一页后续设计、干净重跑与总入口。
-- 教师邀请与访问状态按届时用户安排更新；不在初始化时发邀请。
-- 个人APA7报告1000—1200 words；姓名、学号及访问信息完整。
-- 学生亲自检查复杂模型、访问及最终决定。
-- 固定tag、具名Release、完整commit；Release附件与Moodle报告完全相同。
-- 截止时间和文件格式核对Moodle；提交后保留tag，修订另记。
-- 准备本人答辩：能从理论讲到一项模型结果，说明条件改变时如何调整分析。
+- Account for the complete article and relevant supplementary analyses; retain unverifiable entries visibly.
+- Actually read at least two foundational sources and complete the student's own theoretical explanation and model diagram.
+- Provide evidence of skill discovery, invocation, and output validation; four distinct functions; and a fresh-session handoff.
+- Complete full models, diagnostics, a negative test, independent descriptive/advanced-model calculations, and at least three consequential AI-decision audits.
+- Complete a separate sensitivity analysis, a one-page follow-up design, a full entry command, and a clean rerun.
+- Update instructor invitation/access status according to the user's instructions at that stage; no invitation during initialization.
+- Write the English individual report in APA 7, with a 1,000–1,200-word body and complete access details, student name, and identifier.
+- The student personally inspects complex-model results, repository access, and the final decision.
+- Create a fixed tag and named release with the full commit ID; attach the report identical to the Moodle submission.
+- Verify Moodle deadline and file format. Preserve the submitted tag and record subsequent corrections separately.
+- Prepare for personal oral defence: trace a result from theory through models and evidence, and explain adjustments under changed design or measurement conditions.

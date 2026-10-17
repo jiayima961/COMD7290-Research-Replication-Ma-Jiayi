@@ -1,22 +1,22 @@
-# 报告提纲：待真实分析后撰写
+# Report outline: complete after actual analysis
 
-## 访问信息块（不计正文词数）
+## Access block: excluded from the body word count
 
-- 姓名、学号：待本人填写。
-- 所选论文：Löb et al. (2024)，https://doi.org/10.1177/19401612221084206。
-- 仓库完整网址：https://github.com/jiayima961/COMD7290-Content-Analysis-Replication。
-- fffchaobu邀请状态：用户要求暂不邀请。
-- 最终Release/tag、完整commit：待完成。
+- Student name and identifier: to be supplied by the student.
+- Selected article: Löb et al. (2024), https://doi.org/10.1177/19401612221084206
+- Full repository URL: https://github.com/jiayima961/COMD7290-Content-Analysis-Replication
+- Invitation to fffchaobu: postponed at the user's request.
+- Final release/tag and full commit identifier: pending.
 
-## 正文1000—1200 words
+## Body: 1,000–1,200 words
 
-1. 研究问题、理论缺口与假设逻辑。
-2. 设计、测量、独立评分信度与最复杂模型选择。
-3. AI分工、三个技能的真实使用、审查与交接。
-4. 覆盖范围、主要已执行结果、原文比较及差异。
-5. 实际复现揭示的限制、敏感性分析及理论结论。
-6. 后续研究与个人理解。
+1. Research problem, theoretical gap, and hypothesis derivation.
+2. Design, measurement, independent-coder reliability, and the most demanding model choices.
+3. Actual AI delegation, use of the three skills, review, and handoff evidence.
+4. Reproduction coverage, main executed findings, published comparisons, and discrepancies.
+5. Limitations demonstrated by reproduction, sensitivity analysis, and theoretical conclusions.
+6. Follow-up research and personal methodological understanding.
 
-## 参考文献、表和图（不计正文词数）
+## References, tables, and figures: excluded from the body word count
 
-模型图必须为自己的重构，不能复制论文图。初稿与最终版本清楚标识，不能用未执行计划充当结果。
+Construct the model diagram independently rather than copying the paper's figure. Clearly distinguish drafts from the final report; unexecuted plans are not results.

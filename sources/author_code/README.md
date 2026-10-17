@@ -1,1 +1,3 @@
-存作者原始程序与说明，保留原样。来源、版本、归属与许可写入records/source_manifest.csv；许可核实前本目录除本说明外不上传。不要直接执行尚未审查的作者代码。
+# Original author code
+
+Keep author programs and documentation unchanged. Record provenance, versions, attribution, and permissions in records/source_manifest.csv. Actual source files remain excluded from Git until redistribution terms are checked. Review code before execution.

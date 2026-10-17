@@ -1,18 +1,18 @@
-# 限制与待核问题
+# Limitations and unresolved issues
 
-## 已观察到的材料问题
+## Observed source inconsistencies
 
-| 问题 | 证据 | 当前处理 | 潜在影响 |
+| Issue | Evidence | Current handling | Possible impact |
 |---|---|---|---|
-| 编码本数字示例不一致 | 第8步认可/冒犯正式列表与例子 | 用数据标签和程序核对，不猜0/1 | 若映射错误会影响估计 |
-| 原表百分比异常 | Table2澳大利亚网站行印97、2、11、0、0，总计100 | 保留异常，不自行改11为1 | 待数据核对，至少是报告问题 |
-| 伪R²名称不一致 | Results正文Nagelkerke与Table3 McFadden | 待代码核对，不称解释9%方差 | 报告和比较指标 |
-| 信度与模型观察数量不同 | 官方评分信度3863；Table4模型3770 | 追踪筛选/匹配过程，不猜原因 | 可能涉及样本构建 |
+| Inconsistent numeric coding examples | Codebook step 8 recognition/outrage lists versus examples | Verify data labels and author syntax; do not guess binary mappings | Incorrect coding could alter estimates |
+| Anomalous published percentages | Table 2 Australia/news-website row prints 97, 2, 11, 0, 0, with total 100 | Preserve the discrepancy; do not silently replace 11 with 1 | Requires data checking; at least a reporting issue |
+| Inconsistent pseudo-R-squared label | Results text names Nagelkerke; Table 3 names McFadden | Check code; do not interpret as 9% of ordinary variance explained | Reporting and fit-measure comparison |
+| Different reliability and model counts | Official reference-rating reliability N = 3,863; Table 4 N = 3,770 | Trace matching and exclusions without inventing an explanation | Potential sample-construction issue |
 
-## 原研究设计的解释边界
+## Interpretation boundaries of the original design
 
-六国比较每个设计格只有一个国家；未观测国情可能解释差异。内容仅涉及宗教公共角色、2015—2016年和三类媒体，不能无条件推广。研究为观察关联，没有直接测量读者情绪或验证编辑规范等因果机制。认可更多不直接证明跨阵营和解。
+The six-country design has one country per comparison cell. Unobserved national differences may account for associations. The topic, 2015–2016 period, and three media types limit generalization. The study observes associations rather than directly measuring audience emotion or establishing editorial norms as a causal mechanism. More recognition does not by itself establish reconciliation across opposing groups.
 
-## 复现后才能确认的问题
+## Questions requiring actual reproduction
 
-数据缺失、未记录清理、算法收敛、数值积分稳定性、预测差异与环境依赖目前都尚未实际检验。将来分别记录：证据文件、数值结果、影响结论/估计/透明度的哪一项；不要将推测写成已证实缺陷。
+Missingness, undocumented cleaning, convergence, integration stability, prediction differences, and environment dependencies have not yet been empirically checked in this project. Record demonstrated findings separately from speculation, with evidence paths, numerical results, and whether each issue affects conclusions, estimates, or reporting transparency.

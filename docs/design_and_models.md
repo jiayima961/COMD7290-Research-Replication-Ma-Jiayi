@@ -1,38 +1,40 @@
-# 设计与模型：未批准的初稿
+# Research design and models: unapproved draft
 
-## 数据产生与单位
+## Observation production and units
 
-观察性人工内容分析，主题为宗教在公共生活中的角色；文章时间2015-08至2016-07。国家/媒体为有目的的比较选择，相关文本经计算机排序和人工筛选，不等于全球媒体随机样本。
+This is an observational manual content analysis of the role of religion in public life. Items were published from August 2015 through July 2016. Countries and media outlets were selected for a comparative design; relevant texts were ranked computationally and screened by humans. This is not a random sample of all global media.
 
-| 背景 | 多数制 | 混合制 | 共识制 |
+| Socio-cultural context | Majoritarian | Mixed | Consensus |
 |---|---|---|---|
-| 世俗主义争议较大 | 美国 | 土耳其 | 黎巴嫩 |
-| 世俗主义相对稳定 | 澳大利亚 | 德国 | 瑞士 |
+| Contested secularism | United States | Turkey | Lebanon |
+| Stable secularism | Australia | Germany | Switzerland |
 
-文章N=1700，报纸600、网站600、博客500。行动者关系模型：1183篇文章中的2453个actor/statement单元、3770条有向关系。这些是已发表样本量，不是本项目已经计算的数量。中层ID是否仅在文章内唯一，须检查数据。原始独立评分另存并匹配，不能被共识数据覆盖。
+Published item N = 1,700: 600 newspaper items, 600 news-website items, and 500 blog posts. Actor-reference models report 3,770 directed references within 2,453 actor/statement units within 1,183 items. These are published counts, not locally recalculated results. Verify whether actor identifiers are unique only within items. Independently supplied coder ratings require separate matching and must not be replaced by consensus values.
 
-## 模型 M1：文章语气
+## M1: item-level tone
 
-结果tone∈{0,1,2,3,4}，比例优势有序logit。以P(tone>k)写作：
+Outcome: tone in {0, 1, 2, 3, 4}. Proportional-odds ordered logit, written using the upper-tail probability:
 
-`logit[P(tone_i > k)] = alpha_k + beta' X_i, k=0,1,2,3`
+`logit[P(tone_i > k)] = alpha_k + beta' X_i, k = 0, 1, 2, 3`
 
-X同时包含政治制度、世俗主义争议和媒体类型；参考组分别共识制、稳定世俗主义、政治博客。软件若使用相反累计方向，阈值/系数符号需映射后比较。完成比例优势检验及作者probit、互补log-log检查，不能把tone当等距连续分数替换主要模型。
+X jointly includes political system, socio-cultural division, and media type. Reference groups are consensus democracy, stable secularism, and political blogs. If software uses the opposite cumulative direction, map threshold and coefficient signs before comparison. Reproduce proportional-odds diagnostics and the authors' probit and complementary-log-log checks. Preserve ordinal measurement in the faithful model.
 
-## 模型 M2/M3：行动者关系
+## M2/M3: actor-reference outcomes
 
-分别对outrage与recognition拟合三层随机截距二项logit：
+Fit separate three-level random-intercept binary-logit models for outrage and recognition:
 
-`logit[P(Y_raj=1 | u_j,v_aj)] = beta0 + beta'X_j + u_j + v_aj`
+`logit[P(Y_raj = 1 | u_j, v_aj)] = beta0 + beta' X_j + u_j + v_aj`
 
-`u_j ~ Normal(0,sigma_item²)`，`v_aj ~ Normal(0,sigma_actor²)`；r为关系、a为文章内发言者/行动者单元、j为文章。斜率固定，两个结果分别估计，不是outrage直接回归recognition。此处是语义模型；原始数值映射、实际变量名、积分、估计与区间设定尚待作者代码核实。
+`u_j ~ Normal(0, sigma_item^2)` and `v_aj ~ Normal(0, sigma_actor^2)`.
 
-## 估计前待确定
+Here r denotes a directed reference, a an originating actor/statement unit within an item, and j an item. Slopes are fixed. The outcomes are fitted separately; this is not a direct regression of outrage on recognition. These equations describe the intended model. Numeric coding, exact input names, estimation, integration, and interval conventions still require source-to-data verification.
 
-- 原始变量名、二分类标签、特殊缺失码、ID/嵌套、筛选和缺失处理。
-- 软件及扩展命令版本、估计器、数值积分/优化、收敛和区间设置。
-- 信度系数各自使用的测量水平、距离权重、配对与缺失处理。
-- 预测随机效应的处理方式、平均的目标样本及AME定义；OR、概率与百分点分开。
-- 全部补充分析与论文/代码冲突；容差在运行前按报告精度和数值误差订明。
+## Resolve before estimation
 
-学生批准记录：尚无。未批准前不作正式实质估计。
+- Actual variable names, binary value labels, special missing codes, identifiers/nesting, exclusions, and missing-data rules.
+- Engine and extension versions, estimator, numerical integration/optimization, convergence, and interval settings.
+- Reliability coefficients, measurement levels, distance weights, rating matches, and missing-rating handling.
+- Random-effect treatment in predictions, the averaging population, and AME definitions. Distinguish log-odds, odds ratios, probabilities, and percentage-point differences.
+- All supplementary analyses and paper/code conflicts. Specify tolerances before execution using reporting precision and numerical considerations.
+
+Student approval: not recorded. Do not begin substantive estimation before review and approval of the specification.

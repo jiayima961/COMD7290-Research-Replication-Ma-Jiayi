@@ -1,38 +1,38 @@
-# 理论与假设：AI整理初稿，待学生独立重构和核对
+# Theory and hypotheses: AI draft for student reconstruction and source checking
 
-本文件不替代作业要求的学生自己的初步理论图和解释。已知发表结果后整理的复现方案不是原研究预注册。
+The student must prepare an initial theory map and explanation as required by the assignment. This file does not replace that work. A reproduction plan written with knowledge of published results is not the original study's preregistration.
 
-## 问题与缺口
+## Research question and gap
 
-围绕宗教的公共角色，比较政治制度、世俗主义争议程度及媒体类型，与公共讨论中冒犯、认可的关系。审议民主提供总体规范框架；认可理论补足仅研究负面不文明表达的局限。多数制/共识制、社会群体分歧以及专业新闻把关分别提供三组解释。
+For public discourse about religion's role in public life, examine associations of political systems, socio-cultural division over secularism, and media types with outrage and recognition. Deliberative democracy supplies the overarching normative framework. Recognition theory complements approaches focused mainly on negative incivility. Majoritarian versus consensus institutions, group division, and professional journalistic gatekeeping supply three sets of explanations.
 
-本文整合和检验已有解释，不声称所有研究都缺少认可维度，或自创了完整新理论。研究推进在于跨六国三类媒体比较，并区分文章整体与行动者关系层面的测量。
+The article integrates and tests existing explanations. Its contribution is a systematic comparison across six countries and three media types, with separate item-level and actor-reference measurements. It does not establish that all earlier studies neglected recognition or introduce a wholly new comprehensive theory.
 
-## 概念与可观察含义
+## Constructs and observable implications
 
-- Outrage：文本中的冒犯、煽动性表达，例如辱骂、人身攻击、嘲讽、歪曲夸张；不是读者愤怒的直接测量。
-- Recognition：明确承认其他行动者的需要、权利、贡献或参与讨论资格；不等于赞同其观点。
-- 没有冒犯不等于有认可；在同一条有向关系中，codebook规定二者不能同时为是。文章中不同关系仍可各自出现两者。
+- **Outrage:** offensive or inflammatory expression, including insults, personal attacks, mockery, and distorting exaggeration. The measure captures discourse, not an audience's actual emotional response.
+- **Recognition:** explicit acknowledgment of another actor's needs, rights, contributions, or legitimate participation in debate. It does not require agreement with that actor's position.
+- Absence of outrage does not imply recognition. Under the codebook, both cannot be coded present for the same directed reference; different relationships within one article can exhibit each.
 
-## 六项假设
+## Six stated hypotheses
 
-| ID | 理论预期 | 原文定位 |
+| ID | Predicted relationship | Source locator |
 |---|---|---|
-| H1a | 多数制相对共识制更多冒犯 | Political Systems / H1a |
-| H1b | 共识制相对多数制更多认可 | Political Systems / H1b |
-| H2a | 世俗主义争议较大的背景更多冒犯 | Socio-Cultural Division / H2a |
-| H2b | 世俗主义争议较大的背景更少认可 | Socio-Cultural Division / H2b |
-| H3a | 政治博客相对专业新闻媒体更多冒犯 | Media Types / H3a |
-| H3b | 专业新闻媒体相对政治博客更多认可 | Media Types / H3b |
+| H1a | More outrage in majoritarian than consensus systems | Political Systems / H1a |
+| H1b | More recognition in consensus than majoritarian systems | Political Systems / H1b |
+| H2a | More outrage under contested than stable secularism | Socio-Cultural Division / H2a |
+| H2b | Less recognition under contested than stable secularism | Socio-Cultural Division / H2b |
+| H3a | More outrage in political blogs than professional news media | Media Types / H3a |
+| H3b | More recognition in professional news media than political blogs | Media Types / H3b |
 
-混合制指多数制与共识制特征混合，不是民主/威权混合；文章并未事先要求混合制一定落在两端之间。
+Mixed systems combine majoritarian and consensus institutional features. The article does not require their outcomes to fall midway between the other two categories.
 
-## 必须进一步阅读的基础来源
+## Required foundational reading
 
-至少选择并真正阅读两项论文引用的理论或方法原文，核对完整书目信息与相关段落后登记。候选包括Lijphart关于民主制度、Honneth关于认可、Berry与Sobieraj关于outrage、Klein关于信度方法。当前尚未把任何候选标为已读。
+Select and actually read at least two theoretical or methodological works cited by the article. Check complete bibliographic details and relevant passages before recording completion. Candidates include Lijphart on democratic institutions, Honneth on recognition, Berry and Sobieraj on outrage, and Klein on reliability methods. None is currently marked as read.
 
-## 学生重构与评议：待本人填写
+## Student reconstruction and critique: to be completed
 
-1. 用自己的话解释每条预期的机制和边界条件。
-2. 画自己的初步理论图，再记录AI批评及本人采纳/修改理由。
-3. 区分作者明确写出的决定、个人解释和方法批评；观察关联不能直接证明机制。
+1. Explain each mechanism and its boundary conditions in the student's own words.
+2. Draw an initial theory map, then record AI criticism and the student's decisions to accept or revise it.
+3. Distinguish documented author decisions, personal reconstruction, and methodological criticism. Observational associations alone do not establish the proposed mechanism.

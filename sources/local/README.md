@@ -1,1 +1,3 @@
-本目录存用户提供的作业与所选论文PDF，仅供本地阅读。PDF副本被.gitignore排除；原始文件不修改。
+# Local-only source copies
+
+This directory contains the user-supplied assignment and selected article PDFs for local reading. PDF copies are excluded by .gitignore. Preserve original source contents and filenames independently of the English-language rule for project-authored text.

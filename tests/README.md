@@ -1,7 +1,7 @@
-# 研究检查：待实际数据和模型实现
+# Research checks: implementation pending
 
-应验证取值/缺失码、原始评分配对、ID唯一性与有向关系、合并和样本筛选、三层嵌套、结果尺度、模型收敛和预测约定。规则从已核对来源与批准方案得来，不以“结果显著”或“刚好等于论文”作为测试定义。
+Validate categories and missing codes, independent-rating matches, unique identifiers and directed relationships, joins/exclusions, three-level nesting, output scales, convergence, and prediction conventions. Derive rules from reviewed sources and approved specifications rather than preferred significance or exact agreement with a published result.
 
-至少完成一次无害负向测试，例如在副本/模拟数据加入重复关系ID或tone=5，证明检查能发现；保留失败证据，再恢复副本并重跑。原始数据和正式输出不修改。
+Demonstrate at least one harmless negative test, such as a duplicate reference ID or tone = 5 in copied/synthetic inputs. Show that checks detect the problem, retain evidence, restore the copy, and rerun. Preserve original data and final analytical outputs.
 
-这些研究测试尚未实现、也未运行。tools/check_repository.py只检查仓库材料，不等价于上述作业要求。
+These research tests have not yet been implemented or run. tools/check_repository.py checks repository materials and does not satisfy the research-testing requirements by itself.

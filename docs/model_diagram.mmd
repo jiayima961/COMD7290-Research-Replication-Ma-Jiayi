@@ -1,19 +1,19 @@
 flowchart TB
-  P["政治制度：共识制为参考"] --> ETA["固定部分 β0 + βX"]
-  C["世俗主义争议：稳定为参考"] --> ETA
-  M["媒体类型：博客为参考"] --> ETA
-  subgraph L3["第3层：文章 j"]
-    U["文章随机截距 u_j；正态方差 σ²_item"]
-    subgraph L2["第2层：文章内发言者/行动者单元 a"]
-      V["发言者随机截距 v_aj；正态方差 σ²_actor"]
-      subgraph L1["第1层：有向关系 r"]
-        E["η = β0 + βX + u_j + v_aj"] --> Y["Y ~ Bernoulli(p)；logit(p)=η"]
+  P["Political system; reference: consensus"] --> ETA["Fixed component: beta0 + beta X"]
+  C["Socio-cultural division; reference: stable secularism"] --> ETA
+  M["Media type; reference: political blog"] --> ETA
+  subgraph L3["Level 3: news item j"]
+    U["Item random intercept u_j; Normal variance sigma_item^2"]
+    subgraph L2["Level 2: originating actor/statement a within item"]
+      V["Actor random intercept v_aj; Normal variance sigma_actor^2"]
+      subgraph L1["Level 1: directed actor reference r"]
+        E["eta = beta0 + beta X + u_j + v_aj"] --> Y["Y ~ Bernoulli(p); logit(p) = eta"]
       end
     end
   end
   ETA --> E
   U --> E
   V --> E
-  Y --> O["M2：是否冒犯"]
-  Y --> R["M3：是否明确认可；与M2分别拟合"]
-  NOTE["AI初步模型图，待学生重构、代码核对与批准；数值编码和估计设置未定"]
+  Y --> O["M2: presence of outrage"]
+  Y --> R["M3: presence of explicit recognition; fitted separately from M2"]
+  NOTE["AI draft: student reconstruction, source checks, and approval pending; numeric coding and estimation settings unresolved"]

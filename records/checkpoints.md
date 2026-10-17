@@ -1,10 +1,10 @@
-# 阶段检查点
+# Working checkpoints
 
-| 检查点 | 日期 | 所需证据 | 状态与学生决定 |
+| Checkpoint | Date | Required evidence | Status and student decision |
 |---|---|---|---|
-| A 可行性 | 待完成 | 完整材料/权限/软件清单、全研究映射、小规模获准执行测试、问题 | 未完成；只有初始化 |
-| B 分析方案 | 待完成 | 理论图、变量字典、矩阵、精确模型与批准版本 | 未批准 |
-| C 执行与审计 | 待完成 | 样本、全模型、诊断、负向测试、独立计算、报告与差异 | 未执行 |
-| D 完成 | 待完成 | 全覆盖、干净重跑、敏感性、后续设计、最终Release与同一报告 | 未完成 |
+| A: Feasibility | Pending | Complete materials/rights/software inventory, all-study mapping, small authorized execution test, unresolved issues | Incomplete; initialization only |
+| B: Specification | Pending | Reviewed theory map, measurement dictionary, matrix, exact models, and versioned approval | Not approved |
+| C: Execution and audit | Pending | Reconstructed samples, full fits, diagnostics, negative test, independent calculations, review, and discrepancies | Not executed |
+| D: Completion | Pending | Complete coverage, clean rerun, sensitivity analysis, follow-up design, final release, and identical report | Incomplete |
 
-这些是同一项作业的过程记录，不是额外提交四次。只有真实完成并由学生决定后填日期和证据。
+These are working records within one assignment, not four extra submissions. Enter dates and evidence only after actual completion and the student's decision.

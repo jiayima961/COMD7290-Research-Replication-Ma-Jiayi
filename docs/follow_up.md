@@ -1,12 +1,12 @@
-# 一页后续研究设计：待学生拟定
+# One-page follow-up study design: student draft pending
 
-当前只是写作框架，不是已经完成的延伸研究设计，也不要求现在收集新数据。
+This is a writing framework, not a completed follow-up design. New data collection is not required at this stage.
 
-- 未解决的理论问题：例如明确认可究竟发生在同阵营内部还是对立阵营之间；需学生选定并说明依据。
-- 从理论推导的新假设：待填写，不能根据现有结果倒推后称预注册。
-- 设计与目标总体：待填写。
-- 抽样、比较单位与依赖结构：待填写。
-- 关键概念、可观察指标、编码与信度方案：待填写。
-- 样本量或精度依据：待计算或给出文献支持，不填任意数字。
-- 分析、估计目标和解释规则：待填写。
-- 相对原研究能解决什么、仍不能推断什么：待填写。
+- **Unresolved theoretical question:** for example, whether explicit recognition occurs mainly within an ideological group or across opposing groups. The student must choose and justify the question.
+- **New hypothesis derived from theory:** to be written. Do not describe a prediction constructed after seeing results as an original preregistration.
+- **Design and target population:** to be specified.
+- **Sampling, comparison units, and dependence:** to be specified.
+- **Constructs, indicators, coding, and reliability:** to be specified.
+- **Sample-size or precision rationale:** calculate or justify with sources rather than inserting an arbitrary number.
+- **Analysis, estimand, and interpretation rules:** to be specified.
+- **Contribution and remaining limits:** explain what the design would resolve and what it would still leave unanswered.

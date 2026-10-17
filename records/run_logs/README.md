@@ -1,1 +1,3 @@
-保存后续真实运行的命令、时间、软件版本、输入/方案版本、设置、随机种子（如适用）、成功/失败和输出位置。初始化校验日志与模型日志必须分开；不记录密码或访问令牌。
+# Execution logs
+
+Save actual commands, times, software versions, input/specification versions, settings, seeds where applicable, success/failure information, and output paths. Keep initialization checks distinct from statistical-model logs. Do not record credentials or access tokens.

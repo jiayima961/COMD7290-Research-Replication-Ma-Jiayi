@@ -1,23 +1,23 @@
-# 原始依据与获取方式
+# Source materials and access instructions
 
-## 已有资料
+## Materials already available locally
 
-- 作业要求：本地 `sources/local/COMD7290_assignment.pdf`，用户提供。
-- 所选论文：本地 `sources/local/Lob_et_al_2024.pdf`，用户提供；https://doi.org/10.1177/19401612221084206
-- 所选论文是2022年在线发表、2024年卷期出版的同一篇文章。
+- Assignment: user-supplied `sources/local/COMD7290_assignment.pdf`.
+- Selected article: user-supplied `sources/local/Lob_et_al_2024.pdf`; https://doi.org/10.1177/19401612221084206
+- Online publication in 2022 and the 2024 journal volume refer to the same article.
 
-PDF和作者材料的公开再分发许可尚未确认，因此当前Git中只登记来源与访问方式；local/副本不上传。没有给第三方资料套用本项目许可证。
+Redistribution rights for PDFs and author materials remain under review. Git currently contains provenance and access instructions; original files under local/ are excluded. No project licence has been applied to third-party materials.
 
-## 作者官方材料
+## Official author materials
 
-- 编码手册：https://medcon-doc.github.io/documentation/content-analysis/codebook/
-- 编码数据：https://medcon-doc.github.io/documentation/content-analysis/data-sets/
-- 独立评分与信度：https://medcon-doc.github.io/documentation/content-analysis/reliabilities/
-- 所有文件：https://medcon-doc.github.io/documentation/files/
-- 实质分析复现包：https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip
+- Codebooks: https://medcon-doc.github.io/documentation/content-analysis/codebook/
+- Coded datasets: https://medcon-doc.github.io/documentation/content-analysis/data-sets/
+- Independent ratings and reliability: https://medcon-doc.github.io/documentation/content-analysis/reliabilities/
+- File index: https://medcon-doc.github.io/documentation/files/
+- Substantive reproduction package: https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip
 
-已下载并核对复现包中存在 MedCon_Civility_item.dta、MedCon_Civility_actref.dta、MedCon_Civility_an.do、readme.rtf；另已取得Tone与Actor-reference两份独立评分XLSX及对应信度脚本。四份相关codebook也已下载。原件在本地被.gitignore排除，文件校验值与地址已登记。没有执行作者统计程序；全部补充材料覆盖和许可仍待审查。
+The downloaded package was checked for MedCon_Civility_item.dta, MedCon_Civility_actref.dta, MedCon_Civility_an.do, and readme.rtf. The Tone and Actor-reference independent-rating workbooks, their reliability script, and four relevant codebooks were also downloaded. Originals remain local and excluded by .gitignore; their URLs and checksums are registered. Author statistical programs have not been executed. Full supplementary coverage and permissions still require review.
 
-本研究使用整个项目codebook中的第1、2、5、8步。其余项目变量不自动当作本文模型控制变量。
+The article uses coding steps 1, 2, 5, and 8 from the broader project. Other recorded project variables must not automatically be treated as controls in this article's models.
 
-精确文件地址、版本、获取日期、校验值和当前状态见 ../records/source_manifest.csv。
+See ../records/source_manifest.csv for exact URLs, versions, retrieval dates, checksums, and current status.

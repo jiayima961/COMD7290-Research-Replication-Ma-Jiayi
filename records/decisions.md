@@ -1,27 +1,31 @@
-# 决定与审查记录
+# Decisions and review record
 
-## D001 · 2026-10-17 · 用户选题
+## D001 · 2026-10-17 · Article selection
 
-用户已明确选择Option3。范围为整个所选论文及相关补充分析；不是只做最简单的检验。
+The user selected Option 3. Scope covers the complete article and relevant supplementary analyses rather than only elementary tests.
 
-## D002 · 2026-10-17 · 仓库初始化
+## D002 · 2026-10-17 · Repository initialization
 
-用户授权创建仓库、文件夹与目前可放入的材料，并明确暂不邀请老师。初始化默认私有，未批准改为公开。现阶段不创建最终Release。
+The user authorized the repository, directory structure, and currently available materials, and explicitly postponed inviting the instructor. The repository is private. No public-visibility change or final release is authorized during initialization.
 
-## D003 · 2026-10-17 · 教师用户名核对
+## D003 · 2026-10-17 · Instructor-account verification
 
-逐字符比较作业印刷第14页与早期TXT，两处均为fffchaobu（9个字符）。初始化中的“旧文件少一个f”判断有误，已纠正；原TXT不需要更改用户名，不发送邀请。
+Character-by-character comparison found the same account, fffchaobu (nine characters), in assignment page 14 and the earlier workflow guide. The assistant's initial claim that the guide omitted an f was incorrect and was corrected. No username change or invitation was needed.
 
-## D004 · 2026-10-17 · 资料上传范围
+## D004 · 2026-10-17 · Upload scope
 
-原始PDF与作者数据/代码的再分发许可尚待核对，原文件留本地并登记来源；已准备公开链接、访问说明和校验值。不能给第三方资料自行附加许可。
+Redistribution rights for original PDFs, author data, and code remain under review. Originals are retained locally with provenance, access instructions, and checksums. No new licence has been imposed on third-party materials.
 
-## 待完成的三项重要AI分析决定审查
+## D005 · 2026-10-17 · English-language requirement
 
-每项需记录AI建议、来源定位、学生接受/修改、理由和对结果的影响。下列只是待办，不计为已完成审查：
+The user corrected the language of the initial drafts: all GitHub and local project-authored files must be English. Translate the affected documents and skill bodies, rename the workflow guides, update links, and use English for future project text and filenames. Preserve original research inputs, exact source identifiers, numerical targets, and draft status. This is a language correction, not student approval of statistical specifications.
 
-1. 二分类取值标签及缺失处理；应先对照数据与作者程序。
-2. 三层ID、样本筛选及中层发言者单元；需有数据证据。
-3. 估计与概率/AME中随机效应的处理；需核对脚本和模型设置。
+## Three consequential analytical AI decisions still to audit
 
-未获得学生对模型方案的批准；不能用选题授权代替。
+For each decision, record the proposed specification, source-based check, student's acceptance or correction, reasons, and implications. These are pending items, not completed audits:
+
+1. Binary value labels and missing-data rules, checked against actual data and author syntax.
+2. Three-level identifiers, sample exclusions, and the intermediate actor/statement unit, supported by data checks.
+3. Estimation and random-effect handling in probabilities/AMEs, checked against sources and model settings.
+
+No student approval of the analytical specification has been recorded. Article selection does not substitute for that approval.

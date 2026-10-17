@@ -5,13 +5,22 @@ description: Reconstruct the COMD7290 Option 3 theory, coding units, measurement
 
 # specify-empirical-study
 
+## Inputs
 
-输入：作业、所选论文、补充说明、codebook第1/2/5/8步、作者脚本、来源清单及学生自己的理论初稿。
+Assignment, selected article, supplements, codebook steps 1/2/5/8, author scripts, source manifest, and the student's initial theory reconstruction.
 
-步骤：先区分作者决定、学生重构与批评；逐项映射H1a—H3b及描述/信度/检验/预测到假设矩阵与覆盖清单。写清文章、文章内发言者、有向关系的单位；将独立评分与共识评分分开。核对模型方向、参考组、缺失码、估计、区间及预测随机效应约定；材料冲突登记limitations和decisions。不要用已有结果替代学生自己的理论推导。
+## Procedure
 
-输出：docs/theory.md、variable_dictionary.csv、hypothesis_matrix.csv、design_and_models.md、自己的model_diagram.mmd及未决项；更新STATUS和来源定位。
+Distinguish documented author decisions, student reconstruction, and criticism. Map H1a–H3b and all descriptive, reliability, diagnostic, and prediction analyses into the matrix and inventory. Define item, within-item actor/statement, and directed-reference units; separate independent ratings from consensus codes. Verify model direction, reference groups, missing codes, estimator, intervals, and prediction conventions for random effects. Register source conflicts in limitations and decisions. Retain the student's own theoretical reasoning rather than inferring original predictions from known findings.
 
-验证：每个关键字段能找到原始章节/表/代码；全部分析保留在清单；学生能审阅机制、估计目标与精确设定。显式调用与实际输出核对记入records/agent_records.md。
+## Outputs
 
-停止条件：原始标签/ID/必需材料冲突未解决时，不伪造精确设定；模型方案未经学生审阅批准时不推进正式估计。可继续明确不依赖该冲突的文献整理。
+Update docs/theory.md, variable_dictionary.csv, hypothesis_matrix.csv, design_and_models.md, the independently constructed model_diagram.mmd, STATUS.md, and unresolved-source locators. All project-authored text must be English.
+
+## Validation
+
+Every important field must have an original section, table, or code locator. Retain all analyses in the inventory. Present mechanisms, estimands, and exact settings for student review. Record explicit invocation and inspection of actual outputs in records/agent_records.md.
+
+## Stopping rules
+
+Do not invent precise settings where value labels, identifiers, or required sources conflict or are missing. Do not start substantive estimation before the student reviews and approves the specification. Continue independent source work that does not depend on the unresolved issue.

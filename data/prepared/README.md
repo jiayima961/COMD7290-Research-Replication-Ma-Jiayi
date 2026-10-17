@@ -1,1 +1,3 @@
-仅存后续程序从已登记输入生成的分析数据；记录筛选、合并、重编码和版本。当前没有生成分析数据。
+# Prepared analytical data
+
+Store only data generated programmatically from registered inputs. Document exclusions, joins, recoding, and versions. No analytical data have been generated yet.

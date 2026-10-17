@@ -5,13 +5,22 @@ description: Execute approved MedCon independent-coder reliability, ordinal tone
 
 # reproduce-and-diagnose
 
+## Inputs
 
-输入：已批准的模型版本与矩阵、未改写的作者数据、原始独立评分、数据字典、环境与作者代码。
+Approved model version and matrix, unchanged author data, original independent ratings, measurement dictionary, execution environment, and inspected author code.
 
-步骤：核对SHA-256、变量标签、特殊缺失、原始评分配对及有向关系唯一性/嵌套；程序化生成样本。信度使用讨论前的独立评分，明确系数测量水平、权重、缺失处理。重拟合tone比例优势有序logit，执行作者假设检查；分别拟合outrage与recognition三层随机截距二项logit，层级为关系→文章内行动者/发言→文章，不能改成国家层级。先获准小规模诊断，再完整估计；保存优化/积分、收敛、方差、区间及实际模型对象。按原约定重新计算概率和AME，说明随机效应处理。原文与本项目值分开。
+## Procedure
 
-输出：analysis/可执行程序、data/prepared/、outputs/reproduced/与diagnostics/、records/run_logs/；在覆盖清单记录数据/方案版本、命令、耗时及未完成项。
+Verify SHA-256 values, labels, special missing codes, rating matching, directed-reference uniqueness, and nesting; construct samples programmatically. Estimate reliability from pre-consensus independent ratings and document measurement levels, weighting, and missing-rating treatment. Refit the tone proportional-odds ordered-logit model and its published assumption checks. Fit separate three-level random-intercept binary-logit models of outrage and recognition, preserving reference → within-item actor/statement → item nesting. Perform the authorized diagnostic run before the full fit; save optimization/integration settings, convergence, variances, intervals, and actual fitted objects. Recalculate probabilities and AMEs using the original convention and document random-effect handling. Keep published targets separate from computed estimates.
 
-验证：样本筛选可追踪，量纲区分b/OR/概率/百分点；模型设置对齐来源。不是复制已保存参数，也不以显著与否作为软件测试。显式调用和检查结果登记。
+## Outputs
 
-停止条件：无学生批准、无必需原始评分/数据、非法类别或错误配对/嵌套、未收敛、未获准改变模型时，停止受影响计算，记录原因。不得为得到一致结果悄改编码、估计器或简化主要模型。
+Executable analysis/ code, data/prepared/ inputs, outputs/reproduced/ results, outputs/diagnostics/, and records/run_logs/. Record data/specification versions, commands, runtime, unresolved entries, and actual skill invocation. Write project-authored explanations and labels in English while preserving exact source identifiers.
+
+## Validation
+
+Sample construction must be traceable. Distinguish coefficients, odds ratios, probabilities, and percentage-point changes. Align model settings with primary evidence. Refit models rather than copying saved estimates. Statistical significance is not a software-test criterion.
+
+## Stopping rules
+
+Stop the affected fit without student approval, required original data/ratings, valid matching/nesting, or convergence, or when an unapproved specification change would be necessary. Record the reason. Do not silently recode, change estimators, or simplify the main model to obtain agreement.

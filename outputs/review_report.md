@@ -1,5 +1,5 @@
-# 独立核验报告：待执行
+# Independent verification report: execution pending
 
-当前只有初始文献核对与仓库结构检查，没有独立统计核验结论。
+Only initial source review and repository material checks have been completed. No independent statistical verification conclusion is available.
 
-后续记录：核验者/职能；批准方案和输入版本；原始来源与代码位置；独立实现方法；命令和输出路径；核验的描述量和核心复杂模型量；差异与影响；未覆盖部分；学生最终处理。另一个会话重复作者代码，不等价于独立计算。
+Record the reviewer and function; approved specification and input versions; original-source and code locators; independent implementation; executed commands and output paths; the descriptive and central advanced-model quantities checked; differences and their implications; unverified scope; and the student's resolution. Repeating the author script in another session is not an independent statistical calculation.

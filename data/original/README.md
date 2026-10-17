@@ -1,1 +1,3 @@
-作者原始数据和独立评分的只读保存位置。当前没有把共识数据冒充原始独立评分；实际文件默认不上传。
+# Original inputs
+
+Read-only storage for author data and original independent-coder ratings. Keep consensus values separate from independent ratings. Actual input files are excluded from Git until redistribution permissions are verified.

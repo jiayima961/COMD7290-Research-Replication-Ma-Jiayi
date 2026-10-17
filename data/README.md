@@ -1,12 +1,12 @@
-# 数据获取、分离与分享
+# Data access, separation, and sharing
 
-官方数据说明：https://medcon-doc.github.io/documentation/content-analysis/data-sets/
+Official data documentation: https://medcon-doc.github.io/documentation/content-analysis/data-sets/
 
-1. 实质分析包：https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip
-2. 原始独立评分：https://medcon-doc.github.io/documentation/content-analysis/reliabilities/
+1. Substantive-analysis package: https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip
+2. Original independent ratings and reliability materials: https://medcon-doc.github.io/documentation/content-analysis/reliabilities/
 
-解压后的原始数据放original/，作者脚本放sources/author_code/。程序生成的分析数据放prepared/；不可直接改写原始文件。原始独立评分与最终共识评分必须分开。
+Save unchanged extracted data in original/ and original author scripts in sources/author_code/. Save programmatically derived analytical data in prepared/. Keep original independent ratings separate from adjudicated or consensus codes.
 
-目前未确认所有资料的再分发许可，因此.gitignore默认排除实际数据。下载可获得不代表允许上传；权限核对后逐项登记，才决定是否纳入Git。读者应按来源地址合法获取被排除文件。记录版本和SHA-256，不能凭文件名认定版本相同。
+Redistribution rights have not been established for every input, so .gitignore excludes actual data by default. Verify terms and record permissions before deciding which inputs can be tracked. Readers should obtain excluded files lawfully through the documented sources. Record versions and SHA-256 checksums rather than identifying versions by filenames alone.
 
-没有原文语料不阻止使用编码数据作计算复现，但不得声称已重新编码全部原文。AI重编码是另行标记的可选扩展。
+The availability of coded data does not establish access to the underlying news corpus. Computational reproduction can use the coded inputs, but it must not be described as independently recoding the original texts. AI recoding would be a separate, explicitly labelled optional extension.

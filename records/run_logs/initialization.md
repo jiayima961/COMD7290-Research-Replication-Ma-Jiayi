@@ -1,25 +1,29 @@
-# 初始化核验记录 · 2026-10-17
+# Initialization verification record · 2026-10-17
 
-## 实际完成
+## Work actually completed
 
-- 读取作业、所选论文和既有工作流程TXT；逐字符核对教师账号为fffchaobu。
-- GitHub连接器核实账号jiayima961，仓库元数据确认visibility=private；用户完成网页创建。
-- 下载四份codebook、作者复现ZIP、两份原始独立评分XLSX和信度DO脚本；提取并核对ZIP内四个预期文件。逐文件SHA-256见source_manifest.csv。
-- 作者程序只作文本检查，未执行；实质脚本声明Stata16、2021-04-24，信度脚本声明Stata16、2020-11-01。
-- `python tools/check_repository.py`：PASSED；仅仓库材料核对。
-- 通过skill-creator的官方`quick_validate.py`逐一检查三个项目技能：均返回`Skill is valid!`。这不等价于框架实际发现、调用技能或完成研究输出验证。
-- Git初始化采用main分支；上传时保留用户初始README提交作为父提交，使用GitHub连接器树/提交接口，不邀请协作者。
-- 已核实初始化提交ad7c1c946a48de02e6b9e1b2b8b4e83b873a654d的完整远程文件树：48个文件，无截断；与本地Git暂存内容逐项比较路径、模式和blob校验值，差异为0。仓库元数据为private。最终进度记录单独更新。
+- Read the assignment, selected article, and earlier workflow guide; verified the instructor account as fffchaobu.
+- The GitHub connector verified jiayima961 and private visibility. The user completed repository creation in the browser.
+- Downloaded four codebooks, the author reproduction ZIP, two independent-rating XLSX files, and the reliability DO script; extracted and checked the four expected ZIP members. SHA-256 values are in source_manifest.csv.
+- Inspected author programs as text only. The substantive script specifies Stata 16 and is dated 2021-04-24; the reliability script also specifies Stata 16 and is dated 2020-11-01.
+- `python tools/check_repository.py`: PASSED; repository materials only.
+- The official skill-creator `quick_validate.py` returned `Skill is valid!` for each of the three skills. This is not evidence of framework discovery, substantive invocation, or verification of research outputs.
+- Git initialization used main. Connector tree/commit operations retained the user's original README commit as the parent. No collaborator was invited.
+- Initial content commit ad7c1c946a48de02e6b9e1b2b8b4e83b873a654d contained 48 remote files with no truncated tree. Paths, modes, and blob checksums matched the local staged content with zero discrepancies. Visibility was private. Later commits updated progress records.
 
-## 失败与处理
+## Failures and recovery
 
-- GitHub连接器初次传输失败，后续恢复并核实账号。
-- Chrome未连接；Edge可显示新建页标签，但读取/操作报连接问题，不能自动点击。用户完成最小新建步骤，其余文件由助手上传。
-- 默认网络沙箱阻断下载；经允许的网络执行后成功取得材料。中途个别SSL连接中断，后续重试完成；没有关闭证书验证。
-- 一次权限自动审查超时，并未认定请求不安全；重试完成下载。
-- 技能校验首次缺PyYAML，仅在仓库外层tmp/中安装PyYAML6.0.3后重新校验通过，不加入研究分析依赖。
-- 最初关于教师账号拼写的判断有误，对照原文与旧TXT后纠正，见decisions.md。
+- Initial GitHub connector transport failed, then recovered.
+- Chrome was not connected. Edge exposed the new-repository tab but could not be controlled, so the user completed the minimal creation step; the assistant uploaded the remaining files.
+- The network sandbox initially blocked downloads. Permitted network execution obtained the materials. Intermittent SSL interruptions were retried successfully without disabling certificate verification.
+- One automatic permission review timed out; it did not classify the request as unsafe. A retry completed the download.
+- Skill validation initially lacked PyYAML. PyYAML 6.0.3 was installed under the outer tmp/ directory; validation then passed. It was not added as a statistical dependency.
+- The initial account-spelling claim was corrected after comparing the actual assignment and guide; see decisions.md.
 
-## 没有完成的研究工作
+## Research tasks not completed
 
-尚未运行信度或回归、编写完整统计入口、执行研究负向测试/独立统计核验，未创建最终提交tag/Release，也未提交Moodle。
+Reliability and regression estimation, the complete statistical entry point, research negative tests, and independent statistical verification have not been executed. No final assessed tag/release or Moodle submission has been created.
+
+## Language correction
+
+This historical initialization record was translated into English on 2026-10-17 at the user's request. Translation does not change its historical completion claims. The language audit is ../language_audit.md.

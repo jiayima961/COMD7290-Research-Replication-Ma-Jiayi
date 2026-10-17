@@ -1,23 +1,23 @@
-# 软件与运行环境
+# Software and execution environment
 
-## 初始化环境
+## Initialization environment
 
-- 系统：Windows；文件使用UTF-8，CSV使用UTF-8 BOM便于Excel读取。
-- 初始化校验：Python 3.12.14，仅标准库；Git用于版本管理。
-- `tools/check_repository.py`不安装依赖、不联网、不运行统计。
+- Operating system: Windows. Text files use UTF-8; CSV files use UTF-8 with a BOM for spreadsheet compatibility.
+- Initialization checks: Python 3.12.14, standard library only. Git manages versions.
+- `tools/check_repository.py` neither installs dependencies nor accesses the network or fits models.
 
-## 研究分析环境：待核实
+## Statistical environment: verification pending
 
-已阅读作者程序`MedCon_Civility_an.do`（头部版本日期2021-04-24）：指定`version 16`；列出blindschemes、gologit2、omodel、grc1leg2四个扩展包；多层模型使用`intpoints(7)`。readme日期为2021-04-20。以上是作者程序要求，不代表本机已经安装Stata或这些包，也不代表已经验证数值积分和预测设置。后续须查明实际版本、依赖和环境。若更换R/Python等引擎，先说明估计、信度和预测计算的统计等价性，并取得学生对方案的确认。
+The inspected author script `MedCon_Civility_an.do`, dated 2021-04-24, specifies `version 16` and lists four Stata extensions: blindschemes, gologit2, omodel, and grc1leg2. Its multilevel models use `intpoints(7)`. The package readme is dated 2021-04-20. These are source-code requirements, not evidence that Stata or these extensions are installed or that integration and prediction settings have been verified locally.
 
-记录至少包括：引擎/包版本、安装来源、执行命令、数据及方案版本、模型设置、收敛标准、区间类型、运行耗时和日志路径。预测必须说明随机效应是条件化还是积分处理。
+The original reliability script, dated 2020-11-01, also specifies Stata 16 and requires `kappaetc`. Its imported filenames differ from the website download names. Preserve the originals and document path mappings in a project execution copy. No statistical extensions have been installed and neither author script has been run.
 
-信度原始脚本日期2020-11-01，同样指定Stata 16并依赖`kappaetc`。脚本中的导入文件名与网站下载文件名不同，后续需要保留原件并在本项目执行副本中明确路径映射。当前没有安装统计扩展包，也没有执行该脚本。
+Before fitting, record engine and package versions, installation sources, commands, input and specification versions, estimator and integration settings, convergence criteria, interval type and level, runtime, seeds where applicable, and log locations. State how predictions handle random effects. Any alternative engine requires documented statistical equivalence and the student's review of the specification.
 
-## 当前可用命令
+## Currently available check
 
 ```text
 python tools/check_repository.py
 ```
 
-该命令仅检查仓库材料。正式分析总入口和干净重跑验证仍未实现，不可把初始化成功当作模型复现成功。
+This checks repository materials only. The complete statistical entry point and clean-rerun demonstration have not been implemented.

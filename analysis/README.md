@@ -1,16 +1,16 @@
-# 分析程序：实施计划，尚未执行
+# Analysis implementation plan: not executed
 
-需要实现以下能力；具体语言和文件后缀待检查作者Stata程序与环境后确定。
+Implement the following functions after inspecting the complete Stata sources and local environment. Select implementation languages and extensions accordingly.
 
-1. 清点输入、核对校验值、保留原始数据。
-2. 匹配原始独立编码员评分，复现官方信度指标及缺失处理。
-3. 检查文章、发言者和有向关系ID，程序化生成样本并解释数量变化。
-4. 复现Table2/Figure2描述结果。
-5. 复现Table3文章tone比例优势有序logit及假设、替代连接检查。
-6. 复现Table4两套三层随机截距二项logit，保存方差、拟合与收敛信息。
-7. 重新计算Figures1/3、概率摘要与AME，说明随机效应预测约定。
-8. 独立计算至少一个重要描述量及一个核心复杂模型量，生成comparison.csv。
-9. 另外标明一项有理由的敏感性分析，保留原复现。
-10. 实现一条总入口，测试从干净环境重建全部允许的结果，保存日志。
+1. Inventory inputs, verify checksums, and preserve originals.
+2. Match original independent-coder ratings and reproduce the published reliability statistics and missing-rating treatment.
+3. Check item, actor/statement, and directed-reference identifiers; construct samples programmatically and explain changes in counts.
+4. Reproduce the descriptive results in Table 2 and Figure 2.
+5. Refit the Table 3 proportional-odds ordered-logit model of tone, its assumption checks, and alternative-link checks.
+6. Refit both Table 4 three-level random-intercept binary-logit models; save variances, fit measures, uncertainty, and convergence evidence.
+7. Recalculate Figures 1 and 3, probability summaries, and average marginal effects; document random-effect prediction conventions.
+8. Independently calculate at least one important descriptive quantity and one central advanced-model quantity; populate comparison.csv.
+9. Report one justified sensitivity analysis separately from the faithful reproduction.
+10. Implement one complete entry command and demonstrate a clean restart with logs.
 
-当前只有仓库材料检查工具；没有创建会假装成功的空分析程序。学生审阅精确模型方案后再进入正式估计。分析覆盖与待补充项目以docs/analysis_inventory.csv为准。
+At present, only the repository material checker exists. Research estimation starts after the student reviews the exact specification. Track all required and unresolved analyses in docs/analysis_inventory.csv.
