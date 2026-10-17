@@ -40,3 +40,4 @@ Complete the feasibility inventory and statistical environment review. The cover
 - GitHub repository: `COMD7290-Research-Replication-Ma-Jiayi`.
 - Canonical URL: https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi
 - The administrative rename and reference updates are separate from the pending research tasks.
+- The GitHub rename was verified against repository ID 1423254230; visibility remains private. The local folder and origin URL use the new names.

@@ -13,4 +13,4 @@
 
 ## Naming update · 2026-10-17
 
-The user requested the project name `COMD7290-Research Replication-Ma Jiayi`. The local folder uses those spaces; GitHub uses `COMD7290-Research-Replication-Ma-Jiayi`. The canonical URL above is the rename target. Remote identity and visibility will be verified after the settings change; do not infer completion from edited documentation alone.
+The user requested the project name `COMD7290-Research Replication-Ma Jiayi`. The local folder uses those spaces; GitHub uses `COMD7290-Research-Replication-Ma-Jiayi`. The user completed the GitHub settings rename after browser-control interruptions. The connector verified the new name, canonical URL, unchanged repository ID 1423254230, and private visibility. Local origin uses the new clone URL. Existing Git history is preserved.
