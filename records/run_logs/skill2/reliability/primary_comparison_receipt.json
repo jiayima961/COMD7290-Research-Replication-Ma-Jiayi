@@ -1,0 +1,14 @@
+{
+  "status": "30_of_30_coefficients_match_primary_website_at_displayed_two_decimal_precision",
+  "source_snapshot": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\official_reliabilities_2026-10-18.html",
+  "snapshot_sha256": "729d42d6c407b257bbc592d4e0019b85b56cdb112baffe53dc3850fdfee21c97",
+  "source_url": "https://medcon-doc.github.io/documentation/content-analysis/reliabilities/",
+  "timing": "Source table retrieved only after independent implementation and actual fitting completed.",
+  "source_tables_parsed": 2,
+  "coefficient_targets": 30,
+  "sample_count_targets": 5,
+  "sample_count_matches": 5,
+  "se_or_interval_targets_available": false,
+  "all_slot_targets_available": false,
+  "original_software_build_equivalence": "not established"
+}

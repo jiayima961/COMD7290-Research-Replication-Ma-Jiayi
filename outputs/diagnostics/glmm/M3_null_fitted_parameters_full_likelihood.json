@@ -1,0 +1,148 @@
+{
+  "label": "M3_null_fitted_parameters",
+  "outcome": "actrefrecbin",
+  "fit_artifact": "tmp\\skill2_final_engine\\outputs\\reproduced\\models\\M3_null_fit.json",
+  "theta": [
+    -4.3401150043398635,
+    0.5397669151198558,
+    -0.020974607850178614
+  ],
+  "item_variance": 2.9433071504157717,
+  "actor_variance": 0.9589184773392446,
+  "null_model": true,
+  "source_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+  "candidate_sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8",
+  "n_rows": 3770,
+  "n_items": 1183,
+  "independent_patterns": 155,
+  "high_order_full_log_likelihood": {
+    "81": -724.7428288497023,
+    "161": -724.7428288882721,
+    "241": -724.7428288882705
+  },
+  "difference_241_from_161": 1.5916157281026244e-12,
+  "candidate_comparisons": {
+    "7": {
+      "log_likelihood": -724.7192477903909,
+      "difference_from_reference_241": 0.023581097879628032,
+      "adaptation": {
+        "outer_adaptation_iterations": 7,
+        "inner_adaptation_max_iterations": 6,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 7,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    },
+    "11": {
+      "log_likelihood": -724.7437920552327,
+      "difference_from_reference_241": -0.0009631669621512629,
+      "adaptation": {
+        "outer_adaptation_iterations": 5,
+        "inner_adaptation_max_iterations": 4,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 11,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    },
+    "21": {
+      "log_likelihood": -724.7428298077539,
+      "difference_from_reference_241": -9.194833410219871e-07,
+      "adaptation": {
+        "outer_adaptation_iterations": 4,
+        "inner_adaptation_max_iterations": 4,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 21,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    }
+  },
+  "selected_quad_checks": [
+    {
+      "likelihood": 0.8302063118248048,
+      "log_likelihood": -0.1860810406158954,
+      "quadpack_outer_absolute_error": 5.103946154882284e-13,
+      "max_sampled_actor_error_sum": 5.126289489774916e-12,
+      "omitted_normal_tail_upper_bound": 7.105928448310612e-33,
+      "absolute_error_estimate": 5.636684105263145e-12,
+      "log_likelihood_error_estimate": 6.789498013901673e-12,
+      "actor_integral_calls": 231,
+      "eta": -4.3401150043398635,
+      "actor_counts_n_s": [
+        [
+          5,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -0.18608104061589392,
+      "difference_gh241_from_quad": 1.4710455076283324e-15
+    },
+    {
+      "likelihood": 1.4335003021473748e-06,
+      "log_likelihood": -13.455391340847024,
+      "quadpack_outer_absolute_error": 9.007784330945415e-14,
+      "max_sampled_actor_error_sum": 2.292427742096893e-11,
+      "omitted_normal_tail_upper_bound": 4.618853491401898e-32,
+      "absolute_error_estimate": 2.3014355264278383e-11,
+      "log_likelihood_error_estimate": 1.6054656723687478e-05,
+      "actor_integral_calls": 2772,
+      "eta": -4.3401150043398635,
+      "actor_counts_n_s": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -13.455391340847058,
+      "difference_gh241_from_quad": -3.375077994860476e-14
+    }
+  ],
+  "reference_convergence_check_passed": true,
+  "status": "fixed_parameter_check_only_not_a_refit"
+}

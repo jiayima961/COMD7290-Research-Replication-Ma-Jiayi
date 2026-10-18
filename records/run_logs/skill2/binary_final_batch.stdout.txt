@@ -1,0 +1,23 @@
+M2 start patterns 415 params [-2.9250638920408827, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+M2 warmup 5 nll 666.44816979
+M2 warmup 10 nll 663.34338391
+M2 warmup 15 nll 663.29330566
+M2 warmup 20 nll 663.27918545
+M2 score-search complete Desired error not necessarily achieved due to precision loss. nll 663.2791800500565
+M2 done accepted True LL -663.278489595453 runtime 366.12932059998275
+M2_null start patterns 415 params [-2.9250638920408827, 0.0, 0.0]
+M2_null warmup 5 nll 682.54843571
+M2_null warmup 10 nll 681.2933435
+M2_null score-search complete Desired error not necessarily achieved due to precision loss. nll 681.2925465989978
+M2_null done accepted True LL -681.2921335585936 runtime 82.54640810002456
+M3 start patterns 416 params [-2.9033260364888562, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+M3 warmup 5 nll 715.62452104
+M3 warmup 10 nll 710.84471813
+M3 warmup 15 nll 710.63564013
+M3 score-search complete Desired error not necessarily achieved due to precision loss. nll 710.6356269362532
+M3 done accepted True LL -710.6355580347366 runtime 180.8920554999786
+M3_null start patterns 416 params [-2.9033260364888562, 0.0, 0.0]
+M3_null warmup 5 nll 724.9586353
+M3_null warmup 10 nll 724.72952642
+M3_null score-search complete Desired error not necessarily achieved due to precision loss. nll 724.7193541931877
+M3_null done accepted True LL -724.7192477903909 runtime 50.15471999999136

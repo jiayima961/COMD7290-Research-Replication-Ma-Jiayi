@@ -1,0 +1,16 @@
+2026-10-18 18:47:40,991 Independent ordinal forward test starts; specification ordinal-author-code-2021-python-forward-v1
+2026-10-18 18:47:41,051 Known-answer Wolfe-Gould check chi2=3.72099572 df=3 p=0.29321036
+2026-10-18 18:47:41,293 M1 n=1700 ll=-724.0003868022 beta=[ 0.39682551 -0.61526971  0.52362794 -1.78103114 -1.26854311] status=converged
+2026-10-18 18:47:41,308 M1_probit n=1700 ll=-721.9131168045 beta=[ 0.14051666 -0.39154369  0.26144583 -0.97892396 -0.71201534] status=converged
+2026-10-18 18:47:41,331 M1_cloglog n=1700 ll=-724.4183707550 beta=[ 0.42186178 -0.50322542  0.49403633 -1.6242842  -1.13734409] status=converged
+2026-10-18 18:47:42,469 Wolfe-Gould numeric test chi2=7.4310634677 df=9 p=0.5923333266 status=converged
+2026-10-18 18:47:42,557 Fully general factor diagnostic ll=-712.7324642571 raw2dLL=22.5358450903 information_rank=22 status=nonidentified_no_regular_LR_inference
+2026-10-18 18:47:42,615 Completed 13 meaningful checks; all original input hashes unchanged; runtime 1.63 seconds
+2026-10-18 18:48:36,848 Independent ordinal forward test starts; specification ordinal-author-code-2021-python-forward-v1
+2026-10-18 18:48:36,936 Known-answer Wolfe-Gould check chi2=3.72099572 df=3 p=0.29321036
+2026-10-18 18:48:37,225 M1 n=1700 ll=-724.0003868022 beta=[ 0.39682551 -0.61526971  0.52362794 -1.78103114 -1.26854311] status=converged
+2026-10-18 18:48:37,242 M1_probit n=1700 ll=-721.9131168045 beta=[ 0.14051666 -0.39154369  0.26144583 -0.97892396 -0.71201534] status=converged
+2026-10-18 18:48:37,261 M1_cloglog n=1700 ll=-724.4183707550 beta=[ 0.42186178 -0.50322542  0.49403633 -1.6242842  -1.13734409] status=converged
+2026-10-18 18:48:38,638 Wolfe-Gould numeric test chi2=7.4310634677 df=9 p=0.5923333266 status=converged
+2026-10-18 18:48:38,737 Fully general factor diagnostic ll=-712.7324642571 raw2dLL=22.5358450903 information_rank=22 status=nonidentified_no_regular_LR_inference
+2026-10-18 18:48:38,810 Completed 13 meaningful checks; all original input hashes unchanged; runtime 1.96 seconds

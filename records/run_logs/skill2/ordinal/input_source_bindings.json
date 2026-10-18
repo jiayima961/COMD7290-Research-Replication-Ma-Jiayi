@@ -1,0 +1,58 @@
+{
+  "item": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\original\\MedCon_Civility_item.dta",
+    "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba"
+  },
+  "actref": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\original\\MedCon_Civility_actref.dta",
+    "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc"
+  },
+  "author_code": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\author_code\\MedCon_Civility_an.do",
+    "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5"
+  },
+  "article": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\Lob_et_al_2024.pdf",
+    "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02"
+  },
+  "assignment": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\COMD7290_assignment.pdf",
+    "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe"
+  },
+  "Wolfe_Gould": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\Wolfe_Gould_1998_STB42.pdf",
+    "sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f"
+  },
+  "skill": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\reproduce-and-diagnose\\SKILL.md",
+    "sha256": "815a4b2c32d2bcafff98be68660e86c53073259fb683afd0ef1746e4f5e7a28f"
+  },
+  "execution_contract": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\reproduce-and-diagnose\\references\\execution_contract.md",
+    "sha256": "4b9eb52053e466aa10522cbddb219401641010d377750c95524194ee6f252021"
+  },
+  "omodel.ado": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\ordinal\\omodel.ado",
+    "sha256": "c4d643a6bb172cac2d00f7c7eb46bb9f2ac3743f6977f18606141ee53004c2c8"
+  },
+  "gologit2.ado": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\ordinal\\gologit2.ado",
+    "sha256": "f6660e65542f732cb8b4d98e5963b1dde6daa1d38b9d1547316176d7f881f7c4"
+  },
+  "gologit2_ll.ado": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\ordinal\\gologit2_ll.ado",
+    "sha256": "c3102a2d5caeed76122cb73bcff5093765708db6a1de019648f49a635d39deb1"
+  },
+  "gologit2.sthlp": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\ordinal\\gologit2.sthlp",
+    "sha256": "8e78317d6e2274d5fecd86bb40e39a775ce38788dde34013c32614bb8cbef82a"
+  },
+  "gologit2.pdf": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\ordinal\\gologit2.pdf",
+    "sha256": "e467e8354c89caf8dddee819fd47df3adedbb78bb0f1705770292dfd7d973a1f"
+  },
+  "source_recovery.json": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\ordinal\\source_recovery.json",
+    "sha256": "64501295eedd1a3dc617018d20dd7608cb761f7f75a2e524924522d470041675"
+  }
+}

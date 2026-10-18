@@ -1,0 +1,14 @@
+Applying $reproduce-and-diagnose: independent reliability forward test; Python only.
+Known-answer, independent alpha/Cohen, finite-difference influence, negative-test and recovery checks passed.
+Computed tone__two_slots: N(any)=1700, N(>=2)=1699, slots=2, alpha=0.7406083961
+Computed tone__all_author_selected_slots: N(any)=1700, N(>=2)=1699, slots=4, alpha=0.7417374001
+Computed valence__two_slots: N(any)=3863, N(>=2)=1427, slots=2, alpha=0.7450157651
+Computed valence__all_author_selected_slots: N(any)=3863, N(>=2)=1428, slots=14, alpha=0.7315814854
+Computed recognition__two_slots: N(any)=3863, N(>=2)=1427, slots=2, alpha=0.7137046242
+Computed recognition__all_author_selected_slots: N(any)=3863, N(>=2)=1428, slots=14, alpha=0.7148554819
+Computed outrage__two_slots: N(any)=3863, N(>=2)=1427, slots=2, alpha=0.7892594164
+Computed outrage__all_author_selected_slots: N(any)=3863, N(>=2)=1428, slots=14, alpha=0.7514086957
+Computed responsiveness__two_slots: N(any)=3864, N(>=2)=1429, slots=2, alpha=0.6366210238
+Computed responsiveness__all_author_selected_slots: N(any)=3864, N(>=2)=1429, slots=5, alpha=0.6272998975
+Completed 10 real analyses / 60 coefficient rows / 720 benchmark rows in 16.41s; source inputs unchanged.
+30_of_30_coefficients_match_primary_website_at_displayed_two_decimal_precision

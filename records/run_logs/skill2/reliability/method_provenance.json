@@ -1,0 +1,32 @@
+{
+  "primary_source_url": "http://fmwww.bc.edu/repec/bocode/k/kappaetc.ado",
+  "source_download_date": "2026-10-18",
+  "recovered_version": "2.1.0 11aug2022",
+  "source_files": [
+    {
+      "file": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\kappaetc_2.1.0.ado",
+      "sha256": "08c41c33d31794c78fe70c89144187c78a1af793059ead6a0e2d0cfbbaec08ab",
+      "bytes": 135666
+    },
+    {
+      "file": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\kappaetc_2.1.0.sthlp",
+      "sha256": "fa6665007e069343884e1d6654f713704f44c6dadb14d4bd7159566ed1255802",
+      "bytes": 33089
+    }
+  ],
+  "translated_source_lines": {
+    "raw_missing_handling": "2555-2702",
+    "coefficients_and_conditional_SE": "2457-2477;2892-3092",
+    "Student_t_CI": "4561-4617",
+    "truncated_benchmark": "4675-4753",
+    "clipped_CI": "5010-5021"
+  },
+  "legacy_benchmark_source": "Klein's 6 Dec 2020 explanation and 11 Aug 2022 version announcement; recovered legacy source when available",
+  "legacy_benchmark_url": "https://www.statalist.org/forums/forum/general-stata-discussion/general/1368285-kappaetc-available-from-ssc/page3",
+  "original_author_script_date": "2020-11-01",
+  "original_installed_build": "unknown",
+  "default_categories": "observed distinct numeric ratings; author specifies no categories()",
+  "missing": "blank cells missing; -99 retained as observed numeric category",
+  "uncertainty": "SE conditional on positional slots; Student t df N-1 (alpha N>=2-1), 95%; CI clipped to [-1,1]",
+  "original_build_equivalence": "not established; no Stata was executed"
+}

@@ -1,0 +1,1068 @@
+{
+  "checked_at_utc": "2026-10-18T16:49:52.703873+00:00",
+  "status": "passed",
+  "deleted_files": [],
+  "original_files_accounted_for": 363,
+  "unchanged_or_exactly_moved": 338,
+  "revised_with_prior_bytes_retained": [
+    {
+      "old": ".gitignore",
+      "current": ".gitignore",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/.gitignore"
+    },
+    {
+      "old": "AGENTS.md",
+      "current": "AGENTS.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/AGENTS.md"
+    },
+    {
+      "old": "environment.md",
+      "current": "environment.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/environment.md"
+    },
+    {
+      "old": "README.md",
+      "current": "README.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/README.md"
+    },
+    {
+      "old": "START_HERE.md",
+      "current": "START_HERE.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/START_HERE.md"
+    },
+    {
+      "old": "Start_Jupyter_Notebook.cmd",
+      "current": "Start_Jupyter_Notebook.cmd",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/Start_Jupyter_Notebook.cmd"
+    },
+    {
+      "old": "STATUS.md",
+      "current": "STATUS.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/STATUS.md"
+    },
+    {
+      "old": "analysis/01_replication.ipynb",
+      "current": "analysis/01_replication.ipynb",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/analysis/01_replication.ipynb"
+    },
+    {
+      "old": "analysis/README.md",
+      "current": "analysis/README.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/analysis/README.md"
+    },
+    {
+      "old": "analysis/run_replication.py",
+      "current": "analysis/run_replication.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/analysis/run_replication.py"
+    },
+    {
+      "old": "docs/github_structure_and_workflow.txt",
+      "current": "docs/guides/github_structure_and_workflow.txt",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/docs/github_structure_and_workflow.txt"
+    },
+    {
+      "old": "docs/python_route_assessment.md",
+      "current": "docs/guides/python_route_assessment.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/docs/python_route_assessment.md"
+    },
+    {
+      "old": "outputs/review_report.md",
+      "current": "outputs/review_report.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/outputs/review_report.md"
+    },
+    {
+      "old": "outputs/diagnostics/README.md",
+      "current": "outputs/diagnostics/README.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/outputs/diagnostics/README.md"
+    },
+    {
+      "old": "outputs/reproduced/README.md",
+      "current": "outputs/reproduced/README.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/outputs/reproduced/README.md"
+    },
+    {
+      "old": "records/agent_records.md",
+      "current": "records/agent_records.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/records/agent_records.md"
+    },
+    {
+      "old": "records/decisions.md",
+      "current": "records/decisions.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/records/decisions.md"
+    },
+    {
+      "old": "sources/README.md",
+      "current": "sources/README.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/sources/README.md"
+    },
+    {
+      "old": "tests/README.md",
+      "current": "tests/README.md",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tests/README.md"
+    },
+    {
+      "old": "tools/build_replication_notebook.py",
+      "current": "tools/maintenance/build_replication_notebook.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tools/build_replication_notebook.py"
+    },
+    {
+      "old": "tools/finalize_skill2_documents.py",
+      "current": "tools/maintenance/finalize_skill2_documents.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tools/finalize_skill2_documents.py"
+    },
+    {
+      "old": "tools/finish_skill2_record.py",
+      "current": "tools/maintenance/finish_skill2_record.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tools/finish_skill2_record.py"
+    },
+    {
+      "old": "tools/record_skill2_interruption.py",
+      "current": "tools/maintenance/record_skill2_interruption.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tools/record_skill2_interruption.py"
+    },
+    {
+      "old": "tools/run_logged.py",
+      "current": "tools/run_logged.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tools/run_logged.py"
+    },
+    {
+      "old": "tools/update_skill2_context.py",
+      "current": "tools/maintenance/update_skill2_context.py",
+      "prior_bytes": "records/reorganization/2026-10-19/previous_versions/tools/update_skill2_context.py"
+    }
+  ],
+  "protected_scientific_historical_artifacts_unchanged": 240,
+  "required_package_resources": [
+    ".agents/skills/specify-empirical-study/SKILL.md",
+    ".agents/skills/specify-empirical-study/references/output_contract.md",
+    ".agents/skills/specify-empirical-study/scripts/validate_specification.py",
+    ".agents/skills/reproduce-and-diagnose/SKILL.md",
+    ".agents/skills/reproduce-and-diagnose/references/execution_contract.md",
+    "analysis/run_replication.py",
+    "tests/skill1_specification/test_validator_cases.py",
+    "tests/skill2/check_nested_logit.py",
+    "tools/restore_inputs.py",
+    "docs/skills/README.md",
+    "sources/input_restore_manifest.json",
+    "records/skill_tests/specify-empirical-study/TEST_REPORT.md",
+    "records/skill_tests/reproduce-and-diagnose/TEST_REPORT.md"
+  ],
+  "current_reader_links": [
+    {
+      "page": "README.md",
+      "target": "START_HERE.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/skills/README.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": ".agents/skills/",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/hypothesis_matrix.csv",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/execution_specification.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "analysis/README.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "outputs/reproduced/hypothesis_tests.csv",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": ".agents/skills/specify-empirical-study/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": ".agents/skills/reproduce-and-diagnose/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/skills/README.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "outputs/README.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "outputs/comparison.csv",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "records/README.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "sources/README.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "environment.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "STATUS.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/assignment_checklist.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "analysis/01_replication.ipynb",
+      "exists": true
+    },
+    {
+      "page": "README.md",
+      "target": "records/reorganization/2026-10-19/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "STATUS.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/assignment_checklist.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/theory_feedback_v1.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/theory_feedback_v2.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/theory.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/hypothesis_matrix.csv",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/variable_dictionary.csv",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/design_and_models.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/execution_specification.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/model_diagram.mmd",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/skills/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "outputs/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "outputs/comparison.csv",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "outputs/reproduced/hypothesis_tests.csv",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "outputs/diagnostics/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "sources/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "analysis/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "tests/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/decisions.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/run_logs/",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "records/reorganization/2026-10-19/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/limitations.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "docs/follow_up.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "report/README.md",
+      "exists": true
+    },
+    {
+      "page": "START_HERE.md",
+      "target": "report/submission_checklist.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "docs/execution_specification.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "docs/guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "requirements.txt",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "requirements-lock.txt",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "analysis/nested_logit.py",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "docs/guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "analysis/00_environment_check.ipynb",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "analysis/01_replication.ipynb",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "records/run_logs/skill2/",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "docs/guides/python_route_assessment.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "records/run_logs/python_environment_setup.md",
+      "exists": true
+    },
+    {
+      "page": "environment.md",
+      "target": "records/reorganization/2026-10-19/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "theory.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "theory_feedback_v1.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "theory_feedback_v2.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "student_review.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "hypothesis_matrix.csv",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "analysis_inventory.csv",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "variable_dictionary.csv",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "design_and_models.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "execution_specification.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "model_diagram.mmd",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "limitations.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "follow_up.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "assignment_checklist.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "skills/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "guides/github_structure_and_workflow.txt",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "guides/python_route_assessment.md",
+      "exists": true
+    },
+    {
+      "page": "docs/README.md",
+      "target": "skill1_usage.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../.agents/skills/specify-empirical-study/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../.agents/skills/specify-empirical-study/references/output_contract.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../.agents/skills/specify-empirical-study/scripts/validate_specification.py",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../tools/prepare_specification_test.py",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../tests/skill1_specification/test_validator_cases.py",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/skill_tests/specify-empirical-study/TEST_REPORT.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../.agents/skills/reproduce-and-diagnose/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../.agents/skills/reproduce-and-diagnose/references/execution_contract.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../analysis/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../tests/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../execution_specification.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../sources/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/skill_tests/reproduce-and-diagnose/TEST_REPORT.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/skill_tests/reproduce-and-diagnose/discovery.json",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/skill_invocations/2026-10-18_reproduce-and-diagnose/",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../records/run_logs/skill2/",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "docs/skills/README.md",
+      "target": "../../.agents/skills/verify-and-package/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../skills/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../../environment.md",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../../analysis/01_replication.ipynb",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../../outputs/comparison.csv",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../../outputs/reproduced/hypothesis_tests.csv",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../../outputs/diagnostics/README.md",
+      "exists": true
+    },
+    {
+      "page": "docs/guides/teacher_quickstart.md",
+      "target": "../../tests/README.md",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "../docs/execution_specification.md",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "../docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "../docs/guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "01_replication.ipynb",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "00_environment_check.ipynb",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "01_replication.ipynb",
+      "exists": true
+    },
+    {
+      "page": "analysis/README.md",
+      "target": "../records/run_logs/skill2/",
+      "exists": true
+    },
+    {
+      "page": "tests/README.md",
+      "target": "../records/skill_tests/",
+      "exists": true
+    },
+    {
+      "page": "tests/README.md",
+      "target": "../outputs/diagnostics/",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "../docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "published/",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "comparison.csv",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "reproduced/hypothesis_tests.csv",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "reproduced/reliability/",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "reproduced/descriptives/",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "reproduced/models/",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "reproduced/predictions/",
+      "exists": true
+    },
+    {
+      "page": "outputs/README.md",
+      "target": "diagnostics/README.md",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "../../docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "reliability/",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "descriptives/",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "models/",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "predictions/",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "hypothesis_tests.csv",
+      "exists": true
+    },
+    {
+      "page": "outputs/reproduced/README.md",
+      "target": "../published/",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "data_audit.json",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "data_independent_checks.json",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "reliability/",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "ordinal/",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "glmm/",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "binary_likelihood_comparisons.csv",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "binary_prediction_integration.csv",
+      "exists": true
+    },
+    {
+      "page": "outputs/diagnostics/README.md",
+      "target": "../../docs/replication_results.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "../docs/theory_feedback_v1.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "skill_invocations/2026-10-18_specify-empirical-study_theory-review/",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "../docs/theory_feedback_v2.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "skill_tests/specify-empirical-study/TEST_REPORT.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "skill_invocations/2026-10-18_reproduce-and-diagnose/",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "skill_tests/reproduce-and-diagnose/TEST_REPORT.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "run_logs/skill2/",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "reorganization/2026-10-19/README.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "decisions.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "agent_records.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "handoffs.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "checkpoints.md",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "source_manifest.csv",
+      "exists": true
+    },
+    {
+      "page": "records/README.md",
+      "target": "../sources/input_restore_manifest.json",
+      "exists": true
+    },
+    {
+      "page": "sources/README.md",
+      "target": "input_restore_manifest.json",
+      "exists": true
+    },
+    {
+      "page": "sources/README.md",
+      "target": "../docs/guides/teacher_quickstart.md",
+      "exists": true
+    },
+    {
+      "page": "sources/README.md",
+      "target": "../outputs/diagnostics/glmm/method_source_manifest.json",
+      "exists": true
+    },
+    {
+      "page": "tools/README.md",
+      "target": "../analysis/run_replication.py",
+      "exists": true
+    },
+    {
+      "page": "tools/maintenance/README.md",
+      "target": "../../records/reorganization/2026-10-19/moves.json",
+      "exists": true
+    },
+    {
+      "page": ".agents/skills/README.md",
+      "target": "specify-empirical-study/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": ".agents/skills/README.md",
+      "target": "reproduce-and-diagnose/SKILL.md",
+      "exists": true
+    },
+    {
+      "page": ".agents/skills/README.md",
+      "target": "../../docs/skills/README.md",
+      "exists": true
+    },
+    {
+      "page": ".agents/skills/README.md",
+      "target": "verify-and-package/SKILL.md",
+      "exists": true
+    }
+  ],
+  "python_files_syntax_checked": [
+    "analysis/binary_predictions.py",
+    "analysis/compare_replication.py",
+    "analysis/nested_logit.py",
+    "analysis/ordinal_reproduction.py",
+    "analysis/prepare_replication.py",
+    "analysis/reliability_primary_comparison.py",
+    "analysis/reliability_reproduction.py",
+    "analysis/run_binary_models.py",
+    "analysis/run_replication.py",
+    "tests/repository/test_portable_execution.py",
+    "tests/skill1_specification/test_validator_cases.py",
+    "tests/skill2/check_glmm_fit_curvature.py",
+    "tests/skill2/check_glmm_full_likelihood.py",
+    "tests/skill2/check_nested_logit.py",
+    "tests/skill2/data_checks.py",
+    "tests/skill2/glmm_reference.py",
+    "tools/check_python_environment.py",
+    "tools/check_repository.py",
+    "tools/fetch_sources.py",
+    "tools/prepare_specification_test.py",
+    "tools/probe_skill_discovery.py",
+    "tools/reorganize_project.py",
+    "tools/restore_inputs.py",
+    "tools/run_logged.py",
+    "tools/maintenance/build_replication_notebook.py",
+    "tools/maintenance/check_reader_copy.py",
+    "tools/maintenance/finalize_reorganization_notes.py",
+    "tools/maintenance/finalize_skill2_documents.py",
+    "tools/maintenance/finish_skill2_record.py",
+    "tools/maintenance/import_verified_remote_commit.py",
+    "tools/maintenance/prepare_github_payload.py",
+    "tools/maintenance/record_skill2_interruption.py",
+    "tools/maintenance/update_reorganization_context.py",
+    "tools/maintenance/update_skill2_context.py",
+    "tools/maintenance/verify_reorganization.py",
+    "tools/maintenance/write_reader_navigation.py",
+    ".agents/skills/specify-empirical-study/scripts/validate_specification.py"
+  ],
+  "errors": [],
+  "full_research_rerun_performed": false
+}

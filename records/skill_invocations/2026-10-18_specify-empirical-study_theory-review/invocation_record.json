@@ -1,0 +1,81 @@
+{
+  "recorded_at_utc": "2026-10-18T09:50:38.308129+00:00",
+  "task_date_local": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "task_id": "2026-10-18_specify-empirical-study_theory-review",
+  "artifact_kind": "study",
+  "task_type": "personal_theory_critique",
+  "skill": "specify-empirical-study",
+  "skill_version": "1.0.1",
+  "invocation_mode": "explicit_named_full_path_manual_loading_in_current_chat",
+  "runtime": "current Codex assistant",
+  "observed_exact_model_id": null,
+  "independence": "shared_context_source_review; no independent statistical verification",
+  "student_input_path": "records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+  "student_input_sha256": "72ebd5d4b0e5f25ee2cbfb0926817c2db3705e0a470c914d7ac1a6e57b59b25b",
+  "input_capture": "User supplied chat wording preserved; UTF8/LF and paragraph whitespace normalized. Original transport bytes not accessible.",
+  "human_review": {
+    "initial_explanation_received": true,
+    "foundational_readings_attested": false,
+    "specification_approved": false,
+    "student_initial_diagram_received": false,
+    "student_reading_status": "unknown_scope_not_supplied",
+    "feedback_decisions": "pending"
+  },
+  "prior_ai_exposure_disclosed": true,
+  "unaided_authorship_independently_verified": false,
+  "ready_for_estimation": false,
+  "source_bindings": [
+    {
+      "path": "sources/local/COMD7290_assignment.pdf",
+      "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "inspected_scope": "pp.2-3 and 6-7; p.2 freshly extracted from original",
+      "role": "primary_research_evidence"
+    },
+    {
+      "path": "sources/local/Lob_et_al_2024.pdf",
+      "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "inspected_scope": "Theory/method/results/discussion: printed pp.274-281,283-286,288-290; relevant references; critical pages freshly extracted; PDF13/16 visually checked",
+      "role": "primary_research_evidence"
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "inspected_scope": "Read-only search: version16, recodes, ordered logit, act_id and melogit syntax",
+      "role": "primary_research_evidence"
+    },
+    {
+      "path": ".agents/skills/specify-empirical-study/SKILL.md",
+      "sha256": "71538157c84c8af0d1792b0b525a5a06e25f1fc2844d23f1cafe2e6c1ed07cdc",
+      "inspected_scope": "Full personal-critique route read; version1.0.1",
+      "role": "project_skill_instructions"
+    },
+    {
+      "path": ".agents/skills/specify-empirical-study/references/output_contract.md",
+      "sha256": "3a246386871b2d3843485397cbd1fac9366ec2bbfbc6f8f88e678a7ba716bc75",
+      "inspected_scope": "Full output contract read; full-specification generation not requested",
+      "role": "project_skill_instructions"
+    }
+  ],
+  "published_or_cells_checked": 10,
+  "claim_checks_path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/claim_checks.csv",
+  "feedback_path": "docs/theory_feedback_v1.md",
+  "student_review_path": "docs/student_review.md",
+  "full_specification_validator": {
+    "executed": false,
+    "reason": "Personal-critique subset; complete specification not generated or approved; no full-specification pass claimed."
+  },
+  "deferred": [
+    "student revision and theory map",
+    "two foundational reading scopes/notes",
+    "student feedback decisions and full specification review",
+    "skill2 three-level Python/Stata equivalence"
+  ],
+  "source_pdf_warning": "Poppler Invalid XRef entry0 on each rendered page, exit0; both pages visually readable",
+  "statistical_fits_executed": false,
+  "reliability_estimated": false,
+  "network_used": false,
+  "external_model_or_subagent_used": false,
+  "github_synchronized": false,
+  "student_approval_fabricated": false
+}

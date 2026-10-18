@@ -1,0 +1,172 @@
+{
+  "label": "actrefrecbin_arbitrary_parameters",
+  "outcome": "actrefrecbin",
+  "fit_artifact": null,
+  "theta": [
+    -1.4,
+    0.2,
+    -0.35,
+    0.45,
+    -0.1,
+    0.3,
+    -0.17833747196936622,
+    0.13118213223374553
+  ],
+  "item_variance": 0.7,
+  "actor_variance": 1.3,
+  "null_model": false,
+  "source_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+  "candidate_sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8",
+  "n_rows": 3770,
+  "n_items": 1183,
+  "independent_patterns": 397,
+  "high_order_full_log_likelihood": {
+    "81": -1269.7617496159037,
+    "161": -1269.761749615904,
+    "241": -1269.761749615902
+  },
+  "difference_241_from_161": 1.8189894035458565e-12,
+  "candidate_comparisons": {
+    "7": {
+      "log_likelihood": -1269.7519855409314,
+      "difference_from_reference_241": 0.009764074970689762,
+      "adaptation": {
+        "outer_adaptation_iterations": 5,
+        "inner_adaptation_max_iterations": 7,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 7,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    },
+    "11": {
+      "log_likelihood": -1269.7618511674832,
+      "difference_from_reference_241": -0.00010155158111047058,
+      "adaptation": {
+        "outer_adaptation_iterations": 3,
+        "inner_adaptation_max_iterations": 5,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 11,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    },
+    "21": {
+      "log_likelihood": -1269.76174963414,
+      "difference_from_reference_241": -1.8237869880977087e-08,
+      "adaptation": {
+        "outer_adaptation_iterations": 3,
+        "inner_adaptation_max_iterations": 3,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 21,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    }
+  },
+  "selected_quad_checks": [
+    {
+      "likelihood": 0.6732642359107813,
+      "log_likelihood": -0.3956174024552652,
+      "quadpack_outer_absolute_error": 5.782583127481253e-13,
+      "max_sampled_actor_error_sum": 7.755504638678943e-12,
+      "omitted_normal_tail_upper_bound": 7.105928448310612e-33,
+      "absolute_error_estimate": 8.333762951427069e-12,
+      "log_likelihood_error_estimate": 1.2378145914959057e-11,
+      "actor_integral_calls": 231,
+      "eta": -1.85,
+      "actor_counts_n_s": [
+        [
+          2,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -0.39561740245526433,
+      "difference_gh241_from_quad": 8.881784197001252e-16
+    },
+    {
+      "likelihood": 0.305907373185489,
+      "log_likelihood": -1.1844729248614625,
+      "quadpack_outer_absolute_error": 3.9130579022772285e-13,
+      "max_sampled_actor_error_sum": 1.2093417798041943e-11,
+      "omitted_normal_tail_upper_bound": 7.105928448310612e-33,
+      "absolute_error_estimate": 1.2484723588269666e-11,
+      "log_likelihood_error_estimate": 4.0812104194361703e-11,
+      "actor_integral_calls": 231,
+      "eta": -0.45,
+      "actor_counts_n_s": [
+        [
+          3,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -1.1844729248614647,
+      "difference_gh241_from_quad": -2.220446049250313e-15
+    },
+    {
+      "likelihood": 9.19482903522795e-06,
+      "log_likelihood": -11.59686929331326,
+      "quadpack_outer_absolute_error": 9.142668838046091e-15,
+      "max_sampled_actor_error_sum": 5.060454805199174e-11,
+      "omitted_normal_tail_upper_bound": 4.618853491401898e-32,
+      "absolute_error_estimate": 5.0613690720829786e-11,
+      "log_likelihood_error_estimate": 5.504582034849658e-06,
+      "actor_integral_calls": 2772,
+      "eta": -1.0,
+      "actor_counts_n_s": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -11.596869293313258,
+      "difference_gh241_from_quad": 1.7763568394002505e-15
+    }
+  ],
+  "reference_convergence_check_passed": true,
+  "status": "fixed_parameter_check_only_not_a_refit"
+}

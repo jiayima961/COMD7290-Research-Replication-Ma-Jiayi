@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-18T16:41:14.014780+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "actual command without RTK, exit 0",
+      "passed": true
+    },
+    {
+      "check": "actual command without RTK, exit 7",
+      "passed": true
+    },
+    {
+      "check": "all stage commands use the same interpreter and repository cwd",
+      "commands_inspected": 17,
+      "passed": true
+    },
+    {
+      "check": "ZIP restoration, exact hash, and existing-file mismatch refusal",
+      "passed": true
+    },
+    {
+      "check": "changed upstream content is rejected before writing",
+      "passed": true
+    },
+    {
+      "check": "input destination cannot escape selected project",
+      "passed": true
+    },
+    {
+      "check": "notebook schema and code syntax; portable runner invocation",
+      "passed": true
+    }
+  ],
+  "research_models_refitted": false,
+  "network_used": false,
+  "historical_outputs_overwritten": false
+}

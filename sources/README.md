@@ -21,3 +21,23 @@ The downloaded package was checked for MedCon_Civility_item.dta, MedCon_Civility
 The article uses coding steps 1, 2, 5, and 8 from the broader project. Other recorded project variables must not automatically be treated as controls in this article's models.
 
 See ../records/source_manifest.csv for exact URLs, versions, retrieval dates, checksums, and current status.
+
+## Restore exact-version inputs on another computer
+
+[input_restore_manifest.json](input_restore_manifest.json) lists the required
+original datasets, ZIP members, rating workbooks, codebooks, PDFs and archived
+external method sources with SHA-256 values. Run `python tools/restore_inputs.py`
+from the repository root for offline checking, or add `--download` to retrieve
+registered direct sources. The tool never overwrites an existing file and never
+changes the historical source manifest. Assignment/article copies need lawful
+manual access; changed upstream versions are reported rather than accepted.
+See [the teacher quickstart](../docs/guides/teacher_quickstart.md).
+
+Original inputs and external method source files remain excluded from Git.
+Subject-level prepared rating matrices, matching-row audits and conditional
+influence arrays also remain local; rerun the reliability stage to recreate
+them. Aggregate coefficient/benchmark tables, code, test summaries and provenance
+are shared. Some historical GLMM documentation paths are under tmp; the
+[method source manifest](../outputs/diagnostics/glmm/method_source_manifest.json)
+records primary URLs/hashes. These PDFs are provenance, not runtime dependencies
+of the saved Python likelihood engine.

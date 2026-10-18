@@ -1,0 +1,8 @@
+{
+  "artifact_kind": "test",
+  "creator_role": "evaluator-created synthetic fixture; not actual student",
+  "source_path": "synthetic_initial_explanation.md",
+  "preserved_path": "records/inputs/synthetic_initial_explanation.v1.md",
+  "source_sha256": "ef623f96539fe80f8d0650fd29826b46a1cde34511d652e883016a545261d74b",
+  "human_initial_explanation_received": false
+}

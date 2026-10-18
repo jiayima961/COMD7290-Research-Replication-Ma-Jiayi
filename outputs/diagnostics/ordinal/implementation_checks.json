@@ -1,0 +1,99 @@
+[
+  {
+    "check": "Wolfe-Gould STB42 dumping severity example",
+    "expected_chi_square_rounded": 3.72,
+    "expected_df": 3,
+    "expected_p_rounded": 0.2932,
+    "actual_chi_square": 3.7209957173249677,
+    "actual_df": 3,
+    "actual_p": 0.29321035823610614,
+    "passed": true
+  },
+  {
+    "check": "logit analytic gradient and information versus independent central differences",
+    "gradient_max_abs_error": 4.7412651582590115e-09,
+    "hessian_max_abs_error": 2.429125345315697e-09,
+    "passed": true
+  },
+  {
+    "check": "probit analytic gradient and information versus independent central differences",
+    "gradient_max_abs_error": 3.19785975477771e-09,
+    "hessian_max_abs_error": 1.3323926850716816e-08,
+    "passed": true
+  },
+  {
+    "check": "cloglog analytic gradient and information versus independent central differences",
+    "gradient_max_abs_error": 3.235667719869717e-09,
+    "hessian_max_abs_error": 4.1033842990145786e-09,
+    "passed": true
+  },
+  {
+    "check": "gologit2 cloglog source direction versus direct upper-cumulative formula",
+    "passed": true,
+    "source_equation": "P(Y<=j)=exp(-exp(Xbeta-cut_j)); P(Y>j)=1-exp(-exp(Xbeta-cut_j))"
+  },
+  {
+    "check": "synthetic invalid tone rejection and original-copy recovery",
+    "detected": true,
+    "recovered": true,
+    "passed": true
+  },
+  {
+    "check": "logit custom analytic MLE versus statsmodels OrderedModel independent implementation",
+    "max_abs_parameter_difference": 2.3600171772386602e-07,
+    "log_likelihood_difference": -2.2737367544323206e-13,
+    "max_abs_covariance_difference": 9.592223232379737e-08,
+    "passed": true
+  },
+  {
+    "check": "probit custom analytic MLE versus statsmodels OrderedModel independent implementation",
+    "max_abs_parameter_difference": 4.557339705613117e-08,
+    "log_likelihood_difference": -2.2737367544323206e-13,
+    "max_abs_covariance_difference": 2.3586180404600032e-08,
+    "passed": true
+  },
+  {
+    "check": "cloglog custom analytic MLE versus statsmodels OrderedModel independent implementation",
+    "max_abs_parameter_difference": 4.3504509683600645e-07,
+    "log_likelihood_difference": -1.1368683772161603e-12,
+    "max_abs_covariance_difference": 1.0717736105558817e-07,
+    "passed": true
+  },
+  {
+    "check": "margin and discrete AME delta derivatives versus independent central differences",
+    "margin_gradient_max_error": 8.956412000937775e-12,
+    "AME_gradient_max_error": 1.8744953506066864e-11,
+    "passed": true
+  },
+  {
+    "check": "counterfactual margins sum to one and AMEs sum to zero for every contrast",
+    "passed": true
+  },
+  {
+    "check": "generalized ordinal analytic gradient versus independent central differences",
+    "max_abs_error": 1.0070430489506066e-08,
+    "passed": true
+  },
+  {
+    "check": "exact nonidentification of last-threshold website slope on actual item data",
+    "likelihood_shifts": [
+      {
+        "shift": -20.0,
+        "log_likelihood_difference": 0.0
+      },
+      {
+        "shift": -5.0,
+        "log_likelihood_difference": 0.0
+      },
+      {
+        "shift": 5.0,
+        "log_likelihood_difference": 0.0
+      },
+      {
+        "shift": 20.0,
+        "log_likelihood_difference": 0.0
+      }
+    ],
+    "passed": true
+  }
+]

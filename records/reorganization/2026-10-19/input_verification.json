@@ -1,0 +1,154 @@
+{
+  "checked_at_utc": "2026-10-18T16:40:46.448364+00:00",
+  "download_requested": false,
+  "counts": {
+    "verified": 24
+  },
+  "files": [
+    {
+      "path": "sources/local/COMD7290_assignment.pdf",
+      "role": "assignment",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/Lob_et_al_2024.pdf",
+      "role": "selected_article",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "data/original/author_stata_reproduction.zip",
+      "role": "repro_package",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/codebook_01_news_item.pdf",
+      "role": "codebook_01",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/codebook_02_actor_identification.pdf",
+      "role": "codebook_02",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/codebook_05_actor.pdf",
+      "role": "codebook_05",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/codebook_08_actor_reference.pdf",
+      "role": "codebook_08",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "data/original/independent_ratings_tone.xlsx",
+      "role": "ratings_tone",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "data/original/independent_ratings_actor_reference.xlsx",
+      "role": "ratings_actref",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/author_code/reliability_original.do",
+      "role": "reliability_script",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "data/original/MedCon_Civility_actref.dta",
+      "role": "package_member_MedCon_Civility_actref.dta",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "role": "package_member_MedCon_Civility_an.do",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "data/original/MedCon_Civility_item.dta",
+      "role": "package_member_MedCon_Civility_item.dta",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/author_code/readme.rtf",
+      "role": "package_member_readme.rtf",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/Sobieraj_Berry_2011.pdf",
+      "role": "foundation_sobieraj_berry_2011",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/Wolfe_Gould_1998_STB42.pdf",
+      "role": "foundation_wolfe_gould_1998",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/omodel.ado",
+      "role": "ordinal_primary_method",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2.ado",
+      "role": "ordinal_primary_method",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2_ll.ado",
+      "role": "ordinal_primary_method",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2.sthlp",
+      "role": "ordinal_primary_method",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2.pdf",
+      "role": "ordinal_primary_method",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/reliability/kappaetc_2.1.0.ado",
+      "role": "reliability_primary_method_or_postfit_comparison",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/reliability/kappaetc_2.1.0.sthlp",
+      "role": "reliability_primary_method_or_postfit_comparison",
+      "status": "verified",
+      "error": null
+    },
+    {
+      "path": "sources/local/skill2_methods/reliability/official_reliabilities_2026-10-18.html",
+      "role": "reliability_primary_method_or_postfit_comparison",
+      "status": "verified",
+      "error": null
+    }
+  ],
+  "existing_files_overwritten": false
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "path": "memelogit16.pdf",
+    "url": "https://www.stata.com/manuals16/memelogit.pdf",
+    "sha256": "eff08e70314e249901889e19e478596bb61961e467b97b2272182e657b26cec4",
+    "bytes": 363028,
+    "status": "downloaded",
+    "local_path": "tmp/skill2_forward/glmm_verification/memelogit16.pdf",
+    "file_hash_verified": true
+  },
+  {
+    "path": "memelogitpostestimation16.pdf",
+    "url": "https://www.stata.com/manuals16/memelogitpostestimation.pdf",
+    "sha256": "e0847980f8fb0706fee7cd7b0279e11e6a5a862c33e044b002219f8e7bcd88b9",
+    "bytes": 249301,
+    "status": "downloaded",
+    "local_path": "tmp/skill2_forward/glmm_verification/memelogitpostestimation16.pdf",
+    "file_hash_verified": true
+  },
+  {
+    "path": "memeglmpostestimation16.pdf",
+    "url": "https://www.stata.com/manuals16/memeglmpostestimation.pdf",
+    "sha256": "10679e048c49fa3de4bc97308d70152ee5e9d0b1b055d5014edf51146898693a",
+    "bytes": 547332,
+    "status": "downloaded",
+    "local_path": "tmp/skill2_forward/glmm_verification/memeglmpostestimation16.pdf",
+    "file_hash_verified": true
+  },
+  {
+    "path": "rmaximize16.pdf",
+    "url": "https://www.stata.com/manuals16/rmaximize.pdf",
+    "sha256": "28fb48d454ce0140c93f91606ddd8d5525bf84d83e0581ec8d77db74d6a9e700",
+    "bytes": 196406,
+    "status": "downloaded",
+    "local_path": "tmp/skill2_forward/glmm_verification/rmaximize16.pdf",
+    "file_hash_verified": true
+  },
+  {
+    "path": "rmargins16.pdf",
+    "url": "https://www.stata.com/manuals16/rmargins.pdf",
+    "sha256": "9a9422db8edfb728f26943d4ec5b629316428505a1c30218de87b3df4b18f361",
+    "bytes": 528382,
+    "status": "downloaded",
+    "local_path": "tmp/skill2_forward/glmm_verification/rmargins16.pdf",
+    "file_hash_verified": true
+  },
+  {
+    "path": "sources\\local\\skill2_methods\\memeglm16.pdf",
+    "url": "https://www.stata.com/manuals16/memeglm.pdf",
+    "sha256": "004491458cb8e3a3c17d94c1b3b823a6c4e7bd1e9bf1678a0f6a77611b7592fc",
+    "bytes": 435258,
+    "status": "downloaded",
+    "local_path": "sources/local/skill2_methods/memeglm16.pdf",
+    "file_hash_verified": true
+  },
+  {
+    "local_path": "sources/author_code/MedCon_Civility_an.do",
+    "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+    "role": "author syntax: version16, nested model, seven points, bare margins"
+  }
+]

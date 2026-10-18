@@ -1,0 +1,16 @@
+{
+  "tone_rows": 1700,
+  "tone_unique_text_ids": 1700,
+  "tone_duplicate_text_ids": 0,
+  "actor_rows": 3864,
+  "actor_unique_text_ids": 1183,
+  "actor_rows_missing_text_id": 0,
+  "actor_duplicate_first_slot_keys": 0,
+  "rows_with_multiple_distinct_keys": 0,
+  "key_text_id_mismatch_cells": 0,
+  "unparseable_key_cells": 0,
+  "rows_with_repeated_same_named_coder": 182,
+  "rows_with_at_least_two_distinct_named_coders": 1339,
+  "actor_text_ids_absent_from_tone_workbook": 3,
+  "interpretation": "Faithful arithmetic on the author's matched workbook is reported. Positional slots are not stable named raters; repeated named coders raise independence concerns. No rematching or silent exclusions were performed."
+}

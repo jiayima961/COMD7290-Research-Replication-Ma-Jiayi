@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-18T09:16:11.986580+00:00",
+  "method": "skills/list",
+  "cwd": "E:\\Statistics with AI",
+  "command": [
+    "rtk",
+    "proxy",
+    "codex",
+    "app-server",
+    "--stdio"
+  ],
+  "initialize_user_agent": "Codex Desktop/0.160.1 (Windows 10.0.26200; x86_64) dumb (comd7290-skill-check; 1.0)",
+  "skills": [],
+  "project_errors": [],
+  "inference_or_skill_execution_performed": false,
+  "status": "failed"
+}

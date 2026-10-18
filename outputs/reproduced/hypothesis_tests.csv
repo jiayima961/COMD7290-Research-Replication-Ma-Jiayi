@@ -1,0 +1,13 @@
+hypothesis_id,model_id,contrast,predicted_sign,beta,se,odds_ratio,p_value,conclusion,scope
+H1a,M1,majoritarian,1,-0.6152697064727567,0.2165808226674782,0.5404951006221839,0.0044996025943517,significant_opposite_direction,associational; original directional target; two-sided reported Wald uncertainty
+H2a,M1,contested,1,0.523627936409412,0.1591776517907969,1.688141021808187,0.0010033631982474,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty
+H3a,M1,website,-1,-1.781031141497424,0.209874680172638,0.1684643470985814,2.135683544883761e-17,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty
+H3a,M1,newspaper,-1,-1.2685431078427485,0.1815180589331274,0.281241061347885,2.777953797633236e-12,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty
+H1a,M2,majoritarian,1,-0.3879879192890421,0.4851733680620892,0.6784205390170385,0.4238908718473337,not_statistically_supported,associational; original directional target; two-sided reported Wald uncertainty
+H2a,M2,contested,1,-0.1324613729407462,0.3004905347473482,0.8759367683141932,0.6593453964619809,not_statistically_supported,associational; original directional target; two-sided reported Wald uncertainty
+H3a,M2,website,-1,-1.4691976656692454,0.3900712577583451,0.2301100363229605,0.0001655618147311,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty
+H3a,M2,newspaper,-1,-1.0774857681033865,0.3671802383222041,0.3404504218007122,0.0033409916104606,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty
+H1b,M3,majoritarian,-1,-0.5461608960673475,0.3410935780162857,0.5791690378632263,0.1093314221539694,not_statistically_supported,associational; original directional target; two-sided reported Wald uncertainty
+H2b,M3,contested,-1,0.7878841372913241,0.2469037424853057,2.1987392706136264,0.0014175287102073,significant_opposite_direction,associational; original directional target; two-sided reported Wald uncertainty
+H3b,M3,website,1,0.6866488954108756,0.3182607897807145,1.9870455660909112,0.0309664235254241,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty
+H3b,M3,newspaper,1,1.1867787262793157,0.315452620068417,3.276509655145125,0.0001684618391976,consistent_with_prediction,associational; original directional target; two-sided reported Wald uncertainty

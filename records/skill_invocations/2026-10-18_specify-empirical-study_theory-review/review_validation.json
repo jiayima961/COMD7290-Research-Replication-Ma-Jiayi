@@ -1,0 +1,163 @@
+{
+  "checked_at_utc": "2026-10-18T09:50:38.308129+00:00",
+  "status": "personal_review_record_checks_passed",
+  "checks": {
+    "preserved_student_input_unchanged_since_recording": true,
+    "all_ten_or_values_source_checked": true,
+    "all_registered_original_hashes_match": true,
+    "feedback_ids_F01_to_F09_present": true,
+    "human_reading_and_approval_pending": true,
+    "no_cjk_in_new_review_artifacts": true,
+    "all_required_personal_review_artifacts_exist": true
+  },
+  "source_hash_checks": [
+    {
+      "path": "sources/local/COMD7290_assignment.pdf",
+      "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "expected_sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "matches": true
+    },
+    {
+      "path": "sources/local/Lob_et_al_2024.pdf",
+      "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "expected_sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "matches": true
+    },
+    {
+      "path": "data/original/author_stata_reproduction.zip",
+      "sha256": "6ea2384e90fd95656df2acb6a966d3931332aa690d218a2a2ad3b8fcbd88a938",
+      "expected_sha256": "6ea2384e90fd95656df2acb6a966d3931332aa690d218a2a2ad3b8fcbd88a938",
+      "matches": true
+    },
+    {
+      "path": "sources/local/codebook_01_news_item.pdf",
+      "sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+      "expected_sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+      "matches": true
+    },
+    {
+      "path": "sources/local/codebook_02_actor_identification.pdf",
+      "sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+      "expected_sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+      "matches": true
+    },
+    {
+      "path": "sources/local/codebook_05_actor.pdf",
+      "sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+      "expected_sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+      "matches": true
+    },
+    {
+      "path": "sources/local/codebook_08_actor_reference.pdf",
+      "sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+      "expected_sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+      "matches": true
+    },
+    {
+      "path": "data/original/independent_ratings_tone.xlsx",
+      "sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+      "expected_sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+      "matches": true
+    },
+    {
+      "path": "data/original/independent_ratings_actor_reference.xlsx",
+      "sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+      "expected_sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+      "matches": true
+    },
+    {
+      "path": "sources/author_code/reliability_original.do",
+      "sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+      "expected_sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+      "matches": true
+    },
+    {
+      "path": "data/original/MedCon_Civility_actref.dta",
+      "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+      "expected_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+      "matches": true
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "expected_sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "matches": true
+    },
+    {
+      "path": "data/original/MedCon_Civility_item.dta",
+      "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+      "expected_sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+      "matches": true
+    },
+    {
+      "path": "sources/author_code/readme.rtf",
+      "sha256": "85442008db47be0c3029bdb41cc2d20aa8d7bb5415895ed01869fdcbbd366ac6",
+      "expected_sha256": "85442008db47be0c3029bdb41cc2d20aa8d7bb5415895ed01869fdcbbd366ac6",
+      "matches": true
+    },
+    {
+      "path": "sources/local/Sobieraj_Berry_2011.pdf",
+      "sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+      "expected_sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+      "matches": true
+    },
+    {
+      "path": "sources/local/Wolfe_Gould_1998_STB42.pdf",
+      "sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+      "expected_sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+      "matches": true
+    }
+  ],
+  "artifact_fingerprints": [
+    {
+      "path": "records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+      "sha256": "72ebd5d4b0e5f25ee2cbfb0926817c2db3705e0a470c914d7ac1a6e57b59b25b"
+    },
+    {
+      "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/request.txt",
+      "sha256": "4959d3784b09a39288da520ee2f82e4cb5bca0a86697c31aeed894863f8a92f2"
+    },
+    {
+      "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/README.md",
+      "sha256": "d17acba59a57784adf81eb3c1550ab293f8b14319dfcfffd0d6d3848af068022"
+    },
+    {
+      "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/claim_checks.csv",
+      "sha256": "c1b0dfaec612758712f2599ef12409ba3cf55d57affb81f4fd298789dad080bd"
+    },
+    {
+      "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/invocation_record.json",
+      "sha256": "f3de09ea93553f914181600408de06603482ff99be7e220d802716feae005b78"
+    },
+    {
+      "path": "docs/theory_feedback_v1.md",
+      "sha256": "1467de9107bb4969d7293b82d2b8d5ad5d62a4cc01cb911c6280e58b669c8037"
+    },
+    {
+      "path": "docs/student_review.md",
+      "sha256": "f323b573da4598fbdbea77ace450c0db45f5f5c96032c5bfc9f38ad2d7599c0d"
+    }
+  ],
+  "source_review_method": "Manual reading of named primary-source passages and table cells; visual inspection of conflicting country-ranking passages. Automated checks bind records,not semantic correctness.",
+  "full_specification_approved": false,
+  "research_results_reproduced": false,
+  "merely_creating_record_does_not_attest_student_reading": true,
+  "additional_observed_checks": [
+    {
+      "command": "rtk proxy .venv/Scripts/python.exe -X utf8 tools/check_repository.py",
+      "exit_code": 0,
+      "output": "Material checks: PASSED; statistical analyses not executed by this tool."
+    },
+    {
+      "command": "rtk git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": "rtk git diff --name-only -- docs/variable_dictionary.csv docs/hypothesis_matrix.csv docs/design_and_models.md docs/model_diagram.mmd",
+      "exit_code": 0,
+      "output": "",
+      "meaning": "Full analytical drafts not replaced during personal feedback task"
+    }
+  ]
+}

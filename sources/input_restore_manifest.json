@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-10-19",
+  "purpose": "Restore excluded exact-version inputs; do not infer rights or execute Stata sources.",
+  "historical_build_limit": "These method snapshots are inspected sources, not proof of the authors installed original builds.",
+  "files": [
+    {
+      "path": "sources/local/COMD7290_assignment.pdf",
+      "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "url": null,
+      "role": "assignment",
+      "access_note": "",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/Lob_et_al_2024.pdf",
+      "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "url": null,
+      "role": "selected_article",
+      "access_note": "https://doi.org/10.1177/19401612221084206",
+      "archive_member": null
+    },
+    {
+      "path": "data/original/author_stata_reproduction.zip",
+      "sha256": "6ea2384e90fd95656df2acb6a966d3931332aa690d218a2a2ad3b8fcbd88a938",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip",
+      "role": "repro_package",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/codebook_01_news_item.pdf",
+      "sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+      "url": "https://medcon-doc.github.io/documentation/files/01_Content%20Analysis_Codebook%20%E2%80%93%20News%20Item%20Level.pdf",
+      "role": "codebook_01",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/codebook_02_actor_identification.pdf",
+      "sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+      "url": "https://medcon-doc.github.io/documentation/files/02_Content%20Analysis_Codebook%20%E2%80%93%20Actor%20Identification.pdf",
+      "role": "codebook_02",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/codebook_05_actor.pdf",
+      "sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+      "url": "https://medcon-doc.github.io/documentation/files/05_Content%20Analysis_Codebook%20%E2%80%93%20Actor%20Level.pdf",
+      "role": "codebook_05",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/codebook_08_actor_reference.pdf",
+      "sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+      "url": "https://medcon-doc.github.io/documentation/files/08_Content%20Analysis_Codebook%20%E2%80%93%20Actor%20Reference%20Level.pdf",
+      "role": "codebook_08",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "data/original/independent_ratings_tone.xlsx",
+      "sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Repro%20Materials%20Reliability%20Content%20Analysis%20-%20Tone.xlsx",
+      "role": "ratings_tone",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "data/original/independent_ratings_actor_reference.xlsx",
+      "sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Repro%20Materials%20Reliability%20Content%20Analysis%20-%20Actor-reference.xlsx",
+      "role": "ratings_actref",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/author_code/reliability_original.do",
+      "sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Repro%20Materials%20Reliability%20Content%20Analysis%20Tone%20%26%20Actor%20Reference%20Vars-%20STATA.do",
+      "role": "reliability_script",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "data/original/MedCon_Civility_actref.dta",
+      "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip",
+      "role": "package_member_MedCon_Civility_actref.dta",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": "MedCon_Civility_actref.dta"
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip",
+      "role": "package_member_MedCon_Civility_an.do",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": "MedCon_Civility_an.do"
+    },
+    {
+      "path": "data/original/MedCon_Civility_item.dta",
+      "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip",
+      "role": "package_member_MedCon_Civility_item.dta",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": "MedCon_Civility_item.dta"
+    },
+    {
+      "path": "sources/author_code/readme.rtf",
+      "sha256": "85442008db47be0c3029bdb41cc2d20aa8d7bb5415895ed01869fdcbbd366ac6",
+      "url": "https://medcon-doc.github.io/documentation/files/Appendix%20-%20Content%20Analysis%20Repro%20Materials%20-%20STATA.zip",
+      "role": "package_member_readme.rtf",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": "readme.rtf"
+    },
+    {
+      "path": "sources/local/Sobieraj_Berry_2011.pdf",
+      "sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+      "url": "https://s3.amazonaws.com/OM-SHARE/blogs.pdf",
+      "role": "foundation_sobieraj_berry_2011",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/Wolfe_Gould_1998_STB42.pdf",
+      "sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+      "url": "https://www.stata.com/products/stb/journals/stb42.pdf",
+      "role": "foundation_wolfe_gould_1998",
+      "access_note": "Original source; no redistribution licence inferred.",
+      "archive_member": null
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/omodel.ado",
+      "sha256": "c4d643a6bb172cac2d00f7c7eb46bb9f2ac3743f6977f18606141ee53004c2c8",
+      "url": "https://www.stata.com/stb/stb42/sg76/omodel.ado",
+      "role": "ordinal_primary_method"
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2.ado",
+      "sha256": "f6660e65542f732cb8b4d98e5963b1dde6daa1d38b9d1547316176d7f881f7c4",
+      "url": "http://fmwww.bc.edu/repec/bocode/g/gologit2.ado",
+      "role": "ordinal_primary_method"
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2_ll.ado",
+      "sha256": "c3102a2d5caeed76122cb73bcff5093765708db6a1de019648f49a635d39deb1",
+      "url": "http://fmwww.bc.edu/repec/bocode/g/gologit2_ll.ado",
+      "role": "ordinal_primary_method"
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2.sthlp",
+      "sha256": "8e78317d6e2274d5fecd86bb40e39a775ce38788dde34013c32614bb8cbef82a",
+      "url": "http://fmwww.bc.edu/repec/bocode/g/gologit2.sthlp",
+      "role": "ordinal_primary_method"
+    },
+    {
+      "path": "sources/local/skill2_methods/ordinal/gologit2.pdf",
+      "sha256": "e467e8354c89caf8dddee819fd47df3adedbb78bb0f1705770292dfd7d973a1f",
+      "url": "https://academicweb.nd.edu/~rwilliam/gologit2/gologit2.pdf",
+      "role": "ordinal_primary_method"
+    },
+    {
+      "path": "sources/local/skill2_methods/reliability/kappaetc_2.1.0.ado",
+      "sha256": "08c41c33d31794c78fe70c89144187c78a1af793059ead6a0e2d0cfbbaec08ab",
+      "url": "http://fmwww.bc.edu/repec/bocode/k/kappaetc.ado",
+      "role": "reliability_primary_method_or_postfit_comparison"
+    },
+    {
+      "path": "sources/local/skill2_methods/reliability/kappaetc_2.1.0.sthlp",
+      "sha256": "fa6665007e069343884e1d6654f713704f44c6dadb14d4bd7159566ed1255802",
+      "url": "http://fmwww.bc.edu/repec/bocode/k/kappaetc.sthlp",
+      "role": "reliability_primary_method_or_postfit_comparison"
+    },
+    {
+      "path": "sources/local/skill2_methods/reliability/official_reliabilities_2026-10-18.html",
+      "sha256": "729d42d6c407b257bbc592d4e0019b85b56cdb112baffe53dc3850fdfee21c97",
+      "url": "https://medcon-doc.github.io/documentation/content-analysis/reliabilities/",
+      "role": "reliability_primary_method_or_postfit_comparison"
+    }
+  ]
+}

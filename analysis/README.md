@@ -1,16 +1,25 @@
-# Analysis implementation plan: not executed
+# Analysis entry points
 
-Implement the following functions after inspecting the complete Stata sources and local environment. Select implementation languages and extensions accordingly.
+Read [the execution specification](../docs/execution_specification.md), [results explanation](../docs/replication_results.md) and [setup/input instructions](../docs/guides/teacher_quickstart.md).
 
-1. Inventory inputs, verify checksums, and preserve originals.
-2. Match original independent-coder ratings and reproduce the published reliability statistics and missing-rating treatment.
-3. Check item, actor/statement, and directed-reference identifiers; construct samples programmatically and explain changes in counts.
-4. Reproduce the descriptive results in Table 2 and Figure 2.
-5. Refit the Table 3 proportional-odds ordered-logit model of tone, its assumption checks, and alternative-link checks.
-6. Refit both Table 4 three-level random-intercept binary-logit models; save variances, fit measures, uncertainty, and convergence evidence.
-7. Recalculate Figures 1 and 3, probability summaries, and average marginal effects; document random-effect prediction conventions.
-8. Independently calculate at least one important descriptive quantity and one central advanced-model quantity; populate comparison.csv.
-9. Report one justified sensitivity analysis separately from the faithful reproduction.
-10. Implement one complete entry command and demonstrate a clean restart with logs.
+Run from the repository root with the project Python environment:
 
-At present, only the repository material checker exists. Research estimation starts after the student reviews the exact specification. Track all required and unresolved analyses in docs/analysis_inventory.csv.
+```powershell
+python analysis/run_replication.py
+python analysis/run_replication.py --stage data
+```
+
+RTK is optional. The same stages are available in [01_replication.ipynb](01_replication.ipynb). The runner logs commands and stops on failure. A full run replaces canonical numerical outputs; copy the existing result set before an independent rerun. Binary fitting can take substantial time.
+
+| Stage | Programs | Saved outputs |
+| --- | --- | --- |
+| data | prepare_replication.py | Local data/prepared; outputs/diagnostics/data_audit.json |
+| reliability | reliability_reproduction.py | outputs/reproduced/reliability; outputs/diagnostics/reliability |
+| ordinal | ordinal_reproduction.py | Descriptives; models/ordinal; predictions/ordinal; diagnostics/ordinal |
+| binary | run_binary_models.py, nested_logit.py | M2/M3 full/null fits, coefficients and covariance |
+| summaries | binary_predictions.py, compare_replication.py | Binary margins/AMEs; comparison.csv; hypothesis_tests.csv |
+| checks | tests/skill2 programs | Independent data/likelihood/curvature diagnostics |
+
+[00_environment_check.ipynb](00_environment_check.ipynb) is a synthetic environment check. [01_replication.ipynb](01_replication.ipynb) is an unexecuted interface to the real saved modules; actual study execution evidence is in [records/run_logs/skill2](../records/run_logs/skill2/). These distinctions must survive reuse.
+
+The statistical model modules and saved numerical results were preserved during the directory cleanup. Historical finite-grid and package-build identity remains limited; see the execution specification rather than interpreting code portability as exact original executable parity.

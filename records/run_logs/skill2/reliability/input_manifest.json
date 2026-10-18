@@ -1,0 +1,41 @@
+{
+  "ratings_tone": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\original\\independent_ratings_tone.xlsx",
+    "sha256_before": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+    "registered_manifest_hash_matches": true,
+    "sha256_after": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2"
+  },
+  "ratings_actor_reference": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\original\\independent_ratings_actor_reference.xlsx",
+    "sha256_before": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+    "registered_manifest_hash_matches": true,
+    "sha256_after": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca"
+  },
+  "author_reliability_script": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\author_code\\reliability_original.do",
+    "sha256_before": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+    "registered_manifest_hash_matches": true,
+    "sha256_after": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a"
+  },
+  "source_manifest": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\source_manifest.csv",
+    "sha256_before": "0ea8cfcb33179f5a8853ec7a0a3d0e326edd0fb3aab9be70525eb8c4f63393b9",
+    "sha256_after": "0ea8cfcb33179f5a8853ec7a0a3d0e326edd0fb3aab9be70525eb8c4f63393b9"
+  },
+  "target_article": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\Lob_et_al_2024.pdf",
+    "sha256_before": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+    "registered_manifest_hash_matches": true,
+    "sha256_after": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02"
+  },
+  "invoked_skill": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\reproduce-and-diagnose\\SKILL.md",
+    "sha256_before": "94126dd404c22fc40df343ac58d1a104dfcf7be5b5478721c1cc127f01b3a114",
+    "sha256_after": "94126dd404c22fc40df343ac58d1a104dfcf7be5b5478721c1cc127f01b3a114"
+  },
+  "execution_contract": {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\reproduce-and-diagnose\\references\\execution_contract.md",
+    "sha256_before": "4b9eb52053e466aa10522cbddb219401641010d377750c95524194ee6f252021",
+    "sha256_after": "4b9eb52053e466aa10522cbddb219401641010d377750c95524194ee6f252021"
+  }
+}

@@ -1,0 +1,5 @@
+M2 start patterns 415 params [-2.9250638920408827, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+M2 warmup 5 nll 666.44816979
+M2 warmup 10 nll 663.34338391
+M2 warmup 15 nll 663.29330566
+M2 warmup 20 nll 663.27918545

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "analysis/compare_replication.py"
+  ],
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "started_at_utc": "2026-10-18T11:07:56.597205+00:00",
+  "status": "completed",
+  "finished_at_utc": "2026-10-18T11:07:58.794389+00:00",
+  "runtime_seconds": 2.1966718999901786,
+  "exit_code": 0
+}

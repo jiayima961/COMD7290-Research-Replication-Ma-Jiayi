@@ -1,0 +1,222 @@
+[
+  {
+    "analysis_id": "tone__two_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7406083960824114,
+    "translated_estimate": 0.740608396082412,
+    "absolute_difference": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "tone__two_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      566,
+      850,
+      1699
+    ],
+    "max_absolute_difference": 4.766389838373186e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "tone__all_author_selected_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7417374001296093,
+    "translated_estimate": 0.7417374001296085,
+    "absolute_difference": 7.771561172376096e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "tone__all_author_selected_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      566,
+      850,
+      1699
+    ],
+    "max_absolute_difference": 5.359518717718004e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "valence__two_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7450157651264662,
+    "translated_estimate": 0.7450157651264664,
+    "absolute_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "valence__two_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1287,
+      1931,
+      3862
+    ],
+    "max_absolute_difference": 6.443205524675477e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "valence__all_author_selected_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7315814853615843,
+    "translated_estimate": 0.7315814853615844,
+    "absolute_difference": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "valence__all_author_selected_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1287,
+      1931,
+      3862
+    ],
+    "max_absolute_difference": 5.453153484324957e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "recognition__two_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7137046242167536,
+    "translated_estimate": 0.7137046242167532,
+    "absolute_difference": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "recognition__two_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1287,
+      1931,
+      3862
+    ],
+    "max_absolute_difference": 9.44054034945907e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "recognition__all_author_selected_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7148554819301598,
+    "translated_estimate": 0.7148554819301588,
+    "absolute_difference": 9.992007221626409e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "recognition__all_author_selected_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1287,
+      1931,
+      3862
+    ],
+    "max_absolute_difference": 2.4455000469103538e-08,
+    "passed": true
+  },
+  {
+    "analysis_id": "outrage__two_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.789259416371729,
+    "translated_estimate": 0.7892594163717291,
+    "absolute_difference": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "outrage__two_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1287,
+      1931,
+      3862
+    ],
+    "max_absolute_difference": 7.89127940770129e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "outrage__all_author_selected_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.7514086956521739,
+    "translated_estimate": 0.7514086956521728,
+    "absolute_difference": 1.1102230246251565e-15,
+    "passed": true
+  },
+  {
+    "analysis_id": "outrage__all_author_selected_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1287,
+      1931,
+      3862
+    ],
+    "max_absolute_difference": 2.2290016943316004e-08,
+    "passed": true
+  },
+  {
+    "analysis_id": "responsiveness__two_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.6366210238191895,
+    "translated_estimate": 0.63662102381919,
+    "absolute_difference": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "analysis_id": "responsiveness__two_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1288,
+      1932,
+      3863
+    ],
+    "max_absolute_difference": 9.571657244578091e-09,
+    "passed": true
+  },
+  {
+    "analysis_id": "responsiveness__all_author_selected_slots",
+    "coefficient": "krippendorff_alpha",
+    "independent_implementation": "krippendorff.alpha_nominal_0.9.0",
+    "independent_estimate": 0.6272998974869413,
+    "translated_estimate": 0.6272998974869402,
+    "absolute_difference": 1.1102230246251565e-15,
+    "passed": true
+  },
+  {
+    "analysis_id": "responsiveness__all_author_selected_slots",
+    "coefficient": "all_six_conditional_influences",
+    "independent_implementation": "direct_pair_weighted_functional_central_differences",
+    "points_checked": [
+      0,
+      1288,
+      1932,
+      3863
+    ],
+    "max_absolute_difference": 1.2360287349189036e-08,
+    "passed": true
+  }
+]

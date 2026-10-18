@@ -1,0 +1,73 @@
+REVISED AND CONDENSED VERSION
+
+Note: This is a retrospective reconstruction based on the published article and the feedback. It is not a preregistration or a pre-results prediction. It separates the authors' original hypotheses from the published findings and from post-result interpretations.
+
+1. Research gap and contribution
+
+Earlier research offers competing definitions of civility and often examines particular countries or media settings. The article identifies three unresolved issues: fragmented definitions of civility, limited attention to the positive side of civility, and limited comparative evidence on the systemic determinants of civility in mediated public discourse. It combines a negative concept, outrage, with a positive concept, recognition, and compares how both relate to political institutions, socio-cultural division over secularism, and top-down versus bottom-up news production across six democracies and three media types. Its contribution is to integrate existing ideas in a comparative design and move toward a contingency account of outrage and recognition. It does not introduce two entirely new general theories of civility.
+
+2. Normative foundations and explanatory mechanisms
+
+The two main normative-theoretical foundations are deliberative democratic theory and recognition theory.
+
+Deliberative democratic theory supplies the study's normative standard for evaluating public debate. It treats civility as an important criterion of democratic quality and provides a relatively clear concept of civility. The authors do not collapse civility into one bipolar score. Instead, they operationalize two distinct normative extremes: outrage as the negative extreme and recognition as the positive extreme.
+
+Outrage is defined, following Sobieraj and Berry (2011, p. 20), as a communication style that seeks to provoke visceral responses through overgeneralizations, sensationalism, misleading or inaccurate information, ad hominem attacks, and partial truths about opponents. It violates several speech-related, relational, process, and modality norms. The authors treat outrage as generally undesirable and harmful for public discourse because it can blur criticism of ideas and criticism of persons and can undermine foundational social respect. They also acknowledge that outrage can sometimes serve a democratic function, such as highlighting social injustice.
+
+Recognition theory, especially Honneth's argument about recognition, provides the broader foundation for the positive side of civility. The article's particular definition of recognition is attributed to Maia (2014, p. 17): a communication style that treats others as beings with particular needs, as beings with equal respect and autonomy comparable to others in the political community, and as beings with unique contributions to society. Recognition is therefore not merely tolerance or politeness. The authors also note that recognition may be directed toward outgroups or ingroups, and that ingroup recognition may empower members and serve as a role model for broader recognition.
+
+Outrage and recognition are separate concepts, not opposite ends of one measured scale. The absence of coded outrage does not establish explicit recognition. The measures concern communicative content and described gestures, not measured audience emotions or actual democratic improvement. This summary relies on the target article's attributions; it does not claim direct reading of the original Honneth, Maia, or Lijphart texts.
+
+The normative foundations explain why civility matters and how recognition should be defined, but the six hypotheses also rely on three explanatory routes. These are the authors' proposed processes, not directly estimated mediators.
+
+First, political system: power sharing in consensus systems makes accommodation and compromise more necessary, which can encourage recognition of opponents and restrain hostile communication. Majoritarian systems concentrate power and make compromise less necessary. The original prediction was more outrage and less recognition in majoritarian than consensus systems.
+
+Second, socio-cultural division over secularism: rival groups and parties defend identity boundaries; segmentation and social distance encourage hostility and make constructive engagement across lines of difference less likely. The original prediction was more outrage and less recognition in contested-secularism than stable-secularism societies.
+
+Third, news production: professional norms, editorial oversight, and gatekeeping may restrain outrage and encourage respectful treatment. Weaker gatekeeping and audience/click incentives may encourage outrage in blogs. The original prediction was less outrage and more recognition in newspapers and news websites than in political blogs.
+
+3. Original hypotheses before the published results
+
+H1a predicted more outrage in majoritarian than consensus systems, measured at item-level tone and actor-reference outrage.
+
+H1b predicted more recognition in consensus than majoritarian systems, measured at actor-reference recognition.
+
+H2a predicted more outrage in contested-secularism than stable-secularism societies, measured at item-level tone and actor-reference outrage.
+
+H2b predicted less recognition in contested-secularism than stable-secularism societies, measured at actor-reference recognition.
+
+H3a predicted more outrage in blogs than in each professional medium, with separate news-website and newspaper contrasts.
+
+H3b predicted more recognition in each professional medium than in blogs, with separate news-website and newspaper contrasts.
+
+The theory does not predict that mixed political systems must lie between majoritarian and consensus systems. Mixed-system estimates are additional comparisons, not a test of H1a or H1b.
+
+4. Measurement and interpretation notes
+
+M1 is an item-level ordinal measure of outrage "tone" (0 = no outrage to 4 = very intense outrage), estimated with a proportional-odds ordered logit. M2 is a binary actor-reference-level measure of explicit outrage, and M3 is a binary actor-reference-level measure of explicit recognition; both are estimated with multilevel logistic models. The focal predictors are political system, socio-cultural division, and media type. Reference categories are consensus systems, stable secularism, and blogs.
+
+For M1, an odds ratio compares the cumulative odds of an item being above a given outrage threshold rather than at or below it, holding the other modeled predictors constant. Under the proportional-odds model, the same coefficient applies across thresholds. An OR of 0.17 means 83% lower cumulative odds, not 83 percentage points lower probability and not 83% lower mean outrage. For M2 and M3, the odds ratios are conditional odds ratios from binary multilevel logits; they are not probability ratios or percentage-point differences. Probability differences require an explicit prediction convention and baseline.
+
+"No statistically significant association was detected" is more precise than "the factor had no effect." Non-significance is not evidence that the true association is exactly zero, especially in this limited country design. The observation that effects were concentrated in the lower outrage categories applies to item-level tone probabilities; the reference-level outcomes are binary and therefore have no moderate-to-very-strong categories.
+
+5. Published findings and appropriate interpretation
+
+Political system. H1a predicted more outrage in majoritarian than consensus systems. At the item level, the majoritarian-versus-consensus coefficient was in the opposite direction: OR = 0.54, significant. At the actor-reference level, the comparison was not significant (OR = 0.68). H1a therefore received no consistent support. As an additional comparison not predicted by H1a, mixed systems showed higher item-level outrage than consensus systems (OR = 1.49, significant). A direct mixed-versus-majoritarian contrast requires its own contrast and uncertainty and should not be inferred solely from two reference-category comparisons.
+
+H1b predicted more recognition in consensus than majoritarian systems. The majoritarian-versus-consensus recognition coefficient was OR = 0.58 and not significant. The prediction was not supported; this is not proof that the prediction is false. Descriptively, raw recognition proportions reported in the Results were highest in Lebanon (18.0%) and lowest in Australia (2.8%) and Switzerland (3.0%); the United States was 5.5%, Germany and Turkey were each 5.3%. The Discussion's wording about country rankings differs from these raw proportions, so the raw Results and the adjusted model comparisons should be kept distinct. In the adjusted model, political-system comparisons for recognition were not statistically significant.
+
+Socio-cultural division. H2a predicted more outrage in contested-secularism than stable-secularism societies. At the item level, OR = 1.69 supported this predicted association. At the actor-reference level, OR = 0.88 was not significant. Support for H2a is therefore measurement-level specific. H2b predicted less recognition in contested-secularism than stable-secularism societies. At the actor-reference level, OR = 2.20 was significant in the opposite direction. The original prediction was contradicted by the reported association. The authors' later interpretation is that deeply divided societies may produce more intense mediated exchanges overall, with both more outrage and more recognition, because group relations and identities are more salient. This is a post-result interpretation, not the original H2b prediction. The analysis did not distinguish ingroup from outgroup recognition, so higher recognition does not by itself demonstrate improved relations across the divide.
+
+Media types. H3a predicted more outrage in blogs than in each professional medium. At the item level, news websites had OR = 0.17 and newspapers OR = 0.28 relative to blogs, both significant and consistent with the prediction. At the actor-reference level, news websites had OR = 0.23 and newspapers OR = 0.34 relative to blogs, both significant and consistent with the prediction. The claim that blogs were the most outrage-prone medium needs qualification: at the item level there is a stated Lebanese exception, with 20% of newspaper items versus 14% of blog posts containing at least slight outrage. The adjusted media associations and the reference-level descriptive pattern remain consistent with higher blog outrage, but a pooled/model pattern should not be turned into a claim about every country and every measure.
+
+H3b predicted more recognition in each professional medium than in blogs. News websites had OR = 1.99 and newspapers OR = 3.28 relative to blogs, both significant and consistent with the prediction. Blogs also featured the lowest proportion of explicit recognition in actor references overall.
+
+The empirical conclusion should be stated as an association: professional news items were associated with lower outrage and higher recognition than blog posts. The authors interpret this as traditional journalism mitigating outrage and fostering recognition. The observational comparison does not isolate gatekeeping as a cause; outlet selection, audience composition, article genre, speaker selection, and country conditions are plausible competing explanations.
+
+6. Main conclusion, scope limits, and theory-to-analysis link
+
+The study's main contribution is a comparative, two-level account of outrage and recognition across political systems, socio-cultural divisions, and media types. It finds that mixed political systems showed higher item-level outrage than consensus systems, but the original majoritarian-versus-consensus outrage prediction was not supported. Contested secularism was associated with more item-level outrage but also with more actor-reference recognition, contradicting the original recognition prediction. Professional media were associated with less outrage and more recognition than political blogs.
+
+These findings are limited by the country design: each political-system-by-division cell contains only one country. Many articles and references do not create many independent realizations of a national institutional system, so unobserved national differences may be entangled with the contextual predictors. The focus on the public role of religion, the selected outlets, and the August 2015-July 2016 period further limit generalization.
+
+For each mechanism, the theory-to-analysis link is: political system, socio-cultural division, and media type jointly predict ordinal tone in M1; they jointly predict binary actor-reference outrage in M2 and binary actor-reference recognition in M3. The reference groups are consensus, stable secularism, and blogs. The archive's tone codes 1-5 are recoded by the author to the article's 0-4 scale; stored codes should not be confused with the published scale. Actor-reference observations are nested in originating actor/statement groups within items rather than in a country-media-item random hierarchy. These details link the theory map to analytical targets; they do not establish causal mediation.

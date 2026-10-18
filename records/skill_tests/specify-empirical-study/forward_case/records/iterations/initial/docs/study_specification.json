@@ -1,0 +1,856 @@
+{
+  "schema_version": "1.0",
+  "spec_version": "forward-test-1.0.0",
+  "artifact_kind": "test",
+  "student_initial_explanation_status": "absent_real_student; evaluator synthetic input preserved separately; student postponed",
+  "student_reading_status": "unknown/pending; AI scopes recorded separately",
+  "student_approval_status": "pending; not supplied",
+  "ready_for_estimation": false,
+  "sources": [
+    {
+      "source_id": "cb01",
+      "relative_path": "sources/local/codebook_01_news_item.pdf",
+      "sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "cb02",
+      "relative_path": "sources/local/codebook_02_actor_identification.pdf",
+      "sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "cb05",
+      "relative_path": "sources/local/codebook_05_actor.pdf",
+      "sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "cb08",
+      "relative_path": "sources/local/codebook_08_actor_reference.pdf",
+      "sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "assignment",
+      "relative_path": "sources/local/COMD7290_assignment.pdf",
+      "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "article",
+      "relative_path": "sources/local/Lob_et_al_2024.pdf",
+      "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "sobieraj2011",
+      "relative_path": "sources/local/Sobieraj_Berry_2011.pdf",
+      "sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "wolfe1998",
+      "relative_path": "sources/local/Wolfe_Gould_1998_STB42.pdf",
+      "sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "analysis_code",
+      "relative_path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "reliability_code",
+      "relative_path": "sources/author_code/reliability_original.do",
+      "sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "item_data",
+      "relative_path": "data/original/MedCon_Civility_item.dta",
+      "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "reference_data",
+      "relative_path": "data/original/MedCon_Civility_actref.dta",
+      "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+      "role": "original_local_source_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "tone_ratings",
+      "relative_path": "data/original/independent_ratings_tone.xlsx",
+      "sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+      "role": "independent_coder_ratings_metadata_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "reference_ratings",
+      "relative_path": "data/original/independent_ratings_actor_reference.xlsx",
+      "sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+      "role": "independent_coder_ratings_metadata_inspected",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "preregistration",
+      "availability_note": "Unlocated in the inspected local evidence; no claim of nonexistence. No external preregistration search performed.",
+      "role": "source_gap",
+      "artifact_kind": "test"
+    },
+    {
+      "source_id": "additional_analyses_table",
+      "availability_note": "Online Appendix Additional Analyses table mentioned at article p.284 is not present as a separate supplied table; author margins commands are available.",
+      "role": "source_gap",
+      "artifact_kind": "test"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1a",
+      "premise": "Majoritarian institutions concentrate executive power and reduce the need for compromise relative to consensus institutions.",
+      "mechanism": "Institutional dissociation rather than accommodation is expected to carry into mediated discourse.",
+      "prediction": "Majoritarian systems have more outrage than consensus systems.",
+      "source_locator": "article PDF pp.4–5 / printed pp.276–277, Political System",
+      "targets": [
+        {
+          "model_id": "M1",
+          "predictor": "polsys",
+          "comparison": "majoritarian_vs_consensus",
+          "expected_beta_sign": "positive",
+          "estimand": "Conditional common cumulative log odds ratio for Y>k, k=0,1,2,3; majoritarian_vs_consensus; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF pp.4–5 / printed pp.276–277, Political System; analysis_code main estimation sections"
+        },
+        {
+          "model_id": "M2",
+          "predictor": "polsys",
+          "comparison": "majoritarian_vs_consensus",
+          "expected_beta_sign": "positive",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; majoritarian_vs_consensus; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF pp.4–5 / printed pp.276–277, Political System; analysis_code main estimation sections"
+        }
+      ]
+    },
+    {
+      "id": "H1b",
+      "premise": "Consensus institutions require compromise among legitimate political partners.",
+      "mechanism": "Accommodation is expected to encourage respectful recognition in public communication.",
+      "prediction": "Majoritarian systems have less recognition than consensus systems.",
+      "source_locator": "article PDF p.5 / printed p.277, Political System",
+      "targets": [
+        {
+          "model_id": "M3",
+          "predictor": "polsys",
+          "comparison": "majoritarian_vs_consensus",
+          "expected_beta_sign": "negative",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; majoritarian_vs_consensus; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF p.5 / printed p.277, Political System; analysis_code main estimation sections"
+        }
+      ]
+    },
+    {
+      "id": "H2a",
+      "premise": "Contested secularism makes contradictory group identities and polarized party appeals salient.",
+      "mechanism": "Segmentation, social distance and competitive group defense are expected to increase outrageous communication.",
+      "prediction": "Contested secularism has more outrage than stable secularism.",
+      "source_locator": "article PDF p.5 / printed p.277, Socio-Cultural Divides",
+      "targets": [
+        {
+          "model_id": "M1",
+          "predictor": "socdiv",
+          "comparison": "contested_vs_stable",
+          "expected_beta_sign": "positive",
+          "estimand": "Conditional common cumulative log odds ratio for Y>k, k=0,1,2,3; contested_vs_stable; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF p.5 / printed p.277, Socio-Cultural Divides; analysis_code main estimation sections"
+        },
+        {
+          "model_id": "M2",
+          "predictor": "socdiv",
+          "comparison": "contested_vs_stable",
+          "expected_beta_sign": "positive",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; contested_vs_stable; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF p.5 / printed p.277, Socio-Cultural Divides; analysis_code main estimation sections"
+        }
+      ]
+    },
+    {
+      "id": "H2b",
+      "premise": "Deep division is expected to weaken public commitment to compromise and constructive engagement.",
+      "mechanism": "Less constructive engagement across differences is expected to lower explicit recognition.",
+      "prediction": "Contested secularism has less recognition than stable secularism.",
+      "source_locator": "article PDF p.5 / printed p.277, Socio-Cultural Divides",
+      "targets": [
+        {
+          "model_id": "M3",
+          "predictor": "socdiv",
+          "comparison": "contested_vs_stable",
+          "expected_beta_sign": "negative",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; contested_vs_stable; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF p.5 / printed p.277, Socio-Cultural Divides; analysis_code main estimation sections"
+        }
+      ]
+    },
+    {
+      "id": "H3a",
+      "premise": "Professional journalists operate within organizational gatekeeping and civic norms; political bloggers have fewer such constraints.",
+      "mechanism": "Gatekeeping, professional standards and reduced pressure for attention through outrage are expected to restrain outrage.",
+      "prediction": "News websites and newspapers each have less outrage than political blogs.",
+      "source_locator": "article PDF pp.5–6 / printed pp.277–278, Media Types",
+      "targets": [
+        {
+          "model_id": "M1",
+          "predictor": "mediatype",
+          "comparison": "website_vs_blog",
+          "expected_beta_sign": "negative",
+          "estimand": "Conditional common cumulative log odds ratio for Y>k, k=0,1,2,3; website_vs_blog; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF pp.5–6 / printed pp.277–278, Media Types; analysis_code main estimation sections"
+        },
+        {
+          "model_id": "M1",
+          "predictor": "mediatype",
+          "comparison": "newspaper_vs_blog",
+          "expected_beta_sign": "negative",
+          "estimand": "Conditional common cumulative log odds ratio for Y>k, k=0,1,2,3; newspaper_vs_blog; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF pp.5–6 / printed pp.277–278, Media Types; analysis_code main estimation sections"
+        },
+        {
+          "model_id": "M2",
+          "predictor": "mediatype",
+          "comparison": "website_vs_blog",
+          "expected_beta_sign": "negative",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; website_vs_blog; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF pp.5–6 / printed pp.277–278, Media Types; analysis_code main estimation sections"
+        },
+        {
+          "model_id": "M2",
+          "predictor": "mediatype",
+          "comparison": "newspaper_vs_blog",
+          "expected_beta_sign": "negative",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; newspaper_vs_blog; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF pp.5–6 / printed pp.277–278, Media Types; analysis_code main estimation sections"
+        }
+      ]
+    },
+    {
+      "id": "H3b",
+      "premise": "Professional norms emphasize respect and organizational accountability.",
+      "mechanism": "These news production routines are expected to encourage explicit recognition.",
+      "prediction": "News websites and newspapers each have more recognition than political blogs.",
+      "source_locator": "article PDF p.6 / printed p.278, Media Types",
+      "targets": [
+        {
+          "model_id": "M3",
+          "predictor": "mediatype",
+          "comparison": "website_vs_blog",
+          "expected_beta_sign": "positive",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; website_vs_blog; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF p.6 / printed p.278, Media Types; analysis_code main estimation sections"
+        },
+        {
+          "model_id": "M3",
+          "predictor": "mediatype",
+          "comparison": "newspaper_vs_blog",
+          "expected_beta_sign": "positive",
+          "estimand": "Cluster-specific log odds ratio for outcome=1 at equal random intercepts; newspaper_vs_blog; exp(beta) is the odds ratio.",
+          "source_locator": "article PDF p.6 / printed p.278, Media Types; analysis_code main estimation sections"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "tone",
+      "actual_data_variable": "tone",
+      "measurement_type": "ordinal",
+      "analysis_unit": "news_item",
+      "raw_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "analysis_values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "transformation": "tone_analysis=tone_raw-1; article/codebook 0–4 is analysis scale; keep raw file unchanged",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "cb01 §1.11 PDF pp.6–7 / printed pp.4–5; analysis_code lines 48–50; item_data.tone",
+      "verification_status": "verified domain and author recode; measurement ordinal"
+    },
+    {
+      "id": "actrefoutbin",
+      "actual_data_variable": "actrefoutbin",
+      "measurement_type": "binary",
+      "analysis_unit": "directed_actor_reference",
+      "raw_values": [
+        0,
+        1
+      ],
+      "analysis_values": [
+        0,
+        1
+      ],
+      "transformation": "Use prepared archive binary; no recode in analysis_code; mapping from contradictory PDF 1/2 instructions not independently regenerated",
+      "missing_rule": "Archive focal field: no system or extended missing values in supplied metadata; 0 is observed absence, not missing.",
+      "source_locator": "cb08 §8.8 PDF pp.8–9 / printed pp.6–7; article p.279; reference_data.actrefoutbin; analysis_code outrage melogit",
+      "verification_status": "archive binary domain verified; intended 0/1 meaning from model/paper; PDF-to-archive provenance unresolved"
+    },
+    {
+      "id": "actrefrecbin",
+      "actual_data_variable": "actrefrecbin",
+      "measurement_type": "binary",
+      "analysis_unit": "directed_actor_reference",
+      "raw_values": [
+        0,
+        1
+      ],
+      "analysis_values": [
+        0,
+        1
+      ],
+      "transformation": "Use prepared archive binary unchanged; do not infer mapping from code number alone",
+      "missing_rule": "Archive focal field: no system or extended missing values in supplied metadata; 0 is observed absence, not missing.",
+      "source_locator": "cb08 §8.6 PDF p.7 / printed p.5; article p.279; reference_data.actrefrecbin; analysis_code recognition melogit",
+      "verification_status": "archive domain verified; codebook numeric conflict unresolved"
+    },
+    {
+      "id": "polsys",
+      "actual_data_variable": "polsys",
+      "measurement_type": "nominal",
+      "analysis_unit": "news_item_context",
+      "raw_values": [
+        1,
+        2,
+        3
+      ],
+      "analysis_values": [
+        1,
+        2,
+        3
+      ],
+      "transformation": "raw 1->1; raw 2->3; raw 3->2",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.polsys value labels; analysis_code lines 53–54 and actor-reference recode; article Table 1 p.279",
+      "verification_status": "verified against numeric values and labels"
+    },
+    {
+      "id": "socdiv",
+      "actual_data_variable": "socdiv",
+      "measurement_type": "nominal_binary",
+      "analysis_unit": "news_item_context",
+      "raw_values": [
+        1,
+        2
+      ],
+      "analysis_values": [
+        1,
+        2
+      ],
+      "transformation": "raw 1->2; raw 2->1",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.socdiv value labels; analysis_code lines 57–58; article Table 1 p.279",
+      "verification_status": "verified against numeric values and labels"
+    },
+    {
+      "id": "mediatype",
+      "actual_data_variable": "mediatype",
+      "measurement_type": "nominal",
+      "analysis_unit": "news_item_context",
+      "raw_values": [
+        1,
+        2,
+        3
+      ],
+      "analysis_values": [
+        1,
+        2,
+        3
+      ],
+      "transformation": "raw 1->1; raw 2->3; raw 3->2",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.mediatype value labels; analysis_code lines 61–62; cb01 §1.2; article pp.279–281",
+      "verification_status": "verified; newspapers/websites remain separate"
+    },
+    {
+      "id": "country",
+      "actual_data_variable": "country",
+      "measurement_type": "nominal",
+      "analysis_unit": "news_item_context",
+      "raw_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "analysis_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "transformation": "None; not a random-intercept group or additional main-model covariate",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.country labels; article Table 1; analysis_code keep and bysort country",
+      "verification_status": "verified nonmodel context"
+    },
+    {
+      "id": "text_id",
+      "actual_data_variable": "text_id",
+      "measurement_type": "identifier",
+      "analysis_unit": "news_item",
+      "raw_values": "string identifiers; item 1700 unique, reference 1183 unique",
+      "analysis_values": "unchanged string identifier",
+      "transformation": "None; higher random-intercept grouping in M2/M3",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.text_id; analysis_code Analysis 4",
+      "verification_status": "verified metadata; counts checked read-only"
+    },
+    {
+      "id": "akteur_id",
+      "actual_data_variable": "akteur_id",
+      "measurement_type": "identifier",
+      "analysis_unit": "within_item_originating_actor_statement",
+      "raw_values": "string within-item codes; 40 unique values across archive",
+      "analysis_values": "unchanged within-item component; not globally unique",
+      "transformation": "Combined with text_id to make act_id; verify originator mapping in skill 2",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "reference_data.akteur_id; analysis_code Analysis 4; article p.285",
+      "verification_status": "group construction verified; exact actor-statement semantic alignment to be checked"
+    },
+    {
+      "id": "actref_idx",
+      "actual_data_variable": "actref_idx",
+      "measurement_type": "identifier",
+      "analysis_unit": "directed_actor_reference",
+      "raw_values": "3770 unique strings",
+      "analysis_values": "unchanged",
+      "transformation": "None; not a random effect",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "reference_data.actref_idx; cb08 §8 PDF pp.3–5",
+      "verification_status": "verified metadata"
+    },
+    {
+      "id": "techcon",
+      "actual_data_variable": "techcon",
+      "measurement_type": "nominal_binary",
+      "analysis_unit": "news_item_context",
+      "raw_values": [
+        1,
+        2
+      ],
+      "analysis_values": [
+        1,
+        2
+      ],
+      "transformation": "None; retained by author keep for reference file but absent from focal model RHS",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.techcon labels; analysis_code actor-reference keep versus melogit",
+      "verification_status": "verified nonmodel metadata"
+    },
+    {
+      "id": "profor",
+      "actual_data_variable": "profor",
+      "measurement_type": "nominal_binary",
+      "analysis_unit": "news_item_context",
+      "raw_values": [
+        1,
+        2
+      ],
+      "analysis_values": [
+        1,
+        2
+      ],
+      "transformation": "None; not included as control in focal models",
+      "missing_rule": "No system or extended missing values in supplied metadata for this field; recheck before estimation.",
+      "source_locator": "item_data/reference_data.profor labels; analysis_code keep versus melogit",
+      "verification_status": "verified nonmodel metadata"
+    },
+    {
+      "id": "valenz_akteur",
+      "actual_data_variable": "valenz_akteur",
+      "measurement_type": "nominal",
+      "analysis_unit": "directed_actor_reference",
+      "raw_values": [
+        -99,
+        0,
+        1,
+        2
+      ],
+      "analysis_values": [
+        -99,
+        0,
+        1,
+        2
+      ],
+      "transformation": "No recode; mapping unresolved; do not reconstruct binaries from integer order",
+      "missing_rule": "No system/extended missing in this inspected field; -99, if present, denotes unclear and must remain distinct from substantive absence.",
+      "source_locator": "reference_data.valenz_akteur; cb08 §8.5 PDF pp.6–7",
+      "verification_status": "domain verified; numeric-semantic contradiction unresolved"
+    },
+    {
+      "id": "genuinekonstruierte_resp_akteur",
+      "actual_data_variable": "genuinekonstruierte_resp_akteur",
+      "measurement_type": "nominal",
+      "analysis_unit": "directed_actor_reference",
+      "raw_values": [
+        -99,
+        1,
+        2
+      ],
+      "analysis_values": [
+        -99,
+        1,
+        2
+      ],
+      "transformation": "No recode; unknown bridge to codebook table",
+      "missing_rule": "No system/extended missing in this inspected field; -99, if present, denotes unclear and must remain distinct from substantive absence.",
+      "source_locator": "reference_data.genuinekonstruierte_resp_akteur; cb08 §8.4 PDF pp.5–6",
+      "verification_status": "domain verified; code mapping unresolved"
+    },
+    {
+      "id": "act_id",
+      "actual_data_variable": "act_id (derived; not in raw archive)",
+      "measurement_type": "identifier",
+      "analysis_unit": "within_item_originating_actor_statement",
+      "raw_values": "not a raw field",
+      "analysis_values": "text_id + underscore + akteur_id",
+      "transformation": "egen act_id = concat(text_id akteur_id), punct(_)",
+      "missing_rule": "Requires both source IDs nonmissing; verify delimiter safety and group uniqueness before fitting.",
+      "source_locator": "analysis_code Analysis 4 / egen act_id",
+      "verification_status": "author construction documented; not executed in this specification task"
+    }
+  ],
+  "models": [
+    {
+      "id": "M1",
+      "outcome": "tone",
+      "family": "ordered_logistic",
+      "link": "logit",
+      "analysis_unit": "news_item",
+      "predictors": [
+        "polsys",
+        "socdiv",
+        "mediatype"
+      ],
+      "reference_categories": {
+        "polsys": "Consensus",
+        "socdiv": "Stable secularism",
+        "mediatype": "Blog"
+      },
+      "random_intercept_groups": [],
+      "equation": "Pr(Y_i<=k|x_i)=logistic(kappa_k-x_i beta_1), k=0..3; kappa_0<kappa_1<kappa_2<kappa_3; Pr(Y_i=k)=F(kappa_k-x_i beta_1)-F(kappa_(k-1)-x_i beta_1), kappa_-1=-infinity,kappa_4=infinity; L1=product_i Pr(Y_i=y_i).",
+      "original_syntax": "ologit tone i.polsys i.socdiv i.mediatype, or",
+      "original_settings": {
+        "software_language_version": "Stata version 16 directive; installed Stata build and package versions not established",
+        "estimator": "maximum likelihood implied by ologit/melogit; original command preserved",
+        "fixed_effects": "factor variables i.polsys i.socdiv i.mediatype; common slopes; no interactions/centering/standardization specified",
+        "weights": "none in analysis syntax",
+        "intervals": "95% in article and marginsplot; exact defaults/types for all estimates require skill-2 confirmation",
+        "optimizer_convergence": "no explicit optimizer, tolerances, iteration cap or starting values; deferred runtime audit",
+        "missing": "no explicit exclusions/imputation; relevant inspected fields have no system/extended missing values; retain source domains and check estimator sample later",
+        "prediction": "margins and dydx use defaults without explicit predict(); random-effect integration versus conditional convention deferred"
+      },
+      "implementation_status": "not_run; Python/Stata equivalence and advanced engine validation explicitly deferred to skill 2",
+      "source_locator": "analysis_code lines 45–63, 87–99; article p.283 Table 3"
+    },
+    {
+      "id": "M2",
+      "outcome": "actrefoutbin",
+      "family": "bernoulli",
+      "link": "logit",
+      "analysis_unit": "directed_actor_reference",
+      "predictors": [
+        "polsys",
+        "socdiv",
+        "mediatype"
+      ],
+      "reference_categories": {
+        "polsys": "Consensus",
+        "socdiv": "Stable secularism",
+        "mediatype": "Blog"
+      },
+      "random_intercept_groups": [
+        "text_id",
+        "act_id"
+      ],
+      "equation": "Y_raj^(M2)|u_j^(M2),v_aj^(M2),x_j ~ Bernoulli(p_raj^(M2)); logit(p)=alpha_q+x_j beta_q+u_j^(M2)+v_aj^(M2); u_j^(M2)~N(0,tau_item_q^2), v_aj^(M2)~N(0,tau_actor_q^2); independent intercepts within each separate q model.",
+      "original_syntax": "melogit actrefoutbin i.polsys i.socdiv i.mediatype || text_id: || act_id: , intpoints(7) or",
+      "original_settings": {
+        "software_language_version": "Stata version 16 directive; installed Stata build and package versions not established",
+        "estimator": "maximum likelihood implied by ologit/melogit; original command preserved",
+        "fixed_effects": "factor variables i.polsys i.socdiv i.mediatype; common slopes; no interactions/centering/standardization specified",
+        "weights": "none in analysis syntax",
+        "intervals": "95% in article and marginsplot; exact defaults/types for all estimates require skill-2 confirmation",
+        "optimizer_convergence": "no explicit optimizer, tolerances, iteration cap or starting values; deferred runtime audit",
+        "missing": "no explicit exclusions/imputation; relevant inspected fields have no system/extended missing values; retain source domains and check estimator sample later",
+        "prediction": "margins and dydx use defaults without explicit predict(); random-effect integration versus conditional convention deferred",
+        "quadrature": "intpoints(7) explicit; exact integration method/defaults deferred to skill 2",
+        "group_id": "egen act_id = concat(text_id akteur_id), punct(_)",
+        "random_effects": "two independent scalar normally distributed random intercepts implied by separate Stata equations; no random slopes"
+      },
+      "implementation_status": "not_run; Python/Stata equivalence and advanced engine validation explicitly deferred to skill 2",
+      "source_locator": "analysis_code Actor-reference-level Analyses / Analysis 4; egen act_id; corresponding full-model melogit; article pp.285–286 / Table 4"
+    },
+    {
+      "id": "M3",
+      "outcome": "actrefrecbin",
+      "family": "bernoulli",
+      "link": "logit",
+      "analysis_unit": "directed_actor_reference",
+      "predictors": [
+        "polsys",
+        "socdiv",
+        "mediatype"
+      ],
+      "reference_categories": {
+        "polsys": "Consensus",
+        "socdiv": "Stable secularism",
+        "mediatype": "Blog"
+      },
+      "random_intercept_groups": [
+        "text_id",
+        "act_id"
+      ],
+      "equation": "Y_raj^(M3)|u_j^(M3),v_aj^(M3),x_j ~ Bernoulli(p_raj^(M3)); logit(p)=alpha_q+x_j beta_q+u_j^(M3)+v_aj^(M3); u_j^(M3)~N(0,tau_item_q^2), v_aj^(M3)~N(0,tau_actor_q^2); independent intercepts within each separate q model.",
+      "original_syntax": "melogit actrefrecbin i.polsys i.socdiv i.mediatype || text_id: || act_id: , intpoints(7) or",
+      "original_settings": {
+        "software_language_version": "Stata version 16 directive; installed Stata build and package versions not established",
+        "estimator": "maximum likelihood implied by ologit/melogit; original command preserved",
+        "fixed_effects": "factor variables i.polsys i.socdiv i.mediatype; common slopes; no interactions/centering/standardization specified",
+        "weights": "none in analysis syntax",
+        "intervals": "95% in article and marginsplot; exact defaults/types for all estimates require skill-2 confirmation",
+        "optimizer_convergence": "no explicit optimizer, tolerances, iteration cap or starting values; deferred runtime audit",
+        "missing": "no explicit exclusions/imputation; relevant inspected fields have no system/extended missing values; retain source domains and check estimator sample later",
+        "prediction": "margins and dydx use defaults without explicit predict(); random-effect integration versus conditional convention deferred",
+        "quadrature": "intpoints(7) explicit; exact integration method/defaults deferred to skill 2",
+        "group_id": "egen act_id = concat(text_id akteur_id), punct(_)",
+        "random_effects": "two independent scalar normally distributed random intercepts implied by separate Stata equations; no random slopes"
+      },
+      "implementation_status": "not_run; Python/Stata equivalence and advanced engine validation explicitly deferred to skill 2",
+      "source_locator": "analysis_code Actor-reference-level Analyses / Analysis 4; egen act_id; corresponding full-model melogit; article pp.285–286 / Table 4"
+    }
+  ],
+  "reliability": {
+    "input_type": "independent_coder_ratings",
+    "preserve_independent_ratings": true,
+    "original_weights": "identity",
+    "settings_status": "original commands documented only; no calculation; conditional SE,95%,probabilistic benchmark; missing/import mapping deferred",
+    "source_locator": "reliability_code lines27–80; tone_ratings/reference_ratings sheet headers"
+  },
+  "coverage": [
+    {
+      "analysis_id": "D1",
+      "target": "Item tone distribution and descriptive means by country/media",
+      "source_locator": "article Table 2 p.282; analysis_code Analysis 1",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "D2",
+      "target": "Reference outrage/recognition proportions by country/media",
+      "source_locator": "article Figure 2 pp.284–285; analysis_code Analysis 3",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "R1",
+      "target": "Independent-coder tone agreement for coders 1/2 and all raters",
+      "source_locator": "article p.280; reliability_code Item Level lines 27–38",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "R2",
+      "target": "Independent agreement for valence,recognition,outrage,responsiveness; two/all coder sets",
+      "source_locator": "reliability_code Actor-Reference Level lines 42–80",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "M1",
+      "target": "Adjusted ordinal outrage associations and thresholds",
+      "source_locator": "article Table 3 p.283; analysis_code Analysis 2",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "M2",
+      "target": "Adjusted reference outrage associations and intercept variances",
+      "source_locator": "article Table 4 p.286; analysis_code Analysis 4 outrage full model",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "M3",
+      "target": "Adjusted reference recognition associations and intercept variances",
+      "source_locator": "article Table 4 p.286; analysis_code Analysis 4 recognition full model",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "C1",
+      "target": "Proportional-odds common slopes versus general slopes",
+      "source_locator": "article Note 1 p.290; analysis_code lines 90–92",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "C2",
+      "target": "Approximate LR parallel-lines diagnostic",
+      "source_locator": "article Note 1 p.290; analysis_code line 95; wolfe1998 pp.24–27",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "C3",
+      "target": "Alternative-link sensitivity of ordinal associations",
+      "source_locator": "article Note 2 p.290; analysis_code Robustness tests",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "P1",
+      "target": "Ordinal outcome probabilities and average discrete contrasts for each factor",
+      "source_locator": "article Figure 1 p.284 and p.283; analysis_code margins lines 101–142",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "P2",
+      "target": "Reference outcome probabilities and average discrete contrasts",
+      "source_locator": "article Figure 3 p.287 and pp.286–287; analysis_code Analysis 4 margins",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "A1",
+      "target": "Fit summaries,variance/ICC and pseudo-R2 reporting",
+      "source_locator": "analysis_code estat ic/icc and display e(ll)*-2; article Tables 3–4",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "V1",
+      "target": "Software/settings and advanced three-level equivalence validation",
+      "source_locator": "assignment pp.7–9; analysis_code version16,intpoints(7)",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "N1",
+      "target": "Null three-level models and comparison to single-level null logit",
+      "source_locator": "article Note 3 p.291; analysis_code empty models and estat icc",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "S1",
+      "target": "Supplementary coverage/access reconciliation",
+      "source_locator": "article p.284 Additional Analyses; analysis_code margins; local input manifest",
+      "status": "not_run"
+    },
+    {
+      "analysis_id": "E1",
+      "target": "Exploratory mixed-system and website-versus-newspaper comparisons",
+      "source_locator": "article Table 3 p.283; Table 4 p.286; theory pp.276–278",
+      "status": "not_run"
+    }
+  ],
+  "human_review": {
+    "initial_explanation_received": false,
+    "foundational_readings_attested": false,
+    "specification_approved": false,
+    "source_record": "records/decisions.md; docs/student_review.md; records/inputs/fixture_provenance.json",
+    "note": "All artifacts are test material; no real student explanation,reading or approval evidence."
+  },
+  "deferred": [
+    {
+      "issue_id": "U01",
+      "question": "When will the real student provide their preliminary theory explanation and reading notes?",
+      "owner": "student",
+      "status": "pending_human"
+    },
+    {
+      "issue_id": "U02",
+      "question": "What is the documented bridge from contradictory PDF codes to prepared binary 0/1 variables?",
+      "owner": "student/source review; skill 2 audit",
+      "status": "unresolved_source"
+    },
+    {
+      "issue_id": "U03",
+      "question": "How do archived responsiveness and valence codes map to meanings?",
+      "owner": "source review; skill 2",
+      "status": "unresolved_source"
+    },
+    {
+      "issue_id": "U04",
+      "question": "Does the omodel diagnostic test the same factor design as the gologit2 test?",
+      "owner": "skill 2",
+      "status": "deferred_implementation"
+    },
+    {
+      "issue_id": "U05",
+      "question": "Which installed build, integration method, optimizer, convergence defaults and likelihood conventions underlie the fits?",
+      "owner": "skill 2",
+      "status": "explicit_user_deferred"
+    },
+    {
+      "issue_id": "U06",
+      "question": "Which random-effect prediction and CI conventions do Stata margins defaults use?",
+      "owner": "skill 2",
+      "status": "explicit_user_deferred"
+    },
+    {
+      "issue_id": "U07",
+      "question": "Is reported pseudo-R2 .09 McFadden or Nagelkerke, or are two quantities being conflated?",
+      "owner": "student/source review; skill 2",
+      "status": "unresolved_source"
+    },
+    {
+      "issue_id": "U08",
+      "question": "How were single-level null comparison and variance-boundary reference distribution implemented?",
+      "owner": "skill 2",
+      "status": "deferred_implementation"
+    },
+    {
+      "issue_id": "U09",
+      "question": "How do Stata placeholder names Q/AG/AW/BM/CC and missing rater codes align with actual XLSX columns?",
+      "owner": "skill 2",
+      "status": "deferred_implementation"
+    },
+    {
+      "issue_id": "U10",
+      "question": "Can standalone Additional Analyses/reliability tables and full upstream preparation be obtained lawfully if needed?",
+      "owner": "student/source access decision",
+      "status": "unavailable_in_case"
+    },
+    {
+      "issue_id": "U11",
+      "question": "Was there an original preregistration?",
+      "owner": "student/source review",
+      "status": "unlocated"
+    },
+    {
+      "issue_id": "U12",
+      "question": "Does text_id+akteur_id exactly identify the modeled originating actor/statement group, without delimiter collisions?",
+      "owner": "skill 2",
+      "status": "deferred_implementation"
+    },
+    {
+      "issue_id": "U13",
+      "question": "Is Australian website moderate tone percentage 11 a PDF/extraction/typographic error?",
+      "owner": "source inspection; skill 2",
+      "status": "unresolved_source"
+    }
+  ],
+  "results_status": "not_run",
+  "scientific_approval": false,
+  "statistical_equivalence_verified": false
+}

@@ -1,0 +1,38 @@
+{
+  "recorded_at_utc": "2026-10-18T09:28:51.289474+00:00",
+  "skill_version": "1.0.1",
+  "skill_sha256": "71538157c84c8af0d1792b0b525a5a06e25f1fc2844d23f1cafe2e6c1ed07cdc",
+  "validator_sha256": "8f132c8c1f4187de56154f5aef4fd99c2337312da68693c0e8ca69c8d8a186ab",
+  "observed_checks": [
+    {
+      "command": "rtk proxy .venv/Scripts/python.exe -X utf8 E:/Codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/specify-empirical-study",
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "scope": "Official static skill validation only"
+    },
+    {
+      "command": "rtk proxy .venv/Scripts/python.exe -X utf8 tools/check_repository.py",
+      "exit_code": 0,
+      "stdout": "Material checks: PASSED; statistical analyses not executed by this tool."
+    },
+    {
+      "command": "rtk git diff --check",
+      "exit_code": 0,
+      "stdout": ""
+    },
+    {
+      "command": "rtk git diff --name-only -- docs/theory.md docs/variable_dictionary.csv docs/hypothesis_matrix.csv docs/analysis_inventory.csv docs/design_and_models.md docs/model_diagram.mmd",
+      "exit_code": 0,
+      "stdout": "",
+      "meaning": "Canonical study drafts unchanged from the current Git base"
+    }
+  ],
+  "raw_inputs_remain_git_ignored": true,
+  "raw_input_ignore_check_scope": [
+    "assignment PDF",
+    "item DTA",
+    "case input metadata",
+    "case tmp checker"
+  ],
+  "statistical_analyses_executed": false
+}

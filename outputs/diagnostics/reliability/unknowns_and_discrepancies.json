@@ -1,0 +1,9 @@
+[
+  "The original installed kappaetc build was not pinned. Basic methods follow recovered 2.1.0 source; its changelog identifies only benchmarking as the change from 2.0.0.",
+  "The script predates the 2022 truncated benchmark change. Both source-version benchmark methods are retained; exact historical installed build remains unknown.",
+  "Rater variables are positional slots containing different humans across subjects. Some actor rows repeat one human in multiple slots. The arithmetic faithfully reruns the supplied author matrix; independence and the original matching algorithm are not established by this rerun.",
+  "Numeric -99 is treated as a category because the original reliability script never declares it missing; interpreting -99 as missing would change the source specification.",
+  "Responsiveness uses only first five original long-header fields, independently resolved against Excel letters Q/AG/AW/BM/CC and the author comments; other actor outcomes use all 14 fields.",
+  "Conditional SEs follow the recovered source exactly. With singleton rows, its influence expression anchors the observed fraction with at least two ratings; it differs from differentiating an ordinary weighted point estimator that lets that fraction change. The numerical derivative check explicitly uses the source's anchored functional. Alpha SE uses the source's uncorrected-alpha influence, while its point coefficient includes epsilon correction.",
+  "No published target CSV or previous AI reliability conclusion was used for implementation or fitting. No exact cross-software equivalence claim is made."
+]

@@ -1,0 +1,4 @@
+analysis_id,link,status,optimizer_success,optimizer_message,iterations,log_likelihood,score_max_abs,information_rank,parameter_count,n,aic,bic
+M1,logit,converged,False,A bad approximation caused failure to predict improvement.,0,-724.0003868022097,2.550860023209367e-07,9,9,1700,1466.0007736044195,1514.9462253748181
+M1_probit,probit,converged,False,A bad approximation caused failure to predict improvement.,0,-721.9131168044676,1.5689753674053009e-07,9,9,1700,1461.8262336089351,1510.7716853793338
+M1_cloglog,cloglog,converged,False,Desired error not necessarily achieved due to precision loss.,18,-724.4183707550009,1.942560179379882e-08,9,9,1700,1466.8367415100017,1515.7821932804004

@@ -1,0 +1,42 @@
+[
+  {
+    "stata_placeholder_in_author_script": "Q",
+    "excel_column": "Q",
+    "excel_index_one_based": 17,
+    "original_header": "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_0",
+    "header_length": 38,
+    "evidence": "Author script explicitly identifies importer placeholders; workbook column letter and exact long family header independently agree."
+  },
+  {
+    "stata_placeholder_in_author_script": "AG",
+    "excel_column": "AG",
+    "excel_index_one_based": 33,
+    "original_header": "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_1",
+    "header_length": 38,
+    "evidence": "Author script explicitly identifies importer placeholders; workbook column letter and exact long family header independently agree."
+  },
+  {
+    "stata_placeholder_in_author_script": "AW",
+    "excel_column": "AW",
+    "excel_index_one_based": 49,
+    "original_header": "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_2",
+    "header_length": 38,
+    "evidence": "Author script explicitly identifies importer placeholders; workbook column letter and exact long family header independently agree."
+  },
+  {
+    "stata_placeholder_in_author_script": "BM",
+    "excel_column": "BM",
+    "excel_index_one_based": 65,
+    "original_header": "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_3",
+    "header_length": 38,
+    "evidence": "Author script explicitly identifies importer placeholders; workbook column letter and exact long family header independently agree."
+  },
+  {
+    "stata_placeholder_in_author_script": "CC",
+    "excel_column": "CC",
+    "excel_index_one_based": 81,
+    "original_header": "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_4",
+    "header_length": 38,
+    "evidence": "Author script explicitly identifies importer placeholders; workbook column letter and exact long family header independently agree."
+  }
+]

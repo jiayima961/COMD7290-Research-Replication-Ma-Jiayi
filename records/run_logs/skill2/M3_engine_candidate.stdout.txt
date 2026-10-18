@@ -1,0 +1,5 @@
+M3 start patterns 416 params [-2.9033260364888562, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+M3 warmup 5 nll 715.62452104
+M3 warmup 10 nll 710.84471813
+M3 warmup 15 nll 710.63564013
+M3 score-search complete Desired error not necessarily achieved due to precision loss. nll 710.6356269362533

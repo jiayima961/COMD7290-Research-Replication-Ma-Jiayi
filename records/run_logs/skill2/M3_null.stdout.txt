@@ -1,0 +1,3 @@
+M3_null start patterns 416 params [-2.9033260364888562, 0.0, 0.0]
+M3_null warmup 5 nll 724.95863529
+M3_null warmup 10 nll 724.72952642

@@ -1,0 +1,195 @@
+{
+  "model_id": "M2_null",
+  "outcome": "actrefoutbin",
+  "specification_version": "source-faithful-python-1.0.0",
+  "family": "Bernoulli",
+  "link": "logit",
+  "estimator": "frequentist marginal maximum likelihood",
+  "integration": "recursive mean-variance adaptive Gauss-Hermite",
+  "points_per_random_intercept": 7,
+  "parameter_names": [
+    "intercept",
+    "log_sd_item",
+    "log_sd_actor"
+  ],
+  "parameters": [
+    -5.419743083366549,
+    0.7686459606537275,
+    0.5479757870372483
+  ],
+  "covariance": [
+    [
+      0.2361902481639077,
+      -0.045618554559926375,
+      -0.07845530183798839
+    ],
+    [
+      -0.04561855455992638,
+      0.01823570096490628,
+      0.005028786497689591
+    ],
+    [
+      -0.07845530183798836,
+      0.005028786497689584,
+      0.044546625545697244
+    ]
+  ],
+  "variance_item": 4.6519752823662905,
+  "variance_actor": 2.9920284659105105,
+  "variance_se": [
+    1.2564020174915351,
+    1.2629993364650467
+  ],
+  "icc_same_item_different_actor": 0.4254645867980247,
+  "icc_same_actor": 0.6991122477737755,
+  "log_likelihood": -681.2921335585936,
+  "minus2_log_likelihood": 1362.5842671171872,
+  "aic": 1368.5842671171872,
+  "n_observations": 3770,
+  "n_items": 1183,
+  "n_actor_groups": 2453,
+  "converged_and_validated": true,
+  "optimizer_success": true,
+  "optimizer_message": "Optimization terminated successfully.",
+  "warmup_message": "Desired error not necessarily achieved due to precision loss.",
+  "gradient": [
+    -1.2448708730516955e-06,
+    -2.1657342585967854e-06,
+    3.4106051316484804e-07
+  ],
+  "gradient_infinity_norm": 2.1657342585967854e-06,
+  "hessian_eigenvalues": [
+    3.675397316178552,
+    41.09402166035826,
+    390.8224515080493
+  ],
+  "hessian_step": 0.0002,
+  "runtime_seconds": 82.54640810002456,
+  "likelihood_evaluations": 166,
+  "initial_parameters": [
+    -2.9250638920408827,
+    0.0,
+    0.0
+  ],
+  "adaptation": {
+    "outer_adaptation_iterations": 8,
+    "inner_adaptation_max_iterations": 14,
+    "moment_tolerance": 2e-10,
+    "points_per_level": 7,
+    "compressed_item_patterns": 415,
+    "adaptation_converged": true
+  },
+  "trace": [
+    {
+      "iteration": 1,
+      "negative_log_likelihood": 721.1571442260685,
+      "parameters": [
+        -3.8173590175365555,
+        -0.2052532420263142,
+        -0.42635726293139065
+      ]
+    },
+    {
+      "iteration": 2,
+      "negative_log_likelihood": 686.7030673049496,
+      "parameters": [
+        -4.267330396351917,
+        0.6165198416602298,
+        -0.46503626757052896
+      ]
+    },
+    {
+      "iteration": 3,
+      "negative_log_likelihood": 682.892261987153,
+      "parameters": [
+        -4.6669745567948455,
+        0.6016180807141664,
+        0.2703231130743161
+      ]
+    },
+    {
+      "iteration": 4,
+      "negative_log_likelihood": 682.75480412036,
+      "parameters": [
+        -4.720980505106439,
+        0.6260883281308607,
+        0.3230976101891766
+      ]
+    },
+    {
+      "iteration": 5,
+      "negative_log_likelihood": 682.548435707535,
+      "parameters": [
+        -4.773916077027099,
+        0.6661178849875778,
+        0.301691146475165
+      ]
+    },
+    {
+      "iteration": 6,
+      "negative_log_likelihood": 682.1802148207528,
+      "parameters": [
+        -4.87463189860238,
+        0.6864428040428607,
+        0.345779176715705
+      ]
+    },
+    {
+      "iteration": 7,
+      "negative_log_likelihood": 681.6180547593,
+      "parameters": [
+        -5.0744699420411,
+        0.7184616424882825,
+        0.42175869505027386
+      ]
+    },
+    {
+      "iteration": 8,
+      "negative_log_likelihood": 681.3306937847042,
+      "parameters": [
+        -5.302118614115255,
+        0.7525462191706501,
+        0.5097733028732668
+      ]
+    },
+    {
+      "iteration": 9,
+      "negative_log_likelihood": 681.2942815614351,
+      "parameters": [
+        -5.3949399766061,
+        0.7659937665426836,
+        0.5403849644599416
+      ]
+    },
+    {
+      "iteration": 10,
+      "negative_log_likelihood": 681.2933434995435,
+      "parameters": [
+        -5.427735228610478,
+        0.7703659746322209,
+        0.5544599936506436
+      ]
+    },
+    {
+      "iteration": 11,
+      "negative_log_likelihood": 681.2925465989978,
+      "parameters": [
+        -5.429459250665962,
+        0.7706615669328414,
+        0.5528390171652482
+      ]
+    }
+  ],
+  "rejected_optimizer_trials": [
+    {
+      "parameters": [
+        -6.879710604615456,
+        0.5191105230288126,
+        4.341835650258642
+      ],
+      "reason": "Inner posterior moment adaptation did not converge; delta=0.37069741942168466"
+    }
+  ],
+  "implementation_note": "Adaptive-grid finite-difference polish follows integrated-score warmup; warmup alone is not acceptance. Original build/internal quadrature details are unpinned; inspect separate independent integral and quadrature checks.",
+  "research_data_transformed_in_place": false
+}

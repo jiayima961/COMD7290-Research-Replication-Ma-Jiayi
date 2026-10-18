@@ -1,0 +1,67 @@
+{
+  "fit_path": "tmp\\skill2_final_engine\\outputs\\reproduced\\models\\M3_null_fit.json",
+  "model_id": "M3_null",
+  "candidate_sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8",
+  "gradient": [
+    -1.895728019007947e-06,
+    -6.16751094639767e-07,
+    -1.668354343564715e-06
+  ],
+  "gradient_infinity_norm": 1.895728019007947e-06,
+  "scaled_gradient_using_saved_covariance": 1.6968923948609243e-13,
+  "scaled_gradient_threshold": 1e-05,
+  "scaled_gradient_check_passed": true,
+  "step_checks": {
+    "0.0001": {
+      "hessian_eigenvalues": [
+        4.101301134305883,
+        22.73387000320324,
+        337.38707979950937
+      ],
+      "condition_number": 82.26342537430119,
+      "scaled_gradient_g_cov_g": 1.6968921942227369e-13,
+      "standard_errors": [
+        0.35261548880256416,
+        0.12692110486010844,
+        0.3877236095448354
+      ]
+    },
+    "0.0002": {
+      "hessian_eigenvalues": [
+        4.101290818471847,
+        22.733870714306846,
+        337.38706950904316
+      ],
+      "condition_number": 82.26362977955215,
+      "scaled_gradient_g_cov_g": 1.6968922927991596e-13,
+      "standard_errors": [
+        0.3526158163125686,
+        0.12692111442917134,
+        0.38772409777872907
+      ]
+    },
+    "0.0004": {
+      "hessian_eigenvalues": [
+        4.101289670898019,
+        22.73387436955246,
+        337.3870535010593
+      ],
+      "condition_number": 82.26364889441795,
+      "scaled_gradient_g_cov_g": 1.696891973329503e-13,
+      "standard_errors": [
+        0.35261588567274615,
+        0.12692112369803832,
+        0.387724110706401
+      ]
+    }
+  },
+  "max_relative_standard_error_changes_from_step_2e4": {
+    "0.0001": 1.2592302012226497e-06,
+    "0.0002": 0.0,
+    "0.0004": 1.9670183326603308e-07
+  },
+  "max_difference_saved_vs_independent_hessian": 1.2789769471055479e-05,
+  "all_step_hessians_positive_definite": true,
+  "objective_evaluations": 61,
+  "purpose": "Numerical acceptance verification of candidate finite-quadrature likelihood; not original Stata executable equivalence"
+}

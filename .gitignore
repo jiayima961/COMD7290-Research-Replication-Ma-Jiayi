@@ -22,6 +22,11 @@ venv/
 *.tmp
 tmp/
 
+# Skill test inputs are local copies of unchanged third-party research material.
+records/skill_tests/**/sources/
+records/skill_tests/**/data/original/
+records/skill_tests/**/input_metadata.json
+
 # Original third-party files: local until redistribution terms are verified
 sources/local/*
 !sources/local/README.md
@@ -36,3 +41,7 @@ data/prepared/*
 *.ster
 *.rds
 *.Rds
+
+# Subject-level derived diagnostics remain local; aggregate checks are shared.
+outputs/diagnostics/reliability/*__conditional_influence.npy
+outputs/diagnostics/reliability/matching_row_audit.csv

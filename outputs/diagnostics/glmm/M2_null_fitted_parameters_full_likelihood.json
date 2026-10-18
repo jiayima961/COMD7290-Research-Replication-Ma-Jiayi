@@ -1,0 +1,148 @@
+{
+  "label": "M2_null_fitted_parameters",
+  "outcome": "actrefoutbin",
+  "fit_artifact": "tmp\\skill2_final_engine\\outputs\\reproduced\\models\\M2_null_fit.json",
+  "theta": [
+    -5.419743083366549,
+    0.7686459606537275,
+    0.5479757870372483
+  ],
+  "item_variance": 4.6519752823662905,
+  "actor_variance": 2.9920284659105105,
+  "null_model": true,
+  "source_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+  "candidate_sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8",
+  "n_rows": 3770,
+  "n_items": 1183,
+  "independent_patterns": 154,
+  "high_order_full_log_likelihood": {
+    "81": -681.3353298332152,
+    "161": -681.3353298239987,
+    "241": -681.335329823997
+  },
+  "difference_241_from_161": 1.7053025658242404e-12,
+  "candidate_comparisons": {
+    "7": {
+      "log_likelihood": -681.2921335585936,
+      "difference_from_reference_241": 0.04319626540336685,
+      "adaptation": {
+        "outer_adaptation_iterations": 8,
+        "inner_adaptation_max_iterations": 14,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 7,
+        "compressed_item_patterns": 415,
+        "adaptation_converged": true
+      }
+    },
+    "11": {
+      "log_likelihood": -681.3363198695027,
+      "difference_from_reference_241": -0.000990045505773196,
+      "adaptation": {
+        "outer_adaptation_iterations": 5,
+        "inner_adaptation_max_iterations": 9,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 11,
+        "compressed_item_patterns": 415,
+        "adaptation_converged": true
+      }
+    },
+    "21": {
+      "log_likelihood": -681.3353255452529,
+      "difference_from_reference_241": 4.278744086150255e-06,
+      "adaptation": {
+        "outer_adaptation_iterations": 4,
+        "inner_adaptation_max_iterations": 5,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 21,
+        "compressed_item_patterns": 415,
+        "adaptation_converged": true
+      }
+    }
+  },
+  "selected_quad_checks": [
+    {
+      "likelihood": 0.8611194501475282,
+      "log_likelihood": -0.14952204997556295,
+      "quadpack_outer_absolute_error": 9.5397145624008e-13,
+      "max_sampled_actor_error_sum": 1.813252581955421e-11,
+      "omitted_normal_tail_upper_bound": 7.105928448310612e-33,
+      "absolute_error_estimate": 1.908649727579429e-11,
+      "log_likelihood_error_estimate": 2.216474993396603e-11,
+      "actor_integral_calls": 231,
+      "eta": -5.419743083366549,
+      "actor_counts_n_s": [
+        [
+          5,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -0.14952204997556118,
+      "difference_gh241_from_quad": 1.7763568394002505e-15
+    },
+    {
+      "likelihood": 0.6154979253601067,
+      "log_likelihood": -0.4853237040211378,
+      "quadpack_outer_absolute_error": 1.4385198129049503e-12,
+      "max_sampled_actor_error_sum": 1.7069442657530522e-10,
+      "omitted_normal_tail_upper_bound": 4.618853491401898e-32,
+      "absolute_error_estimate": 1.7213294638821017e-10,
+      "log_likelihood_error_estimate": 2.796645436091455e-10,
+      "actor_integral_calls": 3276,
+      "eta": -5.419743083366549,
+      "actor_counts_n_s": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -0.4853237040211331,
+      "difference_gh241_from_quad": 4.6629367034256575e-15
+    }
+  ],
+  "reference_convergence_check_passed": true,
+  "status": "fixed_parameter_check_only_not_a_refit"
+}

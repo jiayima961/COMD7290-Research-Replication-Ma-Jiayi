@@ -1,0 +1,1 @@
+M2_null start patterns 415 params [-2.9250638920408827, 0.0, 0.0]

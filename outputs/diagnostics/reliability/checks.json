@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "synthetic_known_answer_table": [
+    [
+      20,
+      5
+    ],
+    [
+      10,
+      15
+    ]
+  ],
+  "known_coefficients": {
+    "percent_agreement": 0.7,
+    "brennan_prediger": 0.3999999999999999,
+    "cohen_conger_kappa": 0.3999999999999999,
+    "scott_fleiss": 0.39393939393939387,
+    "gwet_ac1": 0.40594059405940586,
+    "krippendorff_alpha": 0.3999999999999999
+  },
+  "percent_agreement_se_closed_form": 0.06546536707079771,
+  "independent_packages": [
+    "statsmodels.cohens_kappa",
+    "krippendorff.alpha(nominal)"
+  ],
+  "missing_rater_alpha_independently_checked": -0.06122448979591821,
+  "conditional_influence_finite_difference_max_abs_error": 1.6818479942060094e-10,
+  "ordinary_unanchored_point_derivative_differs_from_source_IF_max": 0.36666666666666664,
+  "source_IF_validation_functional": "Observed >=2-rating fraction fixed; matches literal source b_istar. Ordinary weighted point-estimator derivative differs with singleton rows and is not asserted equal.",
+  "benchmark_version_behavior_check": {
+    "synthetic_b": 0.97,
+    "se": 0.02,
+    "df": 100,
+    "current_truncated_selection": "Almost Perfect",
+    "legacy_reconstructed_selection": "Poor",
+    "interval_probability_sums_equal_one": true
+  },
+  "negative_test": {
+    "input": "synthetic infinite rating",
+    "detected": "Infinite ratings are invalid.",
+    "recovery": "restored synthetic input; kappa returned to 0.4"
+  }
+}

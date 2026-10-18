@@ -1,0 +1,5 @@
+TEST ARTIFACT — post-test parent source-review finding; no statistical work performed.
+
+The initial blind forward test assigned meanings to non-main IDs without a canonical semantic mapping. Its structural checks passed but missed substantive coverage: N1 became a null-model analysis instead of the assignment harmless statistical negative test/recovery; S1 became supplementary access coverage instead of a separate justified sensitivity analysis; V1 became software equivalence rather than independent descriptive and core advanced-model verification. C1/C2/C3/A1 also require alignment to the reviewed contract.
+
+This immutable snapshot preserves the six requested initial artifacts byte-for-byte, including the original technical-pass result and receipt. The correction is post-review, not evidence of successful blind first-context semantic coverage. Later revised outputs must retain not_run results and false/pending human fields; the revised canonical validator will only be run after the parent reports the contract update.

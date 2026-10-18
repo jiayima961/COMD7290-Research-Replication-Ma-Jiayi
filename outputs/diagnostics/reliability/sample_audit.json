@@ -1,0 +1,739 @@
+{
+  "tone__two_slots": {
+    "input_rows": 1700,
+    "input_columns": 2,
+    "n_any_rating": 1700,
+    "n_at_least_two": 1699,
+    "all_blank_rows_excluded": 0,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 1,
+      "2": 1699
+    },
+    "categories_inferred_from_observed_values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "numeric_minus99_is_retained_category": false,
+    "slot_marginals": [
+      [
+        0.8441176470588235,
+        0.10529411764705883,
+        0.03411764705882353,
+        0.01411764705882353,
+        0.002352941176470588
+      ],
+      [
+        0.8969982342554443,
+        0.06945261918775751,
+        0.02118893466745144,
+        0.01059446733372572,
+        0.0017657445556209534
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.8705882352941177,
+      0.08735294117647059,
+      0.027647058823529413,
+      0.012352941176470587,
+      0.002058823529411765
+    ],
+    "alpha_pooled_proportions": [
+      0.8705120659211301,
+      0.0874043555032372,
+      0.02766333137139494,
+      0.012360211889346674,
+      0.0020600353148911123
+    ],
+    "alpha_epsilon": 0.0002942907592701589,
+    "selected_original_columns": [
+      "Ton_1",
+      "Ton_2"
+    ],
+    "input_domain_preserved": true
+  },
+  "tone__all_author_selected_slots": {
+    "input_rows": 1700,
+    "input_columns": 4,
+    "n_any_rating": 1700,
+    "n_at_least_two": 1699,
+    "all_blank_rows_excluded": 0,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 1,
+      "2": 1696,
+      "3": 2,
+      "4": 1
+    },
+    "categories_inferred_from_observed_values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "numeric_minus99_is_retained_category": false,
+    "slot_marginals": [
+      [
+        0.8441176470588235,
+        0.10529411764705883,
+        0.03411764705882353,
+        0.01411764705882353,
+        0.002352941176470588
+      ],
+      [
+        0.8969982342554443,
+        0.06945261918775751,
+        0.02118893466745144,
+        0.01059446733372572,
+        0.0017657445556209534
+      ],
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.8705882352941177,
+      0.08735294117647059,
+      0.027647058823529413,
+      0.012352941176470587,
+      0.002058823529411765
+    ],
+    "alpha_pooled_proportions": [
+      0.8700764256319811,
+      0.0873015873015873,
+      0.028218694885361547,
+      0.012345679012345677,
+      0.0020576131687242796
+    ],
+    "alpha_epsilon": 0.0002939447383891828,
+    "selected_original_columns": [
+      "Ton_1",
+      "Ton_2",
+      "Ton_3",
+      "Ton_4"
+    ],
+    "input_domain_preserved": true
+  },
+  "valence__two_slots": {
+    "input_rows": 3864,
+    "input_columns": 2,
+    "n_any_rating": 3863,
+    "n_at_least_two": 1427,
+    "all_blank_rows_excluded": 1,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2436,
+      "2": 1427
+    },
+    "categories_inferred_from_observed_values": [
+      -99.0,
+      0.0,
+      1.0,
+      2.0
+    ],
+    "numeric_minus99_is_retained_category": true,
+    "slot_marginals": [
+      [
+        0.06188503366131538,
+        0.4813568099430347,
+        0.12247540134645261,
+        0.3342827550491973
+      ],
+      [
+        0.049019607843137254,
+        0.46008403361344535,
+        0.12745098039215685,
+        0.3634453781512605
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.05992751747346622,
+      0.4808439037017862,
+      0.12283199585814134,
+      0.33639658296660624
+    ],
+    "alpha_pooled_proportions": [
+      0.05430974071478627,
+      0.46145760336370006,
+      0.12648913805185705,
+      0.35774351786965664
+    ],
+    "alpha_epsilon": 0.000350385423966363,
+    "selected_original_columns": [
+      "VALENZ_AKTEUR_NUM_0",
+      "VALENZ_AKTEUR_NUM_1"
+    ],
+    "input_domain_preserved": true
+  },
+  "valence__all_author_selected_slots": {
+    "input_rows": 3864,
+    "input_columns": 14,
+    "n_any_rating": 3863,
+    "n_at_least_two": 1428,
+    "all_blank_rows_excluded": 1,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2435,
+      "2": 1315,
+      "3": 63,
+      "4": 31,
+      "5": 9,
+      "6": 4,
+      "7": 3,
+      "8": 1,
+      "9": 1,
+      "14": 1
+    },
+    "categories_inferred_from_observed_values": [
+      -99.0,
+      0.0,
+      1.0,
+      2.0
+    ],
+    "numeric_minus99_is_retained_category": true,
+    "slot_marginals": [
+      [
+        0.06188503366131538,
+        0.4813568099430347,
+        0.12247540134645261,
+        0.3342827550491973
+      ],
+      [
+        0.049019607843137254,
+        0.46008403361344535,
+        0.12745098039215685,
+        0.3634453781512605
+      ],
+      [
+        0.017699115044247787,
+        0.5575221238938053,
+        0.13274336283185842,
+        0.2920353982300885
+      ],
+      [
+        0.0196078431372549,
+        0.5098039215686274,
+        0.13725490196078433,
+        0.3333333333333333
+      ],
+      [
+        0.05263157894736842,
+        0.42105263157894735,
+        0.15789473684210525,
+        0.3684210526315789
+      ],
+      [
+        0.0,
+        0.5,
+        0.0,
+        0.5
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.05985088487029984,
+      0.4812728819200474,
+      0.12234384823046486,
+      0.336532384979188
+    ],
+    "alpha_pooled_proportions": [
+      0.05221932114882506,
+      0.46736292428198434,
+      0.12663185378590078,
+      0.3537859007832898
+    ],
+    "alpha_epsilon": 0.00032637075718015666,
+    "selected_original_columns": [
+      "VALENZ_AKTEUR_NUM_0",
+      "VALENZ_AKTEUR_NUM_1",
+      "VALENZ_AKTEUR_NUM_2",
+      "VALENZ_AKTEUR_NUM_3",
+      "VALENZ_AKTEUR_NUM_4",
+      "VALENZ_AKTEUR_NUM_5",
+      "VALENZ_AKTEUR_NUM_6",
+      "VALENZ_AKTEUR_NUM_7",
+      "VALENZ_AKTEUR_NUM_8",
+      "VALENZ_AKTEUR_NUM_9",
+      "VALENZ_AKTEUR_NUM_10",
+      "VALENZ_AKTEUR_NUM_11",
+      "VALENZ_AKTEUR_NUM_12",
+      "VALENZ_AKTEUR_NUM_13"
+    ],
+    "input_domain_preserved": true
+  },
+  "recognition__two_slots": {
+    "input_rows": 3864,
+    "input_columns": 2,
+    "n_any_rating": 3863,
+    "n_at_least_two": 1427,
+    "all_blank_rows_excluded": 1,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2436,
+      "2": 1427
+    },
+    "categories_inferred_from_observed_values": [
+      0.0,
+      1.0
+    ],
+    "numeric_minus99_is_retained_category": false,
+    "slot_marginals": [
+      [
+        0.9552045572242361,
+        0.044795442775763854
+      ],
+      [
+        0.9418767507002801,
+        0.05812324929971989
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.9543101216670982,
+      0.04568987833290189
+    ],
+    "alpha_pooled_proportions": [
+      0.9442887175893483,
+      0.055711282410651715
+    ],
+    "alpha_epsilon": 0.000350385423966363,
+    "selected_original_columns": [
+      "ANERKENNUNG_AKTEUR_NUM_0",
+      "ANERKENNUNG_AKTEUR_NUM_1"
+    ],
+    "input_domain_preserved": true
+  },
+  "recognition__all_author_selected_slots": {
+    "input_rows": 3864,
+    "input_columns": 14,
+    "n_any_rating": 3863,
+    "n_at_least_two": 1428,
+    "all_blank_rows_excluded": 1,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2435,
+      "2": 1315,
+      "3": 63,
+      "4": 31,
+      "5": 9,
+      "6": 4,
+      "7": 3,
+      "8": 1,
+      "9": 1,
+      "14": 1
+    },
+    "categories_inferred_from_observed_values": [
+      0.0,
+      1.0
+    ],
+    "numeric_minus99_is_retained_category": false,
+    "slot_marginals": [
+      [
+        0.9552045572242361,
+        0.044795442775763854
+      ],
+      [
+        0.9418767507002801,
+        0.05812324929971989
+      ],
+      [
+        0.9469026548672567,
+        0.05309734513274336
+      ],
+      [
+        0.9215686274509803,
+        0.0784313725490196
+      ],
+      [
+        0.9473684210526315,
+        0.05263157894736842
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.9544093536974717,
+      0.04559064630252825
+    ],
+    "alpha_pooled_proportions": [
+      0.9445169712793734,
+      0.05548302872062663
+    ],
+    "alpha_epsilon": 0.00032637075718015666,
+    "selected_original_columns": [
+      "ANERKENNUNG_AKTEUR_NUM_0",
+      "ANERKENNUNG_AKTEUR_NUM_1",
+      "ANERKENNUNG_AKTEUR_NUM_2",
+      "ANERKENNUNG_AKTEUR_NUM_3",
+      "ANERKENNUNG_AKTEUR_NUM_4",
+      "ANERKENNUNG_AKTEUR_NUM_5",
+      "ANERKENNUNG_AKTEUR_NUM_6",
+      "ANERKENNUNG_AKTEUR_NUM_7",
+      "ANERKENNUNG_AKTEUR_NUM_8",
+      "ANERKENNUNG_AKTEUR_NUM_9",
+      "ANERKENNUNG_AKTEUR_NUM_10",
+      "ANERKENNUNG_AKTEUR_NUM_11",
+      "ANERKENNUNG_AKTEUR_NUM_12",
+      "ANERKENNUNG_AKTEUR_NUM_13"
+    ],
+    "input_domain_preserved": true
+  },
+  "outrage__two_slots": {
+    "input_rows": 3864,
+    "input_columns": 2,
+    "n_any_rating": 3863,
+    "n_at_least_two": 1427,
+    "all_blank_rows_excluded": 1,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2436,
+      "2": 1427
+    },
+    "categories_inferred_from_observed_values": [
+      0.0,
+      1.0
+    ],
+    "numeric_minus99_is_retained_category": false,
+    "slot_marginals": [
+      [
+        0.9508026929052305,
+        0.04919730709476955
+      ],
+      [
+        0.938375350140056,
+        0.06162464985994398
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.9509448615066011,
+      0.04905513849339891
+    ],
+    "alpha_pooled_proportions": [
+      0.9379817799579537,
+      0.062018220042046254
+    ],
+    "alpha_epsilon": 0.000350385423966363,
+    "selected_original_columns": [
+      "HETZE_AKTEUR_NUM_0",
+      "HETZE_AKTEUR_NUM_1"
+    ],
+    "input_domain_preserved": true
+  },
+  "outrage__all_author_selected_slots": {
+    "input_rows": 3864,
+    "input_columns": 14,
+    "n_any_rating": 3863,
+    "n_at_least_two": 1428,
+    "all_blank_rows_excluded": 1,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2435,
+      "2": 1315,
+      "3": 63,
+      "4": 31,
+      "5": 9,
+      "6": 4,
+      "7": 3,
+      "8": 1,
+      "9": 1,
+      "14": 1
+    },
+    "categories_inferred_from_observed_values": [
+      0.0,
+      1.0
+    ],
+    "numeric_minus99_is_retained_category": false,
+    "slot_marginals": [
+      [
+        0.9508026929052305,
+        0.04919730709476955
+      ],
+      [
+        0.938375350140056,
+        0.06162464985994398
+      ],
+      [
+        0.9734513274336283,
+        0.02654867256637168
+      ],
+      [
+        0.9411764705882353,
+        0.058823529411764705
+      ],
+      [
+        0.8421052631578947,
+        0.15789473684210525
+      ],
+      [
+        0.7,
+        0.3
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.9517602899301062,
+      0.048239710069893874
+    ],
+    "alpha_pooled_proportions": [
+      0.9383159268929504,
+      0.06168407310704961
+    ],
+    "alpha_epsilon": 0.00032637075718015666,
+    "selected_original_columns": [
+      "HETZE_AKTEUR_NUM_0",
+      "HETZE_AKTEUR_NUM_1",
+      "HETZE_AKTEUR_NUM_2",
+      "HETZE_AKTEUR_NUM_3",
+      "HETZE_AKTEUR_NUM_4",
+      "HETZE_AKTEUR_NUM_5",
+      "HETZE_AKTEUR_NUM_6",
+      "HETZE_AKTEUR_NUM_7",
+      "HETZE_AKTEUR_NUM_8",
+      "HETZE_AKTEUR_NUM_9",
+      "HETZE_AKTEUR_NUM_10",
+      "HETZE_AKTEUR_NUM_11",
+      "HETZE_AKTEUR_NUM_12",
+      "HETZE_AKTEUR_NUM_13"
+    ],
+    "input_domain_preserved": true
+  },
+  "responsiveness__two_slots": {
+    "input_rows": 3864,
+    "input_columns": 2,
+    "n_any_rating": 3864,
+    "n_at_least_two": 1429,
+    "all_blank_rows_excluded": 0,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2435,
+      "2": 1429
+    },
+    "categories_inferred_from_observed_values": [
+      -99.0,
+      1.0,
+      2.0
+    ],
+    "numeric_minus99_is_retained_category": true,
+    "slot_marginals": [
+      [
+        0.0007763975155279503,
+        0.901656314699793,
+        0.09756728778467909
+      ],
+      [
+        0.002099370188943317,
+        0.9244226731980406,
+        0.0734779566130161
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.0010351966873706005,
+      0.9017857142857143,
+      0.09717908902691512
+    ],
+    "alpha_pooled_proportions": [
+      0.0013995801259622112,
+      0.92407277816655,
+      0.07452764170748775
+    ],
+    "alpha_epsilon": 0.0003498950314905528,
+    "selected_original_columns": [
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_0",
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_1"
+    ],
+    "input_domain_preserved": true
+  },
+  "responsiveness__all_author_selected_slots": {
+    "input_rows": 3864,
+    "input_columns": 5,
+    "n_any_rating": 3864,
+    "n_at_least_two": 1429,
+    "all_blank_rows_excluded": 0,
+    "all_blank_columns_excluded": 0,
+    "ratings_per_subject_counts": {
+      "1": 2435,
+      "2": 1315,
+      "3": 63,
+      "4": 32,
+      "5": 19
+    },
+    "categories_inferred_from_observed_values": [
+      -99.0,
+      1.0,
+      2.0
+    ],
+    "numeric_minus99_is_retained_category": true,
+    "slot_marginals": [
+      [
+        0.0007763975155279503,
+        0.901656314699793,
+        0.09756728778467909
+      ],
+      [
+        0.002099370188943317,
+        0.9244226731980406,
+        0.0734779566130161
+      ],
+      [
+        0.0,
+        0.9649122807017544,
+        0.03508771929824561
+      ],
+      [
+        0.0,
+        0.9803921568627451,
+        0.0196078431372549
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "subject_averaged_category_proportions": [
+      0.000992063492063492,
+      0.9020056935817805,
+      0.09700224292615597
+    ],
+    "alpha_pooled_proportions": [
+      0.0013149243918474688,
+      0.9270216962524654,
+      0.07166337935568705
+    ],
+    "alpha_epsilon": 0.0003287310979618672,
+    "selected_original_columns": [
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_0",
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_1",
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_2",
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_3",
+      "GENUINE-KONSTRUIERTE_RESP_AKTEUR_NUM_4"
+    ],
+    "input_domain_preserved": true
+  }
+}

@@ -1,6 +1,10 @@
-# Theory and hypotheses: AI draft for student reconstruction and source checking
+# Theory overview and current student version
 
-The student must prepare an initial theory map and explanation as required by the assignment. This file does not replace that work. A reproduction plan written with knowledge of published results is not the original study's preregistration.
+**Current student theory explanation: [v2](../records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt). Current feedback: [round 2](theory_feedback_v2.md).** [START_HERE.md](../START_HERE.md) orders both review rounds and their records; [student_review.md](student_review.md) tracks visible revision progress. Student v2 is preserved unchanged and is the latest student-supplied theory text.
+
+The earlier AI reference notes below remain identified as such; they are not a second current student version. A separate student-created theory diagram, actual foundational-reading scope and approval of the complete statistical specification remain pending. This is a retrospective reconstruction with known results, not the original study's preregistration.
+
+## Earlier AI reference notes
 
 ## Research question and gap
 
@@ -31,8 +35,8 @@ Mixed systems combine majoritarian and consensus institutional features. The art
 
 Select and actually read at least two theoretical or methodological works cited by the article. Check complete bibliographic details and relevant passages before recording completion. Candidates include Lijphart on democratic institutions, Honneth on recognition, Berry and Sobieraj on outrage, and Klein on reliability methods. None is currently marked as read.
 
-## Student reconstruction and critique: to be completed
+## Student reconstruction and revision: in progress
 
 1. Explain each mechanism and its boundary conditions in the student's own words.
-2. Draw an initial theory map, then record AI criticism and the student's decisions to accept or revise it.
+2. Preserve the actual timing/authorship of a student theory map. Written v1, feedback round 1, student v2 and feedback round 2 are recorded; a separate student-created diagram and further decisions remain pending.
 3. Distinguish documented author decisions, personal reconstruction, and methodological criticism. Observational associations alone do not establish the proposed mechanism.

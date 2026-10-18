@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\analysis\nested_logit.py", line 201, in <module>
+    fit_model(frame,y,args.model,args.output_root,args.points,args.model.endswith('null'))
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\analysis\nested_logit.py", line 145, in fit_model
+    warm=minimize(integrated_objective,initial,jac=True,method='BFGS',callback=callback,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_minimize.py", line 779, in minimize
+    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_optimize.py", line 1443, in _minimize_bfgs
+    _line_search_wolfe12(f, myfprime, xk, pk, gfk,
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_optimize.py", line 1172, in _line_search_wolfe12
+    ret = line_search_wolfe1(f, fprime, xk, pk, gfk,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_linesearch.py", line 101, in line_search_wolfe1
+    stp, fval, old_fval = scalar_search_wolfe1(
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_linesearch.py", line 176, in scalar_search_wolfe1
+    stp, phi1, phi0, task = dcsrch(
+                            ^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_dcsrch.py", line 255, in __call__
+    phi1 = self.phi(stp)
+           ^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_linesearch.py", line 92, in phi
+    return f(xk + s*pk, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_differentiable_functions.py", line 394, in fun
+    self._update_fun()
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_differentiable_functions.py", line 362, in _update_fun
+    fx = self._wrapped_fun(self.x)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\_lib\_util.py", line 544, in __call__
+    fx = self.f(np.copy(x), *self.args)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_optimize.py", line 80, in __call__
+    self._compute_if_needed(x, *args)
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\.venv\Lib\site-packages\scipy\optimize\_optimize.py", line 74, in _compute_if_needed
+    fg = self.fun(x, *args)
+         ^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\analysis\nested_logit.py", line 136, in integrated_objective
+    ll,g=model.evaluate(t,score=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\analysis\nested_logit.py", line 94, in evaluate
+    inner, ni = self._inner(delta[self.actor_item], sigma_actor)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Statistics with AI\COMD7290-Research Replication-Ma Jiayi\analysis\nested_logit.py", line 72, in _inner
+    raise ArithmeticError(f"Inner posterior moment adaptation did not converge; delta={delta}")
+ArithmeticError: Inner posterior moment adaptation did not converge; delta=0.3734001351613264

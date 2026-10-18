@@ -1,23 +1,46 @@
 # Software and execution environment
 
-## Initialization environment
+The user authorized a project-local Python/Jupyter environment and faithful
+Python reproduction. Real analyses were completed on 2026-10-18. See
+[replication results](docs/replication_results.md), [execution specification](docs/execution_specification.md)
+and [teacher setup](docs/guides/teacher_quickstart.md).
 
-- Operating system: Windows. Text files use UTF-8; CSV files use UTF-8 with a BOM for spreadsheet compatibility.
-- Initialization checks: Python 3.12.14, standard library only. Git manages versions.
-- `tools/check_repository.py` neither installs dependencies nor accesses the network or fits models.
+- Tested system: Windows, 64-bit CPython 3.12.14.
+- Project environment: `.venv/`, excluded from Git; recreate it on another machine.
+- Direct packages: [requirements.txt](requirements.txt); full tested Windows lock:
+  [requirements-lock.txt](requirements-lock.txt). Original installation used official PyPI.
+- Text: UTF-8; existing CSVs may use a UTF-8 BOM for spreadsheet compatibility.
+- RTK is optional. Standard Python runs the wrappers and notebooks. When found
+  on PATH, the command logger uses RTK and records that actual command.
 
-## Statistical environment: verification pending
+The direct package set provides NumPy/Pandas/SciPy, statsmodels/patsy,
+pyreadstat/openpyxl, matplotlib/seaborn, krippendorff and Jupyter tools.
+The three-level frequentist binary estimator is implemented in
+[analysis/nested_logit.py](analysis/nested_logit.py); package installation alone
+does not provide or validate that estimator.
 
-The inspected author script `MedCon_Civility_an.do`, dated 2021-04-24, specifies `version 16` and lists four Stata extensions: blindschemes, gologit2, omodel, and grc1leg2. Its multilevel models use `intpoints(7)`. The package readme is dated 2021-04-20. These are source-code requirements, not evidence that Stata or these extensions are installed or that integration and prediction settings have been verified locally.
+For another Windows computer, follow the complete environment/input instructions
+in [teacher_quickstart.md](docs/guides/teacher_quickstart.md). Run with the new
+environment's Python. Do not copy this machine's `.venv`; it depends on the base
+interpreter. The lock file includes Windows dependencies. Other systems require
+their own environment resolution and renewed checks.
 
-The original reliability script, dated 2020-11-01, also specifies Stata 16 and requires `kappaetc`. Its imported filenames differ from the website download names. Preserve the originals and document path mappings in a project execution copy. No statistical extensions have been installed and neither author script has been run.
+Open Jupyter with `Start_Jupyter_Notebook.cmd`, or `python -m notebook` from
+the activated environment. The launcher binds to 127.0.0.1 and retains default
+authentication. It keeps runtime/configuration caches in the project's `tmp/`.
+The synthetic [environment notebook](analysis/00_environment_check.ipynb)
+completed in a fresh kernel; the [replication notebook](analysis/01_replication.ipynb)
+is an unexecuted interface to the saved statistical modules. Real research
+execution evidence is in [records/run_logs/skill2](records/run_logs/skill2/).
 
-Before fitting, record engine and package versions, installation sources, commands, input and specification versions, estimator and integration settings, convergence criteria, interval type and level, runtime, seeds where applicable, and log locations. State how predictions handle random effects. Any alternative engine requires documented statistical equivalence and the student's review of the specification.
+The author analysis script specifies Stata 16 compatibility mode and seven
+integration points. No Stata program was executed. Python implements the original
+statistical likelihood and specified settings with independently checked numerical
+calculations. Historical finite adaptive-grid details, original package builds,
+and invalid generalized-ordinal diagnostics remain explicitly limited. Read the
+execution specification before making an exact software-equivalence claim.
 
-## Currently available check
-
-```text
-python tools/check_repository.py
-```
-
-This checks repository materials only. The complete statistical entry point and clean-rerun demonstration have not been implemented.
+The [early Python route assessment](docs/guides/python_route_assessment.md) and
+[original setup record](records/run_logs/python_environment_setup.md) are retained
+as dated historical context. The [2026-10-19 checks](records/reorganization/2026-10-19/README.md)
+cover relocation and portable execution, not another full research-model refit.

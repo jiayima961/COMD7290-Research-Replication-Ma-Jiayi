@@ -1,0 +1,48 @@
+{
+  "artifact_kind": "test",
+  "iteration": "initial_blind_forward_test",
+  "files": [
+    {
+      "original_path": "docs/analysis_inventory.csv",
+      "snapshot_path": "records/iterations/initial/docs/analysis_inventory.csv",
+      "original_sha256": "d0bfa8b5151b0ddb97e8f64c6bcdf5be97a287a6748ab14f66dabe21b9688734",
+      "snapshot_sha256": "d0bfa8b5151b0ddb97e8f64c6bcdf5be97a287a6748ab14f66dabe21b9688734",
+      "byte_identical": true
+    },
+    {
+      "original_path": "docs/hypothesis_matrix.csv",
+      "snapshot_path": "records/iterations/initial/docs/hypothesis_matrix.csv",
+      "original_sha256": "0d1f6e09478ebeed3f5455fcf75b940a2fbe58a28950d7e1b5d1872a8fcef6e2",
+      "snapshot_sha256": "0d1f6e09478ebeed3f5455fcf75b940a2fbe58a28950d7e1b5d1872a8fcef6e2",
+      "byte_identical": true
+    },
+    {
+      "original_path": "docs/study_specification.json",
+      "snapshot_path": "records/iterations/initial/docs/study_specification.json",
+      "original_sha256": "4b53a0bcd2884b8480b84a383b9eb19017429f131a5cb2b784d90844795b7989",
+      "snapshot_sha256": "4b53a0bcd2884b8480b84a383b9eb19017429f131a5cb2b784d90844795b7989",
+      "byte_identical": true
+    },
+    {
+      "original_path": "records/specification_validation.json",
+      "snapshot_path": "records/iterations/initial/records/specification_validation.json",
+      "original_sha256": "14585ef19998a02198007f815b25570b5cdf97e0ed48a9f40ca33491892c7c04",
+      "snapshot_sha256": "14585ef19998a02198007f815b25570b5cdf97e0ed48a9f40ca33491892c7c04",
+      "byte_identical": true
+    },
+    {
+      "original_path": "records/output_consistency_check.json",
+      "snapshot_path": "records/iterations/initial/records/output_consistency_check.json",
+      "original_sha256": "629a9b77e022804e46fafdbe50d8ef82b9d63dccab4e3b865f24fe62d9354dc2",
+      "snapshot_sha256": "629a9b77e022804e46fafdbe50d8ef82b9d63dccab4e3b865f24fe62d9354dc2",
+      "byte_identical": true
+    },
+    {
+      "original_path": "records/specification_handoff.md",
+      "snapshot_path": "records/iterations/initial/records/specification_handoff.md",
+      "original_sha256": "fa3ca261ea94dec2ce3438eccb88a60d5426dda7bf281423b29730b57e16d362",
+      "snapshot_sha256": "fa3ca261ea94dec2ce3438eccb88a60d5426dda7bf281423b29730b57e16d362",
+      "byte_identical": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-18T16:33:16.671838+00:00",
+  "moves": {
+    "docs/github_structure_and_workflow.txt": "docs/guides/github_structure_and_workflow.txt",
+    "docs/python_route_assessment.md": "docs/guides/python_route_assessment.md",
+    "tools/build_replication_notebook.py": "tools/maintenance/build_replication_notebook.py",
+    "tools/finalize_skill2_documents.py": "tools/maintenance/finalize_skill2_documents.py",
+    "tools/finish_skill2_record.py": "tools/maintenance/finish_skill2_record.py",
+    "tools/record_skill2_interruption.py": "tools/maintenance/record_skill2_interruption.py",
+    "tools/update_skill2_context.py": "tools/maintenance/update_skill2_context.py"
+  },
+  "excluded_from_inventory": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "tmp"
+  ],
+  "exclusion_reason": "Runtime/cache directories left in place and not edited by this migration.",
+  "deleted_files": []
+}

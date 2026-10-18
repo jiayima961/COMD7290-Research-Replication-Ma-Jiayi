@@ -1,0 +1,229 @@
+{
+  "artifact_kind": "test",
+  "pdfs": [
+    {
+      "file": "Lob_et_al_2024.pdf",
+      "page_count": 22,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 4,
+          "characters": 3102
+        },
+        {
+          "pdf_page": 5,
+          "characters": 3195
+        },
+        {
+          "pdf_page": 6,
+          "characters": 3335
+        },
+        {
+          "pdf_page": 7,
+          "characters": 2838
+        },
+        {
+          "pdf_page": 8,
+          "characters": 3334
+        },
+        {
+          "pdf_page": 9,
+          "characters": 3275
+        },
+        {
+          "pdf_page": 13,
+          "characters": 1832
+        },
+        {
+          "pdf_page": 14,
+          "characters": 2722
+        },
+        {
+          "pdf_page": 18,
+          "characters": 2740
+        },
+        {
+          "pdf_page": 19,
+          "characters": 3311
+        },
+        {
+          "pdf_page": 21,
+          "characters": 3649
+        },
+        {
+          "pdf_page": 22,
+          "characters": 2502
+        }
+      ]
+    },
+    {
+      "file": "Sobieraj_Berry_2011.pdf",
+      "page_count": 24,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 1,
+          "characters": 1758
+        },
+        {
+          "pdf_page": 2,
+          "characters": 3147
+        },
+        {
+          "pdf_page": 3,
+          "characters": 4209
+        },
+        {
+          "pdf_page": 4,
+          "characters": 4068
+        },
+        {
+          "pdf_page": 5,
+          "characters": 4171
+        },
+        {
+          "pdf_page": 7,
+          "characters": 2521
+        }
+      ]
+    },
+    {
+      "file": "Wolfe_Gould_1998_STB42.pdf",
+      "page_count": 52,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 24,
+          "characters": 3100
+        },
+        {
+          "pdf_page": 25,
+          "characters": 3651
+        },
+        {
+          "pdf_page": 26,
+          "characters": 2732
+        },
+        {
+          "pdf_page": 27,
+          "characters": 4764
+        }
+      ]
+    },
+    {
+      "file": "codebook_01_news_item.pdf",
+      "page_count": 26,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 6,
+          "characters": 2415
+        },
+        {
+          "pdf_page": 7,
+          "characters": 1765
+        }
+      ]
+    },
+    {
+      "file": "codebook_02_actor_identification.pdf",
+      "page_count": 5,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 3,
+          "characters": 3021
+        },
+        {
+          "pdf_page": 4,
+          "characters": 3117
+        },
+        {
+          "pdf_page": 5,
+          "characters": 1512
+        }
+      ]
+    },
+    {
+      "file": "codebook_05_actor.pdf",
+      "page_count": 15,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 3,
+          "characters": 2758
+        },
+        {
+          "pdf_page": 4,
+          "characters": 3031
+        },
+        {
+          "pdf_page": 5,
+          "characters": 2894
+        }
+      ]
+    },
+    {
+      "file": "codebook_08_actor_reference.pdf",
+      "page_count": 14,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 3,
+          "characters": 2441
+        },
+        {
+          "pdf_page": 4,
+          "characters": 2846
+        },
+        {
+          "pdf_page": 5,
+          "characters": 2731
+        },
+        {
+          "pdf_page": 6,
+          "characters": 2780
+        },
+        {
+          "pdf_page": 7,
+          "characters": 2533
+        },
+        {
+          "pdf_page": 8,
+          "characters": 2345
+        }
+      ]
+    },
+    {
+      "file": "COMD7290_assignment.pdf",
+      "page_count": 21,
+      "inspected_extraction_scope": [
+        {
+          "pdf_page": 2,
+          "characters": 1805
+        },
+        {
+          "pdf_page": 3,
+          "characters": 2067
+        },
+        {
+          "pdf_page": 4,
+          "characters": 1898
+        },
+        {
+          "pdf_page": 6,
+          "characters": 1859
+        },
+        {
+          "pdf_page": 7,
+          "characters": 1826
+        },
+        {
+          "pdf_page": 8,
+          "characters": 1881
+        },
+        {
+          "pdf_page": 18,
+          "characters": 1528
+        },
+        {
+          "pdf_page": 19,
+          "characters": 1436
+        }
+      ]
+    }
+  ]
+}

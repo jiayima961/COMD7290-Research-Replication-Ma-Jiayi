@@ -1,0 +1,172 @@
+{
+  "label": "M3_fitted_parameters",
+  "outcome": "actrefrecbin",
+  "fit_artifact": "tmp\\skill2_final_engine\\outputs\\reproduced\\models\\M3_fit.json",
+  "theta": [
+    -5.126874320149721,
+    -0.06253692142187246,
+    -0.5461608960673475,
+    0.7878841372913241,
+    0.6866488954108756,
+    1.1867787262793157,
+    0.46319584381746953,
+    0.011165760529320957
+  ],
+  "item_variance": 2.525380356536595,
+  "actor_variance": 1.0225827359937354,
+  "null_model": false,
+  "source_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+  "candidate_sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8",
+  "n_rows": 3770,
+  "n_items": 1183,
+  "independent_patterns": 416,
+  "high_order_full_log_likelihood": {
+    "81": -710.6452837757025,
+    "161": -710.6452837734585,
+    "241": -710.6452837734569
+  },
+  "difference_241_from_161": 1.5916157281026244e-12,
+  "candidate_comparisons": {
+    "7": {
+      "log_likelihood": -710.6355580347366,
+      "difference_from_reference_241": 0.009725738720248955,
+      "adaptation": {
+        "outer_adaptation_iterations": 7,
+        "inner_adaptation_max_iterations": 6,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 7,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    },
+    "11": {
+      "log_likelihood": -710.6454901596592,
+      "difference_from_reference_241": -0.00020638620230784,
+      "adaptation": {
+        "outer_adaptation_iterations": 5,
+        "inner_adaptation_max_iterations": 4,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 11,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    },
+    "21": {
+      "log_likelihood": -710.6452836628849,
+      "difference_from_reference_241": 1.1057193205488147e-07,
+      "adaptation": {
+        "outer_adaptation_iterations": 3,
+        "inner_adaptation_max_iterations": 4,
+        "moment_tolerance": 2e-10,
+        "points_per_level": 21,
+        "compressed_item_patterns": 416,
+        "adaptation_converged": true
+      }
+    }
+  },
+  "selected_quad_checks": [
+    {
+      "likelihood": 0.9356069106541497,
+      "log_likelihood": -0.06655985796532855,
+      "quadpack_outer_absolute_error": 4.929162891118957e-13,
+      "max_sampled_actor_error_sum": 4.407923104789577e-12,
+      "omitted_normal_tail_upper_bound": 7.105928448310612e-33,
+      "absolute_error_estimate": 4.900839393901472e-12,
+      "log_likelihood_error_estimate": 5.238139370384669e-12,
+      "actor_integral_calls": 231,
+      "eta": -5.673035216217069,
+      "actor_counts_n_s": [
+        [
+          5,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -0.06655985796532793,
+      "difference_gh241_from_quad": 6.245004513516506e-16
+    },
+    {
+      "likelihood": 0.11043350379259687,
+      "log_likelihood": -2.203341714796567,
+      "quadpack_outer_absolute_error": 4.599698178741512e-13,
+      "max_sampled_actor_error_sum": 1.4021886898671439e-12,
+      "omitted_normal_tail_upper_bound": 7.105928448310612e-33,
+      "absolute_error_estimate": 1.862158507741295e-12,
+      "log_likelihood_error_estimate": 1.68622604897023e-11,
+      "actor_integral_calls": 231,
+      "eta": -3.152211456579081,
+      "actor_counts_n_s": [
+        [
+          1,
+          1
+        ]
+      ],
+      "gh241_log_likelihood": -2.203341714796574,
+      "difference_gh241_from_quad": -7.105427357601002e-15
+    },
+    {
+      "likelihood": 2.33531337870128e-06,
+      "log_likelihood": -12.967364466554764,
+      "quadpack_outer_absolute_error": 2.2555775304366762e-15,
+      "max_sampled_actor_error_sum": 2.7828624868110055e-11,
+      "omitted_normal_tail_upper_bound": 4.618853491401898e-32,
+      "absolute_error_estimate": 2.7830880445640492e-11,
+      "log_likelihood_error_estimate": 1.1917407188031383e-05,
+      "actor_integral_calls": 3276,
+      "eta": -3.698372352646429,
+      "actor_counts_n_s": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "gh241_log_likelihood": -12.967364466554782,
+      "difference_gh241_from_quad": -1.7763568394002505e-14
+    }
+  ],
+  "reference_convergence_check_passed": true,
+  "status": "fixed_parameter_check_only_not_a_refit"
+}

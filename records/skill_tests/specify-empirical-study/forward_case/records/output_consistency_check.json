@@ -1,0 +1,28 @@
+{
+  "artifact_kind": "test",
+  "checks": {
+    "all_matrix_results_not_run": true,
+    "inventory_not_run": true,
+    "csv_test_labels": true,
+    "markdown_test_labels": true,
+    "figure_nodes_all_mapped": true,
+    "figure_rows_resolve": true,
+    "all_analysis_paths_labelled_planned": true,
+    "human_fields_false": true,
+    "not_ready": true,
+    "fixture_preserved": true,
+    "original_hashes_preserved": true,
+    "inventory_matrix_json_aligned": true,
+    "stable_id_types_aligned": true,
+    "V1_dual_verification_components": true,
+    "C1_separate_diagnostic_matrix_targets": true,
+    "initial_snapshot_bytes_preserved": true,
+    "reviewed_spec_version": true
+  },
+  "all_checks_pass": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "pandas_version": "3.0.6",
+  "openpyxl_version": "3.1.5",
+  "models_fitted": false,
+  "independent_statistical_verification": false
+}

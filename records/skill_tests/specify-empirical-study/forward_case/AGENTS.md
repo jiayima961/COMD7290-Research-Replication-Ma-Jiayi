@@ -1,0 +1,3 @@
+# Test case instructions
+
+Follow E:/Codex/RTK.md: prefix shell commands with rtk. Write only inside this case root. Use English. Read raw sources rather than previous canonical AI drafts. Do not fit models, calculate reliability estimates, upload originals, or modify other skills or main study documents. This is a synthetic behavior test; no real student explanation, reading attestation or acceptance has been provided. Keep all real-human fields pending/false. Document original advanced-model settings, but leave Python equivalence and implementation validation to skill 2. The actual student will supply an initial explanation later.

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    ".venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "analysis\\nested_logit.py",
+    "--model",
+    "M2_null"
+  ],
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "started_at_utc": "2026-10-18T10:53:15.742778+00:00",
+  "status": "interrupted_not_accepted",
+  "previous_status": "running",
+  "interruption_note": "Stopped with session interrupt to avoid redundant slow fits after the adaptive-damping performance revision. Separate final batch uses the same statistical model and seven points.",
+  "annotated_at_utc": "2026-10-18T10:59:49.690036+00:00"
+}

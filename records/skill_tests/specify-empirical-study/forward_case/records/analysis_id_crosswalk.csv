@@ -1,0 +1,11 @@
+initial_id,initial_target,revised_id,revised_analysis_type,correction,artifact_kind
+C1,Proportional-odds common slopes versus general slopes,C1,proportional_odds_diagnostics,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+C2,Approximate LR parallel-lines diagnostic,C1,proportional_odds_diagnostics,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+C3,Alternative-link sensitivity of ordinal associations,C2,original_alternative_links,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+A1,"Fit summaries,variance/ICC and pseudo-R2 reporting",F1,fit_and_variance_summaries,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+V1,Software/settings and advanced three-level equivalence validation,I1,software_equivalence_preparation,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+N1,Null three-level models and comparison to single-level null logit,C3,null_multilevel_comparison,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+S1,Supplementary coverage/access reconciliation,A1,supplement_inventory,Preserve original scientific target under canonical meaning; C1 merges both diagnostics with separate matrix rows,test
+absent assignment scope,Initial same-named ID had a different meaning,V1,independent_statistical_verification,"Independent important descriptive AND core advanced-model numerical verification; planned,not_run",test
+absent assignment scope,Initial same-named ID had a different meaning,N1,statistical_negative_check,"Harmless statistical-input negative check: invalid ordinal category detection and restoration/recovery; planned,not_run",test
+absent assignment scope,Initial same-named ID had a different meaning,S1,additional_sensitivity,"Separate sensitivity to dependence on one sampled country: planned leave-one-country-out influence analysis; planned,not_run",test

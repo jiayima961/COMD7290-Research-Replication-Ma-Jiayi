@@ -1,0 +1,20 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    ".venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "analysis\\nested_logit.py",
+    "--model",
+    "M3",
+    "--output-root",
+    "tmp\\skill2_engine_validation"
+  ],
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "started_at_utc": "2026-10-18T10:36:18.663050+00:00",
+  "status": "interrupted_not_accepted",
+  "previous_status": "running",
+  "interruption_note": "Prior session/usage interruption; no completed fit artifact accepted.",
+  "annotated_at_utc": "2026-10-18T10:59:49.686526+00:00"
+}

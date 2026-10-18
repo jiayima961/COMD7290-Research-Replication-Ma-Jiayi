@@ -1,4 +1,4 @@
-# Research design and models: unapproved draft
+# Research design and executed model specification
 
 ## Observation production and units
 
@@ -9,7 +9,7 @@ This is an observational manual content analysis of the role of religion in publ
 | Contested secularism | United States | Turkey | Lebanon |
 | Stable secularism | Australia | Germany | Switzerland |
 
-Published item N = 1,700: 600 newspaper items, 600 news-website items, and 500 blog posts. Actor-reference models report 3,770 directed references within 2,453 actor/statement units within 1,183 items. These are published counts, not locally recalculated results. Verify whether actor identifiers are unique only within items. Independently supplied coder ratings require separate matching and must not be replaced by consensus values.
+Published item N = 1,700: 600 newspaper items, 600 news-website items, and 500 blog posts. Actor-reference models report 3,770 directed references within 2,453 actor/statement units within 1,183 items. These counts were independently recalculated from original inputs. Actor identifiers are nested within items; the composite actor key is verified. Independently supplied coder ratings require separate matching and must not be replaced by consensus values.
 
 ## M1: item-level tone
 
@@ -27,14 +27,8 @@ Fit separate three-level random-intercept binary-logit models for outrage and re
 
 `u_j ~ Normal(0, sigma_item^2)` and `v_aj ~ Normal(0, sigma_actor^2)`.
 
-Here r denotes a directed reference, a an originating actor/statement unit within an item, and j an item. Slopes are fixed. The outcomes are fitted separately; this is not a direct regression of outrage on recognition. These equations describe the intended model. Numeric coding, exact input names, estimation, integration, and interval conventions still require source-to-data verification.
+Here r denotes a directed reference, a an originating actor/statement unit within an item, and j an item. Slopes are fixed. The outcomes are fitted separately; this is not a direct regression of outrage on recognition. These equations describe the executed model. See [the execution specification](execution_specification.md) and [results index](replication_results.md) for verified input names, coding, numerical settings and the unresolved historical finite-grid details.
 
-## Resolve before estimation
+## Execution and interpretation status
 
-- Actual variable names, binary value labels, special missing codes, identifiers/nesting, exclusions, and missing-data rules.
-- Engine and extension versions, estimator, numerical integration/optimization, convergence, and interval settings.
-- Reliability coefficients, measurement levels, distance weights, rating matches, and missing-rating handling.
-- Random-effect treatment in predictions, the averaging population, and AME definitions. Distinguish log-odds, odds ratios, probabilities, and percentage-point differences.
-- All supplementary analyses and paper/code conflicts. Specify tolerances before execution using reporting precision and numerical considerations.
-
-Student approval: not recorded. Do not begin substantive estimation before review and approval of the specification.
+The user explicitly authorized source-bound Python reproduction in D011. Current numerical results and uncertainty are saved; this is not a claim of preregistration or final student acceptance. See execution_specification.md for recovered settings and replication_results.md for differences and limitations. Independent ratings remain separate from consensus analytical data. Historical software builds and finite quadrature internals are incompletely pinned; no exact-executable equivalence is claimed.

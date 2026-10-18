@@ -1,7 +1,21 @@
-# Research checks: implementation pending
+# Verification programs
 
-Validate categories and missing codes, independent-rating matches, unique identifiers and directed relationships, joins/exclusions, three-level nesting, output scales, convergence, and prediction conventions. Derive rules from reviewed sources and approved specifications rather than preferred significance or exact agreement with a published result.
+These programs test different claims; a structural check alone is not evidence of a successful statistical reproduction. Saved original test evidence is under [records/skill_tests](../records/skill_tests/) and [outputs/diagnostics](../outputs/diagnostics/).
 
-Demonstrate at least one harmless negative test, such as a duplicate reference ID or tone = 5 in copied/synthetic inputs. Show that checks detect the problem, retain evidence, restore the copy, and rerun. Preserve original data and final analytical outputs.
+| Programs | Purpose |
+| --- | --- |
+| skill1_specification/test_validator_cases.py | 12 meaningful specification cases, including wrong hypothesis direction, hierarchy and reliability inputs |
+| skill2/data_checks.py | Independent raw counts and copied invalid-code rejection/recovery |
+| skill2/glmm_reference.py, check_nested_logit.py | Independently integrated likelihoods and structural fixtures |
+| skill2/check_glmm_full_likelihood.py | Independent saved-vector likelihood and gradient checks |
+| skill2/check_glmm_fit_curvature.py | Observed-Hessian steps and covariance/score checks |
+| repository/test_portable_execution.py | Runner transport, source restoration, notebook entry points and relocation checks |
 
-These research tests have not yet been implemented or run. tools/check_repository.py checks repository materials and does not satisfy the research-testing requirements by itself.
+After restoring archived case inputs, run skill-1 regression without replacing earlier evidence:
+
+```powershell
+python tests/skill1_specification/test_validator_cases.py --case-root records/skill_tests/specify-empirical-study/forward_case --output records/run_logs/skill1_new_regression.json
+python tests/repository/test_portable_execution.py
+```
+
+`python analysis/run_replication.py --stage checks` reruns the numerical/data checks against restored inputs and saved fits and writes canonical diagnostic files. Use a separate project copy for an independent rerun if you need to retain the present artifacts byte-for-byte. The reorganization record distinguishes post-cleanup smoke tests from the original substantive verification.

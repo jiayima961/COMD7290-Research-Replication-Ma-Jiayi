@@ -1,0 +1,31 @@
+{
+  "skill": "$reproduce-and-diagnose",
+  "skill_path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\reproduce-and-diagnose\\SKILL.md",
+  "skill_sha256": "94126dd404c22fc40df343ac58d1a104dfcf7be5b5478721c1cc127f01b3a114",
+  "task": "independent primary-source forward test of real reliability suite",
+  "authorization": "AGENTS D011 and parent task",
+  "statistical_runtime": "Python only",
+  "project_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "output_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\reliability",
+  "diagnostics_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability",
+  "log_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability",
+  "prepared_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability",
+  "methods_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability",
+  "published_root": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\published\\reliability",
+  "specification_version": "author-reliability-2020-11-01__identity-conditional__python-v1",
+  "command_argv": [
+    "analysis/reliability_reproduction.py",
+    "--project-root",
+    "."
+  ],
+  "timestamp_utc": "2026-10-18T10:53:39.592988+00:00",
+  "runtime_seconds": 16.406622500013327,
+  "module_sha256": "71acd0c3611e7902414d6702256428bc52372eb73026d7a6eced30c0e9a3ace1",
+  "analyses_completed": 10,
+  "coefficient_rows": 60,
+  "benchmark_rows": 720,
+  "original_files_unchanged": true,
+  "checks_passed": true,
+  "no_Stata_execution": true,
+  "new_dependencies_installed": false
+}

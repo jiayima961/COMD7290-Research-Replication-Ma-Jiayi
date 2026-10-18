@@ -1,0 +1,118 @@
+{
+  "checked_at_utc": "2026-10-18T16:41:13.323221+00:00",
+  "test_scope": "skill_1_specification_only",
+  "validator_sha256": "8f132c8c1f4187de56154f5aef4fd99c2337312da68693c0e8ca69c8d8a186ab",
+  "baseline_specification_sha256": "223ab607afa49cf3dfdeb442a68a083e4d70f8d2b31c40c2924debe7b7742c39",
+  "cases": [
+    {
+      "id": "positive_source_based_specification",
+      "expected": "technical_pass_with_pending_human_review",
+      "observed": "technical_pass",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "reversed_original_prediction",
+      "expected_error": "HYPOTHESIS_DIRECTION_OR_TARGET",
+      "observed_errors": [
+        "HYPOTHESIS_DIRECTION_OR_TARGET"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "ordinal_tone_as_continuous",
+      "expected_error": "TONE_MEASUREMENT",
+      "observed_errors": [
+        "TONE_MEASUREMENT"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "incorrect_country_media_article_hierarchy",
+      "expected_error": "NESTING",
+      "observed_errors": [
+        "NESTING"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "consensus_codes_as_independent_ratings",
+      "expected_error": "RELIABILITY_INPUT",
+      "observed_errors": [
+        "RELIABILITY_INPUT"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "ordinal_weights_substituted_for_author_identity_weights",
+      "expected_error": "RELIABILITY_WEIGHTS",
+      "observed_errors": [
+        "RELIABILITY_WEIGHTS"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "synthetic_input_as_real_student_approval",
+      "expected_error": "SYNTHETIC_HUMAN_ATTRIBUTION",
+      "observed_errors": [
+        "SYNTHETIC_HUMAN_ATTRIBUTION"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "premature_estimation_readiness",
+      "expected_error": "PREMATURE_READINESS",
+      "observed_errors": [
+        "PREMATURE_READINESS"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "changed_source_fingerprint",
+      "expected_error": "SOURCE_HASH_MISMATCH",
+      "observed_errors": [
+        "SOURCE_HASH_MISMATCH"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "repurposed_required_analysis_id",
+      "expected_error": "ANALYSIS_ID_MEANING",
+      "observed_errors": [
+        "ANALYSIS_ID_MEANING"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "verification_missing_advanced_numerical_check",
+      "expected_error": "INDEPENDENT_VERIFICATION_SCOPE",
+      "observed_errors": [
+        "INDEPENDENT_VERIFICATION_SCOPE"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    },
+    {
+      "id": "premature_csv_scientific_conclusion",
+      "expected_error": "PREMATURE_SCIENTIFIC_CONCLUSION",
+      "observed_errors": [
+        "PREMATURE_SCIENTIFIC_CONCLUSION"
+      ],
+      "passed": true,
+      "ready_for_estimation": false
+    }
+  ],
+  "unchanged_original_inputs": true,
+  "status": "passed",
+  "assignment_statistical_negative_test_completed": false,
+  "research_models_fitted": false
+}

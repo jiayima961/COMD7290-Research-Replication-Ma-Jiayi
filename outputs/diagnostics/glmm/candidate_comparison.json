@@ -1,0 +1,1371 @@
+{
+  "status": "all_fixture_accuracy_and_invariance_assertions_passed",
+  "candidate_path": "analysis/nested_logit.py",
+  "candidate_sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8",
+  "reference_path": "outputs/diagnostics/glmm/reference_results.json",
+  "comparisons": [
+    {
+      "fixture": "synthetic_mixed",
+      "reference_log_likelihood": -3.940325603730514,
+      "reference_absolute_error_estimate": 9.582987549291489e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -3.9403318942320738,
+          "difference_from_reference": -6.290501559647055e-06,
+          "integrated_score": [
+            0.5659632586288557,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.0679713235492919,
+            0.09654120291024543
+          ],
+          "finite_difference_score": [
+            0.5659570481597598,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.06798798082296997,
+            0.09655016639520396
+          ],
+          "max_integrated_vs_finite_difference_score": 1.6657273678069573e-05,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -3.940325656203267,
+          "difference_from_reference": -5.247275280950703e-08,
+          "integrated_score": [
+            0.5659554410161494,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.0679929054922814,
+            0.09661195525139506
+          ],
+          "finite_difference_score": [
+            0.5659554298098612,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.06799317771033486,
+            0.09661258517645875
+          ],
+          "max_integrated_vs_finite_difference_score": 6.299250636943032e-07,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -3.940325603729356,
+          "difference_from_reference": 1.1581846592889633e-12,
+          "integrated_score": [
+            0.5659554059115067,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.06799336985510296,
+            0.09661324806140985
+          ],
+          "finite_difference_score": [
+            0.5659554059178618,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.06799336986773596,
+            0.09661324802401337
+          ],
+          "max_integrated_vs_finite_difference_score": 3.7396474805717617e-11,
+          "adaptation": {
+            "outer_adaptation_iterations": 2,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ],
+      "joint_mvagh_7_log_likelihood": -3.9403284622592984,
+      "recursive_7_minus_full_joint_7": -3.4319727753029383e-06
+    },
+    {
+      "fixture": "synthetic_rare",
+      "reference_log_likelihood": -3.193247082678365,
+      "reference_absolute_error_estimate": 2.1514401696835313e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -3.193245844169724,
+          "difference_from_reference": 1.2385086409771873e-06,
+          "integrated_score": [
+            -0.02679473296948086,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.39638608805661446,
+            -0.0321268970231763
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 5,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -3.193247084447257,
+          "difference_from_reference": -1.7688921438718808e-09,
+          "integrated_score": [
+            -0.026791014762539297,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.3963874886663028,
+            -0.0321360096002926
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -3.1932470826783685,
+          "difference_from_reference": -3.552713678800501e-15,
+          "integrated_score": [
+            -0.02679102355865707,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.3963875399087706,
+            -0.032135956401237314
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ],
+      "joint_mvagh_7_log_likelihood": -3.193246762106343,
+      "recursive_7_minus_full_joint_7": 9.179366191602867e-07
+    },
+    {
+      "fixture": "synthetic_large_variance",
+      "reference_log_likelihood": -4.613539516829836,
+      "reference_absolute_error_estimate": 3.7656087113524515e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -4.613596447968509,
+          "difference_from_reference": -5.693113867266675e-05,
+          "integrated_score": [
+            -0.06333132446539574,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.46092424869119825,
+            -0.8318054767345806
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 4,
+            "inner_adaptation_max_iterations": 7,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -4.613540234261605,
+          "difference_from_reference": -7.174317691038823e-07,
+          "integrated_score": [
+            -0.063187577234773,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.461106728190816,
+            -0.8313303269695633
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -4.613539516824894,
+          "difference_from_reference": 4.941824727211497e-12,
+          "integrated_score": [
+            -0.06319201024761471,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.4611169598409048,
+            -0.8313067513774389
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ],
+      "joint_mvagh_7_log_likelihood": -4.61355904579035,
+      "recursive_7_minus_full_joint_7": -3.740217815906277e-05
+    },
+    {
+      "fixture": "zero_both",
+      "reference_log_likelihood": -4.11593024442729,
+      "reference_absolute_error_estimate": 0.0,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -4.11593024442729,
+          "difference_from_reference": 0.0,
+          "integrated_score": [
+            1.3409388608408308,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            6.89406055456178e-25,
+            6.773276622607977e-25
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 1,
+            "inner_adaptation_max_iterations": 1,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -4.11593024442729,
+          "difference_from_reference": 0.0,
+          "integrated_score": [
+            1.3409388608408301,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            6.896722898487142e-25,
+            6.773306935766393e-25
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 1,
+            "inner_adaptation_max_iterations": 1,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -4.11593024442729,
+          "difference_from_reference": 0.0,
+          "integrated_score": [
+            1.3409388608408304,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            6.894189218127787e-25,
+            6.774429725386473e-25
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 1,
+            "inner_adaptation_max_iterations": 1,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "zero_item",
+      "reference_log_likelihood": -3.9249721233773003,
+      "reference_absolute_error_estimate": 1.6016671397065652e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -3.9249808276411633,
+          "difference_from_reference": -8.70426386301304e-06,
+          "integrated_score": [
+            0.8029033390821252,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4.515992024118726e-26,
+            0.13387580621154563
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 1,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -3.9249723537485073,
+          "difference_from_reference": -2.3037120699953562e-07,
+          "integrated_score": [
+            0.8029166863672259,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4.5146999947562347e-26,
+            0.13397427713740734
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 1,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -3.924972123399419,
+          "difference_from_reference": -2.211875127500207e-11,
+          "integrated_score": [
+            0.802918341120314,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4.518756776726264e-26,
+            0.13397906652212768
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 1,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "zero_actor",
+      "reference_log_likelihood": -4.071234626307681,
+      "reference_absolute_error_estimate": 2.0460588403148783e-14,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -4.07123388516344,
+          "difference_from_reference": 7.411442410898417e-07,
+          "integrated_score": [
+            0.7221740824480866,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.07791182248900949,
+            4.442167001282498e-25
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 4,
+            "inner_adaptation_max_iterations": 1,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -4.071234623585726,
+          "difference_from_reference": 2.721955105755569e-09,
+          "integrated_score": [
+            0.7221676275835491,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.07793070631138417,
+            4.442890890573927e-25
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 1,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -4.071234626307722,
+          "difference_from_reference": -4.085620730620576e-14,
+          "integrated_score": [
+            0.7221675714971034,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.07793079981446856,
+            4.444187179396695e-25
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 1,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "one_actor_variance_sum",
+      "reference_log_likelihood": -4.051967377033019,
+      "reference_absolute_error_estimate": 3.5326818125729935e-13,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -4.051966713864281,
+          "difference_from_reference": 6.631687385905138e-07,
+          "integrated_score": [
+            -0.26020401156412754,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.19187078325417578,
+            -0.35625179642995586
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 6,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -4.051967380545634,
+          "difference_from_reference": -3.5126150876862994e-09,
+          "integrated_score": [
+            -0.2602212599629096,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.1918541618053389,
+            -0.3563004137916007
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -4.051967377033117,
+          "difference_from_reference": -9.769962616701378e-14,
+          "integrated_score": [
+            -0.2602213893228994,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.1918541010215973,
+            -0.35630047333888626
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 2,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "one_row_symmetry",
+      "reference_log_likelihood": -0.6931471805599475,
+      "reference_absolute_error_estimate": 1.690965828942961e-11,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -0.6931629007488371,
+          "difference_from_reference": -1.572018888962301e-05,
+          "integrated_score": [
+            0.2738272176697573,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0001411781697776693,
+            -0.0002660869975114738
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 4,
+            "inner_adaptation_max_iterations": 6,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -0.6931467046090832,
+          "difference_from_reference": 4.7595086427598687e-07,
+          "integrated_score": [
+            0.2737814211961621,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -2.6089023393428635e-06,
+            6.234214634686196e-06
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -0.6931471806903151,
+          "difference_from_reference": -1.3036760559970162e-10,
+          "integrated_score": [
+            0.2737810059945624,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.937436005198797e-09,
+            -4.811709396230427e-09
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_ab01_0012.txt_actrefoutbin",
+      "reference_log_likelihood": -0.2418039423479223,
+      "reference_absolute_error_estimate": 2.3080432166784663e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -0.24180247273044075,
+          "difference_from_reference": 1.4696174815420626e-06,
+          "integrated_score": [
+            -0.16507266654867303,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04385987649702544,
+            -0.08143538682074775
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -0.2418039407576893,
+          "difference_from_reference": 1.590233000836605e-09,
+          "integrated_score": [
+            -0.16506897728267517,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.043855223687523634,
+            -0.08144527831810554
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -0.24180394234742741,
+          "difference_from_reference": 4.948819132266635e-13,
+          "integrated_score": [
+            -0.1650690306433193,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04385521213832626,
+            -0.08144539394881503
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 2,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_ab01_0012.txt_actrefrecbin",
+      "reference_log_likelihood": -0.2418039423479223,
+      "reference_absolute_error_estimate": 2.3080432166784663e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -0.24180247273044075,
+          "difference_from_reference": 1.4696174815420626e-06,
+          "integrated_score": [
+            -0.16507266654867303,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04385987649702544,
+            -0.08143538682074775
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -0.2418039407576893,
+          "difference_from_reference": 1.590233000836605e-09,
+          "integrated_score": [
+            -0.16506897728267517,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.043855223687523634,
+            -0.08144527831810554
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -0.24180394234742741,
+          "difference_from_reference": 4.948819132266635e-13,
+          "integrated_score": [
+            -0.1650690306433193,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04385521213832626,
+            -0.08144539394881503
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 2,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_ab01_0003.txt_actrefoutbin",
+      "reference_log_likelihood": -1.8560280473610105,
+      "reference_absolute_error_estimate": 3.4140432728131927e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -1.8560286383744256,
+          "difference_from_reference": -5.910134150965973e-07,
+          "integrated_score": [
+            0.4169605777366902,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.03135578766264731,
+            0.2503065276822576
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -1.8560280395798725,
+          "difference_from_reference": 7.781137956186512e-09,
+          "integrated_score": [
+            0.4169630936601186,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.03135648005134419,
+            0.25032144543077195
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -1.8560280473608253,
+          "difference_from_reference": 1.851852005074761e-13,
+          "integrated_score": [
+            0.41696306499693325,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.03135647203614334,
+            0.25032130579380446
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 2,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_ab01_0003.txt_actrefrecbin",
+      "reference_log_likelihood": -0.4637545162899851,
+      "reference_absolute_error_estimate": 3.717736063391141e-12,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -0.4637509672505251,
+          "difference_from_reference": 3.549039459982417e-06,
+          "integrated_score": [
+            -0.3097152378662854,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04697099908858593,
+            -0.16386440426357404
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -0.46375451929740097,
+          "difference_from_reference": -3.0074158718917943e-09,
+          "integrated_score": [
+            -0.30970952091641485,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04696126860997302,
+            -0.16389247804373286
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -0.4637545162888024,
+          "difference_from_reference": 1.1827205881331793e-12,
+          "integrated_score": [
+            -0.3097096331624404,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.04696126989072351,
+            -0.16389262614804623
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 2,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_un02_0045.txt_actrefoutbin",
+      "reference_log_likelihood": -4.276531846373185,
+      "reference_absolute_error_estimate": 6.586106824303647e-11,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -4.276454273779398,
+          "difference_from_reference": 7.75725937876004e-05,
+          "integrated_score": [
+            -2.0556540427593846,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.484221641218074,
+            -1.1100711941094756
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 5,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -4.276533132566904,
+          "difference_from_reference": -1.2861937186414707e-06,
+          "integrated_score": [
+            -2.0558425200634804,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.4846091608522363,
+            -1.111204255929948
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -4.276531846605037,
+          "difference_from_reference": -2.318518710353601e-10,
+          "integrated_score": [
+            -2.0558394841462966,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.484601484434742,
+            -1.1111802168162013
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_un02_0045.txt_actrefrecbin",
+      "reference_log_likelihood": -11.59686929331326,
+      "reference_absolute_error_estimate": 5.061369071906458e-11,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -11.596839006411647,
+          "difference_from_reference": 3.0286901612441852e-05,
+          "integrated_score": [
+            -0.37649042940749833,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.5113123895140335,
+            0.546220773207858
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 4,
+            "inner_adaptation_max_iterations": 6,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -11.596869252680577,
+          "difference_from_reference": 4.063268299603351e-08,
+          "integrated_score": [
+            -0.3763660742061437,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.5113134075784839,
+            0.5461221077082277
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -11.596869293225101,
+          "difference_from_reference": 8.815881358259503e-11,
+          "integrated_score": [
+            -0.37636907205934306,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.5113124389428378,
+            0.5461168873925107
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_ub03_0001.txt_actrefoutbin",
+      "reference_log_likelihood": -3.3052411446876415,
+      "reference_absolute_error_estimate": 1.3188545423269265e-10,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -3.3051903162586282,
+          "difference_from_reference": 5.0828429013272114e-05,
+          "integrated_score": [
+            -1.7157393216812293,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.6225343868858504,
+            -1.1040895211045676
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 5,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -3.3052418446115857,
+          "difference_from_reference": -6.999239441363159e-07,
+          "integrated_score": [
+            -1.7158343637010247,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.622716251936254,
+            -1.1047675148274485
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -3.3052411447699885,
+          "difference_from_reference": -8.234701809328726e-11,
+          "integrated_score": [
+            -1.7158334624471092,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.622713339210303,
+            -1.1047559373798719
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture": "real_item_ub03_0001.txt_actrefrecbin",
+      "reference_log_likelihood": -3.3052411446876415,
+      "reference_absolute_error_estimate": 1.3188545423269265e-10,
+      "approximations": [
+        {
+          "points": 7,
+          "candidate_log_likelihood": -3.3051903162586282,
+          "difference_from_reference": 5.0828429013272114e-05,
+          "integrated_score": [
+            -1.7157393216812293,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.6225343868858504,
+            -1.1040895211045676
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 5,
+            "inner_adaptation_max_iterations": 5,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 7,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 11,
+          "candidate_log_likelihood": -3.3052418446115857,
+          "difference_from_reference": -6.999239441363159e-07,
+          "integrated_score": [
+            -1.7158343637010247,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.622716251936254,
+            -1.1047675148274485
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 4,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 11,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        },
+        {
+          "points": 21,
+          "candidate_log_likelihood": -3.3052411447699885,
+          "difference_from_reference": -8.234701809328726e-11,
+          "integrated_score": [
+            -1.7158334624471092,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.622713339210303,
+            -1.1047559373798719
+          ],
+          "finite_difference_score": null,
+          "max_integrated_vs_finite_difference_score": null,
+          "adaptation": {
+            "outer_adaptation_iterations": 3,
+            "inner_adaptation_max_iterations": 3,
+            "moment_tolerance": 2e-10,
+            "points_per_level": 21,
+            "compressed_item_patterns": 1,
+            "adaptation_converged": true
+          }
+        }
+      ]
+    }
+  ],
+  "frequency_compression": {
+    "compressed": -15.761327576928295,
+    "uncompressed": -15.761327576928295,
+    "shuffled": -15.761327576928295,
+    "passed": true
+  },
+  "prediction_quadrature_caution": {
+    "eta": -1.4,
+    "item_variance": 0.7,
+    "actor_variance": 1.3,
+    "quad_mean": 0.2630961531094776,
+    "quad_absolute_error_estimate": 1.9761990657007967e-12,
+    "combined_variance_1d_gh7": 0.2631499364543992,
+    "separate_intercepts_tensor_gh7": 0.2630966633811648,
+    "tensor7_minus_quad": 5.102716871818735e-07,
+    "combined1d7_minus_quad": 5.3783344921620735e-05,
+    "note": "The exact Gaussian-sum reduction is valid; neither finite GH7 grid is established as the original Stata internal marginal-prediction grid."
+  }
+}

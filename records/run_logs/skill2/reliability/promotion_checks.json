@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "canonical_command": "rtk proxy .venv/Scripts/python.exe -X utf8 analysis/reliability_reproduction.py --project-root .",
+  "isolated_forward_test_preserved": true,
+  "coefficient_rows_exactly_equal": 60,
+  "benchmark_rows_exactly_equal": 720,
+  "primary_published_coefficients_matching_display_precision": 30,
+  "primary_N_targets_matching": 5,
+  "benchmark_classifications_changed_by_version": 8,
+  "historical_benchmark_status": "reconstruction_from_primary_author_description; original2.0.0source not recovered",
+  "promotion_repair": "The first canonical post-fit comparison exposed a path variable shadowed by a numeric published value. Renamed the numeric variable; full canonical rerun then passed. Statistical outputs did not change.",
+  "shared_docs_modified": false,
+  "source_manifest_modified": false
+}

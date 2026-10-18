@@ -1,0 +1,52 @@
+%% TEST ARTIFACT — original AI-assisted reference diagram; human review pending
+%% Figure 1
+%% Hypothesized contextual associations and original separate outcome models
+flowchart TB
+  FIG["Figure 1"]
+  TITLE["Hypothesized contextual associations and original separate outcome models"]
+  CTX["Context classification: country is not a random-effect level"]
+  Dmix["I Mixed; base Consensus"]
+  Dmaj["I Majoritarian; base Consensus"]
+  Ddiv["I Contested secularism; base Stable secularism"]
+  Dweb["I News website; base Blog"]
+  Dnews["I Newspaper; base Blog"]
+  X["x = five observed dummy covariates; common fixed slopes"]
+  CTX --> Dmix
+  CTX --> Dmaj
+  CTX --> Ddiv
+  Dmix --> X
+  Dmaj --> X
+  Ddiv --> X
+  Dweb --> X
+  Dnews --> X
+  MECH["Unmeasured proposed mechanisms: compromise, group segmentation, professional gatekeeping; no fitted mediator"]
+  MECH -. "theoretical rationale only" .-> X
+  subgraph Item["Item level: M1; no random effects"]
+    ETA1["eta1 = x beta1"]
+    K["kappa0 lt kappa1 lt kappa2 lt kappa3; no free intercept"]
+    Y1["Observed tone 0–4; ordered logistic; logit Pr Y le k = kappa_k - eta1"]
+    ETA1 --> Y1
+    K --> Y1
+  end
+  X --> ETA1
+  subgraph OUT["M2 only: directed reference r in actor/statement a in news item j"]
+    U2["Level 3: u_j2 ~ Normal 0,tau_item2²"]
+    V2["Level 2: v_aj2 ~ Normal 0,tau_actor2²; independent of u_j2"]
+    ETA2["alpha2 + x beta2 + u_j2 + v_aj2; logit link"]
+    Y2["Level 1: observed actrefoutbin 0/1 ~ Bernoulli p2"]
+    U2 --> ETA2
+    V2 --> ETA2
+    ETA2 --> Y2
+  end
+  X --> ETA2
+  subgraph REC["M3 only: directed reference r in actor/statement a in news item j"]
+    U3["Level 3: u_j3 ~ Normal 0,tau_item3²"]
+    V3["Level 2: v_aj3 ~ Normal 0,tau_actor3²; independent of u_j3"]
+    ETA3["alpha3 + x beta3 + u_j3 + v_aj3; logit link"]
+    Y3["Level 1: observed actrefrecbin 0/1 ~ Bernoulli p3"]
+    U3 --> ETA3
+    V3 --> ETA3
+    ETA3 --> Y3
+  end
+  X --> ETA3
+  NOTE["Note. Separate M2 and M3: no cross-outcome covariance estimated. act_id = text_id + underscore + akteur_id. intpoints 7. Source recodes and unresolved defaults in design_and_models.md. All analyses not_run; paths in node map are planned. Arrows specify association, not identified causality."]

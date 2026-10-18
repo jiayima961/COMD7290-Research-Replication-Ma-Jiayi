@@ -1,0 +1,151 @@
+{
+  "purpose": "V1 independent direct raw-data descriptive check; N1 harmless invalid-domain detection and recovery",
+  "timestamp_utc": "2026-10-18T16:41:14.249412+00:00",
+  "script": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\tests\\skill2\\data_checks.py",
+  "script_sha256": "53436962e53e4694cf80cecb407da95a669bfa59e5326cb0e37d318d18c4e26f",
+  "command": [
+    "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.venv\\Scripts\\python.exe",
+    "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\tests\\skill2\\data_checks.py",
+    "--project-root",
+    "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+    "--output",
+    "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\reorganization\\2026-10-19\\data_independent_checks.json"
+  ],
+  "runtime_seconds": 0.15210999999544583,
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "3.0.6",
+    "pyreadstat": "1.3.6"
+  },
+  "source_bindings": {
+    "item": {
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\original\\MedCon_Civility_item.dta",
+      "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba"
+    },
+    "reference": {
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\original\\MedCon_Civility_actref.dta",
+      "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc"
+    }
+  },
+  "comparison_bindings": [
+    {
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\descriptives\\ordinal\\reference_descriptives.csv",
+      "sha256": "76e9d9f60178d951d326a5c1e65cf2a06d997343ce7e437cb09f0d5f75d5b4fe"
+    },
+    {
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\descriptives\\ordinal\\item_tone_frequencies.csv",
+      "sha256": "0c1afdd08d7d61baff8ed1b70281d1d46b49f0d57be61a9e9ef3eccfd63edb12"
+    }
+  ],
+  "original_file_hashes_unchanged": {
+    "item": true,
+    "reference": true
+  },
+  "checks": [
+    {
+      "assignment_check": "V1",
+      "check": "Direct raw actrefrecbin counts versus saved descriptive CSV",
+      "reader": "pyreadstat.read_dta; value formats disabled",
+      "raw_n": 3770,
+      "raw_nonmissing_n": 3770,
+      "raw_event_n": 196,
+      "raw_nonevent_n": 3574,
+      "raw_proportion": 0.0519893899204244,
+      "saved_n": 3770,
+      "saved_proportion": 0.0519893899204244,
+      "absolute_difference": 0.0,
+      "raw_binary_value_labels": {},
+      "passed": true
+    },
+    {
+      "assignment_check": "V1",
+      "check": "Direct raw actrefoutbin counts versus saved descriptive CSV",
+      "reader": "pyreadstat.read_dta; value formats disabled",
+      "raw_n": 3770,
+      "raw_nonmissing_n": 3770,
+      "raw_event_n": 192,
+      "raw_nonevent_n": 3578,
+      "raw_proportion": 0.05092838196286472,
+      "saved_n": 3770,
+      "saved_proportion": 0.0509283819628647,
+      "absolute_difference": 2.0816681711721685e-17,
+      "raw_binary_value_labels": {},
+      "passed": true
+    },
+    {
+      "assignment_check": "V1",
+      "check": "Direct archive tone 1-5 counts versus saved analysis tone 0-4 frequencies",
+      "raw_item_n": 1700,
+      "raw_counts_with_explicit_subtract_one_labels": {
+        "0": 1491,
+        "1": 159,
+        "2": 28,
+        "3": 17,
+        "4": 5
+      },
+      "saved_counts": {
+        "0": 1491,
+        "1": 159,
+        "2": 28,
+        "3": 17,
+        "4": 5
+      },
+      "passed": true
+    },
+    {
+      "assignment_check": "N1",
+      "check": "Production recode rejects a synthetic copied invalid domain, then recovers from untouched synthetic original",
+      "tested_function": "analysis.prepare_replication.recode",
+      "tested_script_sha256": "cec6f4582aa790f1b435e259a8594f4a4ed5e5243b85b1fda9603d726fed0175",
+      "injected_error": {
+        "copy_row_zero_based": 1,
+        "variable": "polsys",
+        "invalid_value": 77
+      },
+      "detected": true,
+      "exception_type": "ValueError",
+      "exception_message": "Invalid original values in polsys; stop before recoding.",
+      "recovery_matches_explicit_source_recode": true,
+      "synthetic_original_unchanged": true,
+      "actual_recovered_values": {
+        "polsys": [
+          1,
+          3,
+          2
+        ],
+        "socdiv": [
+          2,
+          1,
+          2
+        ],
+        "mediatype": [
+          1,
+          3,
+          2
+        ]
+      },
+      "expected_recovered_values": {
+        "polsys": [
+          1,
+          3,
+          2
+        ],
+        "socdiv": [
+          2,
+          1,
+          2
+        ],
+        "mediatype": [
+          1,
+          3,
+          2
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "ordinal_implementation_imported": false,
+  "research_models_rerun": false,
+  "original_inputs_modified": false
+}

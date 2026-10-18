@@ -1,0 +1,242 @@
+[
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\analysis\\reliability_primary_comparison.py",
+    "sha256": "7783cbc4ed43735a5656e51ab9c7f11c7f2df5565b4378c8f062490c312b642e",
+    "bytes": 5634
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\analysis\\reliability_reproduction.py",
+    "sha256": "71acd0c3611e7902414d6702256428bc52372eb73026d7a6eced30c0e9a3ace1",
+    "bytes": 38839
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\outrage__all_author_selected_slots__rating_matrix.csv",
+    "sha256": "9804360ac26a9d113e87b13303797dc9695ffdb1c6666754ff86e4f5b1bd8737",
+    "bytes": 92954
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\outrage__two_slots__rating_matrix.csv",
+    "sha256": "9b2500a259392958cf00f120d56f40de0871700ad592b0dee474cf15fcceb082",
+    "bytes": 45727
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\recognition__all_author_selected_slots__rating_matrix.csv",
+    "sha256": "275b247f198a7a794c7319125fe3c82d9a8c656d8a6bab55f52d4a4f84daa831",
+    "bytes": 93038
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\recognition__two_slots__rating_matrix.csv",
+    "sha256": "dbe61213cd918ecc5b0730699e19d3fff97577280a9b2af57ea07a333c5ed58e",
+    "bytes": 45739
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\responsiveness__all_author_selected_slots__rating_matrix.csv",
+    "sha256": "00ec56ae7bc33cbe1dd79b83cd9ba10f117d1f9abe14048e6ee94eac37d55df3",
+    "bytes": 58049
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\responsiveness__two_slots__rating_matrix.csv",
+    "sha256": "b0699d81b24f41652b0da9e34025d8da0758b3a3a6ea3bf37e90f3b69d801f44",
+    "bytes": 45788
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\tone__all_author_selected_slots__rating_matrix.csv",
+    "sha256": "425411d06a9df51e163a1e00778e3a91b1e3b8c2cd2f69d56d8d3e580078a08f",
+    "bytes": 26140
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\tone__two_slots__rating_matrix.csv",
+    "sha256": "f79eccb998c7c9227302f6a06e11098d11f6d9dea051b885464f17db9fb8ee23",
+    "bytes": 22716
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\valence__all_author_selected_slots__rating_matrix.csv",
+    "sha256": "e067ba71c2a664fe143e590468980196a7506e863776437278c93eeeb40540d6",
+    "bytes": 93596
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\data\\prepared\\reliability\\valence__two_slots__rating_matrix.csv",
+    "sha256": "fbc4453620ef8c9c015106a074b27ece151e339cdc7ce01ead65abe9d1d5a911",
+    "bytes": 46347
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\benchmark_version_comparison.csv",
+    "sha256": "059e4facd731a88ac9f61549ec4f29651e7beef27562bf99cd8f20ba9af037d0",
+    "bytes": 4642
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\checks.json",
+    "sha256": "2b0446ac58aed1ab29f085b6f540c83c6720ba6f33f55f5cb1ae3a2afc411c0a",
+    "bytes": 1484
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\column_audit.csv",
+    "sha256": "63f55310e10df357ee7ce20799efdeda6c29c246697128780e157704f4603c51",
+    "bytes": 2776
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\independent_study_checks.json",
+    "sha256": "c51638068b837e215fb0698c1550e0dbbef0f93e31d8b64c0331711cddc1672f",
+    "bytes": 7064
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\matching_audit.json",
+    "sha256": "e7a3d39876b765171c5581425b12721716813fb7ef32c6cbc135ead4dd317ace",
+    "bytes": 728
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\matching_row_audit.csv",
+    "sha256": "5787fdaee9b27bc8fa73763fb82f2f12f9acc265505c187c37299318d4572623",
+    "bytes": 130415
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\outrage__all_author_selected_slots__conditional_influence.npy",
+    "sha256": "d7d18263b6fdf3755e61e7585a6d9b9c8926b02cd1c5f418922e5fd58ceaf9fd",
+    "bytes": 185552
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\outrage__two_slots__conditional_influence.npy",
+    "sha256": "9d70f8579aafcec932d4f35f86fb741713c1d998ac31f419d3366c4ef5ce4057",
+    "bytes": 185552
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\recognition__all_author_selected_slots__conditional_influence.npy",
+    "sha256": "edb6f3ec8202d537d6a8ca0039c8f386d0acb34d86cb71f1398b1749aa656a36",
+    "bytes": 185552
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\recognition__two_slots__conditional_influence.npy",
+    "sha256": "4f8dbfae9cec42313612c36daf66104eca758265afa386438a39fae19a64dd3e",
+    "bytes": 185552
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\responsiveness__all_author_selected_slots__conditional_influence.npy",
+    "sha256": "3bc36944779007cc755939c4301f3f9972a95c2099af32164ce5773773f8d3d5",
+    "bytes": 185600
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\responsiveness__two_slots__conditional_influence.npy",
+    "sha256": "6fede955cb0b1664913d7b9ae2118220bc850139911a50135f7370b78f27b2b0",
+    "bytes": 185600
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\responsiveness_mapping.json",
+    "sha256": "d506e8b518df2fe8277f0ca75db284e8c9397ecd94c9b510b3236fdcfc0c39ee",
+    "bytes": 1823
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\sample_audit.json",
+    "sha256": "755b7a7bfcde9e8f3e5f7555d595cb1308010390d16c5c4cd730a20f35d4c121",
+    "bytes": 16355
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\tone__all_author_selected_slots__conditional_influence.npy",
+    "sha256": "d8edb16e8368e672cb22cdc891e96ab323dce054474310b11ec5f6c48d72a0a5",
+    "bytes": 81728
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\tone__two_slots__conditional_influence.npy",
+    "sha256": "b84aa8cb16b98d79a79c5cb51e2c52b7b9ef2f5b8a994f31a1e9f7ce0d0150d2",
+    "bytes": 81728
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\unknowns_and_discrepancies.json",
+    "sha256": "db3159016cc3164b528d1841c38c612103aed5e5f5ad4d909a496623d7b26f4f",
+    "bytes": 1617
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\valence__all_author_selected_slots__conditional_influence.npy",
+    "sha256": "cb3489b6d50ee193079b49607a9a169fd06ab50203452fbe6f062c41b6a3ed85",
+    "bytes": 185552
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\diagnostics\\reliability\\valence__two_slots__conditional_influence.npy",
+    "sha256": "5ff719824299c3f6bf8d9a35ebb94f454f4f5202fd49be144f2a7c894476d3e7",
+    "bytes": 185552
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\published\\reliability\\official_website_targets.csv",
+    "sha256": "cfa3fc146f254660e3e562dfa365e79cfe6f103170f0c323c1f6cbcf513bec5c",
+    "bytes": 5579
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\reliability\\primary_website_comparison.csv",
+    "sha256": "bce5a71dbe502db9a02e4a9d98e14c2ff1adcd611f159c984d77094758b66323",
+    "bytes": 10512
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\reliability\\probabilistic_benchmarks.csv",
+    "sha256": "e3d6fde36de80d7851e0f32db48eeb3fb5af22b64849d062b402c15538b7c31f",
+    "bytes": 148419
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\reliability\\reliability_coefficients.csv",
+    "sha256": "1e9682f0a3d0e06216c14514abffbfd3941f7a402d882270c2f65d4361f66c14",
+    "bytes": 33547
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\outputs\\reproduced\\reliability\\REPORT.md",
+    "sha256": "90b78120cc2d7b2de0917aff972960a77e1206c2e0a0aeae3b2bb645bdce9020",
+    "bytes": 5679
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\input_manifest.json",
+    "sha256": "2bc7bcccd7b88cf9b6c038e972a48a932e8ae259f3af9627489a42dc1b62b878",
+    "bytes": 2562
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\invocation_receipt.json",
+    "sha256": "b9ed09b2ee7821b70b1074f4cc7829758096965a86501146528a1d7e91154cfe",
+    "bytes": 1850
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\method_provenance.json",
+    "sha256": "ca431d6e9c7c2796df6a80ccb007c76ec8d993afede5f3e12f0f2eac1b711325",
+    "bytes": 1721
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\primary_comparison_receipt.json",
+    "sha256": "6d50dd31a8084b087e44d9031a3cfce36094eadbe73bc0b1a61338904bb2febd",
+    "bytes": 832
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\promotion_checks.json",
+    "sha256": "c16700c7707fa36198e3263cac1f8c070afd0761c695946a9760ef330095e4b5",
+    "bytes": 855
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\stdout.log",
+    "sha256": "362a40f4813d77a57ed3697d97c0baf0747d55e0f5b052a660c7e3a77db4a1d2",
+    "bytes": 1323
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\records\\run_logs\\skill2\\reliability\\versions.json",
+    "sha256": "d358ac1dc8e9f3cfa14697856dc4fcb95a0256c732ac6d23334aa160045b998a",
+    "bytes": 276
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\kappaetc_2.1.0.ado",
+    "sha256": "08c41c33d31794c78fe70c89144187c78a1af793059ead6a0e2d0cfbbaec08ab",
+    "bytes": 135666
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\kappaetc_2.1.0.sthlp",
+    "sha256": "fa6665007e069343884e1d6654f713704f44c6dadb14d4bd7159566ed1255802",
+    "bytes": 33089
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\official_reliabilities_2026-10-18.html",
+    "sha256": "729d42d6c407b257bbc592d4e0019b85b56cdb112baffe53dc3850fdfee21c97",
+    "bytes": 12407
+  },
+  {
+    "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\sources\\local\\skill2_methods\\reliability\\SOURCE_AND_FORWARD_TEST_NOTES.md",
+    "sha256": "773c35ede231f9863a099133e0d5c878f93983df1381b4e2451167927d683715",
+    "bytes": 6896
+  }
+]

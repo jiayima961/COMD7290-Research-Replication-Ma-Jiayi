@@ -1,0 +1,18 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    ".venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "analysis/run_binary_models.py",
+    "--output-root",
+    "tmp/skill2_final_engine"
+  ],
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "started_at_utc": "2026-10-18T10:54:34.004118+00:00",
+  "status": "completed",
+  "finished_at_utc": "2026-10-18T11:05:58.560888+00:00",
+  "runtime_seconds": 684.5576861999871,
+  "exit_code": 0
+}

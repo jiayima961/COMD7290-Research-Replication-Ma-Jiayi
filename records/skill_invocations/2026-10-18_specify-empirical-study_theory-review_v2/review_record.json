@@ -1,0 +1,1199 @@
+{
+  "recorded_at_utc": "2026-10-18T10:10:40.028914+00:00",
+  "task_date_local": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "task_id": "2026-10-18_specify-empirical-study_theory-review_v2",
+  "review_round": 2,
+  "artifact_kind": "study",
+  "task_type": "personal_theory_revision_review_and_document_index",
+  "skill": "specify-empirical-study",
+  "skill_version": "1.0.1",
+  "invocation_mode": "explicit_named_full_path_in_current_shared_context",
+  "observed_exact_model_id": null,
+  "request_preamble": "the following is the revised version of the theory explanation, please give suggestions and keep record saved in the project folder, please save all the records and documents in an order, do not make the documents difficult for me and teacher to find",
+  "student_payload": {
+    "path": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+    "sha256": "f41582a8ad64e4bf100460c91a41bc71c2cb1408f2a6e355ecd75f956343b23a",
+    "capture": "User-supplied wording retained; UTF8/LF and paragraph whitespace normalized; original transport bytes inaccessible",
+    "word_count": 1822,
+    "word_count_regex": "\\b[\\w]+(?:[-\\u2019\\x27][\\w]+)*\\b"
+  },
+  "source_bindings": [
+    {
+      "path": "sources/local/Lob_et_al_2024.pdf",
+      "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "inspected_scope": "Fresh PDF4,5,6,11,13,14,16,17; theory,Tables3/4,raw proportions,Discussion and limits. Previously verified article passages also used as identified in feedback."
+    },
+    {
+      "path": "sources/local/COMD7290_assignment.pdf",
+      "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "inspected_scope": "Fresh PDF2,3,15,16; source-based revision,central matrix,readability and final-report requirements"
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "inspected_scope": "Read-only search of tone recode,ologit,act_id,melogit lines"
+    },
+    {
+      "path": ".agents/skills/specify-empirical-study/SKILL.md",
+      "sha256": "71538157c84c8af0d1792b0b525a5a06e25f1fc2844d23f1cafe2e6c1ed07cdc",
+      "inspected_scope": "Full skill personal-critique route; version1.0.1"
+    },
+    {
+      "path": ".agents/skills/specify-empirical-study/references/output_contract.md",
+      "sha256": "3a246386871b2d3843485397cbd1fac9366ec2bbfbc6f8f88e678a7ba716bc75",
+      "inspected_scope": "Output contract; personal-review subset rather than full specification"
+    }
+  ],
+  "numerical_checks": [
+    {
+      "model_id": "M1",
+      "comparison": "majoritarian_vs_consensus",
+      "student_or": "0.54",
+      "published_or": "0.54",
+      "published_significance": "significant",
+      "source_locator": "Table3,printed283/PDF11",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M2",
+      "comparison": "majoritarian_vs_consensus",
+      "student_or": "0.68",
+      "published_or": "0.68",
+      "published_significance": "not_significant",
+      "source_locator": "Table4 outrage,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M1",
+      "comparison": "mixed_vs_consensus",
+      "student_or": "1.49",
+      "published_or": "1.49",
+      "published_significance": "significant",
+      "source_locator": "Table3,printed283/PDF11",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M3",
+      "comparison": "majoritarian_vs_consensus",
+      "student_or": "0.58",
+      "published_or": "0.58",
+      "published_significance": "not_significant",
+      "source_locator": "Table4 recognition,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M1",
+      "comparison": "contested_vs_stable",
+      "student_or": "1.69",
+      "published_or": "1.69",
+      "published_significance": "significant",
+      "source_locator": "Table3,printed283/PDF11",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M2",
+      "comparison": "contested_vs_stable",
+      "student_or": "0.88",
+      "published_or": "0.88",
+      "published_significance": "not_significant",
+      "source_locator": "Table4 outrage,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M3",
+      "comparison": "contested_vs_stable",
+      "student_or": "2.20",
+      "published_or": "2.20",
+      "published_significance": "significant",
+      "source_locator": "Table4 recognition,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M1",
+      "comparison": "website_vs_blog",
+      "student_or": "0.17",
+      "published_or": "0.17",
+      "published_significance": "significant",
+      "source_locator": "Table3,printed283/PDF11",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M1",
+      "comparison": "newspaper_vs_blog",
+      "student_or": "0.28",
+      "published_or": "0.28",
+      "published_significance": "significant",
+      "source_locator": "Table3,printed283/PDF11",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M2",
+      "comparison": "website_vs_blog",
+      "student_or": "0.23",
+      "published_or": "0.23",
+      "published_significance": "significant",
+      "source_locator": "Table4 outrage,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M2",
+      "comparison": "newspaper_vs_blog",
+      "student_or": "0.34",
+      "published_or": "0.34",
+      "published_significance": "significant",
+      "source_locator": "Table4 outrage,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M3",
+      "comparison": "website_vs_blog",
+      "student_or": "1.99",
+      "published_or": "1.99",
+      "published_significance": "significant",
+      "source_locator": "Table4 recognition,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    },
+    {
+      "model_id": "M3",
+      "comparison": "newspaper_vs_blog",
+      "student_or": "3.28",
+      "published_or": "3.28",
+      "published_significance": "significant",
+      "source_locator": "Table4 recognition,printed286/PDF14",
+      "matches": true,
+      "evidence_role": "published_value_not_reproduced"
+    }
+  ],
+  "source_comparison_method": "Manual named-cell reading of primary PDF tables plus deterministic binding to the 13 explicit OR= entries; not a numerical reproduction",
+  "navigation_entry": "START_HERE.md",
+  "student_revision_received": true,
+  "first_round_changes_visibly_incorporated": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08"
+  ],
+  "F09_status": "retrospective_and_indirect_access_disclosure_supplied; direct_reading_notes_and_separate_diagram_not_supplied",
+  "new_recommendations": [
+    "R2-01",
+    "R2-02",
+    "R2-03",
+    "R2-04",
+    "R2-05"
+  ],
+  "human_review": {
+    "reading_scope": "unknown_not_supplied",
+    "foundational_readings_attested": false,
+    "separate_student_diagram_received": false,
+    "complete_specification_approved": false,
+    "round2_decisions": "pending",
+    "blanket_approval_inferred": false
+  },
+  "ready_for_estimation": false,
+  "previous_validation_attempts": [
+    {
+      "recorded_at_utc": "2026-10-18T10:09:42.036109+00:00",
+      "status": "failed",
+      "failed_checks": [
+        "all_navigation_local_links_exist_inside_project"
+      ],
+      "missing_link_targets": [
+        {
+          "from": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+          "target": "review_record.json",
+          "exists": false,
+          "within_project": true
+        }
+      ],
+      "resolution": "The first audit checked its own JSON link before creating that output. The record now exists and is checked in the final audit."
+    }
+  ],
+  "validation": {
+    "status": "review_and_navigation_checks_passed",
+    "checks": {
+      "all_13_explicit_or_entries_match_primary_table_cells": true,
+      "all_16_registered_original_hashes_match": true,
+      "earlier_immutable_personal_review_artifacts_unchanged": true,
+      "earlier_synthetic_test_artifacts_unchanged": true,
+      "all_navigation_local_links_exist_inside_project": true,
+      "readme_prominently_links_start_here": true,
+      "new_and_updated_project_text_has_no_cjk": true,
+      "round2_feedback_ids_present": true,
+      "word_count_reproducible": true
+    },
+    "source_hash_checks": [
+      {
+        "path": "sources/local/COMD7290_assignment.pdf",
+        "expected_sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+        "actual_sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+        "matches": true
+      },
+      {
+        "path": "sources/local/Lob_et_al_2024.pdf",
+        "expected_sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+        "actual_sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+        "matches": true
+      },
+      {
+        "path": "data/original/author_stata_reproduction.zip",
+        "expected_sha256": "6ea2384e90fd95656df2acb6a966d3931332aa690d218a2a2ad3b8fcbd88a938",
+        "actual_sha256": "6ea2384e90fd95656df2acb6a966d3931332aa690d218a2a2ad3b8fcbd88a938",
+        "matches": true
+      },
+      {
+        "path": "sources/local/codebook_01_news_item.pdf",
+        "expected_sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+        "actual_sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+        "matches": true
+      },
+      {
+        "path": "sources/local/codebook_02_actor_identification.pdf",
+        "expected_sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+        "actual_sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+        "matches": true
+      },
+      {
+        "path": "sources/local/codebook_05_actor.pdf",
+        "expected_sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+        "actual_sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+        "matches": true
+      },
+      {
+        "path": "sources/local/codebook_08_actor_reference.pdf",
+        "expected_sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+        "actual_sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+        "matches": true
+      },
+      {
+        "path": "data/original/independent_ratings_tone.xlsx",
+        "expected_sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+        "actual_sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+        "matches": true
+      },
+      {
+        "path": "data/original/independent_ratings_actor_reference.xlsx",
+        "expected_sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+        "actual_sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+        "matches": true
+      },
+      {
+        "path": "sources/author_code/reliability_original.do",
+        "expected_sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+        "actual_sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+        "matches": true
+      },
+      {
+        "path": "data/original/MedCon_Civility_actref.dta",
+        "expected_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+        "actual_sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+        "matches": true
+      },
+      {
+        "path": "sources/author_code/MedCon_Civility_an.do",
+        "expected_sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+        "actual_sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+        "matches": true
+      },
+      {
+        "path": "data/original/MedCon_Civility_item.dta",
+        "expected_sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+        "actual_sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+        "matches": true
+      },
+      {
+        "path": "sources/author_code/readme.rtf",
+        "expected_sha256": "85442008db47be0c3029bdb41cc2d20aa8d7bb5415895ed01869fdcbbd366ac6",
+        "actual_sha256": "85442008db47be0c3029bdb41cc2d20aa8d7bb5415895ed01869fdcbbd366ac6",
+        "matches": true
+      },
+      {
+        "path": "sources/local/Sobieraj_Berry_2011.pdf",
+        "expected_sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+        "actual_sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+        "matches": true
+      },
+      {
+        "path": "sources/local/Wolfe_Gould_1998_STB42.pdf",
+        "expected_sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+        "actual_sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+        "matches": true
+      }
+    ],
+    "prior_immutable_checks": [
+      {
+        "path": "records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+        "recorded_sha256": "72ebd5d4b0e5f25ee2cbfb0926817c2db3705e0a470c914d7ac1a6e57b59b25b",
+        "current_sha256": "72ebd5d4b0e5f25ee2cbfb0926817c2db3705e0a470c914d7ac1a6e57b59b25b",
+        "matches": true
+      },
+      {
+        "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/request.txt",
+        "recorded_sha256": "4959d3784b09a39288da520ee2f82e4cb5bca0a86697c31aeed894863f8a92f2",
+        "current_sha256": "4959d3784b09a39288da520ee2f82e4cb5bca0a86697c31aeed894863f8a92f2",
+        "matches": true
+      },
+      {
+        "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/README.md",
+        "recorded_sha256": "d17acba59a57784adf81eb3c1550ab293f8b14319dfcfffd0d6d3848af068022",
+        "current_sha256": "d17acba59a57784adf81eb3c1550ab293f8b14319dfcfffd0d6d3848af068022",
+        "matches": true
+      },
+      {
+        "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/claim_checks.csv",
+        "recorded_sha256": "c1b0dfaec612758712f2599ef12409ba3cf55d57affb81f4fd298789dad080bd",
+        "current_sha256": "c1b0dfaec612758712f2599ef12409ba3cf55d57affb81f4fd298789dad080bd",
+        "matches": true
+      },
+      {
+        "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/invocation_record.json",
+        "recorded_sha256": "f3de09ea93553f914181600408de06603482ff99be7e220d802716feae005b78",
+        "current_sha256": "f3de09ea93553f914181600408de06603482ff99be7e220d802716feae005b78",
+        "matches": true
+      },
+      {
+        "path": "docs/theory_feedback_v1.md",
+        "recorded_sha256": "1467de9107bb4969d7293b82d2b8d5ad5d62a4cc01cb911c6280e58b669c8037",
+        "current_sha256": "1467de9107bb4969d7293b82d2b8d5ad5d62a4cc01cb911c6280e58b669c8037",
+        "matches": true
+      }
+    ],
+    "synthetic_test_checks": [
+      {
+        "path": "records/skill_tests/specify-empirical-study/discovery.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/discovery_parent_folder.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/evaluation_plan.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/AGENTS.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/analysis_inventory.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/design_and_models.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/foundational_reading.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/hypothesis_matrix.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/model_diagram.mmd",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/model_diagram_map.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/published_comparison_targets.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/source_evidence.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/student_review.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/study_specification.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/synthetic_draft_feedback.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/theory.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/unresolved_decisions.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/docs/variable_dictionary.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/input_manifest.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/README.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/analysis_id_crosswalk.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/coverage_review_corrections.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/decisions.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/input_hash_check.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/inputs/fixture_provenance.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/inputs/synthetic_initial_explanation.v1.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/invocation_request.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/analysis_inventory.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/design_and_models.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/hypothesis_matrix.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/model_diagram_map.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/source_evidence.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/study_specification.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/theory.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/docs/unresolved_decisions.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/records/output_consistency_check.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/records/specification_handoff.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/records/specification_validation.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/review_finding.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/iterations/initial/snapshot_manifest.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/output_consistency_check.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/pdf_scope_check.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/source_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/specification_handoff.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/records/specification_validation.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/STATUS.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_case/synthetic_initial_explanation.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/forward_test_prompt.txt",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/iterations/initial/discovery.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/iterations/initial/validator_cases.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/preflight_checks.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/runtime_record.json",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/TEST_REPORT.md",
+        "matches": true
+      },
+      {
+        "path": "records/skill_tests/specify-empirical-study/validator_cases.json",
+        "matches": true
+      }
+    ],
+    "navigation_links": [
+      {
+        "from": "START_HERE.md",
+        "target": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/student_review.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "STATUS.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/theory_feedback_v1.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/theory.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/hypothesis_matrix.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/variable_dictionary.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/design_and_models.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/model_diagram.mmd",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/analysis_inventory.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/source_manifest.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "sources/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "data/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "analysis/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "outputs/reproduced/",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "outputs/comparison.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "outputs/published/model_targets.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": ".agents/skills/specify-empirical-study/SKILL.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/skill1_usage.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/skill_tests/specify-empirical-study/TEST_REPORT.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/agent_records.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/decisions.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/handoffs.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "environment.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/python_route_assessment.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/run_logs/python_environment_setup.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/assignment_checklist.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "records/checkpoints.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "report/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "report/submission_checklist.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "START_HERE.md",
+        "target": "docs/github_structure_and_workflow.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "STATUS.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/assignment_checklist.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/github_structure_and_workflow.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/theory.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/variable_dictionary.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/design_and_models.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/hypothesis_matrix.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/analysis_inventory.csv",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "outputs/published/",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "outputs/reproduced/",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/skill1_usage.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "records/skill_tests/specify-empirical-study/TEST_REPORT.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "records/skill_tests/specify-empirical-study/evaluation_plan.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/student_review.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "environment.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "docs/python_route_assessment.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "environment.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "analysis/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "README.md",
+        "target": "records/language_audit.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory.md",
+        "target": "../records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory.md",
+        "target": "theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory.md",
+        "target": "../START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory.md",
+        "target": "student_review.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/student_review.md",
+        "target": "../records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/student_review.md",
+        "target": "theory_feedback_v1.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/student_review.md",
+        "target": "../records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/student_review.md",
+        "target": "theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/student_review.md",
+        "target": "../START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory_feedback_v2.md",
+        "target": "../START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory_feedback_v2.md",
+        "target": "../records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory_feedback_v2.md",
+        "target": "theory_feedback_v1.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory_feedback_v2.md",
+        "target": "student_review.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory_feedback_v2.md",
+        "target": "../records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/theory_feedback_v2.md",
+        "target": "student_review.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "../records/student_inputs/2026-10-18_initial_theory_explanation_v1.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "theory_feedback_v1.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "student_review.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "../records/skill_invocations/2026-10-18_specify-empirical-study_theory-review/README.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "../records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "docs/skill1_usage.md",
+        "target": "../START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "target": "../../../START_HERE.md",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "target": "../../student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "target": "review_record.json",
+        "exists": true,
+        "within_project": true
+      },
+      {
+        "from": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "target": "../../../docs/theory_feedback_v2.md",
+        "exists": true,
+        "within_project": true
+      }
+    ],
+    "cjk_files": [],
+    "artifact_fingerprints": [
+      {
+        "path": "START_HERE.md",
+        "sha256": "7df37f8230930c10dc58f09e981e451509a8e4baf1ff1afb311b51b40669eae8"
+      },
+      {
+        "path": "README.md",
+        "sha256": "56786dbf02de432d56d7c247741e0cdbe8d8e0001b18a53471d778dc7dda8fe2"
+      },
+      {
+        "path": "AGENTS.md",
+        "sha256": "93fa65d6628934ee923866cddb0c829fc4f553455be8b01cdd7c55165b95f23d"
+      },
+      {
+        "path": "STATUS.md",
+        "sha256": "7e17ab22b2cfb1d4a97a6fbe2f04b49501147d7c2aed922a6cfc01093db9b6d2"
+      },
+      {
+        "path": "docs/theory.md",
+        "sha256": "fcea96f0ceebc5a035ca1d1e3f97a0517a543dec41687b20b5e6f6e3b3952efb"
+      },
+      {
+        "path": "docs/student_review.md",
+        "sha256": "07ca33c4afd9a456aee074e84195063479679b9dcf5d162f4bfa1351b5d541ef"
+      },
+      {
+        "path": "docs/theory_feedback_v2.md",
+        "sha256": "b5c5534b58d74e8e17875f512069bc37ab57289fefb626883e519c8074a9f4e1"
+      },
+      {
+        "path": "docs/assignment_checklist.md",
+        "sha256": "6865861425ff73804dd9057059b90ca5a79e6abfddb357b84ea37ab246900f0f"
+      },
+      {
+        "path": "docs/skill1_usage.md",
+        "sha256": "ea8ef78f764b01d467dd4369abd1463611e941b23bfea2cd27686ad1f07f3cee"
+      },
+      {
+        "path": "records/decisions.md",
+        "sha256": "e5a0e4b2bea1d527d71d7533d33f14120fed26be09f6d17117b496a6c2ce5d2b"
+      },
+      {
+        "path": "records/agent_records.md",
+        "sha256": "c1662d75f28c50ab2f0ddaf28faf255460058a0fbfc7b52be3fd979744baa91d"
+      },
+      {
+        "path": "records/handoffs.md",
+        "sha256": "5c4d464d2df1367c74b05a7dc115eeccfd701222240d08a9c0c2911355604b74"
+      },
+      {
+        "path": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+        "sha256": "f41582a8ad64e4bf100460c91a41bc71c2cb1408f2a6e355ecd75f956343b23a"
+      },
+      {
+        "path": "records/skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md",
+        "sha256": "0e920490f8dd71e5f26048f381ad8d62ec5ebabd5a18da8e7d13670fdb6c4f9b"
+      }
+    ],
+    "limitation": "File/regex checks do not certify theoretical interpretation or genuine reading/approval; substantive source review is recorded separately.",
+    "additional_observed_checks": [
+      {
+        "command": "rtk proxy .venv/Scripts/python.exe -X utf8 tools/check_repository.py",
+        "exit_code": 0,
+        "output": "Material checks: PASSED; statistical analyses not executed by this tool."
+      },
+      {
+        "command": "rtk git diff --check",
+        "exit_code": 0,
+        "output": ""
+      }
+    ]
+  },
+  "full_specification_validator": {
+    "executed": false,
+    "reason": "Personal-review subset; full specification not generated or approved; no specification pass claimed"
+  },
+  "warnings": [
+    "Assignment pypdf wrong-pointing-object warnings; readable requested text returned; no full PDF audit"
+  ],
+  "research_models_fitted": false,
+  "research_results_reproduced": false,
+  "independent_statistical_verification": false,
+  "external_model_or_subagent_used": false,
+  "network_used": false,
+  "github_synchronized": false
+}
