@@ -1,0 +1,23 @@
+{
+  "verified_date": "2026-10-19",
+  "repository": "https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi",
+  "repository_id": "1423254230",
+  "branch": "main",
+  "visibility": "private",
+  "verified_content_commit": "bcba9639c5eed2d2a73905d8c91098db1396ec57",
+  "parent_commit": "62fc6f2d8d71d0fbf464e97403946977b56245af",
+  "verified_tree": "b00528519b3ee2220ed376c68e0a81a7e57b4f75",
+  "file_count": 347,
+  "remote_blob_sha_mismatches": [],
+  "remote_tree_truncated": false,
+  "local_index_tree_matched_exactly": true,
+  "readme_and_skill_entry_retrieved": true,
+  "branch_update_force": false,
+  "transport": "GitHub connector; ordinary Git network transport was unavailable",
+  "local_refs_imported_after_exact_object_hash_check": true,
+  "inputs_and_subject_level_diagnostics_remain_local": true,
+  "content_scope": "Two tested skill packages, complete project code, aggregate reproduced results, diagnostics, tests, student/agent records and navigation; excluded inputs have exact-version access/restoration instructions.",
+  "final_release_or_submission_performed": false,
+  "collaborator_or_visibility_change_performed": false,
+  "note": "This receipt verifies the content commit above. A following small commit may add this receipt and the final local-sync notes; it does not change the saved statistical results."
+}

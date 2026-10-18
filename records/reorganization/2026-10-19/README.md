@@ -8,6 +8,8 @@ The assignment's `docs / data / analysis / tests / outputs / records` structure 
 - [before_sha256.json](before_sha256.json): pre-change file fingerprints.
 - [previous_versions](previous_versions/): originals of replaced navigation/wrappers and moved helpers. These are historical copies, not current instructions.
 - verification.json and validation logs (created after edits): preservation, references, package completeness and portable execution checks.
+- [Validation summary](validation_summary.md): what was actually checked and what was not rerun.
+- [GitHub synchronization receipt](github_sync.json): verified content commit, tree, 347 matching file hashes and private visibility. A later small commit adds this receipt and final transport notes.
 
 No original file was deleted. Where an authored file was revised, its prior bytes remain in previous_versions; moves retain the file under its new path. Original data/PDF/method inputs and subject-level derived arrays remain local under existing access restrictions; the GitHub payload supplies access and exact-version restoration instructions. Runtime directories were left in place and were not repackaged.
 

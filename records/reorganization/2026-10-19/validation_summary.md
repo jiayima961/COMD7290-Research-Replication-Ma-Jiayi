@@ -29,6 +29,15 @@ reset). The working GitHub connector is used for the authorized private-reposito
 update. Remote files and branch identity will be verified after upload. No
 visibility change, invitation, release or final submission is authorized here.
 
+The completed upload is verified in [github_sync.json](github_sync.json): all
+347 content-commit blob hashes match the local reviewed index; repository
+visibility remains private. Local Git refs were advanced only after recreating
+and checking the exact remote commit object. The first reconstruction correctly
+refused to change refs because REST normalized the object's original timezone;
+the importer now checks timezone/encoding alternatives against the exact SHA
+before accepting an object. It then succeeded without changing working files
+or resetting the index.
+
 The reader-copy check reuses the existing Python environment and lawful local
 input copies. It is not a fresh dependency installation, a live-download test,
 a new agent's substantive skill invocation, or a full clean statistical refit.

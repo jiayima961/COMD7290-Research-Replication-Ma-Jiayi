@@ -28,7 +28,7 @@ Updated: 2026-10-19. Stage: user-authorized skill-2 Python reproduction. See doc
 - Actual skill-2 results and limitations are indexed in docs/replication_results.md; completed numerical evidence must not be confused with earlier synthetic skill-1 fixtures.
 - Historical finite-grid and reliability-build equivalence limits remain explicit. Do not claim a complete original-executable match merely because printed values agree.
 - Complete skill 3, the separate justified substantive sensitivity analysis, student-owned reading/diagram records, final report and acceptance. Computational reproduction does not itself complete all course checkpoints.
-- Keep the repository private and do not invite the instructor. The D012 repository cleanup and latest-result synchronization are being verified; see records/reorganization/2026-10-19. No final release or submission has been performed.
+- Keep the repository private and do not invite the instructor. The D012 cleanup and latest-result upload are verified: 347 files in content commit bcba9639c5eed2d2a73905d8c91098db1396ec57 match the reviewed local Git tree, with zero blob-hash mismatches. See records/reorganization/2026-10-19/github_sync.json. A following record/transport commit adds this receipt and final transport notes. No final release or submission has been performed.
 - All project-authored files remain English. Preserve original sources, earlier student submissions and completed historical evidence.
 
 ## Project identity
