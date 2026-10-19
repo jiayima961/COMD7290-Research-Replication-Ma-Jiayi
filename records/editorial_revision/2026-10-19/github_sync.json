@@ -1,0 +1,23 @@
+{
+  "verified_date": "2026-10-19",
+  "repository": "https://github.com/jiayima961/COMD7290-Research-Replication-Ma-Jiayi",
+  "branch": "main",
+  "visibility": "private",
+  "verified_content_commit": "00886df7a11522154d2ee25a837a0a3bf230d957",
+  "parent_commit": "8ae608fb0ef3254cfe94940ca2a1bc860c14e2e9",
+  "verified_tree": "2966b8e6e983d9f3595a078df92aa2f041d3e848",
+  "updated_or_added_files": 129,
+  "repository_file_count": 456,
+  "remote_blob_sha_mismatches": [],
+  "remote_tree_truncated": false,
+  "individual_report_files_present": [],
+  "individual_report_source_and_review_archives_withheld": true,
+  "protected_input_and_existing_numeric_files_unchanged": 86,
+  "local_report_visual_qa": "Eight current pages inspected. Student access details remain pending at the student's request.",
+  "technical_word_reports_included": 2,
+  "transport": "GitHub connector. Direct Git DNS failed in sandbox and an escalated read stalled, then was interrupted.",
+  "branch_update_force": false,
+  "final_release_or_submission_performed": false,
+  "collaborator_or_visibility_change_performed": false,
+  "note": "This receipt verifies the content commit. A following small commit adds this receipt, with no changes to scientific outputs or the local individual report."
+}

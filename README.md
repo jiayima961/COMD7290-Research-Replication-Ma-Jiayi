@@ -22,7 +22,7 @@ analysis/       Statistical Python modules and notebook entry points
 tests/          Specification and numerical verification programs
 outputs/        Published targets, reproduced results and diagnostics
 records/        Student inputs, actual invocations, tests and execution logs
-report/         Final-report preparation (unfinished)
+report/         Technical reports and individual-report review guidance
 tools/          Setup, input restoration, logging and repository checks
 tmp/, .venv/    Local runtime/cache files, excluded from Git
 ```
@@ -45,3 +45,9 @@ Use the Python interpreter from the project's activated environment. Ordinary Py
 Author data, third-party PDFs/method files and subject-level derived arrays remain local where redistribution is unresolved. Their access routes, exact hashes and restoration instructions are included; the repository supplies our skill packages, code, aggregate results, tests and records. No Stata licence is needed for the Python calculations.
 
 The [2026-10-19 reorganization record](records/reorganization/2026-10-19/README.md) maps old paths to new paths and verifies preserved files. No existing file was deleted. The repository remains private; no collaborator invitation, release or submission is part of this update.
+
+The [latest selective synchronization receipt](records/editorial_revision/2026-10-19/github_sync.json)
+verifies today's skill 3 and supporting evidence update. The individual final
+report, every draft version, its source and its review archive remain local while
+the student continues revising. The two technical Word reports are included.
+Use [the report folder guide](report/README.md) to distinguish these documents.

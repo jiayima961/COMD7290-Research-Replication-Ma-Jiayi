@@ -44,8 +44,14 @@ Updated: 2026-10-19. Stage: skill 3 verification and report preparation. All thr
 - Use START_HERE.md and docs/skills/README.md to find all three implemented skill
   packages, their real invocations and test evidence. The two new Word reports
   are ordered under report/verification; the full numerical ledger is under
-  outputs/verification. The latest skill 3 changes are local and have not been
-  synchronized to GitHub in this task.
+  outputs/verification. The authorized D014 update is verified in
+  records/editorial_revision/2026-10-19/github_sync.json. Its content commit
+  00886df7a11522154d2ee25a837a0a3bf230d957 contains 456 files with no remote
+  blob-hash mismatches. The individual report, its source and review archives
+  remain local by request. A following record commit adds the receipt and these
+  navigation notes. The local APA Word review copy is ready for student review,
+  with student ID, instructor access and assessed version details left pending
+  at the student's explicit request.
 - Canonical scientific paths are stable. Auxiliary guides are in docs/guides;
   historical writers are in tools/maintenance. Previous versions and a move map
   are retained under records/reorganization/2026-10-19; no file was deleted.
