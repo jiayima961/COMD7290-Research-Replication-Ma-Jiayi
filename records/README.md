@@ -14,3 +14,12 @@
 [source_manifest.csv](source_manifest.csv) identifies original research inputs and hashes. [sources/input_restore_manifest.json](../sources/input_restore_manifest.json) adds reproducible access paths for archived external methods. Earlier commands and absolute paths in completed receipts describe the original computer; they are historical evidence, not current installation requirements.
 
 Keep old student inputs and completed execution receipts unchanged. `reorganization/.../previous_versions` is an archive of replaced navigation/wrappers, not a competing current result set. Rebuilding study outputs does not establish that the student read a foundational text or approved the analysis.
+
+## Current skill 3 verification
+
+Use [the actual invocation and completion receipt](skill_invocations/2026-10-19_verify-and-package/README.md),
+[the test report](skill_tests/verify-and-package/TEST_REPORT.md), [the seven source-checked
+AI decisions](skill3_decision_audit.md) and [the two full clean-run logs](run_logs/skill3/).
+The [cached source access record](source_access/skill3_sources.md) preserves the
+supplement's numerical excerpt without claiming unavailable original HTML.
+All human-owned acceptance fields remain pending.

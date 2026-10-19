@@ -62,3 +62,30 @@ execution wrapper, not a requirement on the instructor's computer. Sharing
 our code, aggregate results and records is authorized; excluded third-party
 inputs and subject-level derived data retain access/restoration instructions.
 No release, submission, visibility or collaborator change is requested.
+
+## Scope update D013 on 2026-10-19
+
+The user authorizes completion and actual testing of verify-and-package, a
+source-by-source comparison of all skill 2 results, an English Word comparison
+report and an English justification of Python/Stata statistical equivalence.
+Reuse sound evidence; perform necessary independent checks and an isolated full
+clean refit, and add the assignment's separately labelled substantive sensitivity
+and follow-up proposal. Preserve historical numerical results and original inputs.
+The comparison ledger is outputs/verification/comparison_all.csv; the original
+45-cell outputs/comparison.csv remains historical skill 2 evidence. Technical
+completion does not supply student reading, acceptance, a student-authored diagram,
+student ID, instructor-access verification, or a final release/submission. Do not
+invent any of them. Read report/verification/README.md for the ordered route.
+
+## Scope update D014 on 2026-10-19
+
+The user requests an English APA-formatted individual report revision and a
+GitHub update of today's other materials. Keep every individual-report version,
+its editable source, authoring script, review archive and QA images local during
+student review. The two technical reports in report/verification are permitted
+sharing material and are distinct from the individual report. Do not create a
+final assessed release or tag, submit to Moodle, change visibility, or invite a
+collaborator. Retain scientific discrepancies accurately while giving minor
+numerical differences proportionate treatment in the report. The future research
+proposal now uses existing item data and country indicators rather than requiring
+a new editorial experiment. This extension is proposed, not executed.

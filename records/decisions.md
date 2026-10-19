@@ -1,5 +1,24 @@
 # Decisions and review record
 
+## D013 on 2026-10-19 Skill 3 verification and report preparation
+
+The user requests all-result comparison, a Word report explaining agreement and
+discrepancy causes, the assignment's other skill 3 tasks, economical evidence reuse
+and a justification for Python replacing Stata. This authorizes source-led
+reconciliation, independent calculations, isolated full refitting, a separately
+labelled country sensitivity and English reporting. Technical review is saved in
+report/verification/; complete comparison in outputs/verification/. Seven actual
+consequential decisions are source-checked in records/skill3_decision_audit.md.
+The original 45-cell subset, author inputs and skill 2 numerical artifacts are
+preserved. The cached supplementary numeric excerpt and retrieval limitation are
+recorded in records/source_access/.
+
+Successful technical execution does not accept those decisions on the student's
+behalf. Student ID, personal reading/diagram evidence, final scientific approval,
+instructor access and assessed release/submission remain pending. The dated source
+audit and forward review retain actual failures/corrections; later resolutions are
+recorded in the completion receipt, not rewritten as prior successes.
+
 ## D001 · 2026-10-17 · Article selection
 
 The user selected Option 3. Scope covers the complete article and relevant supplementary analyses rather than only elementary tests.

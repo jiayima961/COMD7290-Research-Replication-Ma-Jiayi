@@ -1,0 +1,8 @@
+{
+  "checks": 19,
+  "all_passed": true,
+  "word_count": 1046,
+  "protected_files": 86,
+  "clean_numeric_csvs": 18,
+  "failed": []
+}

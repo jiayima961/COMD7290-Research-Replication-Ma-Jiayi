@@ -1,6 +1,6 @@
 # Project status
 
-Updated: 2026-10-19. Stage: user-authorized skill-2 Python reproduction. See docs/replication_results.md for actual calculated results, numerical limitations and current fit status. Student reading/diagram attestations and final submission approval remain pending. Use START_HERE.md for navigation.
+Updated: 2026-10-19. Stage: skill 3 verification and report preparation. All three skills now have substantive execution and test evidence. Use START_HERE.md and report/verification/README.md for the current results. Student reading/diagram attestations, scientific acceptance and final submission approval remain pending.
 
 ## Completed
 
@@ -27,7 +27,7 @@ Updated: 2026-10-19. Stage: user-authorized skill-2 Python reproduction. See doc
 - D011 explicitly authorizes faithful Python-only data checks, reliability, descriptives, hypothesis fits and numerical verification. It supersedes earlier task-level no-fit/deferral limits. The source-bound specification is docs/execution_specification.md.
 - Actual skill-2 results and limitations are indexed in docs/replication_results.md; completed numerical evidence must not be confused with earlier synthetic skill-1 fixtures.
 - Historical finite-grid and reliability-build equivalence limits remain explicit. Do not claim a complete original-executable match merely because printed values agree.
-- Complete skill 3, the separate justified substantive sensitivity analysis, student-owned reading/diagram records, final report and acceptance. Computational reproduction does not itself complete all course checkpoints.
+- Skill 3 now supplies the complete 1,798-row comparison, independent numerical/negative checks, a source/input-only clean rerun, six separately labelled country-deletion fits, two English Word reports, a decision audit, a follow-up proposal and an individual report draft. Current evidence is indexed in records/skill_tests/verify-and-package/TEST_REPORT.md. Computational reproduction does not itself complete the student's reading/diagram evidence, final report revision, acceptance or course submission.
 - Keep the repository private and do not invite the instructor. The D012 cleanup and latest-result upload are verified: 347 files in content commit bcba9639c5eed2d2a73905d8c91098db1396ec57 match the reviewed local Git tree, with zero blob-hash mismatches. See records/reorganization/2026-10-19/github_sync.json. A following record/transport commit adds this receipt and final transport notes. No final release or submission has been performed.
 - All project-authored files remain English. Preserve original sources, earlier student submissions and completed historical evidence.
 
@@ -41,8 +41,11 @@ Updated: 2026-10-19. Stage: user-authorized skill-2 Python reproduction. See doc
 
 ## Reader layout and reusable packages (D012)
 
-- Use START_HERE.md and docs/skills/README.md to find both tested skill packages,
-  their real invocations and test evidence. Skill 3 remains unfinished.
+- Use START_HERE.md and docs/skills/README.md to find all three implemented skill
+  packages, their real invocations and test evidence. The two new Word reports
+  are ordered under report/verification; the full numerical ledger is under
+  outputs/verification. The latest skill 3 changes are local and have not been
+  synchronized to GitHub in this task.
 - Canonical scientific paths are stable. Auxiliary guides are in docs/guides;
   historical writers are in tools/maintenance. Previous versions and a move map
   are retained under records/reorganization/2026-10-19; no file was deleted.

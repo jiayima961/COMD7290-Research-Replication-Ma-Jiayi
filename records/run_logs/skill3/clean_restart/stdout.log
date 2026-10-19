@@ -1,0 +1,356 @@
+{
+  "specification_version": "source-faithful-python-1.0.0",
+  "item_rows": 1700,
+  "reference_rows": 3770,
+  "reference_items": 1183,
+  "within_item_actor_groups": 2453,
+  "exclusions": 0,
+  "exclusion_reason": "No missing/invalid required main-model fields in supplied analytical data",
+  "identifier_checks": "Unique item and reference keys; all references join many-to-one to an item; context and text IDs agree across files",
+  "actor_group_max_size": 11,
+  "item_group_max_size": 21,
+  "item_tone_counts": {
+    "0": 1491,
+    "1": 159,
+    "2": 28,
+    "3": 17,
+    "4": 5
+  },
+  "reference_outcome_events": {
+    "actrefoutbin": 192,
+    "actrefrecbin": 196
+  },
+  "reference_key_fields": [
+    "actref_idx",
+    "text_idx"
+  ],
+  "original_files": [
+    {
+      "path": "sources/local/COMD7290_assignment.pdf",
+      "sha256": "0cd8bc6273af22288d13ad1e11f1c224322509e81b7c9ba16ff1faeaabe945fe",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/Lob_et_al_2024.pdf",
+      "sha256": "ec5294e1b1d67ccbabe713679c7369f9508fd0c3a58d1edb3ea58d5ea05dcd02",
+      "matches_manifest": true
+    },
+    {
+      "path": "data/original/author_stata_reproduction.zip",
+      "sha256": "6ea2384e90fd95656df2acb6a966d3931332aa690d218a2a2ad3b8fcbd88a938",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/codebook_01_news_item.pdf",
+      "sha256": "4e0e68db0f923bcaa0d7601802ff6c411c0eb323765191be2a891c03cb6c0bf4",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/codebook_02_actor_identification.pdf",
+      "sha256": "a3dfdef0ba4506347491e7684cce962664218b305e69dd84e93320f476420017",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/codebook_05_actor.pdf",
+      "sha256": "bd94b230ebab99646b8c7b958b3d9ed017a3c71893271e340cc76d26723c3e10",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/codebook_08_actor_reference.pdf",
+      "sha256": "8cff24a1a3d9e4a5c4e7abfdafc3ab493560b965d444b5dfd1decd33c3ff8716",
+      "matches_manifest": true
+    },
+    {
+      "path": "data/original/independent_ratings_tone.xlsx",
+      "sha256": "eb40580e48598cc54201390abc5135c39b4d4bb9059c1db7c0b1180c28d5d1b2",
+      "matches_manifest": true
+    },
+    {
+      "path": "data/original/independent_ratings_actor_reference.xlsx",
+      "sha256": "5acc4e98f344d1d5cdcf20a021a8b94932cd0f5a034678662dfcffc485cba2ca",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/author_code/reliability_original.do",
+      "sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a",
+      "matches_manifest": true
+    },
+    {
+      "path": "data/original/MedCon_Civility_actref.dta",
+      "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5",
+      "matches_manifest": true
+    },
+    {
+      "path": "data/original/MedCon_Civility_item.dta",
+      "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/author_code/readme.rtf",
+      "sha256": "85442008db47be0c3029bdb41cc2d20aa8d7bb5415895ed01869fdcbbd366ac6",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/Sobieraj_Berry_2011.pdf",
+      "sha256": "31f3491b02a4bb847f767d9ed975bd174d8fb2a0dd84874a17ae9576d505d9ac",
+      "matches_manifest": true
+    },
+    {
+      "path": "sources/local/Wolfe_Gould_1998_STB42.pdf",
+      "sha256": "ad09e9737c75a6e563e00799e9d7312109fa0afe508205bf741a55bb93dc257f",
+      "matches_manifest": true
+    }
+  ],
+  "prepared_files": [
+    {
+      "path": "data\\prepared\\item_analysis.csv",
+      "sha256": "2645ffc2bc7a213d55dd0f42a4611e77f99c098f3588a4ac445c7eecf4544b23"
+    },
+    {
+      "path": "data\\prepared\\reference_analysis.csv",
+      "sha256": "f388a43521fcf6a4470bfa02fb160d64065f53dff2229b2ae75011002b3eb38d"
+    }
+  ],
+  "important_limit": "Supplied DTA files are already author-prepared consensus analytical inputs; upstream contradictory codebook numbering is not silently reconstructed."
+}
+Applying $reproduce-and-diagnose: independent reliability forward test; Python only.
+Known-answer, independent alpha/Cohen, finite-difference influence, negative-test and recovery checks passed.
+Computed tone__two_slots: N(any)=1700, N(>=2)=1699, slots=2, alpha=0.7406083961
+Computed tone__all_author_selected_slots: N(any)=1700, N(>=2)=1699, slots=4, alpha=0.7417374001
+Computed valence__two_slots: N(any)=3863, N(>=2)=1427, slots=2, alpha=0.7450157651
+Computed valence__all_author_selected_slots: N(any)=3863, N(>=2)=1428, slots=14, alpha=0.7315814854
+Computed recognition__two_slots: N(any)=3863, N(>=2)=1427, slots=2, alpha=0.7137046242
+Computed recognition__all_author_selected_slots: N(any)=3863, N(>=2)=1428, slots=14, alpha=0.7148554819
+Computed outrage__two_slots: N(any)=3863, N(>=2)=1427, slots=2, alpha=0.7892594164
+Computed outrage__all_author_selected_slots: N(any)=3863, N(>=2)=1428, slots=14, alpha=0.7514086957
+Computed responsiveness__two_slots: N(any)=3864, N(>=2)=1429, slots=2, alpha=0.6366210238
+Computed responsiveness__all_author_selected_slots: N(any)=3864, N(>=2)=1429, slots=5, alpha=0.6272998975
+Completed 10 real analyses / 60 coefficient rows / 720 benchmark rows in 14.90s; source inputs unchanged.
+30_of_30_coefficients_match_primary_website_at_displayed_two_decimal_precision
+2026-10-19 16:40:04,253 Independent ordinal forward test starts; specification ordinal-author-code-2021-python-forward-v1
+2026-10-19 16:40:04,315 Known-answer Wolfe-Gould check chi2=3.72099572 df=3 p=0.29321036
+2026-10-19 16:40:04,478 M1 n=1700 ll=-724.0003868022 beta=[ 0.39682551 -0.61526971  0.52362794 -1.78103114 -1.26854311] status=converged
+2026-10-19 16:40:04,486 M1_probit n=1700 ll=-721.9131168045 beta=[ 0.14051666 -0.39154369  0.26144583 -0.97892396 -0.71201534] status=converged
+2026-10-19 16:40:04,499 M1_cloglog n=1700 ll=-724.4183707550 beta=[ 0.42186178 -0.50322542  0.49403633 -1.6242842  -1.13734409] status=converged
+2026-10-19 16:40:05,280 Wolfe-Gould numeric test chi2=7.4310634677 df=9 p=0.5923333266 status=converged
+2026-10-19 16:40:05,334 Fully general factor diagnostic ll=-712.7324642571 raw2dLL=22.5358450903 information_rank=22 status=nonidentified_no_regular_LR_inference
+2026-10-19 16:40:05,374 Completed 13 meaningful checks; all original input hashes unchanged; runtime 1.12 seconds
+M2 start patterns 415 params [-2.9250638920408827, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+M2 warmup 5 nll 666.44816979
+M2 warmup 10 nll 663.34338391
+M2 warmup 15 nll 663.29330566
+M2 warmup 20 nll 663.27918545
+M2 score-search complete Desired error not necessarily achieved due to precision loss. nll 663.2791800500565
+M2 done accepted True LL -663.278489595453 runtime 287.35695889999624
+M2_null start patterns 415 params [-2.9250638920408827, 0.0, 0.0]
+M2_null warmup 5 nll 682.54843571
+M2_null warmup 10 nll 681.2933435
+M2_null score-search complete Desired error not necessarily achieved due to precision loss. nll 681.2925465989978
+M2_null done accepted True LL -681.2921335585936 runtime 106.53373749999446
+M3 start patterns 416 params [-2.9033260364888562, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+M3 warmup 5 nll 715.62452104
+M3 warmup 10 nll 710.84471813
+M3 warmup 15 nll 710.63564013
+M3 score-search complete Desired error not necessarily achieved due to precision loss. nll 710.6356269362532
+M3 done accepted True LL -710.6355580347366 runtime 178.85089269999298
+M3_null start patterns 416 params [-2.9033260364888562, 0.0, 0.0]
+M3_null warmup 5 nll 724.9586353
+M3_null warmup 10 nll 724.72952642
+M3_null score-search complete Desired error not necessarily achieved due to precision loss. nll 724.7193541931877
+M3_null done accepted True LL -724.7192477903909 runtime 70.02010649998556
+Saved 26 binary margins/AMEs and integration comparisons.
+Saved 45 coefficient comparisons and 12 hypothesis targets.
+{
+  "all_passed": true,
+  "checks": 4,
+  "recognition": "196/3770",
+  "outrage": "192/3770",
+  "negative_test_detected": true,
+  "recovery_passed": true,
+  "output": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\tmp\\skill3_clean_restart\\outputs\\diagnostics\\data_independent_checks.json"
+}
+{
+  "fixtures": 16,
+  "runtime_seconds": 33.55410040001152,
+  "max_gh161_difference": 1.2212453270876722e-15,
+  "status": "all checks passed"
+}
+checked synthetic_mixed
+checked synthetic_rare
+checked synthetic_large_variance
+checked zero_both
+checked zero_item
+checked zero_actor
+checked one_actor_variance_sum
+checked one_row_symmetry
+checked real_item_ab01_0012.txt_actrefoutbin
+checked real_item_ab01_0012.txt_actrefrecbin
+checked real_item_ab01_0003.txt_actrefoutbin
+checked real_item_ab01_0003.txt_actrefrecbin
+checked real_item_un02_0045.txt_actrefoutbin
+checked real_item_un02_0045.txt_actrefrecbin
+checked real_item_ub03_0001.txt_actrefoutbin
+checked real_item_ub03_0001.txt_actrefrecbin
+{
+  "fixtures": 16,
+  "max_absolute_log_likelihood_error_by_points": {
+    "7": 7.75725937876004e-05,
+    "11": 1.2861937186414707e-06,
+    "21": 2.318518710353601e-10
+  },
+  "joint_versus_recursive_7": {
+    "synthetic_mixed": -3.4319727753029383e-06,
+    "synthetic_rare": 9.179366191602867e-07,
+    "synthetic_large_variance": -3.740217815906277e-05
+  },
+  "prediction_quadrature": {
+    "eta": -1.4,
+    "item_variance": 0.7,
+    "actor_variance": 1.3,
+    "quad_mean": 0.2630961531094776,
+    "quad_absolute_error_estimate": 1.9761990657007967e-12,
+    "combined_variance_1d_gh7": 0.2631499364543992,
+    "separate_intercepts_tensor_gh7": 0.2630966633811648,
+    "tensor7_minus_quad": 5.102716871818735e-07,
+    "combined1d7_minus_quad": 5.3783344921620735e-05,
+    "note": "The exact Gaussian-sum reduction is valid; neither finite GH7 grid is established as the original Stata internal marginal-prediction grid."
+  }
+}
+[
+  {
+    "label": "M2_fitted_parameters",
+    "high_order_log_likelihood": {
+      "81": -663.2940151670283,
+      "161": -663.2940152155085,
+      "241": -663.2940152155089
+    },
+    "difference_241_from_161": -4.547473508864641e-13,
+    "candidate_errors": {
+      "7": 0.015525620055882428,
+      "11": -0.0007847291668667822,
+      "21": -1.769670575413329e-06
+    },
+    "selected_quad_max_log_difference": 3.497202527569243e-15
+  }
+]
+M2 curvature step 0.0001 minimum eigenvalue 1.4244883146453233
+M2 curvature step 0.0002 minimum eigenvalue 1.424524145481391
+M2 curvature step 0.0004 minimum eigenvalue 1.424530444675013
+{
+  "model_id": "M2",
+  "gradient_infinity_norm": 5.456968210637569e-07,
+  "scaled_gradient_using_saved_covariance": 3.889203797679164e-14,
+  "scaled_gradient_check_passed": true,
+  "max_relative_standard_error_changes_from_step_2e4": {
+    "0.0001": 1.2471721972717731e-05,
+    "0.0002": 0.0,
+    "0.0004": 2.15605480224923e-06
+  },
+  "all_step_hessians_positive_definite": true,
+  "objective_evaluations": 401
+}
+[
+  {
+    "label": "M2_null_fitted_parameters",
+    "high_order_log_likelihood": {
+      "81": -681.3353298332152,
+      "161": -681.3353298239987,
+      "241": -681.335329823997
+    },
+    "difference_241_from_161": 1.7053025658242404e-12,
+    "candidate_errors": {
+      "7": 0.04319626540336685,
+      "11": -0.000990045505773196,
+      "21": 4.278744086150255e-06
+    },
+    "selected_quad_max_log_difference": 4.6629367034256575e-15
+  }
+]
+M2_null curvature step 0.0001 minimum eigenvalue 3.675384105847044
+M2_null curvature step 0.0002 minimum eigenvalue 3.6753979999515227
+M2_null curvature step 0.0004 minimum eigenvalue 3.675395416644026
+{
+  "model_id": "M2_null",
+  "gradient_infinity_norm": 2.1543655748246238e-06,
+  "scaled_gradient_using_saved_covariance": 2.7007752944341445e-13,
+  "scaled_gradient_check_passed": true,
+  "max_relative_standard_error_changes_from_step_2e4": {
+    "0.0001": 1.8471232863248588e-06,
+    "0.0002": 0.0,
+    "0.0004": 3.6669935821187494e-07
+  },
+  "all_step_hessians_positive_definite": true,
+  "objective_evaluations": 61
+}
+[
+  {
+    "label": "M3_fitted_parameters",
+    "high_order_log_likelihood": {
+      "81": -710.6452837757025,
+      "161": -710.6452837734585,
+      "241": -710.6452837734569
+    },
+    "difference_241_from_161": 1.5916157281026244e-12,
+    "candidate_errors": {
+      "7": 0.009725738720248955,
+      "11": -0.00020638620230784,
+      "21": 1.1057193205488147e-07
+    },
+    "selected_quad_max_log_difference": 1.7763568394002505e-14
+  }
+]
+M3 curvature step 0.0001 minimum eigenvalue 1.9928408132722482
+M3 curvature step 0.0002 minimum eigenvalue 1.9928370519000043
+M3 curvature step 0.0004 minimum eigenvalue 1.9928372794678013
+{
+  "model_id": "M3",
+  "gradient_infinity_norm": 1.8303580873180179e-06,
+  "scaled_gradient_using_saved_covariance": 7.706493081303521e-13,
+  "scaled_gradient_check_passed": true,
+  "max_relative_standard_error_changes_from_step_2e4": {
+    "0.0001": 9.366400064436675e-07,
+    "0.0002": 0.0,
+    "0.0004": 2.444817163160806e-07
+  },
+  "all_step_hessians_positive_definite": true,
+  "objective_evaluations": 401
+}
+[
+  {
+    "label": "M3_null_fitted_parameters",
+    "high_order_log_likelihood": {
+      "81": -724.7428288497023,
+      "161": -724.7428288882721,
+      "241": -724.7428288882705
+    },
+    "difference_241_from_161": 1.5916157281026244e-12,
+    "candidate_errors": {
+      "7": 0.023581097879628032,
+      "11": -0.0009631669621512629,
+      "21": -9.194833410219871e-07
+    },
+    "selected_quad_max_log_difference": 3.375077994860476e-14
+  }
+]
+M3_null curvature step 0.0001 minimum eigenvalue 4.101301134305883
+M3_null curvature step 0.0002 minimum eigenvalue 4.101290818471847
+M3_null curvature step 0.0004 minimum eigenvalue 4.101289670898019
+{
+  "model_id": "M3_null",
+  "gradient_infinity_norm": 1.895728019007947e-06,
+  "scaled_gradient_using_saved_covariance": 1.6968923948609243e-13,
+  "scaled_gradient_check_passed": true,
+  "max_relative_standard_error_changes_from_step_2e4": {
+    "0.0001": 1.2592302012226497e-06,
+    "0.0002": 0.0,
+    "0.0004": 1.9670183326603308e-07
+  },
+  "all_step_hessians_positive_definite": true,
+  "objective_evaluations": 61
+}
+Requested stages completed. Review diagnostics; command completion is not exact historical-software equivalence.

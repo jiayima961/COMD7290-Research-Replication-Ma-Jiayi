@@ -1,0 +1,7 @@
+                min_OR    max_OR  same_sign_count  p_below_05_count
+contrast                                                           
+contested     1.371920  2.170401                6                 4
+majoritarian  0.377036  0.951893                6                 4
+mixed         1.128961  2.584687                6                 4
+newspaper     0.186632  0.345660                6                 6
+website       0.100481  0.207987                6                 6

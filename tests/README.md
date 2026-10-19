@@ -19,3 +19,14 @@ python tests/repository/test_portable_execution.py
 ```
 
 `python analysis/run_replication.py --stage checks` reruns the numerical/data checks against restored inputs and saved fits and writes canonical diagnostic files. Use a separate project copy for an independent rerun if you need to retain the present artifacts byte-for-byte. The reorganization record distinguishes post-cleanup smoke tests from the original substantive verification.
+
+## Skill 3 independent verification
+
+`python tests/skill3/check_verification.py` independently reads raw inputs, fits
+M1 with statsmodels, recalculates all 25 ordinal AMEs and 50 interval endpoints,
+and exercises invalid-code, rounding and unavailable-target controls. It
+supplements the saved skill 2 binary likelihood/curvature checks; M2/M3 were not
+independently optimized in another engine. See the [test report](../records/skill_tests/verify-and-package/TEST_REPORT.md).
+`python tools/verification_package_audit.py` checks preservation and the saved
+clean-run, comparison, sensitivity, discovery, source and Word-review evidence.
+It expects this completed local evidence package, not only a fresh code checkout.

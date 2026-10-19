@@ -13,3 +13,19 @@
 | maintenance/ | Historical document/checkpoint writers and notebook builder |
 
 Run current analysis through [analysis/run_replication.py](../analysis/run_replication.py). The maintenance writers contain historical content and can overwrite current narrative files; inspect them before explicitly using one. They are retained because the user requested no file deletion. Their project-root calculation was updated after relocation.
+
+## Skill 3 evidence and documents
+
+- `verification_clean_restart.py`: build an isolated source/input-only tree and
+  actually run the requested analysis entry; a new destination is required.
+- `verification_package_audit.py`: check the completed local evidence package.
+- `verification_snapshot.py`: preserve pre-task versions and source/result hashes.
+- `build_verification_documents.py`, `word_export_pdf.ps1` and
+  `render_verification_documents.py`: build and visually verify the two requested
+  Word documents using the bundled runtime. Regeneration requires a new visual review.
+- `record_verification_sources_and_layout.py` and `finalize_verification_records.py`:
+  bind the actual source/layout review and completed evidence. These dated task
+  writers do not fit models or provide the student's acceptance.
+
+Start with the [report index](../report/verification/README.md), not these maintenance
+helpers. Scientific execution uses `analysis/run_verified_replication.py`.

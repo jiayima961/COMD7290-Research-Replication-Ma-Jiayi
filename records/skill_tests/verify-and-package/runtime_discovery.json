@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-19T09:43:04.175365+00:00",
+  "method": "skills/list",
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "command": [
+    "rtk",
+    "proxy",
+    "codex",
+    "app-server",
+    "--stdio"
+  ],
+  "initialize_user_agent": "Codex Desktop/0.160.1 (Windows 10.0.26200; x86_64) dumb (comd7290-skill-check; 1.0)",
+  "skills": [
+    {
+      "name": "reproduce-and-diagnose",
+      "description": "Execute approved MedCon independent-coder reliability, ordinal tone and three-level actor-reference logistic models while preserving units, coding and diagnostics.",
+      "enabled": true,
+      "scope": "repo",
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\reproduce-and-diagnose\\SKILL.md",
+      "sha256": "94126dd404c22fc40df343ac58d1a104dfcf7be5b5478721c1cc127f01b3a114"
+    },
+    {
+      "name": "specify-empirical-study",
+      "description": "Reconstruct and review the COMD7290 Option 3 theory, hypotheses, measurements and model specification from cited evidence before estimation, preserving the student's own initial explanation and flagging unresolved decisions.",
+      "enabled": true,
+      "scope": "repo",
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\specify-empirical-study\\SKILL.md",
+      "sha256": "71538157c84c8af0d1792b0b525a5a06e25f1fc2844d23f1cafe2e6c1ed07cdc"
+    },
+    {
+      "name": "verify-and-package",
+      "description": "Audit COMD7290 source-to-result agreement, numerical validity and coverage, run independent checks, and prepare traceable comparison reports and submission evidence.",
+      "enabled": true,
+      "scope": "repo",
+      "path": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.agents\\skills\\verify-and-package\\SKILL.md",
+      "sha256": "a6735a38245bceee045caf2b115d5b9607319e6270da355e3f5492426d4193d6"
+    }
+  ],
+  "project_errors": [],
+  "inference_or_skill_execution_performed": false,
+  "status": "passed"
+}

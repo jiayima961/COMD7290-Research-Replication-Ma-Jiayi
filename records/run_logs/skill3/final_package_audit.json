@@ -1,0 +1,16 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    ".venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "tools/verification_package_audit.py"
+  ],
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "started_at_utc": "2026-10-19T10:15:45.720247+00:00",
+  "status": "completed",
+  "finished_at_utc": "2026-10-19T10:15:46.809118+00:00",
+  "runtime_seconds": 1.08831160000409,
+  "exit_code": 0
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "check": "Country identifiers bound to original metadata",
+    "passed": true,
+    "labels": {
+      "1": "AUS",
+      "2": "GER",
+      "3": "LEB",
+      "4": "SUI",
+      "5": "TUR",
+      "6": "USA"
+    }
+  },
+  {
+    "check": "Independent Australian website moderate percentage",
+    "passed": true,
+    "computed_percentage": 1.0,
+    "denominator": 100,
+    "reader": "pyreadstat; raw website=3 and raw moderate tone=3"
+  },
+  {
+    "check": "Independent event and hierarchy counts",
+    "passed": true,
+    "reference_n": 3770,
+    "outrage_events": 192,
+    "recognition_events": 196
+  },
+  {
+    "check": "Fresh independent ordered-logit MLE agrees",
+    "passed": true,
+    "independent_LL": -724.0003868022097,
+    "maximum_slope_difference": 3.950166860278159e-09,
+    "optimizer_return": true,
+    "score_max_abs": 1.035991652067389e-07,
+    "scope": "Independent optimization and parameterization of M1; not independent reoptimization of M2/M3."
+  },
+  {
+    "check": "All 25 ordinal AMEs and 50 CI endpoints independently reproduced",
+    "passed": true,
+    "max_abs_difference": 5.688442376861058e-09,
+    "method": "Statsmodels fresh MLE, separate row-level predict, central-difference gradient, full covariance delta method"
+  },
+  {
+    "check": "Rounding mismatch cannot be hidden",
+    "passed": true
+  },
+  {
+    "check": "Unavailable target cannot pass",
+    "passed": true
+  },
+  {
+    "check": "Invalid fitted value cannot pass",
+    "passed": true
+  },
+  {
+    "check": "Exact integer comparison has no rounding allowance",
+    "passed": true
+  },
+  {
+    "check": "Harmless negative category test and recovery",
+    "passed": true,
+    "detection": true,
+    "recovery": true,
+    "original_file_unchanged": true
+  },
+  {
+    "check": "Comparison keys unique and unpublished targets not scored as agreement",
+    "passed": true
+  },
+  {
+    "check": "Seven recovered supplementary discrepancies retained",
+    "passed": true
+  }
+]

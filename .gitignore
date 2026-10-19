@@ -45,3 +45,7 @@ data/prepared/*
 # Subject-level derived diagnostics remain local; aggregate checks are shared.
 outputs/diagnostics/reliability/*__conditional_influence.npy
 outputs/diagnostics/reliability/matching_row_audit.csv
+
+# Individual report remains local during student review, by request on 2026-10-19.
+report/final_report*
+report/local_review/

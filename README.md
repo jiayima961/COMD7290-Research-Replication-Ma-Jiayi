@@ -1,14 +1,14 @@
 # COMD7290 Research Replication — Ma Jiayi
 
-Python reproduction of Löb et al., *Unpacking the Determinants of Outrage and Recognition in Public Discourse*, DOI [10.1177/19401612221084206](https://doi.org/10.1177/19401612221084206). COMD7290 Option 3, content analysis. This is work in progress, with completed skills 1 and 2; it is not the final submission.
+Python reproduction of Löb et al., *Unpacking the Determinants of Outrage and Recognition in Public Discourse*, DOI [10.1177/19401612221084206](https://doi.org/10.1177/19401612221084206). COMD7290 Option 3, content analysis. All three skills now have implemented workflows and execution/test evidence. Student acceptance and final submission requirements remain pending.
 
 **Start with [START_HERE.md](START_HERE.md).** To use the tested skills, open this repository as the agent's working folder and follow the [skill guide](docs/skills/README.md). The actual skill packages are in [.agents/skills/](.agents/skills/).
 
 | Reader's question | Go to |
 | --- | --- |
 | What was predicted, and how was it tested? | [Hypothesis matrix](docs/hypothesis_matrix.csv) → [execution specification](docs/execution_specification.md) → [analysis code](analysis/README.md) → [hypothesis tests](outputs/reproduced/hypothesis_tests.csv) → [results and limitations](docs/replication_results.md) |
-| Where are the two tested skills? | [Skill 1: theory/specification](.agents/skills/specify-empirical-study/SKILL.md), [Skill 2: reproduce/diagnose](.agents/skills/reproduce-and-diagnose/SKILL.md), [invocation instructions and test evidence](docs/skills/README.md) |
-| Where are the numerical results? | [Results index](outputs/README.md), [published-versus-reproduced table](outputs/comparison.csv) |
+| Where are the three skills? | [Skill 1](.agents/skills/specify-empirical-study/SKILL.md), [Skill 2](.agents/skills/reproduce-and-diagnose/SKILL.md), [Skill 3](.agents/skills/verify-and-package/SKILL.md), [invocation instructions and evidence](docs/skills/README.md) |
+| Where are the numerical results? | [Results index](outputs/README.md), [complete comparison ledger](outputs/verification/comparison_all.csv), [Word report index](report/verification/README.md) |
 | What did the student write and how did AI respond? | [Ordered review trail](records/README.md) |
 | How can I run this on my computer? | [Setup and rerun guide](docs/guides/teacher_quickstart.md), [input access and verification](sources/README.md), [environment](environment.md) |
 | What remains? | [Current status](STATUS.md), [assignment checklist](docs/assignment_checklist.md) |
@@ -28,6 +28,8 @@ tmp/, .venv/    Local runtime/cache files, excluded from Git
 ```
 
 The saved results include independent-coder reliability, descriptives, M1 ordinal tone, M2/M3 nested binary models, predictions and 12 directional hypothesis targets. Of 45 published coefficient/SE/OR cells, 44 match printed rounding; the remaining discrepancy is retained. Historical Stata integration details and reliability-package builds are not fully recovered. See [the results explanation](docs/replication_results.md) before interpreting agreement as robustness.
+
+Skill 3 adds the [complete source comparison and Python/Stata justification](report/verification/README.md), fresh independent M1/margin checks, an isolated full clean refit and a [separate country influence sensitivity](outputs/verification/sensitivity/README.md). All 376 numeric target entries are accounted for: 362 agree at their stated display/integer precision, 13 differ and one LR p value remains unverified. Full unprinted quantities are explicitly distinguished. [Student decisions](records/skill3_decision_audit.md) and the [final-stage checklist](report/skill3_submission_readiness.md) remain visible.
 
 Quick rerun after setting up Python and restoring inputs, from the repository root:
 

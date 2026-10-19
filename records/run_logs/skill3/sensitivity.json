@@ -1,0 +1,16 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    ".venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "analysis/skill3_sensitivity.py"
+  ],
+  "cwd": "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi",
+  "started_at_utc": "2026-10-19T09:07:20.772198+00:00",
+  "status": "completed",
+  "finished_at_utc": "2026-10-19T09:07:22.703993+00:00",
+  "runtime_seconds": 1.9311164999962784,
+  "exit_code": 0
+}

@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-10-19T09:12:51.959891+00:00",
+  "ledger_rows": 1798,
+  "published_numeric_rows": 376,
+  "comparison_status_counts": {
+    "not_verifiable": 1423,
+    "within_published_rounding": 334,
+    "exact_integer_agreement": 28,
+    "discrepancy": 13
+  },
+  "scope": "Cells are heterogeneous and not independent trials. Do not turn counts into a statistical replication success probability.",
+  "student_acceptance": "pending",
+  "final_release_created": false
+}

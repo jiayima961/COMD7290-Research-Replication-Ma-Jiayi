@@ -1,0 +1,167 @@
+{
+  "checked_utc": "2026-10-19T10:15:46.752553+00:00",
+  "checks": [
+    {
+      "check": "Original inputs and preexisting numerical outputs unchanged",
+      "passed": true,
+      "protected_files": 86,
+      "differences": []
+    },
+    {
+      "check": "All ledger identities unique",
+      "passed": true,
+      "rows": 1798
+    },
+    {
+      "check": "Missing targets cannot be agreement",
+      "passed": true
+    },
+    {
+      "check": "Published discrepancies retained",
+      "passed": true
+    },
+    {
+      "check": "Inventory covers every original analysis ID exactly once",
+      "passed": true
+    },
+    {
+      "check": "Saved actual evidence outputs/verification/independent_checks/checks.json",
+      "passed": true
+    },
+    {
+      "check": "Saved actual evidence records/skill_tests/verify-and-package/runtime_discovery.json",
+      "passed": true
+    },
+    {
+      "check": "Saved actual evidence records/run_logs/skill3/clean_restart/receipt.json",
+      "passed": true
+    },
+    {
+      "check": "All six planned country deletions executed",
+      "passed": true
+    },
+    {
+      "check": "Individual report draft body within required word range",
+      "passed": true,
+      "word_count": 1046,
+      "count_rule": "Whitespace-separated body tokens; headings/access/references excluded. Final student version must be recounted."
+    },
+    {
+      "check": "Both requested DOCX files exist",
+      "passed": true
+    },
+    {
+      "check": "Human acceptance and assessed release not fabricated",
+      "passed": true
+    },
+    {
+      "check": "All reproduced CSV numeric payloads exactly match clean refit",
+      "passed": true,
+      "files": 18
+    },
+    {
+      "check": "Latest Word documents bound to completed all-page visual review",
+      "passed": true
+    },
+    {
+      "check": "Cached supplement transcription bound with explicit original-HTML limitation",
+      "passed": true
+    },
+    {
+      "check": "All 75 cached numeric entries match transcribed comparison targets",
+      "passed": true
+    },
+    {
+      "check": "Runtime discovery binds the current skill file",
+      "passed": true
+    },
+    {
+      "check": "All-in-one entry completed in a second source/input-only tree",
+      "passed": true
+    },
+    {
+      "check": "Verified entry reproduces full ledger, independent checks and all sensitivity estimates",
+      "passed": true,
+      "ledger_rows": 1798,
+      "independent_checks": 12,
+      "sensitivity_rows": 30
+    }
+  ],
+  "all_checks_passed": true,
+  "clean_csv_comparisons": [
+    {
+      "path": "outputs/reproduced/hypothesis_tests.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/models/M2_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/models/M2_null_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/models/M3_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/models/M3_null_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/predictions/binary_margins_ames.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/reliability/primary_website_comparison.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/reliability/probabilistic_benchmarks.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/reliability/reliability_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/descriptives/ordinal/item_descriptives.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/descriptives/ordinal/item_tone_counts_country_media.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/descriptives/ordinal/item_tone_frequencies.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/descriptives/ordinal/item_tone_percent_country_media.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/descriptives/ordinal/reference_descriptives.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/models/ordinal/ordinal_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/models/ordinal/ordinal_fit.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/predictions/ordinal/M1_average_marginal_effects.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/reproduced/predictions/ordinal/M1_predictive_margins.csv",
+      "passed": true
+    }
+  ],
+  "scientific_acceptance": "pending student review",
+  "final_submission_ready": false
+}

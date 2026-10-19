@@ -1,0 +1,32 @@
+Ordinal average marginal effects and 95 percent confidence intervals
+
+Primary source title: Additional Analyses for Lob et al. 2024
+Source URL: https://medcon-doc.github.io/documentation/content-analysis/additional-analyses/civility-outrage_paper/
+Access date: 2026-10-19
+Access method: web tool open, cached extracted page, numeric table in line 6.
+The tool reported a crawl approximately two years old. Direct HTTP requests
+with and without the trailing slash returned 404. This is a preserved
+transcription of numerical facts, not a downloaded original HTML file.
+A hash of this file binds this transcription only, not the original HTTP body.
+
+For each contrast, the five entries are tone categories 0, 1, 2, 3 and 4.
+Each entry is AME [lower 95 percent interval, upper 95 percent interval].
+Reference groups are consensus systems, stable secularism and political blogs.
+
+Mixed versus Consensus
+-.05 [-.09, -.01] .03 [.00, .06] .01 [.00, .01] .01 [.00, .01] .00 [-.00, .00]
+
+Majoritarian versus Consensus
+.05 [.02, .09] -.04 [-.06, -.01] -.01 [-.01, -.00] -.01 [-.01, -.00] .00 [-.00, .00]
+
+Contested secularism versus Stable secularism
+-.05 [-.08, -.02] .04 [.02, .06] .01 [.00, .01] .01 [.00, .01] .00 [-.00, .00]
+
+News website versus Blog
+.19 [.15, .23] -.14 [-.17, -.11] -.03 [-.04, -.02] -.02 [-.03, -.01] -.01 [-.01, -.00]
+
+Printed newspaper versus Blog
+.16 [.12, .20] -.12 [-.15, -.08] -.03 [-.04, -.01] -.02 [-.02, -.01] -.01 [-.01, -.00]
+
+These 25 AMEs and 50 interval endpoints were independently source-checked.
+They are comparison targets only and are never used to fit a model.

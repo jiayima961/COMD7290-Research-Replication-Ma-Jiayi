@@ -17,7 +17,7 @@ The GitHub connector recovered and verified jiayima961 and the private repositor
 |---|---|---|---|---|
 | specify-empirical-study | .agents/skills/specify-empirical-study/SKILL.md | Official quick_validate.py passed; current version 1.0.1 | Actual repository-cwd discovery; named full-path synthetic invocation; subsequent explicit personal-review invocation in this chat | Synthetic case inspected/corrected; actual student v1 source-checked and critiqued; student v2 reviewed in round 2 |
 | reproduce-and-diagnose | .agents/skills/reproduce-and-diagnose/SKILL.md | Official quick_validate.py passed; version 1.1.0 | Actual repository-cwd discovery and explicit invocation; scoped branch verification | Real reliability/descriptive/M1/M2/M3/null/prediction outputs; documented diagnostic and equivalence limits |
-| verify-and-package | .agents/skills/verify-and-package/SKILL.md | Official quick_validate.py passed | Actual repository-cwd discovery; invocation pending | Pending |
+| verify-and-package | .agents/skills/verify-and-package/SKILL.md | Official quick_validate.py passed; version 1.0.0 | Actual repository-cwd discovery and user-authorized invocation, 2026-10-19 | Full comparison, independent numerical and negative checks, isolated refit, six sensitivity fits and source/forward reviews; see its TEST_REPORT.md |
 
 Static validity does not prove actual skill invocation. For subsequent tasks, record inputs and specification versions, permissions, commands, outputs, checks, failures, and corrections.
 
@@ -65,3 +65,19 @@ retained canonical skill/scientific artifact paths, and added invocation guides.
 Preservation, moves, portable-wrapper checks and upload evidence are recorded in
 records/reorganization/2026-10-19. This task does not claim a new substantive fit
 or completion of skill 3.
+
+## 2026-10-19 Skill 3 completed technical invocation
+
+The user authorized all-result comparison and two English reference Word reports.
+Applied verify-and-package 1.0.0 with skill-creator, academic-research-suite,
+documents and PDF guidance. Primary sources and the execution contract were read
+before numerical reconciliation. Actual checks include the independent M1 fit and
+all ordinal AMEs, a copied invalid-code/recovery test, two source/input-only full
+restarts, six planned country deletions, official static validation and runtime
+discovery. Bounded independent source and forward reviews retain their original
+findings and corrections. Both Word files were rendered and all 14 final pages
+visually inspected. The test report and invocation receipt bind the current
+evidence. Historical Stata-build equality is not certified. No GitHub upload,
+collaborator invitation, personal attestation, assessed release or submission was
+performed in this task. Exact model/build identifiers not exposed by a tool are
+not invented.

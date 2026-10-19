@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-19T10:10:06.271186+00:00",
+  "access_date": "2026-10-19",
+  "source_url": "https://medcon-doc.github.io/documentation/content-analysis/additional-analyses/civility-outrage_paper/",
+  "method": "Web tool open returned cached extracted primary page; numerical table at line 6.",
+  "crawler_age_reported": "Approximately two years; exact original retrieval timestamp not supplied.",
+  "live_access": "Direct requests with and without trailing slash returned 404.",
+  "preserved_excerpt": "records/source_access/ordinal_appendix_cached_excerpt.txt",
+  "excerpt_sha256": "ebcbe551ca825d10114b833ae6cc851e1e9fb881a5a8ef3ca512bd61d04a54c1",
+  "quantity_count": 75,
+  "original_http_body_sha256": null,
+  "limitation": "This hash binds the preserved transcription, not unavailable original HTML. Source targets never enter model estimation.",
+  "independent_check": "records/skill_tests/verify-and-package/independent_source_audit.md"
+}

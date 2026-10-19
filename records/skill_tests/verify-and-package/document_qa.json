@@ -1,0 +1,94 @@
+{
+  "recorded_utc": "2026-10-19T10:10:06.271186+00:00",
+  "render_command": "Bundled Python tools/render_verification_documents.py --use-existing-exports",
+  "renderer": "Packaged documents/render_docx.py rasterizer at 120 dpi, with native Word PDF conversion hook.",
+  "conversion": "Hidden separate Microsoft Word automation; bundled LibreOffice unavailable on this Windows runtime. No desktop LibreOffice used.",
+  "review_method": "Manual visual inspection of every latest page image, not text extraction alone.",
+  "corrections_before_final_review": [
+    "Removed inherited title theme color/border.",
+    "Kept table header with first data row.",
+    "Corrected predictor/grouping wording and regenerated/re-exported both documents."
+  ],
+  "documents": [
+    {
+      "path": "report/verification/01_results_comparison.docx",
+      "sha256": "14d4f2029eec0c9aece5025feed9db60433f72a8b636ac23203c944e032741f4",
+      "source_markdown_sha256": "0b18551f296b1edefc539d873320d035977fcc3aa56e7b1abba85aa6559ee1d8",
+      "page_count": 9,
+      "qa_pdf_sha256": "db998565d37ef2c3901f6be8807a0ae789771d885a958c50aa07ac6cef279a50",
+      "reviewed_images": [
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-1.png",
+          "sha256": "a068e8950bd4ad220a305a866470ed0c47e9f0f7ec7b6a3f41b7a452327f31da"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-2.png",
+          "sha256": "1c74bd97f6398a96977f037dc7e24eb9a8d5aafd79effed9f5c2faca13aa4882"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-3.png",
+          "sha256": "25dc99d4990e106bee18de7a0c9be12cf544c22a3a1ce0273656ed7eb65f067c"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-4.png",
+          "sha256": "9467f8b17df0ecb82cd8e949ef839d25ddd4995ddcfb2fd887f87ada579f34fe"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-5.png",
+          "sha256": "e50e48a47f6eb8eacb2a2581c558c2422a9b7e192311f7e896925cbd05589e2a"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-6.png",
+          "sha256": "bc6989e3411dfb5e1aa0693d247bb809f8ff4f50827f7c26dccfa5ddfa982e38"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-7.png",
+          "sha256": "b74064dfc0a876b3d7da2e2836e1c64b3753931441822895e115594b72e1b42d"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-8.png",
+          "sha256": "b541cb99202afd8979bc4d2f1d27529fc5cb3798d07c455d3c2229ed71ad1011"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/01_results_comparison/page-9.png",
+          "sha256": "109e500befb7e76c41c38e59b5c7619c5ae5167730a0c9abbd9402b8f195158a"
+        }
+      ],
+      "visual_review": "All final page images opened and inspected by primary agent after the latest render. No clipping, overlap, missing glyphs, orphan table headers or broken rows observed.",
+      "outcome": "passed"
+    },
+    {
+      "path": "report/verification/02_python_stata_equivalence.docx",
+      "sha256": "84ba848eb86af97a841346e983b284a9afefae93a1d05fc57ada3d5ce6d19ef7",
+      "source_markdown_sha256": "c0744a860d76feda71b51d5c1439dd8c1a5feaa88dbec296d5810fceab02b4b9",
+      "page_count": 5,
+      "qa_pdf_sha256": "80d27ee6d895c321549a6fade199e0c19c4b6a062dfe73460ea93e35798e592f",
+      "reviewed_images": [
+        {
+          "path": "tmp/skill3_docx_qa/final/02_python_stata_equivalence/page-1.png",
+          "sha256": "dd3c7be89caf2ddcc7e7d3a0f17ecb69e4fcc814b0876f67deff0e56be516f5c"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/02_python_stata_equivalence/page-2.png",
+          "sha256": "89dcf898109fce075f03e4ca6fed838f1cb5ebd09d143cb26c55d80c725ba447"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/02_python_stata_equivalence/page-3.png",
+          "sha256": "a0e3c6b82d6bce8c59d9977061d8e69a29e466330c4a659e44ed963cc112d7fa"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/02_python_stata_equivalence/page-4.png",
+          "sha256": "79504b57e454f76855c9ba7459d777abf6f2aa0582b72fec98c066778a86316f"
+        },
+        {
+          "path": "tmp/skill3_docx_qa/final/02_python_stata_equivalence/page-5.png",
+          "sha256": "db54193aacb591352962a0f9fe7e66ab20a5b390b899c576b2db5ec75da89a18"
+        }
+      ],
+      "visual_review": "All final page images opened and inspected by primary agent after the latest render. No clipping, overlap, missing glyphs, orphan table headers or broken rows observed.",
+      "outcome": "passed"
+    }
+  ],
+  "all_pages_passed": true,
+  "intermediates": "QA PDFs and images stay under excluded tmp; only requested DOCX files are deliverables."
+}

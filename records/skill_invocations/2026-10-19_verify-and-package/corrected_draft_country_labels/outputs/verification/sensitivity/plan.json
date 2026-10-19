@@ -1,0 +1,10 @@
+{
+  "analysis_id": "S1",
+  "written_before_fitting_utc": "2026-10-19T09:07:22.461264+00:00",
+  "question": "How dependent are M1 associations on retaining each of the six selected national contexts?",
+  "rule": "Fit all six leave-one-country-out ordered logits with the original five dummy slopes, cutpoint ordering, ML and observed-information intervals. No deletion chosen after seeing estimates.",
+  "assumption_changed": "The target sample and mix of national contexts change; not a new estimator of the same finite-sample estimand.",
+  "scope": "Country influence diagnostic for ordinal M1 only. Not the authors alternative-link checks, not numerical integration sensitivity, not country-level causal identification.",
+  "interpretation": "Report all coefficients, uncertainty, convergence and ranges. Do not choose a preferred deletion by p value or treat six fits as independent confirmation.",
+  "student_acceptance": "pending"
+}

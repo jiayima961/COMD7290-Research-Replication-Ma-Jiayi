@@ -23,3 +23,14 @@ RTK is optional. The same stages are available in [01_replication.ipynb](01_repl
 [00_environment_check.ipynb](00_environment_check.ipynb) is a synthetic environment check. [01_replication.ipynb](01_replication.ipynb) is an unexecuted interface to the real saved modules; actual study execution evidence is in [records/run_logs/skill2](../records/run_logs/skill2/). These distinctions must survive reuse.
 
 The statistical model modules and saved numerical results were preserved during the directory cleanup. Historical finite-grid and package-build identity remains limited; see the execution specification rather than interpreting code portability as exact original executable parity.
+
+## Full verified reproduction
+
+`python analysis/run_verified_replication.py` runs the unchanged research pipeline,
+then the [complete reconciler](verify_and_package.py), the independent skill 3
+checks and the [separate country sensitivity](skill3_sensitivity.py). Use a copy
+to preserve existing outputs. Actual source/input-only clean runs are recorded in
+[skill 3 logs](../records/run_logs/skill3/); the existing environment is reused.
+For completed fits, the three verification stages can be run separately without
+repeating the expensive binary fitting. The [report index](../report/verification/README.md)
+explains agreements, discrepancies, unavailable targets and remaining limits.

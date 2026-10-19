@@ -1,0 +1,3 @@
+# Corrected verification draft
+
+The first reconciliation/sensitivity draft labelled country code 3 Switzerland and code 4 Lebanon. Independent pyreadstat metadata inspection established 3=LEB and 4=SUI. The comparison rows and deletion labels were corrected before delivery, and reconciliation was regenerated. No faithful skill 2 estimates, original data, or source targets were changed to force agreement. The first draft is retained here as an actual AI decision correction, not scientific evidence for the final country comparisons. A syntax-only missing-parenthesis error in the new sensitivity script was also corrected before any sensitivity fit ran.

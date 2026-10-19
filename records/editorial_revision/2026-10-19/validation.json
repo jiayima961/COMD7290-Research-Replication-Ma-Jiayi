@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-19T15:45:33.623298+00:00",
+  "checks": [
+    {
+      "name": "Original inputs and existing numerical outputs preserved",
+      "passed": true,
+      "files": 86,
+      "differences": []
+    },
+    {
+      "name": "No individual report or review archive in the Git index",
+      "passed": true,
+      "paths": []
+    },
+    {
+      "name": "Current and earlier local individual reports retained and ignored",
+      "passed": true
+    },
+    {
+      "name": "Both supporting technical Word reports included",
+      "passed": true
+    },
+    {
+      "name": "Changed maintenance Python files parse",
+      "passed": true,
+      "files": [
+        "tools/verification_package_audit.py",
+        "tools/maintenance/prepare_selective_sync.py",
+        "tools/maintenance/record_editorial_update.py",
+        "tools/maintenance/check_selective_sync.py"
+      ]
+    },
+    {
+      "name": "All-page local Word review complete",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "new_statistical_fits_run": false,
+  "final_release_created": false
+}

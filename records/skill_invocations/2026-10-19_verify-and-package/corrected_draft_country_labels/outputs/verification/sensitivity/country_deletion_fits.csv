@@ -1,0 +1,7 @@
+excluded_country,status,optimizer_success,optimizer_message,iterations,log_likelihood,score_max_abs,information_rank,parameter_count,n,aic,bic,information_min_eigenvalue
+Australia,converged,False,Desired error not necessarily achieved due to precision loss.,18,-626.0946023737886,6.264529539556918e-08,9,9,1400,1270.1892047475772,1317.3872523880073,2.5215405505533854
+Germany,converged,False,A bad approximation caused failure to predict improvement.,0,-577.8619408619359,3.7373766548221e-07,9,9,1400,1173.7238817238717,1220.9219293643018,2.0594333587999203
+Switzerland,converged,False,Desired error not necessarily achieved due to precision loss.,19,-537.4167397763581,1.191316734150405e-08,9,9,1422,1092.8334795527162,1140.171856045985,1.164286626245133
+Lebanon,converged,False,Desired error not necessarily achieved due to precision loss.,19,-673.5723339709647,4.755912996756706e-09,9,9,1473,1365.1446679419294,1412.800175690093,2.202314471947457
+Turkey,converged,False,A bad approximation caused failure to predict improvement.,0,-549.3161146205291,3.8897122411896135e-07,9,9,1405,1116.6322292410582,1163.8623624769689,2.3037075604157358
+United States,converged,False,Desired error not necessarily achieved due to precision loss.,19,-641.8417396970948,1.7386816431042007e-09,9,9,1400,1301.6834793941896,1348.8815270346197,2.5903773670459262
