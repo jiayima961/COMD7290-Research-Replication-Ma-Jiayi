@@ -1,0 +1,15 @@
+{
+  "task_id": "H20261020",
+  "receiving_agent": "/root/approved_handoff_receiving_check",
+  "fork_turns": "none",
+  "model_override": null,
+  "authorization": "Human explicitly selected Run the short fresh-context agent check on 2026-10-20",
+  "input_contract": "records/handoffs/2026-10-20/README.md",
+  "write_scope": [
+    "records/handoffs/2026-10-20/receiving_check.json",
+    "records/handoffs/2026-10-20/receiving_note.md"
+  ],
+  "purpose": "Recover approved study context from project files without original chat history",
+  "research_models_rerun": false,
+  "not_independent_statistical_verification": true
+}

@@ -1,6 +1,41 @@
 # Task functions and fresh-session handoffs
 
-Separate four functions: theory/specification review, data/measurement analysis, model implementation, and replication verification. They can be performed at different times. An isolated fresh-context test has been demonstrated; the formal handoff of an approved real-study specification remains pending.
+Separate four functions: theory/specification review, data/measurement analysis,
+model implementation and replication verification. They can be performed at
+different times. A real-study approved working-version handoff was successfully
+demonstrated on 20 October 2026. Earlier entries below remain historical records.
+
+## Current approved handoff completed on 20 October 2026
+
+Start with [the current package](handoffs/2026-10-20/README.md),
+[student approvals](handoffs/2026-10-20/approvals.json) and
+[version manifest](handoffs/2026-10-20/input_manifest.json).
+The student approved the current specification and AI-assisted diagrams,
+accepted the interpretation/S1 influence scope/future proposal with stated
+limits, and explicitly authorized a short fresh-context agent check.
+
+Agent `/root/approved_handoff_receiving_check` was started with `fork_turns=none`.
+It recovered the specification from the original syntax, current files and saved
+model metadata without the original research chat. All 32 manifest hashes and
+their approval binding matched. The recovered model families, recodes, reference
+categories, hierarchy, samples and prediction convention agreed with the saved
+implementations. No scientific fit was rerun.
+
+Read the [202-word receiving note](handoffs/2026-10-20/receiving_note.md) or
+[detailed actual receipt](handoffs/2026-10-20/receiving_check.json). The receipt
+retains commands, three corrected read-only extraction errors, source locators,
+scope limits and the two files written. This is successful file-based context
+recovery, not new independent statistical verification or final submission.
+
+Approval is retrospective current-version approval, not pre-fit approval.
+S1 remains sample influence and the stricter specification-sensitivity wording
+remains open. The country-indicator extension is approved as a proposal only.
+Personal reading scope, initial map authorship and final report/release/submission
+are not inferred. Earlier pending labels in frozen input files describe their
+earlier state. The later explicit approvals are recorded separately by hash so
+the approved input versions remain unchanged.
+
+## General handoff contract
 
 Each task must identify its task/model ID, approved scope, primary-source locators, input paths and checksums, specification version, dependencies, permitted tools and write locations, expected outputs, checks, and stopping conditions. At completion, list changed files, actual commands, results, limitations, and unresolved decisions.
 
@@ -21,6 +56,6 @@ The student's written v1 is now preserved and the first skill has produced perso
 Start with the root START_HERE.md, then the preserved student v2, feedback round 2 and docs/student_review.md. The index retains the full v1-to-v2 review sequence and links the detailed receipts. The round-2 receipt is skill_invocations/2026-10-18_specify-empirical-study_theory-review_v2/README.md. V2 addresses the main first-round issues; remaining advice is focused refinement. A receiving task must distinguish visible textual changes from explicit approval, and must not re-request v1 or call the received v2 "pending." Actual foundational reading scopes, a student-created diagram, full-specification approval and the deferred skill-2 implementation validation remain pending.
 
 
-## Current handoff: completed skill-2 computations
+## Historical handoff after skill-2 computations
 
 Start from START_HERE.md and docs/replication_results.md, then the execution specification, comparison.csv, hypothesis_tests.csv and branch diagnostics. Three primary models and two nulls have actual outputs; do not rerun expensive fits merely to recover context. All four binary fits have independent final-vector integration and curvature evidence. Keep M2's printed-value discrepancy, generalized ordinal diagnostic failure, reliability repeated-coder/build issues and exact finite-grid caveats visible. Earlier theory submissions and feedback remain unchanged. Remaining coursework includes skill 3, separately justified substantive sensitivity, student reading/diagram records and final report/acceptance. No latest outputs were pushed to GitHub.

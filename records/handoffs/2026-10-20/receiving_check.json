@@ -1,0 +1,417 @@
+{
+  "task_id": "H20261020",
+  "status": "successful_bounded_context_recovery",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "receiver_context": "Fresh child-agent context supplied a bounded file-only receiving task; no prior research chat was used as statistical evidence.",
+  "scope": "Context recovery demonstration, not new independent statistical verification. No fitting, installation, network, Git mutation, source/result/report edits or subagents.",
+  "working_directory": "E:/Statistics with AI/COMD7290-Research Replication-Ma Jiayi",
+  "working_version": "working-handoff-2026-10-20-v1",
+  "approval": {
+    "path": "records/handoffs/2026-10-20/approvals.json",
+    "status": "approved_for_read_only_handoff",
+    "manifest_binding_verified": true,
+    "manifest_sha256": "1e467aa626ee454e7f9cb7af05d5a25e7bf012c79f39f6d77e43d787aeed2f65",
+    "accepted": [
+      "Current working matrix, dictionary and AI-assisted diagrams",
+      "Current interpretation with stated limitations",
+      "Existing S1 as M1 sample-influence evidence",
+      "Country-indicator follow-up as proposal only",
+      "One short fresh-context file check"
+    ],
+    "chronology": "Retrospective current-version approval; no claim of approval before the earlier fits.",
+    "separately_accepted_decisions": [
+      "A01",
+      "A05",
+      "A06"
+    ],
+    "not_inferred": [
+      "A02/A03/A04/A07 individual acceptance",
+      "Exact direct-reading scope or unaided diagram authorship",
+      "Separate student-created initial theory map",
+      "New country-indicator fitting",
+      "Final individual-report acceptance",
+      "Student ID, collaborator verification, assessed commit/tag/release or submission"
+    ]
+  },
+  "hash_checks": {
+    "manifest_path": "records/handoffs/2026-10-20/input_manifest.json",
+    "algorithm": "SHA256",
+    "entries": 32,
+    "verified": 32,
+    "missing": 0,
+    "mismatched": 0,
+    "approval_binding_passed": true,
+    "rechecked_after_reading": true,
+    "all_bound_inputs_unchanged": true,
+    "coverage": "Every path listed in inputs[] was read as bytes and compared with its recorded SHA256; this does not recursively attest every source referenced by those files."
+  },
+  "inspection_order": "README/approval and project context; exact hash check; original analytical author syntax; execution specification/original reliability syntax/design; implementation code; compact CSV/JSON and saved evidence. No implementation summary substituted for author code.",
+  "source_locators": [
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "lines": "24; 48–61; 88–102; 138–144; 203–223; 260–275",
+      "role": "Directly inspected original version-16 syntax, recodes, ordinal diagnostics/model, alternative links, nested IDs and binary models with intpoints(7)."
+    },
+    {
+      "path": "sources/author_code/reliability_original.do",
+      "locator": "Item Level / Actor-Reference Level; kappaetc commands",
+      "role": "Directly inspected original independent-rater subsets and identity/conditional/95%/probabilistic settings."
+    },
+    {
+      "path": "docs/execution_specification.md",
+      "locator": "Frozen substantive specification; Numerical settings and equivalence boundary; Hypothesis decisions",
+      "version": "source-faithful-python-1.0.0"
+    },
+    {
+      "path": "docs/hypothesis_matrix.csv",
+      "locator": "M1_H1a_majoritarian_vs_consensus through M3_H3b_newspaper_vs_blog; three additional mixed-system rows",
+      "role": "28 total rows; recovered 12 directional targets and source Tables 3/4 locators."
+    },
+    {
+      "path": "docs/variable_dictionary.csv",
+      "locator": "ITEM_tone, ITEM_polsys, ITEM_socdiv, ITEM_mediatype, REFERENCE_actrefrecbin, REFERENCE_actrefoutbin, DERIVED_act_id",
+      "role": "144 total rows; source coding, absence/presence, bases, missingness and conflicts."
+    },
+    {
+      "path": "sources/local/codebook_01_news_item.pdf",
+      "locator": "PDF p.3 section 1.2; PDF pp.6–7 section 1.11",
+      "role": "Locator recovered from dictionary; PDF not reread in this bounded check."
+    },
+    {
+      "path": "sources/local/codebook_08_actor_reference.pdf",
+      "locator": "PDF pp.7–9 sections 8.6–8.9",
+      "role": "Locator recovered from dictionary; PDF not reread in this bounded check."
+    },
+    {
+      "path": "records/source_manifest.csv",
+      "locator": "selected_article, package_member_MedCon_Civility_an.do, package_member_MedCon_Civility_item.dta, package_member_MedCon_Civility_actref.dta",
+      "role": "Local provenance locators recovered without network."
+    },
+    {
+      "path": "analysis/prepare_replication.py",
+      "lines": "14–60",
+      "role": "Indicator design, recodes, required fields, cross-file matching and composite actor key."
+    },
+    {
+      "path": "analysis/ordinal_reproduction.py",
+      "lines": "95–112; 142–205; 307–340; 509–513",
+      "role": "Ordinal likelihood, covariance/convergence and sample-average predictions/discrete AMEs."
+    },
+    {
+      "path": "analysis/nested_logit.py",
+      "lines": "21–48; 130–193; 202–207",
+      "role": "Item/actor grouping, seven-node default, frequentist ML, covariance and outcome mapping."
+    },
+    {
+      "path": "analysis/binary_predictions.py",
+      "lines": "15–49",
+      "role": "Prior-normal tensor GH7, empirical reference-row weights, category/base changes and full covariance."
+    },
+    {
+      "path": "docs/model_diagram.mmd",
+      "locator": "M2PANEL, M3PANEL, CONFIG",
+      "role": "Separate nested models and coding agree with author/implementation."
+    },
+    {
+      "path": "docs/model_diagram_m1.mmd",
+      "locator": "M1ETA, M1C, M1Y, M1CONFIG",
+      "role": "Ordinal companion and fixed-slope threshold convention agree."
+    },
+    {
+      "path": "docs/model_diagram_map.csv",
+      "locator": "17 node mappings",
+      "role": "Structural row/column extraction; not every node equation independently audited."
+    }
+  ],
+  "recovered_specification": {
+    "M1": {
+      "outcome": "Archive tone 1–5 minus one, ordered 0–4",
+      "equation": "logit P(Y>k)=X beta-cut_k, k=0,1,2,3",
+      "model": "Proportional-odds cumulative logistic, five common slopes and four ordered cutpoints, no separate free intercept/random effect",
+      "estimator": "Unweighted maximum likelihood; inverse observed-information covariance",
+      "n": 1700
+    },
+    "M2": {
+      "outcome": "actrefoutbin: 0 absent, 1 explicit presence",
+      "model": "Separate Bernoulli logit with fixed intercept/five slopes and independent Gaussian item and originating-actor-within-item intercepts",
+      "n_references": 3770,
+      "n_actor_groups": 2453,
+      "n_items": 1183
+    },
+    "M3": {
+      "outcome": "actrefrecbin: 0 absent, 1 explicit presence",
+      "model": "Same nested family fitted separately with distinct coefficients/variances; no cross-outcome covariance estimated",
+      "n_references": 3770,
+      "n_actor_groups": 2453,
+      "n_items": 1183
+    },
+    "coding": {
+      "polsys": "Raw 1 consensus/2 majoritarian/3 mixed -> 1/3/2",
+      "socdiv": "Raw 1 contested/2 stable -> 2/1",
+      "mediatype": "Raw 1 blog/2 newspaper/3 website -> 1/3/2",
+      "bases": [
+        "Consensus",
+        "Stable secularism",
+        "Blog"
+      ],
+      "fixed_indicator_order": [
+        "Mixed",
+        "Majoritarian",
+        "Contested",
+        "Website",
+        "Newspaper"
+      ],
+      "hierarchy": "Directed reference -> originating actor/statement, act_id=text_id+'_'+akteur_id -> item text_id. Country/medium are contextual fixed predictors, not random hierarchy levels.",
+      "missingness": "Saved dictionary reports no missing required main-model fields; code rejects invalid/missing required outcomes/predictors/keys; no imputation or auxiliary-field-based exclusion.",
+      "exceptions": "Preserve author-selected mediatype/country rather than legacy medientyp/land, documented codebook binary-number conflicts and one reference with both binary outcomes present."
+    },
+    "binary_estimator": "Frequentist marginal maximum likelihood, recursive posterior mean/variance adaptive GH7 per random-intercept dimension. BFGS search/refinement and numerical observed information are Python implementation choices.",
+    "uncertainty": "Normal 95% Wald intervals; full covariance delta method for probabilities/category contrasts, including binary variance-parameter uncertainty.",
+    "predictions": "Change one predictor category in copies of all observed analysis rows and average empirically; discrete category-minus-base probability differences. M1 gives five category probabilities. M2/M3 integrate over prior independent normal random-effect distributions, primary tensor GH7 per intercept; combined GH7 and higher-node calculations are saved numerical comparisons.",
+    "hypotheses": "H1a majoritarian positive M1/M2; H1b negative M3. H2a contested positive M1/M2; H2b negative M3. H3a website/newspaper negative M1/M2; H3b positive M3. Mixed-system contrasts are additional comparisons.",
+    "reliability": "Original independent ratings, source rater subsets, identity weights, conditional SEs, 95% intervals, probabilistic benchmarking; no reliability recomputation here."
+  },
+  "saved_fit_comparison": {
+    "all_recovered_model_metadata_checks_passed": true,
+    "M1": {
+      "path": "outputs/reproduced/models/ordinal/M1_model.json",
+      "matches": "Logit; expected five slopes/four cuts; N=1700; covariance method; original item hash",
+      "version": "ordinal-author-code-2021-python-forward-v1",
+      "threshold_convention": "P(Y<=j)=F(cut_j-Xbeta); gologit2 alpha_j=-cut_j",
+      "saved_status": "converged",
+      "optimizer_success": false,
+      "score_max_abs": 2.550860023209367e-7,
+      "information_rank": 9,
+      "note": "Saved acceptance uses score, positive information and ordered cutpoints rather than optimizer success alone; not revalidated statistically here."
+    },
+    "M2": {
+      "path": "outputs/reproduced/models/M2_fit.json",
+      "outcome": "actrefoutbin",
+      "version": "source-faithful-python-1.0.0",
+      "family": "Bernoulli",
+      "link": "logit",
+      "points_per_random_intercept": 7,
+      "parameters": 8,
+      "covariance_shape": [
+        8,
+        8
+      ],
+      "converged_and_validated": true,
+      "counts": [
+        3770,
+        2453,
+        1183
+      ]
+    },
+    "M3": {
+      "path": "outputs/reproduced/models/M3_fit.json",
+      "outcome": "actrefrecbin",
+      "version": "source-faithful-python-1.0.0",
+      "family": "Bernoulli",
+      "link": "logit",
+      "points_per_random_intercept": 7,
+      "parameters": 8,
+      "covariance_shape": [
+        8,
+        8
+      ],
+      "converged_and_validated": true,
+      "counts": [
+        3770,
+        2453,
+        1183
+      ]
+    },
+    "version_interpretation": "M1 retains its historical ordinal implementation version identifier. Semantic model/code comparison and manifest binding pass; identical version labels across engines are not assumed."
+  },
+  "evidence": {
+    "hypotheses": {
+      "path": "outputs/reproduced/hypothesis_tests.csv",
+      "rows": 12,
+      "recovered_pattern": "Professional media: lower outrage/higher recognition. Political-system predictions lack consistent support. Division: higher item outrage and higher reference recognition (recognition opposite prediction); reference outrage unsupported."
+    },
+    "comparison": {
+      "path": "outputs/verification/comparison_all.csv",
+      "rows": 1798,
+      "within_published_rounding": 334,
+      "exact_integer_agreement": 28,
+      "discrepancy": 13,
+      "not_verifiable": 1423,
+      "note": "Heterogeneous cells are not independent trials or a replication-success probability."
+    },
+    "summary": "outputs/verification/summary.json",
+    "existing_independent_checks": {
+      "path": "outputs/verification/independent_checks/checks.json",
+      "count": 12,
+      "saved_passed_count": 12,
+      "execution_in_this_check": false
+    },
+    "sensitivity": {
+      "plan": "outputs/verification/sensitivity/plan.json",
+      "summary": "outputs/verification/sensitivity/country_deletion_summary.csv",
+      "summary_rows": 5,
+      "scope": "All six leave-one-country-out M1 fits, unchanged original five dummy slopes; sample-influence check, not M2/M3 or full specification robustness."
+    },
+    "measurement": "outputs/diagnostics/measurement/semantic_checks.json",
+    "limitations": "docs/limitations.md",
+    "follow_up": "docs/follow_up.md",
+    "reading_note": {
+      "path": "records/student_inputs/2026-10-18_reading_notes .txt",
+      "exists": true,
+      "exact_student_direct_reading_scope": "Not inferred from existence."
+    }
+  },
+  "open_issues": [
+    "Historical Stata executable/add-on builds and finite-node grid/prediction reduction details are incompletely pinned; no exact-executable equivalence.",
+    "Generalized ordinal diagnostic is structurally nonidentified with negative unobserved-category probabilities; ordinary LR df/p not certified. Wolfe–Gould retains author numeric RHS.",
+    "M2 and supplementary numerical discrepancies remain visible; null variance boundaries need qualified chi-square interpretation.",
+    "Six-country observational design, sparse upper tone categories, measurement/codebook exceptions and unmeasured mechanisms limit inference and causal claims.",
+    "S1 does not automatically close the teacher's stricter specification-sensitivity wording; new country-indicator model remains an unexecuted proposal.",
+    "Bound pre-approval diagrams/proposal/older evidence retain pending-acceptance labels. Dated approvals.json, STATUS.md and decisions.md establish the later retrospective working approval; historical text was not rewritten.",
+    "Separate initial student theory map, exact direct-reading/unaided-authorship attestations, final report acceptance and final assessed/submission requirements remain separate."
+  ],
+  "blockers": [],
+  "observed_commands": [
+    {
+      "command": "rtk read E:\\Codex\\RTK.md",
+      "exit_code": 0,
+      "cwd": "E:\\Statistics with AI"
+    },
+    {
+      "command": "rtk read records\\handoffs\\2026-10-20\\README.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read records\\handoffs\\2026-10-20\\approvals.json",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read records\\handoffs\\2026-10-20\\input_manifest.json",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read AGENTS.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read STATUS.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read records\\decisions.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read sources\\author_code\\MedCon_Civility_an.do",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read docs\\execution_specification.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read sources\\author_code\\reliability_original.do",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read docs\\design_and_models.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read docs\\limitations.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read docs\\follow_up.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read docs\\model_diagram.mmd",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read docs\\model_diagram_m1.mmd",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk read README.md",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk rg -n \"^(def |class )|dropna|replace|map\\(|recod|CATEGORIES|REFERENCE|polsys|socdiv|mediatype|intpoints|quadrature|observed|prior|variance|tensor|hermgauss|threshold|outcome|actor|text_id|finite|BFGS|hess|cov\" analysis\\prepare_replication.py analysis\\ordinal_reproduction.py analysis\\nested_logit.py analysis\\binary_predictions.py",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,hashlib; r=pathlib.Path.cwd(); h=r/\"records/handoffs/2026-10-20\"; m=h/\"input_manifest.json\"; a=json.loads((h/\"approvals.json\").read_text()); j=json.loads(m.read_text()); rows=[{\"path\":x[\"path\"],\"expected\":x[\"sha256\"],\"actual\":hashlib.sha256((r/x[\"path\"]).read_bytes()).hexdigest() if (r/x[\"path\"]).is_file() else None} for x in j[\"inputs\"]]; print(json.dumps({\"manifest_sha256\":hashlib.sha256(m.read_bytes()).hexdigest(),\"approved_manifest_sha256\":a[\"approved_manifest_sha256\"],\"approval_bound\":hashlib.sha256(m.read_bytes()).hexdigest()==a[\"approved_manifest_sha256\"],\"input_count\":len(rows),\"passed\":sum(x[\"expected\"]==x[\"actual\"] for x in rows),\"failures\":[x for x in rows if x[\"expected\"]!=x[\"actual\"]]},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json; spans={\"analysis/prepare_replication.py\":[[14,60]],\"analysis/ordinal_reproduction.py\":[[95,113],[142,176],[184,205]],\"analysis/nested_logit.py\":[[1,51],[129,207]],\"analysis/binary_predictions.py\":[[15,52]]}; print(json.dumps({p:[{\"line\":i,\"text\":s} for i,s in enumerate(pathlib.Path(p).read_text().splitlines(),1) if any(a<=i<=b for a,b in ranges)] for p,ranges in spans.items()},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv,collections; paths=[\"outputs/reproduced/models/ordinal/M1_model.json\",\"outputs/reproduced/models/M2_fit.json\",\"outputs/reproduced/models/M3_fit.json\"]; fits={p:json.loads(pathlib.Path(p).read_text()) for p in paths}; print(json.dumps({\"fits\":{p:{k:v for k,v in x.items() if k not in [\"parameters\",\"covariance\",\"trace\",\"gradient\",\"hessian_eigenvalues\",\"initial_parameters\",\"rejected_optimizer_trials\",\"information_eigenvalues\"]} for p,x in fits.items()},\"csv_structure\":{p:{\"rows\":len(rows),\"columns\":list(rows[0]),\"model_counts\":dict(collections.Counter(r.get(\"model_id\",r.get(\"model\",\"\")) for r in rows))} for p in [\"docs/hypothesis_matrix.csv\",\"docs/variable_dictionary.csv\",\"docs/model_diagram_map.csv\",\"outputs/reproduced/hypothesis_tests.csv\",\"outputs/verification/comparison_all.csv\"] for rows in [list(csv.DictReader(pathlib.Path(p).open(encoding=\"utf-8-sig\",newline=\"\")))] ]},indent=2))'",
+      "exit_code": 1
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv,collections; paths=[\"outputs/reproduced/models/ordinal/M1_model.json\",\"outputs/reproduced/models/M2_fit.json\",\"outputs/reproduced/models/M3_fit.json\"]; fits={p:json.loads(pathlib.Path(p).read_text()) for p in paths}; print(json.dumps({\"fits\":{p:{k:v for k,v in x.items() if k not in [\"parameters\",\"covariance\",\"trace\",\"gradient\",\"hessian_eigenvalues\",\"initial_parameters\",\"rejected_optimizer_trials\",\"information_eigenvalues\"]} for p,x in fits.items()},\"csv_structure\":{p:{\"rows\":len(rows),\"columns\":list(rows[0]),\"model_counts\":dict(collections.Counter(r.get(\"model_id\",r.get(\"model\",\"\")) for r in rows))} for p in [\"docs/hypothesis_matrix.csv\",\"docs/variable_dictionary.csv\",\"docs/model_diagram_map.csv\",\"outputs/reproduced/hypothesis_tests.csv\",\"outputs/verification/comparison_all.csv\"] for rows in [list(csv.DictReader(pathlib.Path(p).open(encoding=\"utf-8-sig\",newline=\"\")))]}},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv,collections; read=lambda p:list(csv.DictReader(pathlib.Path(p).open(encoding=\"utf-8-sig\",newline=\"\"))); m=read(\"docs/hypothesis_matrix.csv\"); d=read(\"docs/variable_dictionary.csv\"); v=read(\"outputs/verification/comparison_all.csv\"); print(json.dumps({\"matrix_core\":[{k:r[k] for k in [\"row_id\",\"analysis_id\",\"hypothesis_id\",\"source_locator\",\"equation_syntax\",\"estimator_settings\",\"output_path\",\"scientific_conclusion\"]} for r in m if r[\"analysis_id\"] in [\"M1\",\"M2\",\"M3\"]],\"dictionary_core\":[{k:r[k] for k in [\"row_id\",\"dataset\",\"source_variable\",\"actual_data_variable\",\"values_meaning\",\"transformation\",\"reference_category\",\"missing_rule\",\"source_conflict_or_limit\",\"source_locator\"]} for r in d if r[\"actual_data_variable\"] in [\"tone\",\"polsys\",\"socdiv\",\"mediatype\",\"actrefoutbin\",\"actrefrecbin\",\"act_id\"]],\"ledger_summary\":{\"rows\":len(v),\"comparison_status\":dict(collections.Counter(r[\"comparison_status\"] for r in v))},\"hypotheses\":[{k:r[k] for k in [\"hypothesis_id\",\"model_id\",\"contrast\",\"predicted_sign\",\"conclusion\"]} for r in read(\"outputs/reproduced/hypothesis_tests.csv\")]},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv,re; paths=[\"outputs/verification/summary.json\",\"outputs/verification/independent_checks/checks.json\",\"outputs/verification/sensitivity/plan.json\",\"outputs/diagnostics/measurement/semantic_checks.json\",\"records/student_decision_reviews/2026-10-20/review.json\"]; data={p:json.loads(pathlib.Path(p).read_text()) for p in paths}; print(json.dumps({p:x if p.endswith(\"summary.json\") or p.endswith(\"plan.json\") or p.endswith(\"review.json\") else {\"top_level\":{k:v if isinstance(v,(str,int,float,bool,type(None))) else {\"type\":type(v).__name__,\"size\":len(v),\"keys\":list(v) if isinstance(v,dict) else None} for k,v in x.items()}} for p,x in data.items()},indent=2)); print(json.dumps({\"author_source_lines\":[{\"line\":i,\"text\":s.strip()} for i,s in enumerate(pathlib.Path(\"sources/author_code/MedCon_Civility_an.do\").read_text().splitlines(),1) if re.search(\"version 16|replace tone|recode |egen act_id|ologit tone|melogit actref|margins polsys|omodel logit\",s)],\"ordinal_prediction_lines\":[{\"line\":i,\"text\":s.strip()} for i,s in enumerate(pathlib.Path(\"analysis/ordinal_reproduction.py\").read_text().splitlines(),1) if re.search(\"def margins|def predictions|empirical|weights|reference|delta|gradient @|grad @|ci95\",s)],\"reading_note_exists\":pathlib.Path(\"records/student_inputs/2026-10-18_reading_notes .txt\").is_file()},indent=2))'",
+      "exit_code": 1
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv,re; paths=[\"outputs/verification/summary.json\",\"outputs/verification/independent_checks/checks.json\",\"outputs/verification/sensitivity/plan.json\",\"outputs/diagnostics/measurement/semantic_checks.json\",\"records/student_decision_reviews/2026-10-20/review.json\"]; data={p:json.loads(pathlib.Path(p).read_text(encoding=\"utf-8-sig\")) for p in paths}; print(json.dumps({p:x if p.endswith(\"summary.json\") or p.endswith(\"plan.json\") or p.endswith(\"review.json\") else {\"top_level\":{k:v if isinstance(v,(str,int,float,bool,type(None))) else {\"type\":type(v).__name__,\"size\":len(v),\"keys\":list(v) if isinstance(v,dict) else None} for k,v in x.items()}} for p,x in data.items()},indent=2)); print(json.dumps({\"author_source_lines\":[{\"line\":i,\"text\":s.strip()} for i,s in enumerate(pathlib.Path(\"sources/author_code/MedCon_Civility_an.do\").read_text(encoding=\"utf-8-sig\").splitlines(),1) if re.search(\"version 16|replace tone|recode |egen act_id|ologit tone|melogit actref|margins polsys|omodel logit\",s)],\"ordinal_prediction_lines\":[{\"line\":i,\"text\":s.strip()} for i,s in enumerate(pathlib.Path(\"analysis/ordinal_reproduction.py\").read_text(encoding=\"utf-8-sig\").splitlines(),1) if re.search(\"def margins|def predictions|empirical|weights|reference|delta|gradient @|grad @|ci95\",s)],\"reading_note_exists\":pathlib.Path(\"records/student_inputs/2026-10-18_reading_notes .txt\").is_file()},indent=2))'",
+      "exit_code": 1
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,re; paths=[\"outputs/verification/summary.json\",\"outputs/verification/independent_checks/checks.json\",\"outputs/verification/sensitivity/plan.json\",\"outputs/diagnostics/measurement/semantic_checks.json\",\"records/student_decision_reviews/2026-10-20/review.json\"]; data={p:json.loads(pathlib.Path(p).read_text(encoding=\"utf-8-sig\")) for p in paths}; print(json.dumps({p:x if p.endswith(\"summary.json\") or p.endswith(\"plan.json\") or p.endswith(\"review.json\") else {\"type\":type(x).__name__,\"size\":len(x),\"content\":{k:v if isinstance(v,(str,int,float,bool,type(None))) else {\"type\":type(v).__name__,\"size\":len(v),\"keys\":list(v) if isinstance(v,dict) else None} for k,v in x.items()} if isinstance(x,dict) else x[:2]} for p,x in data.items()},indent=2)); print(json.dumps({\"author_source_lines\":[{\"line\":i,\"text\":s.strip()} for i,s in enumerate(pathlib.Path(\"sources/author_code/MedCon_Civility_an.do\").read_text().splitlines(),1) if re.search(\"version 16|replace tone|recode |egen act_id|ologit tone|melogit actref|margins polsys|omodel logit\",s)],\"ordinal_prediction_lines\":[{\"line\":i,\"text\":s.strip()} for i,s in enumerate(pathlib.Path(\"analysis/ordinal_reproduction.py\").read_text().splitlines(),1) if re.search(\"def margins|def predictions|empirical|weights|reference|delta|gradient @|grad @|ci95\",s)],\"reading_note_exists\":pathlib.Path(\"records/student_inputs/2026-10-18_reading_notes .txt\").is_file()},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv; p=pathlib.Path(\"analysis/ordinal_reproduction.py\"); print(json.dumps({\"ordinal_delta_code\":[{\"line\":i,\"text\":s} for i,s in enumerate(p.read_text().splitlines(),1) if 307<=i<=343],\"independent_saved_check_statuses\":[{\"check\":x.get(\"check\"),\"passed\":x.get(\"passed\")} for x in json.loads(pathlib.Path(\"outputs/verification/independent_checks/checks.json\").read_text(encoding=\"utf-8-sig\"))],\"sensitivity_summary\":[{k:v for k,v in r.items() if k in [\"country\",\"deleted_country\",\"omitted_country\",\"excluded_country\",\"n\",\"status\",\"converged\",\"analysis_id\"]} for r in csv.DictReader(pathlib.Path(\"outputs/verification/sensitivity/country_deletion_summary.csv\").open(encoding=\"utf-8-sig\",newline=\"\"))]},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,csv; r=list(csv.DictReader(pathlib.Path(\"outputs/verification/sensitivity/country_deletion_summary.csv\").open(encoding=\"utf-8-sig\",newline=\"\"))); print(json.dumps({\"country_deletion_summary\":{\"rows\":len(r),\"columns\":list(r[0]),\"first_row\":r[0]},\"source_manifest\":[{k:v for k,v in x.items() if k in [\"source_id\",\"title\",\"local_path\",\"source_locator\",\"url\",\"sha256\"]} for x in csv.DictReader(pathlib.Path(\"records/source_manifest.csv\").open(encoding=\"utf-8-sig\",newline=\"\"))]},indent=2))'",
+      "exit_code": 0
+    },
+    {
+      "command": "rtk proxy .venv\\Scripts\\python.exe -c 'import pathlib,json,hashlib; r=pathlib.Path.cwd(); h=r/\"records/handoffs/2026-10-20\"; m=json.loads((h/\"input_manifest.json\").read_text(encoding=\"utf-8-sig\")); a=json.loads((h/\"approvals.json\").read_text(encoding=\"utf-8-sig\")); fits={k:json.loads((r/p).read_text(encoding=\"utf-8-sig\")) for k,p in {\"M1\":\"outputs/reproduced/models/ordinal/M1_model.json\",\"M2\":\"outputs/reproduced/models/M2_fit.json\",\"M3\":\"outputs/reproduced/models/M3_fit.json\"}.items()}; expected=[\"intercept\",\"mixed_vs_consensus\",\"majoritarian_vs_consensus\",\"contested_vs_stable\",\"website_vs_blog\",\"newspaper_vs_blog\",\"log_sd_item\",\"log_sd_actor\"]; checks={\"approval_bound\":hashlib.sha256((h/\"input_manifest.json\").read_bytes()).hexdigest()==a[\"approved_manifest_sha256\"],\"all_32_bound_inputs_unchanged\":all(hashlib.sha256((r/x[\"path\"]).read_bytes()).hexdigest()==x[\"sha256\"] for x in m[\"inputs\"]),\"M1_logit_five_slopes_four_cutpoints_N1700\":fits[\"M1\"][\"link\"]==\"logit\" and fits[\"M1\"][\"parameter_names\"]==[\"2.polsys\",\"3.polsys\",\"2.socdiv\",\"2.mediatype\",\"3.mediatype\",\"cut_0_1\",\"cut_1_2\",\"cut_2_3\",\"cut_3_4\"] and fits[\"M1\"][\"fit\"][\"n\"]==1700,\"M1_observed_information_covariance\":fits[\"M1\"][\"covariance_method\"]==\"inverse observed information in untransformed slopes/cutpoints\",\"M1_source_hash_bound\":fits[\"M1\"][\"source_data_version\"]==next(x[\"sha256\"] for x in m[\"inputs\"] if x[\"path\"]==\"data/original/MedCon_Civility_item.dta\")}; checks.update({k+\"_metadata_matches_separate_nested_logit\":f[\"outcome\"]==y and f[\"family\"]==\"Bernoulli\" and f[\"link\"]==\"logit\" and f[\"estimator\"]==\"frequentist marginal maximum likelihood\" and f[\"points_per_random_intercept\"]==7 and f[\"parameter_names\"]==expected and [f[\"n_observations\"],f[\"n_actor_groups\"],f[\"n_items\"]]==[3770,2453,1183] and len(f[\"covariance\"])==8 and all(len(row)==8 for row in f[\"covariance\"]) and f[\"converged_and_validated\"] for k,y in [(\"M2\",\"actrefoutbin\"),(\"M3\",\"actrefrecbin\")] for f in [fits[k]]}); print(json.dumps({\"checks\":checks,\"all_passed\":all(checks.values()),\"receipt_files_already_exist\":{p:(h/p).exists() for p in [\"receiving_check.json\",\"receiving_note.md\"]}},indent=2))'",
+      "exit_code": 0
+    }
+  ],
+  "command_errors": [
+    {
+      "command_reference": "fitCommandFailed",
+      "error": "Python SyntaxError in read-only extraction comprehension; corrected."
+    },
+    {
+      "command_reference": "evidenceCommandFailed",
+      "error": "Default Windows decoding failed for UTF-8 evidence; corrected with explicit utf-8-sig."
+    },
+    {
+      "command_reference": "evidenceCommandFailed2",
+      "error": "Independent checks JSON is a list rather than dict; corrected compact type-aware extraction."
+    }
+  ],
+  "changed_files": [
+    "records/handoffs/2026-10-20/receiving_check.json",
+    "records/handoffs/2026-10-20/receiving_note.md"
+  ],
+  "change_evidence": "All commands before receipt creation were read-only. Both receipt paths were absent at preflight; the only write operation creates these two files. All 32 manifest entries were hash-checked again after inspection. No full-workspace baseline/diff is claimed.",
+  "receipt_write_operation": {
+    "tool": "apply_patch",
+    "paths": [
+      "records/handoffs/2026-10-20/receiving_check.json",
+      "records/handoffs/2026-10-20/receiving_note.md"
+    ]
+  },
+  "note_word_count": 202
+}

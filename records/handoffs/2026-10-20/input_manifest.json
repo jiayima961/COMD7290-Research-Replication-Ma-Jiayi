@@ -1,0 +1,135 @@
+{
+  "prepared_at_utc": "2026-10-20T12:55:05.558043+00:00",
+  "version": "working-handoff-2026-10-20-v1",
+  "binding": "Current local working files, including uncommitted documentation. Not an assessed release or tag.",
+  "inputs": [
+    {
+      "path": "docs/execution_specification.md",
+      "sha256": "77d77ad474f68869181edb248431fa53dee3e0f2d14e2f089ab2116bd98af2fb"
+    },
+    {
+      "path": "docs/design_and_models.md",
+      "sha256": "776e66cb4f2abde582edbfa5ac7e3af677a834f13d69f4d50ce579baefb498b6"
+    },
+    {
+      "path": "docs/hypothesis_matrix.csv",
+      "sha256": "bae5c7fedaf4d257c0bba432ddb85758fd9bf992a9a49ca9ace6be303741b835"
+    },
+    {
+      "path": "docs/variable_dictionary.csv",
+      "sha256": "cd8c03fdeca054f879941874d3f1330d9b4b903bd813a0a12125c19e67da1d03"
+    },
+    {
+      "path": "docs/model_diagram.mmd",
+      "sha256": "a08fc58df0e913f9c751cf7915389b424233a952d928d2a414324a2ac1220d17"
+    },
+    {
+      "path": "docs/model_diagram_m1.mmd",
+      "sha256": "520f69b87281ac735b8888864db363219aa86337a257eb586f13256f57aa39d6"
+    },
+    {
+      "path": "docs/model_diagram_map.csv",
+      "sha256": "6ef0756d56d82041757bda01ebb3aa4c99576ee8927745feebf519a4e8c6a94b"
+    },
+    {
+      "path": "records/student_inputs/2026-10-18_revised_theory_explanation_v2.txt",
+      "sha256": "f41582a8ad64e4bf100460c91a41bc71c2cb1408f2a6e355ecd75f956343b23a"
+    },
+    {
+      "path": "docs/limitations.md",
+      "sha256": "6de6429f200a288d6b219d78b20d66945e688fede4d3629fb745ead9f977fcc0"
+    },
+    {
+      "path": "docs/follow_up.md",
+      "sha256": "9e5fe8703fdbf3adb5f66fa9d4f6ec7f29c86ad125e69dc1f47a80419c554f2b"
+    },
+    {
+      "path": "records/skill3_decision_audit.md",
+      "sha256": "ad85a3fbaf0d020a0e995eab45cdd36b8b85a7095e22edb7633e30d60b00e1d5"
+    },
+    {
+      "path": "records/student_decision_reviews/2026-10-20/review.json",
+      "sha256": "740a661521cac75558a38693a5cd7fe55f0ceffc0e83ac9705a49d2292cadb05"
+    },
+    {
+      "path": "records/source_manifest.csv",
+      "sha256": "0ea8cfcb33179f5a8853ec7a0a3d0e326edd0fb3aab9be70525eb8c4f63393b9"
+    },
+    {
+      "path": "sources/input_restore_manifest.json",
+      "sha256": "1aac85f6b1795fd19c7930463a4032b92155567e6e0d5a6e1f63ba958202bbde"
+    },
+    {
+      "path": "sources/author_code/MedCon_Civility_an.do",
+      "sha256": "76253cf17220551c8259383d53286dc445c467d77a1f8102106b8fc23a75c5b5"
+    },
+    {
+      "path": "sources/author_code/reliability_original.do",
+      "sha256": "241245c8208f8f5fe12c8616937cc374be6abddc8c3ad1d1f931869e9ab9d06a"
+    },
+    {
+      "path": "data/original/MedCon_Civility_item.dta",
+      "sha256": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba"
+    },
+    {
+      "path": "data/original/MedCon_Civility_actref.dta",
+      "sha256": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc"
+    },
+    {
+      "path": "analysis/prepare_replication.py",
+      "sha256": "cec6f4582aa790f1b435e259a8594f4a4ed5e5243b85b1fda9603d726fed0175"
+    },
+    {
+      "path": "analysis/ordinal_reproduction.py",
+      "sha256": "a412c81a0c842586858f682975398c7ceb156e1cbc74bea93e73525642ce5901"
+    },
+    {
+      "path": "analysis/nested_logit.py",
+      "sha256": "ab8c609c131888d2a90b13737841fb6f6a636172a3cf669c3c8a76d8529c57e8"
+    },
+    {
+      "path": "analysis/binary_predictions.py",
+      "sha256": "78abd67fde5af336b3ea5e1f6a95520cce7cf217e8029dbadf8662efd943588f"
+    },
+    {
+      "path": "outputs/reproduced/models/ordinal/M1_model.json",
+      "sha256": "75b5dd79a2dc5db86bd330f56979d444a124d73a7f745f7314ce115ceae04e31"
+    },
+    {
+      "path": "outputs/reproduced/models/M2_fit.json",
+      "sha256": "6c7fbb63f76eef5fa5c940b3cc399d2877289eaea3dd341df6e89c4f0960a320"
+    },
+    {
+      "path": "outputs/reproduced/models/M3_fit.json",
+      "sha256": "88b228a9dac1f45b07d2ff89f1c0e7f9dd80b8d79c0aa0f20fae4cc115d7cc1d"
+    },
+    {
+      "path": "outputs/reproduced/hypothesis_tests.csv",
+      "sha256": "3c8f7c29d5d826c8dba378b93d924744c2ba50a125c38842ccf46063d86d165e"
+    },
+    {
+      "path": "outputs/verification/summary.json",
+      "sha256": "9aceeb4d10b4954cbeff7add2f5bc13ad732f4b6a053fa4162ff456edfb866a6"
+    },
+    {
+      "path": "outputs/verification/comparison_all.csv",
+      "sha256": "ae5f03e8f7ffe775f53772121a596834bc88efdc29e6d8376cd84c0bce007bc4"
+    },
+    {
+      "path": "outputs/verification/independent_checks/checks.json",
+      "sha256": "7ef76f661e8373d60f0d8b0ccac7181f1adc09e00b550c657ca0ad482bc1adfb"
+    },
+    {
+      "path": "outputs/verification/sensitivity/plan.json",
+      "sha256": "b6c9396ab7ced40d79bf3d5b714144003b09ee9f54745bf7a0c34a89f74f0746"
+    },
+    {
+      "path": "outputs/verification/sensitivity/country_deletion_summary.csv",
+      "sha256": "1239def561c9629e894056999afdde5c9b1afb86a3de76985ba3b7b304268e2c"
+    },
+    {
+      "path": "outputs/diagnostics/measurement/semantic_checks.json",
+      "sha256": "f72182a5b4084c80f42846005cacf739f755b6657fa4aa4bdbf7a46d8f33e243"
+    }
+  ]
+}

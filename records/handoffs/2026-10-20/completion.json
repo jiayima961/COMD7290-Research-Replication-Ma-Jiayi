@@ -1,0 +1,15 @@
+{
+  "status": "working_approvals_and_handoff_complete",
+  "date": "2026-10-20",
+  "approval_binding_valid": true,
+  "input_hashes_verified": 32,
+  "receiving_agent": "/root/approved_handoff_receiving_check",
+  "fresh_context": "fork_turns=none",
+  "receiving_status": "successful_bounded_context_recovery",
+  "receiving_receipt_sha256": "8862f9b15754408b546cf15b76941ca1e86495022e92516d9f55bd7bd61c3c46",
+  "receiving_note_sha256": "e3383490d810664effe4990fde5aaa8d951ead799fa39ab00816eea9305f5fd5",
+  "research_models_rerun": false,
+  "final_report_modified": false,
+  "final_release_or_submission_approved": false,
+  "github_synchronized": false
+}

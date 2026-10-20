@@ -1,0 +1,33 @@
+{
+  "status": "approved_for_read_only_handoff",
+  "approval_date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "specification_approved": true,
+  "interpretation_sensitivity_proposal_approved": true,
+  "fresh_agent_test_authorized": true,
+  "approved_manifest_sha256": "1e467aa626ee454e7f9cb7af05d5a25e7bf012c79f39f6d77e43d787aeed2f65",
+  "chronological_boundary": "Retrospective current-version approval, not approval before the earlier fits",
+  "exact_student_responses": [
+    {
+      "item": "working_specification",
+      "response": "Approve the current working specification"
+    },
+    {
+      "item": "interpretation_existing_sensitivity_and_future_proposal",
+      "response": "Accept with these stated limits"
+    },
+    {
+      "item": "fresh_context_agent_test",
+      "response": "Run the short fresh-context agent check"
+    }
+  ],
+  "limits": [
+    "Source and numerical limitations remain explicit",
+    "S1 is an executed M1 sample-influence diagnostic",
+    "Stricter specification-sensitivity wording stays open",
+    "Country-indicator follow-up is approved as a proposal only, no new fit authorized",
+    "No unaided diagram authorship or direct-reading attestation inferred",
+    "No final individual report, release or submission approval"
+  ],
+  "final_report_or_submission_approved": false
+}

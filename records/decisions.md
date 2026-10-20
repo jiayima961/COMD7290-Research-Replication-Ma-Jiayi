@@ -1,5 +1,28 @@
 # Decisions and review record
 
+## Working approvals and receiving-session scope on 2026-10-20
+
+The student explicitly approved the current matrix, dictionary and AI-assisted
+model diagrams as the working specification. The current result interpretation,
+S1 country-influence scope and country-indicator future proposal were accepted
+with stated limits. The strict specification-sensitivity issue remains open.
+The student authorized one short fresh-context agent check, limited to reading
+the approved files and saving a receipt. No statistical refit, final-report
+change, publication or submission is authorized by this review. Exact responses
+and the hash-bound working version are in records/handoffs/2026-10-20/.
+This is current retrospective approval and does not backdate a pre-fit review.
+
+## Personal decision review on 2026-10-20
+
+The student explicitly accepted A01, A05 and A06 and their suggested reasons
+through three separate responses. The AI-assisted wording was adopted, not
+claimed as unaided student writing. The required minimum three consequential
+decision reviews is complete. Their proposals, source checks, reasons and
+implications are in records/skill3_decision_audit.md. Exact questions and
+responses are in student_decision_reviews/2026-10-20/review.json. This is a
+retrospective review, not earlier specification approval or acceptance of the
+four remaining optional decisions. No data, estimates or final report changed.
+
 ## D013 on 2026-10-19 Skill 3 verification and report preparation
 
 The user requests all-result comparison, a Word report explaining agreement and
@@ -105,3 +128,14 @@ and verify hashes. Make RTK optional for portable execution and add exact-versio
 input restoration. Include own code, aggregate results and records; retain
 excluded source/subject-level files locally with access/rebuild instructions.
 No final release, submission, collaborator invitation or public visibility.
+
+## D015 — 2026-10-20 final repository handoff
+
+The student explicitly authorizes uploading all current updates and the current
+final individual report, superseding the earlier report-withholding instruction
+for that file. The student requests a final status page showing completed work
+without a further-steps list. The final handoff therefore uses a completed-work
+summary, preserves existing dated audits, and uploads the Word report unchanged.
+No new analysis, release/tag, Moodle action or access-control change is included.
+The exact report hash and file-preservation checks are saved in
+records/finalization/2026-10-20/.

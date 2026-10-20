@@ -1,5 +1,53 @@
 # AI work and skill-invocation record
 
+## 2026-10-20 current approvals and real-study fresh-context handoff
+
+The user requested a simple, economical completion of working approvals and
+handoff, then explicitly approved the current specification/diagrams, accepted
+interpretation/S1 influence scope/future proposal with stated limits, and
+authorized one fresh-context agent check. The assistant consulted the existing
+verify-and-package guidance and reused saved statistical evidence. No full
+statistical skill rerun is claimed. The new package binds 32 current local files
+and actual approval responses, without implying a final GitHub release.
+
+Native agent /root/approved_handoff_receiving_check started with fork_turns=none
+and recovered the approved state from files. All 32 hashes and the approval
+binding passed. Source syntax/code and saved model metadata agreed. The actual
+commands, three corrected read-only extraction errors, source scopes, open
+issues and two written receipt files are saved in records/handoffs/2026-10-20/.
+The parent inspected the receipt and updated current navigation/checkpoints.
+This is successful context recovery, not new independent statistical
+verification. No model fit, input/result edit, final-report change, GitHub
+update, final release or submission was performed.
+
+## 2026-10-20 variable dictionary and diagram completion
+
+The user requested completion of the two documentation gaps and then asked to
+continue. The assistant manually applied specify-empirical-study 1.0.1, checked
+assignment pp.3-5, codebooks 1/2/5/8, actual archive metadata and saved fitted
+model specifications. The canonical dictionary now has 144 entries. Two
+numbered model diagrams have editable Mermaid, SVG/PNG exports and 17 mappings
+to equations, executing functions and matrix rows. Source-numbering conflicts,
+legacy analytical-field differences and the one joint-presence exception are
+documented without altering inputs or estimates. Scoped checks and visual
+review are recorded in skill_invocations/2026-10-20_design_completion/.
+This was shared-context documentation work, without a new scientific fit,
+independent reviewer, student attestation, individual-report edit or GitHub push.
+
+## 2026-10-20 matrix documentation completion
+
+The user requested completion of the unfinished hypothesis-to-evidence matrix.
+The assistant explicitly used specify-empirical-study 1.0.1 in the shared chat,
+rechecked assignment p.3, original syntax, article targets and saved analysis
+evidence. All 28 rows now have populated specification, evidence and conclusion
+fields, including 12 directional targets, three additional mixed-system
+comparisons and 13 supporting rows. A reader guide and executed-matrix checker
+were added. Earlier versions, source bindings, failed documentation commands,
+validation and handoff are recorded in
+`skill_invocations/2026-10-20_specify-empirical-study_matrix/`.
+This is retrospective documentation completion, not a new fit, independent
+review, student approval, final-report edit or GitHub update.
+
 ## 2026-10-17: initialization
 
 - User task: establish the repository and available project materials from the assignment and workflow guide; do not invite the instructor.
@@ -81,3 +129,16 @@ evidence. Historical Stata-build equality is not certified. No GitHub upload,
 collaborator invitation, personal attestation, assessed release or submission was
 performed in this task. Exact model/build identifiers not exposed by a tool are
 not invented.
+
+## 2026-10-20 final repository publication
+
+The user requests uploading today's documents, including the current individual
+report, and a concise final status showing completed work without a further-steps
+list. The assistant applies verify-and-package for file preservation and upload
+checking, reusing the completed statistical evidence rather than refitting.
+Current reader pages are refreshed and their earlier versions are archived.
+The final report is uploaded byte-for-byte as supplied. Git's read-only remote
+check failed first in the sandbox and then with a connection reset after approved
+escalation. The existing GitHub connector is used for authenticated upload.
+The finalization folder contains the preparation, validation and synchronization
+records. No new scientific estimate or personal attestation is generated.

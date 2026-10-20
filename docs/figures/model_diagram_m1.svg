@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="1170" viewBox="0 0 1450 1170">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#222"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111">
+<text x="40" y="42" font-size="28" font-weight="bold" font-style="normal">Figure 2</text>
+<text x="40" y="83" font-size="28" font-weight="normal" font-style="italic">Item-level proportional-odds model of outrage tone</text>
+<text x="40" y="124" font-size="23" font-weight="normal" font-style="normal">The five indicators use the coding and reference categories in Figure 1.</text>
+<g id="X"><rect x="55" y="160" width="1340" height="165" rx="7" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="71" y="188" font-size="21" font-weight="normal" font-style="normal">Five 0/1 indicators, in this order</text>
+<text x="71" y="218" font-size="21" font-weight="normal" font-style="normal">X = [I(polsys=2), I(polsys=3), I(socdiv=2), I(mediatype=2), I(mediatype=3)]</text>
+<text x="71" y="248" font-size="21" font-weight="normal" font-style="normal">Order: mixed, majoritarian, contested, website, newspaper</text>
+<text x="71" y="278" font-size="21" font-weight="normal" font-style="normal">Codes above are analytical codes. Bases are consensus, stable secularism and blogs.</text>
+</g>
+<g id="M1ETA"><rect x="75" y="430" width="675" height="130" rx="7" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="91" y="458" font-size="25" font-weight="normal" font-style="normal">eta_i = X_i beta1</text>
+<text x="91" y="492" font-size="25" font-weight="normal" font-style="normal">Five fixed slopes</text>
+<text x="91" y="526" font-size="25" font-weight="normal" font-style="normal">No separate free intercept or random effects</text>
+</g>
+<g id="M1C"><rect x="805" y="430" width="570" height="130" rx="7" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="821" y="458" font-size="25" font-weight="normal" font-style="normal">Four ordered cutpoints</text>
+<text x="821" y="492" font-size="25" font-weight="normal" font-style="normal">c0 &lt; c1 &lt; c2 &lt; c3</text>
+<text x="821" y="526" font-size="25" font-weight="normal" font-style="normal">Slopes common across all four thresholds</text>
+</g>
+<path d="M725 325 L725 375 L412 375 L412 428" fill="none" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M412 560 L412 640" fill="none" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1090 560 L1090 640" fill="none" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+<g id="M1Y"><rect x="75" y="645" width="1300" height="170" rx="7" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="91" y="673" font-size="24" font-weight="normal" font-style="normal">Item tone: archive 1-5 is recoded to 0-4</text>
+<text x="91" y="706" font-size="24" font-weight="normal" font-style="normal">logit Pr(tone_i &gt; k) = eta_i - c_k, k = 0,1,2,3</text>
+<text x="91" y="739" font-size="24" font-weight="normal" font-style="normal">Pr(tone_i = k) = F(c_k - eta_i) - F(c_(k-1) - eta_i), F = logistic CDF</text>
+<text x="91" y="772" font-size="24" font-weight="normal" font-style="normal">Five ordered categories, with outer cutpoints at minus/plus infinity</text>
+</g>
+<g id="M1CONFIG"><rect x="55" y="860" width="1340" height="235" rx="7" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="71" y="888" font-size="23" font-weight="normal" font-style="normal">N = 1700 news items. The reference-row copy of tone is not a separate M1 sample.</text>
+<text x="71" y="920" font-size="23" font-weight="normal" font-style="normal">Unweighted maximum likelihood, observed information, normal 95% Wald intervals.</text>
+<text x="71" y="952" font-size="23" font-weight="normal" font-style="normal">No random effects, centering, interactions, mediation, priors or imputation.</text>
+<text x="71" y="984" font-size="23" font-weight="normal" font-style="normal">C1 retains the original assumption diagnostics, C2 the original alternative links, P1 the probabilities.</text>
+<text x="71" y="1016" font-size="23" font-weight="normal" font-style="normal">Unmeasured compromise, identity boundaries and editorial gatekeeping are proposed mechanisms.</text>
+<text x="71" y="1048" font-size="23" font-weight="normal" font-style="normal">They are not estimated mediators in M1, M2 or M3.</text>
+<text x="71" y="1080" font-size="23" font-weight="normal" font-style="normal">Input: data/original/MedCon_Civility_item.dta, with item likelihood independence assumed.</text>
+</g>
+<text x="40" y="1140" font-size="19" font-weight="normal" font-style="normal">Note. Original AI-assisted reconstruction from author code, not a copied published figure. Student review pending.</text>
+</g></svg>

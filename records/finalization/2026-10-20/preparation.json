@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "prepared_utc": "2026-10-20T14:54:23.847115+00:00",
+  "request": "Upload all documents updated today, including the final report, and present the final status page as a completed-work record without a further-steps list.",
+  "parent_commit": "e3f23cc71d9fe1c6bbe4528d68503fefcb895fd5",
+  "report": {
+    "path": "report/COMD7290 Individual Report for Research Replication.docx",
+    "sha256": "7e8a3948d429eba81a87f2deb9d54b9df6de5e70ee0eec8ab5b1c169b7ae4cae",
+    "bytes": 44531,
+    "uploaded_as_provided": true,
+    "content_revised_by_this_task": false,
+    "package_xml_readable": true,
+    "tracked_changes": 0
+  },
+  "research_models_refitted": false,
+  "historical_records_rewritten": false,
+  "release_tag_or_moodle_action_in_scope": false,
+  "scope_note": "Final repository handoff is the status reported on STATUS.md. Existing dated audits and source limitations are preserved as research evidence.",
+  "archived_navigation_files": [
+    ".gitignore",
+    "README.md",
+    "STATUS.md",
+    "START_HERE.md",
+    "AGENTS.md",
+    "report/README.md",
+    "records/README.md",
+    "records/agent_records.md",
+    "records/decisions.md"
+  ]
+}

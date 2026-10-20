@@ -1,0 +1,186 @@
+{
+  "Figure 1": [
+    {
+      "node_id": "POL",
+      "x": 40,
+      "y": 130,
+      "width": 445,
+      "height": 135,
+      "font_size": 21,
+      "text_line_count": 4,
+      "text_within_box": true
+    },
+    {
+      "node_id": "SEC",
+      "x": 502,
+      "y": 130,
+      "width": 445,
+      "height": 135,
+      "font_size": 21,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "MED",
+      "x": 964,
+      "y": 130,
+      "width": 445,
+      "height": 135,
+      "font_size": 21,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "X",
+      "x": 55,
+      "y": 325,
+      "width": 1340,
+      "height": 165,
+      "font_size": 21,
+      "text_line_count": 4,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M2U",
+      "x": 195,
+      "y": 630,
+      "width": 560,
+      "height": 110,
+      "font_size": 23,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M2V",
+      "x": 195,
+      "y": 825,
+      "width": 560,
+      "height": 110,
+      "font_size": 22,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M2ETA",
+      "x": 195,
+      "y": 1040,
+      "width": 560,
+      "height": 135,
+      "font_size": 24,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M2Y",
+      "x": 195,
+      "y": 1230,
+      "width": 560,
+      "height": 147,
+      "font_size": 24,
+      "text_line_count": 4,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M3U",
+      "x": 810,
+      "y": 630,
+      "width": 560,
+      "height": 110,
+      "font_size": 23,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M3V",
+      "x": 810,
+      "y": 825,
+      "width": 560,
+      "height": 110,
+      "font_size": 22,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M3ETA",
+      "x": 810,
+      "y": 1040,
+      "width": 560,
+      "height": 135,
+      "font_size": 24,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M3Y",
+      "x": 810,
+      "y": 1230,
+      "width": 560,
+      "height": 147,
+      "font_size": 24,
+      "text_line_count": 4,
+      "text_within_box": true
+    },
+    {
+      "node_id": "CONFIG",
+      "x": 55,
+      "y": 1460,
+      "width": 1340,
+      "height": 215,
+      "font_size": 20,
+      "text_line_count": 7,
+      "text_within_box": true
+    }
+  ],
+  "Figure 2": [
+    {
+      "node_id": "X",
+      "x": 55,
+      "y": 160,
+      "width": 1340,
+      "height": 165,
+      "font_size": 21,
+      "text_line_count": 4,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M1ETA",
+      "x": 75,
+      "y": 430,
+      "width": 675,
+      "height": 130,
+      "font_size": 25,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M1C",
+      "x": 805,
+      "y": 430,
+      "width": 570,
+      "height": 130,
+      "font_size": 25,
+      "text_line_count": 3,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M1Y",
+      "x": 75,
+      "y": 645,
+      "width": 1300,
+      "height": 170,
+      "font_size": 24,
+      "text_line_count": 4,
+      "text_within_box": true
+    },
+    {
+      "node_id": "M1CONFIG",
+      "x": 55,
+      "y": 860,
+      "width": 1340,
+      "height": 235,
+      "font_size": 23,
+      "text_line_count": 7,
+      "text_within_box": true
+    }
+  ]
+}

@@ -5,14 +5,24 @@ harmless negative/recovery test, full clean refit, separate country sensitivity,
 one-page follow-up proposal, English comparison/equivalence documents, and saved
 skill invocation/test evidence. See report/verification/README.md.
 
+Personal decision-review update on 20 October 2026: the student explicitly
+accepted A01, A05 and A06 with their suggested reasons. The assignment's minimum
+three-decision review is complete. See records/skill3_decision_audit.md.
+
+The student also approved the current working specification and AI-assisted
+diagrams for handoff, and accepted the interpretation, S1 influence scope and
+future proposal with stated limits. This retrospective working review does not
+approve the individual report, final release or submission.
+
 Remaining student/final-stage requirements:
 
 1. Supply student ID and verify name/access details. No invitation was sent; current
    instructor access is unverified and must be checked by the student before submission.
 2. Record the required foundational reading and personal understanding; retain the
    actual student diagram or explicitly review/revise the existing AI diagram.
-3. Accept/correct at least three decisions in records/skill3_decision_audit.md and
-   review the full specification, discrepancy interpretation, S1 and follow-up.
+3. Resolve the stricter specification-sensitivity wording. The student has
+   accepted the completed sample-influence check and future proposal within
+   their documented scopes, without authorizing a new fit.
 4. Review the local individual report in report/final_report_review_2026-10-19.docx
    and its editable report/final_report_draft.md source. The revised body contains
    1,110 words and has been formatted in APA7. These files and their prior versions

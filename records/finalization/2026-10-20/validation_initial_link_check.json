@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "checked_utc": "2026-10-20T14:54:26.412082+00:00",
+  "all_passed": false,
+  "checks": [
+    {
+      "check": "Preservation: records/skill_invocations/2026-10-20_design_completion/protected_manifest.json",
+      "passed": true,
+      "checked_files": 164,
+      "differences": []
+    },
+    {
+      "check": "Preservation: records/handoffs/2026-10-20/input_manifest.json",
+      "passed": true,
+      "checked_files": 32,
+      "differences": []
+    },
+    {
+      "check": "Student final report unchanged",
+      "passed": true
+    },
+    {
+      "check": "utf8 tools/check_repository.py",
+      "passed": true,
+      "command": [
+        "rtk",
+        "proxy",
+        "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "tools/check_repository.py"
+      ],
+      "returncode": 0,
+      "stdout": "Material checks: PASSED; statistical analyses not executed by this tool.\n",
+      "stderr": ""
+    },
+    {
+      "check": "tools/maintenance/complete_hypothesis_matrix.py --check",
+      "passed": true,
+      "command": [
+        "rtk",
+        "proxy",
+        "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "tools/maintenance/complete_hypothesis_matrix.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checked_at_utc\": \"2026-10-20T14:54:25.670138+00:00\",\n  \"matrix_version\": \"executed-evidence-matrix-2026-10-20-v1\",\n  \"status\": \"passed\",\n  \"rows\": 28,\n  \"directional_hypothesis_rows\": 12,\n  \"additional_mixed_comparisons\": 3,\n  \"supporting_rows\": 13,\n  \"columns\": 27,\n  \"checked_unique_paths\": 76,\n  \"errors\": [],\n  \"protected_files_unchanged\": 114,\n  \"research_models_rerun\": false,\n  \"student_acceptance_inferred\": false,\n  \"final_report_read_or_modified\": false,\n  \"github_synchronized\": false,\n  \"matrix_sha256\": \"bae5c7fedaf4d257c0bba432ddb85758fd9bf992a9a49ca9ace6be303741b835\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "utf8 tools/maintenance/check_design_documents.py",
+      "passed": false,
+      "command": [
+        "rtk",
+        "proxy",
+        "E:\\Statistics with AI\\COMD7290-Research Replication-Ma Jiayi\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "tools/maintenance/check_design_documents.py"
+      ],
+      "returncode": 1,
+      "stdout": "{\n  \"status\": \"failed\",\n  \"checks\": 25,\n  \"passed\": 24,\n  \"dictionary_entries\": 144,\n  \"diagram_nodes\": 17,\n  \"protected_files\": 164,\n  \"failures\": [\n    {\n      \"check\": \"Reader guide and navigation links resolve\",\n      \"passed\": false,\n      \"broken_links\": [\n        [\n          \"START_HERE.md\",\n          \"report/COMD7290%20Individual%20Report%20for%20Research%20Replication.docx\"\n        ]\n      ]\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "Every changed or untracked sharing file passes path/type/credential checks",
+      "passed": true,
+      "files": 120,
+      "total_bytes": 2166003
+    },
+    {
+      "check": "Final status is a completed-work summary",
+      "passed": true
+    },
+    {
+      "check": "No tracked file deletion",
+      "passed": true
+    }
+  ],
+  "research_models_refitted": false,
+  "report_content_modified": false
+}

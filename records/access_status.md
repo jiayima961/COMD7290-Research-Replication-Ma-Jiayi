@@ -1,5 +1,15 @@
 # GitHub access status
 
+## Read-only check on 20 October 2026
+
+The GitHub connector reports repository ID 1423254230 as public. Its main commit
+is e3f23cc71d9fe1c6bbe4528d68503fefcb895fd5. No release or tag reference was found.
+The permission endpoint reports read for fffchaobu, but public read access alone
+does not confirm collaborator membership or invitation acceptance. That status
+still requires checking the collaborator or invitation entry. No invitation or
+visibility change was performed by this check. The older private-visibility
+record below describes the historical initialization state.
+
 - Date: 2026-10-17.
 - Repository: COMD7290-Research-Replication-Ma-Jiayi.
 - Account: jiayima961, verified through the connector; account ID 322404349.

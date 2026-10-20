@@ -1,0 +1,110 @@
+{
+  "checked_at_utc": "2026-10-20T11:10:51.094312+00:00",
+  "source_hashes": {
+    "item": "2de9a38b55cbecb5ebf4430cc82a1985a943778c564cf2625328fc3000b7e8ba",
+    "reference": "dd374fa5ee5870e6b2e0bc7b1ec657a353f55f3b7d990629772210b8d4128bcc"
+  },
+  "origin_id_to_model_group_max_unique": 1,
+  "model_group_to_origin_id_max_unique": 1,
+  "target_id_unique": 2362,
+  "joint_outrage_recognition_present_n": 1,
+  "reference_n": 3770,
+  "item_n": 1700,
+  "recognition_by_valence": {
+    "0": {
+      "-99": 223,
+      "0": 1693,
+      "1": 318,
+      "2": 1340
+    },
+    "1": {
+      "-99": 6,
+      "0": 15,
+      "1": 174,
+      "2": 1
+    }
+  },
+  "outrage_by_valence": {
+    "0": {
+      "-99": 228,
+      "0": 1707,
+      "1": 492,
+      "2": 1151
+    },
+    "1": {
+      "-99": 1,
+      "0": 1,
+      "1": 0,
+      "2": 190
+    }
+  },
+  "legacy_media_vs_analysis_media": {
+    "1": {
+      "1": 0,
+      "2": 6,
+      "3": 494
+    },
+    "2": {
+      "1": 595,
+      "2": 4,
+      "3": 1
+    },
+    "3": {
+      "1": 25,
+      "2": 559,
+      "3": 16
+    }
+  },
+  "legacy_media_disagreements_under_expected_1newspaper_2website_3blog": 52,
+  "legacy_country_vs_analysis_country": {
+    "1": {
+      "1": 300,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "2": {
+      "1": 0,
+      "2": 0,
+      "3": 300,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "3": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 278,
+      "5": 0,
+      "6": 0
+    },
+    "4": {
+      "1": 0,
+      "2": 227,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "5": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 295,
+      "6": 0
+    },
+    "6": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 300
+    }
+  },
+  "scope": "Aggregate source-description checks only. No data recoding, correction or model fitting."
+}

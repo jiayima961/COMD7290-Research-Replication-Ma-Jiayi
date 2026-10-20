@@ -1,53 +1,68 @@
 # COMD7290 Research Replication — Ma Jiayi
 
-Python reproduction of Löb et al., *Unpacking the Determinants of Outrage and Recognition in Public Discourse*, DOI [10.1177/19401612221084206](https://doi.org/10.1177/19401612221084206). COMD7290 Option 3, content analysis. All three skills now have implemented workflows and execution/test evidence. Student acceptance and final submission requirements remain pending.
+Final research repository for the Python reproduction of Löb et al. (2024),
+*Unpacking the Determinants of Outrage and Recognition in Public Discourse*,
+DOI https://doi.org/10.1177/19401612221084206. COMD7290 Option 3, content analysis.
 
-**Start with [START_HERE.md](START_HERE.md).** To use the tested skills, open this repository as the agent's working folder and follow the [skill guide](docs/skills/README.md). The actual skill packages are in [.agents/skills/](.agents/skills/).
+**Read the [final individual report](report/COMD7290%20Individual%20Report%20for%20Research%20Replication.docx),
+then use [START_HERE.md](START_HERE.md) to explore the evidence.**
+The [final project status](STATUS.md) summarizes the completed work.
 
-| Reader's question | Go to |
+| Reader's question | Evidence |
 | --- | --- |
-| What was predicted, and how was it tested? | [Hypothesis matrix](docs/hypothesis_matrix.csv) → [execution specification](docs/execution_specification.md) → [analysis code](analysis/README.md) → [hypothesis tests](outputs/reproduced/hypothesis_tests.csv) → [results and limitations](docs/replication_results.md) |
-| Where are the three skills? | [Skill 1](.agents/skills/specify-empirical-study/SKILL.md), [Skill 2](.agents/skills/reproduce-and-diagnose/SKILL.md), [Skill 3](.agents/skills/verify-and-package/SKILL.md), [invocation instructions and evidence](docs/skills/README.md) |
-| Where are the numerical results? | [Results index](outputs/README.md), [complete comparison ledger](outputs/verification/comparison_all.csv), [Word report index](report/verification/README.md) |
-| What did the student write and how did AI respond? | [Ordered review trail](records/README.md) |
-| How can I run this on my computer? | [Setup and rerun guide](docs/guides/teacher_quickstart.md), [input access and verification](sources/README.md), [environment](environment.md) |
-| What remains? | [Current status](STATUS.md), [assignment checklist](docs/assignment_checklist.md) |
+| What was predicted and tested? | [Matrix guide](docs/hypothesis_matrix.md), [28-row matrix](docs/hypothesis_matrix.csv), [source-bound specification](docs/execution_specification.md) |
+| How were variables and models defined? | [144-entry dictionary](docs/variable_dictionary.md), [two numbered model diagrams](docs/model_diagram.md), [equation/code map](docs/model_diagram_map.csv) |
+| Where are the reusable agent skills? | [Skill guide](docs/skills/README.md), [specification](.agents/skills/specify-empirical-study/SKILL.md), [reproduction](.agents/skills/reproduce-and-diagnose/SKILL.md), [verification](.agents/skills/verify-and-package/SKILL.md) |
+| Where are the statistical results? | [Results explanation](docs/replication_results.md), [outputs index](outputs/README.md), [hypothesis tests](outputs/reproduced/hypothesis_tests.csv) |
+| How do the results compare with the article? | [Complete comparison ledger](outputs/verification/comparison_all.csv), [technical Word reports](report/verification/README.md) |
+| What did the student and agents contribute? | [Student inputs and review trail](records/README.md), [three accepted decision reviews](records/skill3_decision_audit.md), [approved handoff](records/handoffs/2026-10-20/README.md) |
+| How can another agent reproduce the work? | [Teacher quickstart](docs/guides/teacher_quickstart.md), [input restoration](sources/README.md), [environment](environment.md), [analysis guide](analysis/README.md) |
+
+The reproduction covers independent-coder reliability, descriptive statistics,
+ordinal item-level outrage, nested binary outrage and recognition, diagnostics,
+predictions and marginal effects. The hypothesis conclusions agree with the
+article. Of 376 numeric published targets, 362 agree at reported precision,
+13 differ, and one diagnostic p value is not validated. Detailed comparisons
+retain source inconsistencies and numerical qualifications. Computational
+agreement does not establish causal effects.
+
+All three skills have discovery, invocation and test evidence. The package also
+includes independent numerical checks, error-detection and recovery evidence,
+isolated clean reruns, six country-deletion influence fits, a follow-up proposal,
+the student-approved working specification and a successful fresh-context handoff.
 
 ```text
-.agents/skills/  Agent-discoverable skill packages
-docs/           Theory, hypotheses, model specifications, reviews and guides
-data/           Original and prepared data (local; access instructions tracked)
-sources/        Source provenance and input-restoration manifest
-analysis/       Statistical Python modules and notebook entry points
-tests/          Specification and numerical verification programs
-outputs/        Published targets, reproduced results and diagnostics
-records/        Student inputs, actual invocations, tests and execution logs
-report/         Technical reports and individual-report review guidance
-tools/          Setup, input restoration, logging and repository checks
-tmp/, .venv/    Local runtime/cache files, excluded from Git
+.agents/skills/  Three reusable agent skills
+docs/           Theory, matrix, dictionary, diagrams and analysis specification
+analysis/       Python implementations, notebooks and rerun entry points
+tests/          Specification and numerical checks
+outputs/        Published targets, reproduced results and verification
+records/        Student inputs, reviews, approvals, logs and handoff receipts
+report/         Final individual report and two technical Word reports
+sources/        Provenance and exact-version input-restoration instructions
+data/           Local research inputs with tracked access instructions
+tools/          Setup, restoration and maintenance utilities
 ```
 
-The saved results include independent-coder reliability, descriptives, M1 ordinal tone, M2/M3 nested binary models, predictions and 12 directional hypothesis targets. Of 45 published coefficient/SE/OR cells, 44 match printed rounding; the remaining discrepancy is retained. Historical Stata integration details and reliability-package builds are not fully recovered. See [the results explanation](docs/replication_results.md) before interpreting agreement as robustness.
-
-Skill 3 adds the [complete source comparison and Python/Stata justification](report/verification/README.md), fresh independent M1/margin checks, an isolated full clean refit and a [separate country influence sensitivity](outputs/verification/sensitivity/README.md). All 376 numeric target entries are accounted for: 362 agree at their stated display/integer precision, 13 differ and one LR p value remains unverified. Full unprinted quantities are explicitly distinguished. [Student decisions](records/skill3_decision_audit.md) and the [final-stage checklist](report/skill3_submission_readiness.md) remain visible.
-
-Quick rerun after setting up Python and restoring inputs, from the repository root:
+After installing the pinned environment and restoring permitted exact-version
+inputs, run from the repository root:
 
 ```powershell
 python tools/restore_inputs.py
 python tools/check_repository.py
-python analysis/run_replication.py --stage data
-python analysis/run_replication.py
+python analysis/run_verified_replication.py
 ```
 
-Use the Python interpreter from the project's activated environment. Ordinary Python works without RTK; when RTK is available, the logging helper uses it automatically. The full run can take substantial time and updates canonical analysis outputs; preserve a copy for a new independent rerun. The notebook [analysis/01_replication.ipynb](analysis/01_replication.ipynb) invokes the same stages. Saved historical logs remain the evidence of the completed original runs.
+The last command performs the full statistical pipeline and verification and
+can take substantial time. Preserve existing evidence before a new rerun.
+Ordinary Python works without the optional local RTK wrapper.
 
-Author data, third-party PDFs/method files and subject-level derived arrays remain local where redistribution is unresolved. Their access routes, exact hashes and restoration instructions are included; the repository supplies our skill packages, code, aggregate results, tests and records. No Stata licence is needed for the Python calculations.
+Original third-party PDFs, author inputs and subject-level derived arrays stay
+local where redistribution terms are unresolved. Access routes, exact hashes
+and restoration instructions are supplied. The repository shares our code,
+skills, aggregate results, documents and research records. The current repository
+is public. Historical visibility statements describe their recorded dates.
 
-The [2026-10-19 reorganization record](records/reorganization/2026-10-19/README.md) maps old paths to new paths and verifies preserved files. No existing file was deleted. The repository remains private; no collaborator invitation, release or submission is part of this update.
-
-The [latest selective synchronization receipt](records/editorial_revision/2026-10-19/github_sync.json)
-verifies today's skill 3 and supporting evidence update. The individual final
-report, every draft version, its source and its review archive remain local while
-the student continues revising. The two technical Word reports are included.
-Use [the report folder guide](report/README.md) to distinguish these documents.
+The [20 October finalization record](records/finalization/2026-10-20/README.md)
+documents this upload and the unchanged final report. Earlier versions are
+retained in dated archives rather than deleted.

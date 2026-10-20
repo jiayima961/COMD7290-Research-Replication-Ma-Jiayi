@@ -1,0 +1,50 @@
+[
+  {
+    "path": "docs/variable_dictionary.csv",
+    "sha256": "cd8c03fdeca054f879941874d3f1330d9b4b903bd813a0a12125c19e67da1d03"
+  },
+  {
+    "path": "docs/variable_dictionary.md",
+    "sha256": "d649ff5afa9a27035fd8271e91746c119069ef19ea2b1695df44cc0ef054e21d"
+  },
+  {
+    "path": "docs/model_diagram.mmd",
+    "sha256": "a08fc58df0e913f9c751cf7915389b424233a952d928d2a414324a2ac1220d17"
+  },
+  {
+    "path": "docs/model_diagram_m1.mmd",
+    "sha256": "520f69b87281ac735b8888864db363219aa86337a257eb586f13256f57aa39d6"
+  },
+  {
+    "path": "docs/model_diagram.md",
+    "sha256": "01df3973bf0a6572e7c1c0a7c6231e71c6e0e769bc0986b1c78fadb20371e8da"
+  },
+  {
+    "path": "docs/model_diagram_map.csv",
+    "sha256": "6ef0756d56d82041757bda01ebb3aa4c99576ee8927745feebf519a4e8c6a94b"
+  },
+  {
+    "path": "docs/figures/model_diagram.svg",
+    "sha256": "fb98574b743e38a4f70d97cef91498e6cdd0ebef2b91d012731de829b3d6a25d"
+  },
+  {
+    "path": "docs/figures/model_diagram.png",
+    "sha256": "9327b0db82f72170ed890f5860b86339121446dcb8cddb9f0f5b6a03fc7127ab"
+  },
+  {
+    "path": "docs/figures/model_diagram_m1.svg",
+    "sha256": "04329138dda3de5b673f4cba2e924cf128cc02ce0163d65505e290fd9631f5da"
+  },
+  {
+    "path": "docs/figures/model_diagram_m1.png",
+    "sha256": "a0a14f1fccf49a83a9886380db0c1f127c44b8052e1f32b19ff47b840dea964b"
+  },
+  {
+    "path": "outputs/diagnostics/measurement/dataset_metadata.json",
+    "sha256": "e7968f7de453fc9999e34c28d3495d953afac37a299b041bac2deb7ae3067628"
+  },
+  {
+    "path": "outputs/diagnostics/measurement/semantic_checks.json",
+    "sha256": "f72182a5b4084c80f42846005cacf739f755b6657fa4aa4bdbf7a46d8f33e243"
+  }
+]

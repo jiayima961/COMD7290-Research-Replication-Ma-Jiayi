@@ -1,0 +1,12 @@
+%% Figure 2
+%% Item-level proportional-odds model of outrage tone
+flowchart TB
+  X["Five 0/1 indicators, in this order<br/>X = [I(polsys=2), I(polsys=3), I(socdiv=2), I(mediatype=2), I(mediatype=3)]<br/>Order: mixed, majoritarian, contested, website, newspaper<br/>Codes above are analytical codes. Bases are consensus, stable secularism and blogs."]
+  M1ETA["eta_i = X_i beta1<br/>Five fixed slopes<br/>No separate free intercept or random effects"]
+  M1C["Four ordered cutpoints<br/>c0 < c1 < c2 < c3<br/>Slopes common across all four thresholds"]
+  M1Y["Item tone: archive 1-5 is recoded to 0-4<br/>logit Pr(tone_i > k) = eta_i - c_k, k = 0,1,2,3<br/>Pr(tone_i = k) = F(c_k - eta_i) - F(c_(k-1) - eta_i), F = logistic CDF<br/>Five ordered categories, with outer cutpoints at minus/plus infinity"]
+  M1CONFIG["N = 1700 news items. The reference-row copy of tone is not a separate M1 sample.<br/>Unweighted maximum likelihood, observed information, normal 95% Wald intervals.<br/>No random effects, centering, interactions, mediation, priors or imputation.<br/>C1 retains the original assumption diagnostics, C2 the original alternative links, P1 the probabilities.<br/>Unmeasured compromise, identity boundaries and editorial gatekeeping are proposed mechanisms.<br/>They are not estimated mediators in M1, M2 or M3.<br/>Input: data/original/MedCon_Civility_item.dta, with item likelihood independence assumed."]
+  X --> M1ETA
+  M1ETA --> M1Y
+  M1C --> M1Y
+%% Note. X uses the source recodes displayed in Figure 1. AI-assisted documentation, student review pending.

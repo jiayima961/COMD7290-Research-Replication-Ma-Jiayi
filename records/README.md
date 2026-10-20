@@ -22,4 +22,6 @@ Use [the actual invocation and completion receipt](skill_invocations/2026-10-19_
 AI decisions](skill3_decision_audit.md) and [the two full clean-run logs](run_logs/skill3/).
 The [cached source access record](source_access/skill3_sources.md) preserves the
 supplement's numerical excerpt without claiming unavailable original HTML.
-All human-owned acceptance fields remain pending.
+Current working-specification approval, interpretation acceptance, three decision reviews and the successful fresh-context handoff are recorded under [the approved 20 October package](handoffs/2026-10-20/README.md). Earlier receipts retain their historical review states.
+
+The current final report and today's documentation are included in the [final repository handoff](finalization/2026-10-20/README.md).

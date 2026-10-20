@@ -1,0 +1,130 @@
+{
+  "checked_at_utc": "2026-10-20T14:54:59.819873+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "All archive fields covered exactly once",
+      "passed": true,
+      "observed_field_rows": 138
+    },
+    {
+      "check": "All dictionary IDs unique and fields populated",
+      "passed": true
+    },
+    {
+      "check": "Original dictionary contract columns retained",
+      "passed": true
+    },
+    {
+      "check": "Five unfinished auxiliary groups expanded into actual variables",
+      "passed": true
+    },
+    {
+      "check": "No old uninspected auxiliary placeholder remains",
+      "passed": true
+    },
+    {
+      "check": "Domains, missingness and input hashes match source metadata",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "check": "All six actual grouping/design terms documented",
+      "passed": true
+    },
+    {
+      "check": "Originator grouping distinction backed by aggregate check",
+      "passed": true
+    },
+    {
+      "check": "Observed source exceptions retained explicitly",
+      "passed": true
+    },
+    {
+      "check": "All diagram nodes mapped and populated",
+      "passed": true
+    },
+    {
+      "check": "Every node links to existing code and matrix rows",
+      "passed": true,
+      "missing_paths": [],
+      "missing_rows": []
+    },
+    {
+      "check": "Function and line bindings match actual executing code",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "check": "Figure 1 SVG/Mermaid node coverage",
+      "passed": true
+    },
+    {
+      "check": "Figure 1 raster dimensions match SVG export",
+      "passed": true,
+      "pixels": [
+        2900,
+        3500
+      ]
+    },
+    {
+      "check": "Figure 1 all node text fits its box",
+      "passed": true
+    },
+    {
+      "check": "Figure 2 SVG/Mermaid node coverage",
+      "passed": true
+    },
+    {
+      "check": "Figure 2 raster dimensions match SVG export",
+      "passed": true,
+      "pixels": [
+        2900,
+        2340
+      ]
+    },
+    {
+      "check": "Figure 2 all node text fits its box",
+      "passed": true
+    },
+    {
+      "check": "M2/M3 matched diagram panels aligned",
+      "passed": true
+    },
+    {
+      "check": "M2 diagram agrees with saved fitted model",
+      "passed": true
+    },
+    {
+      "check": "M3 diagram agrees with saved fitted model",
+      "passed": true
+    },
+    {
+      "check": "M1 diagram agrees with saved fitted model",
+      "passed": true
+    },
+    {
+      "check": "Reader guide and navigation links resolve",
+      "passed": true,
+      "broken_links": []
+    },
+    {
+      "check": "Existing source, analysis, test and numerical files unchanged",
+      "passed": true,
+      "protected_files": 164,
+      "changes": []
+    },
+    {
+      "check": "Completed hypothesis matrix CSV preserved",
+      "passed": true
+    }
+  ],
+  "dictionary_entries": 144,
+  "node_map_entries": 17,
+  "research_models_rerun": false,
+  "student_review_inferred": false,
+  "final_report_read_or_modified": false,
+  "github_synchronized": false,
+  "mermaid_engine_rendered": false,
+  "rendering_scope": "SVG and PNG generated from one node registry and drawing operations. Mermaid source structurally checked, no installed Mermaid renderer."
+}

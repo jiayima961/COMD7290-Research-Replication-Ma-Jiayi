@@ -1,5 +1,17 @@
 # Project instructions
 
+## Documentation update on 2026-10-20
+
+The user requested completion of the matrix, variable dictionary and model
+diagram. Canonical CSV paths remain stable. Use docs/hypothesis_matrix.md,
+docs/variable_dictionary.md and docs/model_diagram.md as their reader guides.
+The diagram node map binds executed code and matrix rows. The dictionary covers
+the actual archive fields and six derived model terms. Preserve author-selected
+analytical variables, including mediatype rather than legacy medientyp. Retain
+the documented codebook/archive conflicts and the one joint binary-presence
+exception. This documentation task does not approve data correction, new model
+specifications, student attestations, final-report changes or publication.
+
 ## Approved scope and current boundary
 
 COMD7290 Option 3: computational reproduction of Löb et al. (2024), DOI 10.1177/19401612221084206. The user selected this article and authorized creation of the repository, its folders and available initial materials. Do not invite the instructor yet. Repository initialization does not authorize substantive model fitting or invent student approvals. Do not create a final release or submit to Moodle during initialization.
@@ -89,3 +101,16 @@ collaborator. Retain scientific discrepancies accurately while giving minor
 numerical differences proportionate treatment in the report. The future research
 proposal now uses existing item data and country indicators rather than requiring
 a new editorial experiment. This extension is proposed, not executed.
+
+## Scope update D015 on 2026-10-20
+
+The user explicitly requests uploading all current updates, including the current
+individual Word report, and changing the public repository to its final handoff
+status. This supersedes D014's exclusion for the single current report at
+report/COMD7290 Individual Report for Research Replication.docx. Share this file
+exactly as supplied. Retain other report drafts, authoring archives, Word lock
+files, third-party sources and subject-level inputs under their existing
+exclusions. STATUS.md is a concise completed-work record without a further-steps
+list. Preserve dated audits, source limitations, actual approvals and all saved
+numerical evidence. This upload does not authorize new model fits, invented
+attestations, a tag/release, Moodle submission or access-control changes.

@@ -46,6 +46,13 @@ data/prepared/*
 outputs/diagnostics/reliability/*__conditional_influence.npy
 outputs/diagnostics/reliability/matching_row_audit.csv
 
-# Individual report remains local during student review, by request on 2026-10-19.
+# Historical individual-report drafts and authoring archives remain local.
 report/final_report*
 report/local_review/
+
+# Exclude other root-level report copies and all Word lock files.
+report/*.docx
+~$*.docx
+
+# Current individual report explicitly authorized for publication on 2026-10-20.
+!report/COMD7290 Individual Report for Research Replication.docx

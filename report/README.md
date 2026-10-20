@@ -1,14 +1,12 @@
-# Report reading order
+# Reports
 
-1. Read [the technical comparison and methods documents](verification/README.md).
-   Their two Word files are supporting evidence, not the assessed individual report.
-2. Read [submission readiness](skill3_submission_readiness.md) for personal and final
-   submission steps that still require the student's action.
-3. On the original computer, open report/final_report_review_2026-10-19.docx for the
-   latest individual report. Its editable source is report/final_report_draft.md.
-   Every individual-report version and review artifact remains local while the
-   student continues reviewing. These files are deliberately absent from GitHub.
+1. **Final individual report.** Open [COMD7290 Individual Report for Research Replication.docx](COMD7290%20Individual%20Report%20for%20Research%20Replication.docx). This is the student's current version, authorized for GitHub upload on 20 October 2026. This upload preserves its contents exactly.
+2. **Detailed result comparison.** Open [01_results_comparison.docx](verification/01_results_comparison.docx) for source-by-source reproduction findings.
+3. **Python/Stata justification.** Open [02_python_stata_equivalence.docx](verification/02_python_stata_equivalence.docx) for the statistical-equivalence argument and implementation qualifications.
 
-The report folder is the designated location for report deliverables. Do not create
-an assessed tag or release until the student accepts the report and verifies all
-required access details. Historical technical receipts remain unchanged.
+The [technical report index](verification/README.md) links editable technical
+sources and review evidence. Earlier individual-report drafts and authoring/QA
+archives remain local. They are separate from the current uploaded Word file.
+The [finalization record](../records/finalization/2026-10-20/README.md) binds its
+exact bytes and the repository upload checks. Existing dated checklists and
+audits retain their historical observations.

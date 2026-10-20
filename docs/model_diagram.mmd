@@ -1,19 +1,47 @@
+%% Figure 1
+%% Separate three-level models of directed-reference outrage and recognition
+%% Observational window August 2015-July 2016, no longitudinal wave/lag structure.
 flowchart TB
-  P["Political system; reference: consensus"] --> ETA["Fixed component: beta0 + beta X"]
-  C["Socio-cultural division; reference: stable secularism"] --> ETA
-  M["Media type; reference: political blog"] --> ETA
-  subgraph L3["Level 3: news item j"]
-    U["Item random intercept u_j; Normal variance sigma_item^2"]
-    subgraph L2["Level 2: originating actor/statement a within item"]
-      V["Actor random intercept v_aj; Normal variance sigma_actor^2"]
-      subgraph L1["Level 1: directed actor reference r"]
-        E["eta = beta0 + beta X + u_j + v_aj"] --> Y["Y ~ Bernoulli(p); logit(p) = eta"]
+  POL["Political system<br/>raw 1 consensus / 2 majoritarian / 3 mixed<br/>analysis 1 consensus / 2 mixed / 3 majoritarian"]
+  SEC["Division over secularism<br/>raw 1 contested / 2 stable<br/>analysis 1 stable / 2 contested"]
+  MED["Media category<br/>raw 1 blog / 2 newspaper / 3 website<br/>analysis 1 blog / 2 website / 3 newspaper"]
+  X["Five 0/1 indicators, in this order<br/>X = [I(polsys=2), I(polsys=3), I(socdiv=2), I(mediatype=2), I(mediatype=3)]<br/>Order: mixed, majoritarian, contested, website, newspaper<br/>Codes above are analytical codes. Bases are consensus, stable secularism and blogs."]
+  POL --> X
+  SEC --> X
+  MED --> X
+  subgraph M2PANEL["M2: Outrage, fitted separately"]
+    subgraph M2L3["Level 3: item j, 1183 items"]
+      M2U["u2_j ~ Normal(0, sigma2_item^2)<br/>Item-specific random intercept<br/>Group key: text_id"]
+      subgraph M2L2["Level 2: originating actor/statement a within j, 2453 groups"]
+        M2V["v2_aj ~ Normal(0, sigma2_actor^2)<br/>Originating actor/statement random intercept<br/>act_id = text_id + '_' + akteur_id"]
+        subgraph M2L1["Level 1: directed reference r, 3770 rows"]
+          M2ETA["eta2_raj = beta2_0 + X_j beta2<br/>                         + u2_j + v2_aj<br/>Five fixed slopes plus a fixed intercept"]
+          M2Y["Outrage: actrefoutbin<br/>Y2_raj ~ Bernoulli(p2_raj)<br/>logit(p2_raj) = eta2_raj<br/>0 absent / 1 explicit presence"]
+        end
       end
     end
   end
-  ETA --> E
-  U --> E
-  V --> E
-  Y --> O["M2: presence of outrage"]
-  Y --> R["M3: presence of explicit recognition; fitted separately from M2"]
-  NOTE["AI draft: student reconstruction, source checks, and approval pending; numeric coding and estimation settings unresolved"]
+  X --> M2ETA
+  M2U --> M2ETA
+  M2V --> M2ETA
+  M2ETA --> M2Y
+  subgraph M3PANEL["M3: Recognition, fitted separately"]
+    subgraph M3L3["Level 3: item j, 1183 items"]
+      M3U["u3_j ~ Normal(0, sigma3_item^2)<br/>Item-specific random intercept<br/>Group key: text_id"]
+      subgraph M3L2["Level 2: originating actor/statement a within j, 2453 groups"]
+        M3V["v3_aj ~ Normal(0, sigma3_actor^2)<br/>Originating actor/statement random intercept<br/>act_id = text_id + '_' + akteur_id"]
+        subgraph M3L1["Level 1: directed reference r, 3770 rows"]
+          M3ETA["eta3_raj = beta3_0 + X_j beta3<br/>                         + u3_j + v3_aj<br/>Five fixed slopes plus a fixed intercept"]
+          M3Y["Recognition: actrefrecbin<br/>Y3_raj ~ Bernoulli(p3_raj)<br/>logit(p3_raj) = eta3_raj<br/>0 absent / 1 explicit presence"]
+        end
+      end
+    end
+  end
+  X --> M3ETA
+  M3U --> M3ETA
+  M3V --> M3ETA
+  M3ETA --> M3Y
+  CONFIG["Separate fits with distinct beta and variance parameters. No estimated cross-outcome covariance.<br/>Within each model, item and actor random effects are independent and independent of X.<br/>Frequentist marginal ML, recursive mean/variance adaptive GH, 7 nodes per random intercept.<br/>Observed-information covariance and normal 95% Wald intervals. No priors, weights or imputation.<br/>No centering, interactions, indirect paths or random slopes. Country is not a random level.<br/>No missing required outcome, grouping or predictor values in the author-prepared analysis sample.<br/>Input: data/original/MedCon_Civility_actref.dta, with the source recodes shown above."]
+%% Note. AI-assisted original reconstruction from author syntax and verified input metadata.
+%% Student review remains pending. No claim of pre-AI student authorship or pre-estimation approval.
+%% Original software build/internal finite-node details remain incompletely pinned. See execution_specification.md.

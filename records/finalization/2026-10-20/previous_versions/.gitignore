@@ -1,0 +1,55 @@
+# Account secrets and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Rhistory
+.RData
+.Ruserdata
+*.swp
+*.tmp
+tmp/
+
+# Skill test inputs are local copies of unchanged third-party research material.
+records/skill_tests/**/sources/
+records/skill_tests/**/data/original/
+records/skill_tests/**/input_metadata.json
+
+# Original third-party files: local until redistribution terms are verified
+sources/local/*
+!sources/local/README.md
+sources/author_code/*
+!sources/author_code/README.md
+data/original/*
+!data/original/README.md
+data/prepared/*
+!data/prepared/README.md
+
+# Optional local analysis objects; review permissions before adding artifacts
+*.ster
+*.rds
+*.Rds
+
+# Subject-level derived diagnostics remain local; aggregate checks are shared.
+outputs/diagnostics/reliability/*__conditional_influence.npy
+outputs/diagnostics/reliability/matching_row_audit.csv
+
+# Individual report remains local during student review, by request on 2026-10-19.
+report/final_report*
+report/local_review/
+
+# Retain student-renamed individual reports and Word lock files locally as well.
+report/*.docx
+~$*.docx
